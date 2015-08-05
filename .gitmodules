@@ -4,3 +4,9 @@
 [submodule "/git/meta"]
 	path = /git/meta
 	url = https://github.com/Canar/meta.git
+[submodule "gloat"]
+	path = gloat
+	url = /home/root/cg1/cg/
+[submodule "buildroot"]
+	path = buildroot
+	url = git://git.buildroot.net/buildroot
