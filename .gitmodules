@@ -6,7 +6,97 @@
 	url = https://github.com/Canar/meta.git
 [submodule "gloat"]
 	path = gloat
-	url = /home/root/cg1/cg/
+	url = /git/buildroot
 [submodule "buildroot"]
 	path = buildroot
 	url = git://git.buildroot.net/buildroot
+[submodule "grep"]
+	path = grep
+	url = git://git.savannah.gnu.org/grep.git
+[submodule "automake"]
+	path = automake
+	url = git://git.savannah.gnu.org/automake.git
+[submodule "bash"]
+	path = bash
+	url = git://git.savannah.gnu.org/bash.git
+[submodule "bison"]
+	path = bison
+	url = git://git.savannah.gnu.org/bison.git
+[submodule "coreutils"]
+	path = coreutils
+	url = git://git.savannah.gnu.org/coreutils.git
+[submodule "cpio"]
+	path = cpio
+	url = git://git.savannah.gnu.org/cpio.git
+[submodule "dejagnu"]
+	path = dejagnu
+	url = git://git.savannah.gnu.org/dejagnu.git
+[submodule "diffutils"]
+	path = diffutils
+	url = git://git.savannah.gnu.org/diffutils.git
+[submodule "findutils"]
+	path = findutils
+	url = git://git.savannah.gnu.org/findutils.git
+[submodule "gawk"]
+	path = gawk
+	url = git://git.savannah.gnu.org/gawk.git
+[submodule "gettext"]
+	path = gettext
+	url = git://git.savannah.gnu.org/gettext.git
+[submodule "ghostscript"]
+	path = ghostscript
+	url = git://git.savannah.gnu.org/ghostscript.git
+[submodule "gnulib"]
+	path = gnulib
+	url = git://git.savannah.gnu.org/gnulib.git
+[submodule "gnutls"]
+	path = gnutls
+	url = git://git.savannah.gnu.org/gnutls.git
+[submodule "gperf"]
+	path = gperf
+	url = git://git.savannah.gnu.org/gperf.git
+[submodule "groff"]
+	path = groff
+	url = git://git.savannah.gnu.org/groff.git
+[submodule "gsasl"]
+	path = gsasl
+	url = git://git.savannah.gnu.org/gsasl.git
+[submodule "gzip"]
+	path = gzip
+	url = git://git.savannah.gnu.org/gzip.git
+[submodule "libtool"]
+	path = libtool
+	url = git://git.savannah.gnu.org/libtool.git
+[submodule "m4"]
+	path = m4
+	url = git://git.savannah.gnu.org/m4.git
+[submodule "make"]
+	path = make
+	url = git://git.savannah.gnu.org/make.git
+[submodule "parted"]
+	path = parted
+	url = git://git.savannah.gnu.org/parted.git
+[submodule "parallel"]
+	path = parallel
+	url = git://git.savannah.gnu.org/parallel.git
+[submodule "patch"]
+	path = patch
+	url = git://git.savannah.gnu.org/patch.git
+[submodule "readline"]
+	path = readline
+	url = git://git.savannah.gnu.org/readline.git
+[submodule "screen"]
+	path = screen
+	url = git://git.savannah.gnu.org/screen.git
+[submodule "sed"]
+	path = sed
+	url = git://git.savannah.gnu.org/sed.git
+[submodule "tar"]
+	path = tar
+	url = git://git.savannah.gnu.org/tar.git
+[submodule "texinfo"]
+	path = texinfo
+	url = git://git.savannah.gnu.org/texinfo.git
+[submodule "wget"]
+	path = wget
+	url = git://git.savannah.gnu.org/wget.git
