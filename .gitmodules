@@ -1,8 +1,8 @@
-[submodule "/git/autoconf"]
-	path = /git/autoconf
+[submodule "autoconf"]
+	path = autoconf
 	url = http://git.sv.gnu.org/r/autoconf.git
-[submodule "/git/meta"]
-	path = /git/meta
+[submodule "meta"]
+	path = meta
 	url = https://github.com/Canar/meta.git
 [submodule "gloat"]
 	path = gloat
