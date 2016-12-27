@@ -121,3 +121,9 @@
 [submodule "linux"]
 	path = linux
 	url = git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+[submodule "ncurses"]
+	path = ncurses
+	url = git://ncurses.scripts.mit.edu/ncurses.git
+[submodule "pkg-config"]
+	path = pkg-config
+	url = git://anongit.freedesktop.org/pkg-config
