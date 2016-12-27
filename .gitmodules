@@ -97,15 +97,27 @@
 [submodule "gcc"]
 	path = gcc
 	url = git://gcc.gnu.org/git/gcc.git
-[submodule "mpc"]
-	path = mpc
-	url = https://scm.gforge.inria.fr/anonscm/git/mpc/mpc.git
 [submodule "isl"]
 	path = isl
 	url = git://repo.or.cz/isl.git
-[submodule "cloog"]
-	path = cloog
-	url = git://repo.or.cz/cloog.git
 [submodule "gmp"]
 	path = gmp
 	url = /usr/local/src/share/gmp
+[submodule "mpfr"]
+	path = mpfr
+	url = /usr/local/src/share/mpfr
+[submodule "mpc"]
+	path = mpc
+	url = https://scm.gforge.inria.fr/anonscm/git/mpc/mpc.git
+[submodule "glibc"]
+	path = glibc
+	url = git://sourceware.org/git/glibc.git
+[submodule "binutils-gdb"]
+	path = binutils-gdb
+	url = git://sourceware.org/git/binutils-gdb.git
+[submodule "newlib"]
+	path = newlib
+	url = git://sourceware.org/git/newlib-cygwin.git
+[submodule "linux"]
+	path = linux
+	url = git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
