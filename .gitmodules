@@ -124,6 +124,3 @@
 [submodule "ncurses"]
 	path = ncurses
 	url = git://ncurses.scripts.mit.edu/ncurses.git
-[submodule "pkg-config"]
-	path = pkg-config
-	url = git://anongit.freedesktop.org/pkg-config
