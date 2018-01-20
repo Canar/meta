@@ -40,14 +40,16 @@
 		. $_r/env
 	}
 	log(){
-		if [ -n "" ] ; then
+		if [ -n "." ] ; then
 			[ -z "$t" ] && t="$( date +%s )"
 			otim="$( timens )"
-			dtim=1000000000
+			dtim=300000000
+			#dtim=1000000000 
 			ctim=0
 		 # dtim=1000000000 -- 1 s
 			echo -n "$1..."
-			"${@:2}" |& stdbuf -i0 -o0 sed -zu 's/[ 	]\+\\\n[ 	]\+/ /g' | while read -r l ; do
+			#"${@:2}" |& stdbuf -i0 -o0 sed -zu 's/[ 	]\+\\\n[ 	]\+/ /g' | while read -r l ; do
+			"${@:2}" |& while read -r l ; do
 				echo "$l" >>$_r/scripts/log/$t
 				tim="$( timens )"
 				if [[ $ctim -gt 256 ]] ; then
@@ -72,14 +74,12 @@
 				echo -ne '\b'"$ch"
 				if [ $(( $tim - $otim )) -gt $dtim ] ; then
 					echo -n .
-					otim=$tim
+					otim=$tm
 					ctim=0
 				else
 					let ctim="$ctim+1"
 				fi
 			done
-			echo ' Done!'
-			echo
 		else
 			"${@:2}"
 			#"${@:2}" |&  sed -zu 's/[ 	]\+\\\n[ 	]\+/ /g' 
@@ -113,10 +113,10 @@
 : make - go,inst,kernelh
 	go-impl(){
 		tgtr=all
-		case "$d" in
-			gcc-first ) tgtr=all-gcc ;;
+#		case "$d" in
+#			gcc-first ) tgtr=all-gcc ;;
 #			gcc* ) tgtr=all-gcc ;;
-		esac
+#		esac
 
 		make $_m_fl $tgtr "$@"
 	}
@@ -125,7 +125,7 @@
 		instcmd="install"
 		case "$d" in
 			libc* ) instvar="install_root" ;;
-			gcc* ) instcmd="install-gcc" ;;
+#			gcc* ) instcmd="install-gcc" ;;
 		esac
 		destd="$_r/dest/$d"
 		mkdir "$destd"
@@ -138,7 +138,6 @@
 : misc - ldcheck,ldfix,redo,buildall
 	redo-impl(){ 
 		[ -z "$1" ] && return
-		set -x
 		if [ -d "$_r/$1" ] ; then
 			cd $_r &&
 			chmod -R u+rw $_r/$d &&
@@ -170,7 +169,8 @@
 		export PATH=$_p:$PATH
 		mkdir $_p &&
 		log 'Copying kernel headers' kernelh-impl &&
-		xpkg binutils-first gmp-first mpfr-first mpc isl gcc-first glibc 
+		export LD_LIBRARY_PATH=$_p/lib &&
+		xpkg binutils-first gmp-first mpfr-first mpc isl gcc-first glibc-first binutils gmp mpfr mpc isl gcc glibc
 		export PATH="$op"
 		popd
 	}
@@ -180,7 +180,8 @@
 		cd $_r/$1 &&
 		fence &&
 		log "Building $1" redo-impl "$1" &&
-		log "Installing $1" rsync -Pav "$_r/dest/$1/$_p/" "$_p" &&
+		rsync -Pav "$_r/dest/$1/$_p/" "$_p" &&
+		echo '...and installed!' &&
 		shift &&
 		xpkg "$@"
 	}

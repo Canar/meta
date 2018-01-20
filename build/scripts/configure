@@ -81,13 +81,19 @@
 			--disable-sim
 			--disable-profile
 			--disable-threads
+			--disable-lto
+			--disable-multilib
+			--disable-multiarch
 			
-			--enable-static
-			--enable-targets=i686-pc-linux-gnu,x86_64-pc-linux-gnu
-			--enable-linker-build-id
-			--enable-clocale=gnu
-			--enable-gnu-unique-object
-			--enable-multibyte
+#			--enable-static
+			--with-arch=native
+#			--enable-targets=i686-pc-linux-gnu,x86_64-pc-linux-gnu,x86_64-pc-linux-gnux32
+#			--enable-default-pie
+#			--enable-multibyte 
+
+#			--enable-linker-build-id
+#			--enable-clocale=gnu
+#			--enable-gnu-unique-object
 		EOF
 	}
 	conf-binutils-mine(){
@@ -147,23 +153,29 @@
 			--with-lib-path=$_p/lib
 			--with-native-system-header-dir=$_p/include
 			LIB_PATH=$_p/lib
+			LD_LIBRARY_PATH=/data/test/lib
+#			LDFLAGS="-L$_p/lib"
+#			CFLAGS="-L$_p/lib"
+#			CXXFLAGS="-L$_p/lib"
 
 			--with-{gmp,mpfr,mpc,isl}=$_p
 
 			--with-glibc-version=2.25
 			--enable-languages=c
 
-			--enable-static
 			--enable-linker-build-id
 			--enable-clocale=gnu
 			--enable-gnu-unique-object
-			--enable-default-pie
-			--enable-multibyte 
+#			--enable-default-pie
+#			--enable-multibyte 
+#			--enable-static
 
 			--disable-shared
-			--disable-plugins
 			--disable-lto
+ 			--disable-bootstrap
 			--disable-decimal-float
+			--disable-multilib
+			--disable-multiarch
 			--disable-nls
 			--disable-threads
 			--disable-libatomic
@@ -174,8 +186,10 @@
 			--disable-libquadmath
 			--disable-libsanitizer
 			--disable-libssp
+			--disable-profile
 			--disable-vtable-verify 
 			--disable-werror
+			--with-arch=native
 			--without-headers
 			--with-newlib
 		EOF
@@ -216,9 +230,10 @@
 			--with-sysroot=/ 
 			--enable-shared 
 			--disable-profile 
+			--disable-add-ons
 			--enable-kernel=4.2.0 
-			--enable-multilib 
-			--enable-multi-arch 
+			--disable-multilib 
+			--disable-multi-arch 
 			--with-arch=native
 		EOF
 	}

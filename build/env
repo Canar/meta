@@ -9,7 +9,8 @@ _a_b=x86_64-pc-linux-gnu
 _a_bl=x86_64 #linux arch
 
 export PATH="$_p/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
-export LDFLAGS="-dynamic-linker=$_p/lib/ld-2.26.so"
+#export LDFLAGS="-dynamic-linker=$_p/lib/ld-2.26.so"
+#export CFLAGS="-W,--dynamic-linker=$_p/lib/ld-2.26.so"
 
 . $_r/scripts/main
 . $_r/scripts/impl

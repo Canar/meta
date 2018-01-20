@@ -1,3 +1,5 @@
-xc
 build
+!build/env
+!build/scripts
+build/scripts/log
 toolkit
