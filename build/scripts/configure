@@ -46,16 +46,50 @@
 			--enable-lto 
 		EOF
 	}
-	conf-gnu-toolchain-glibcmanypy(){
+	conf-gnu-toolchain-manypy(){
 		parse-conf <<-'EOF'
 			--prefix=$_p
 			--with-sysroot=/
-			--build=%s
-			--host=%s
-			--target=%s
+		EOF
+	}
+	conf-cross-compile(){
+		parse-conf <<-'EOF'
+			--build=$1
+			--host=$2
+			--target=$3
 		EOF
 	}
 : binutils
+	conf-binutils-first(){
+		parse-conf <<-'EOF'
+			--prefix=$_p
+			--with-sysroot=/
+			--with-local-prefix=$_p/sub
+			--with-lib-path=$_p/lib
+			--with-native-system-header-dir=$_p/include
+			LIB_PATH=$_p/lib
+
+			--with-glibc-version=2.25 
+			
+			--disable-nls
+			--disable-werror
+			--disable-gdb
+			--disable-shared
+			--disable-gold
+			--disable-libdecnumber
+			--disable-readline
+			--disable-sim
+			--disable-profile
+			--disable-threads
+			
+			--enable-static
+			--enable-targets=i686-pc-linux-gnu,x86_64-pc-linux-gnu
+			--enable-linker-build-id
+			--enable-clocale=gnu
+			--enable-gnu-unique-object
+			--enable-multibyte
+		EOF
+	}
 	conf-binutils-mine(){
 		conf-gnu-toolchain
 		conf-gnu-toolchain-multi
@@ -105,6 +139,47 @@
 			--enable-threads
 		EOF
 	}
+	conf-gcc-first(){
+		parse-conf <<-'EOF'
+			--prefix=$_p
+			--with-sysroot=/
+			--with-local-prefix=$_p/sub
+			--with-lib-path=$_p/lib
+			--with-native-system-header-dir=$_p/include
+			LIB_PATH=$_p/lib
+
+			--with-{gmp,mpfr,mpc,isl}=$_p
+
+			--with-glibc-version=2.25
+			--enable-languages=c
+
+			--enable-static
+			--enable-linker-build-id
+			--enable-clocale=gnu
+			--enable-gnu-unique-object
+			--enable-default-pie
+			--enable-multibyte 
+
+			--disable-shared
+			--disable-plugins
+			--disable-lto
+			--disable-decimal-float
+			--disable-nls
+			--disable-threads
+			--disable-libatomic
+			--disable-libffi
+			--disable-libgomp
+			--disable-libitm
+			--disable-libmpx
+			--disable-libquadmath
+			--disable-libsanitizer
+			--disable-libssp
+			--disable-vtable-verify 
+			--disable-werror
+			--without-headers
+			--with-newlib
+		EOF
+	}
 	conf-gcc-strap-manypy(){
 		conf-gnu-toolchain-manypy
 		conf-gcc-manypy-common
@@ -133,6 +208,20 @@
 		EOF
 	}
 : glibc
+	conf-glibc-first(){
+		parse-conf <<-'EOF'
+			--enable-kernel=4.2.0 
+			--with-headers=$_p/include 
+			--prefix=$_p
+			--with-sysroot=/ 
+			--enable-shared 
+			--disable-profile 
+			--enable-kernel=4.2.0 
+			--enable-multilib 
+			--enable-multi-arch 
+			--with-arch=native
+		EOF
+	}
 	conf-glibc-mine(){
 		parse-conf <<-'EOF'
 			--with-headers=$_p/include 
@@ -170,18 +259,31 @@
 		conf-glibc-mine
 	}
 : aux libraries
+	conf-gmp-first(){
+		parse-conf <<-'EOF'
+			--prefix=$_p
+		EOF
+	}
 	conf-gmp(){
 		parse-conf <<-'EOF'
 			--prefix=$_p
 			--enable-cxx
 		EOF
 	}
+	conf-mpfr-first(){
+		parse-conf <<-'EOF'
+			--{prefix,with-gmp}=$_p
+			--disable-decimal-float
+			--disable-float128
+			--with-gnu-ld
+		EOF
+	}
 	conf-mpfr(){
 		parse-conf <<-'EOF'
+			--{prefix,with-gmp}=$_p
 			--enable-decimal-float
 			--enable-float128
 			--with-gnu-ld
-			--prefix=$_p
 		EOF
 	}
 	conf-mpc(){
@@ -192,8 +294,8 @@
 	}
 	conf-isl(){
 		parse-conf <<-'EOF'
+			--{prefix,with-{mpfr,gmp,mpc}}=$_p
 			--with-gnu-ld 
-			--prefix=$_p
 		EOF
 	}
 	conf-zlib(){
@@ -246,7 +348,7 @@
 			#--{build,host}=x86_64-pc-linux-gnu \
 			#--target=i686-pc-linux-gnu \
 			#LIB_PATH=/usr/local/opt/lib
-		echo you
+			echo you
 		EOF
 	}
 	_nope__(){

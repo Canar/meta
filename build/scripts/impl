@@ -1,4 +1,3 @@
-ccat(){ fence && ccat-impl "$@" ; } 
 conf(){ fence && conf-impl "$@" ; } 
 reconf(){ fence && reconf-impl "$@" ; } 
 confhelpa(){ fence && confhelpa-impl "$@" ; } 

@@ -2,7 +2,8 @@
 _s=/ennorath/imladris/src/local/share/meta
 _r=$_s/build
 _p=/data/test
-_m_ifl="-Oline" # makeflags for install
+_m_ifl="" # makeflags for install
+#_m_ifl="-Oline" # makeflags for install
 _m_fl="-j9 $_m_ifl" # makeflags
 _a_b=x86_64-pc-linux-gnu
 _a_bl=x86_64 #linux arch

@@ -1,21 +1,27 @@
 #!/bin/bash
 # vim: ts=3 sw=3 fdm=indent:
 : utility - impl-update,fence,fix
+	timens(){
+		cat /proc/timer_list  | grep now | cut -d\  -f3
+	}
 	impl-update(){
 		grep '^[ '$'\t'']*[a-z]\+-impl(' $_r/scripts/main |\
 			sed 's/^[ \t]*\([a-z]\+\)-impl(.*$/\1(){ fence \&\& \1-impl "$@" ; } /g' > $_r/scripts/impl
 	}
 	fence(){
-		t="$( date +%s )"
 		bf=""
 		d="$(pwd)" # current source dirname
 		b=""
-		d="${d##$_r}"
+		d="${d##$_r/}"
 		b="$d"
-		case "$d" in
+		dd="${d%%-first}"
+		case "$dd" in
 			libc* ) b=glibc ;;
-			binutils* ) b="binutils-gdb" ;;
+			binutils* ) b=binutils-gdb ;;
+			gcc* ) b=gcc ;;
+			* ) b="$dd"
 		esac
+
 	#	bf=""
 	#	if [ -f "$_r/configures/$b" ] ; then
 	#		bf="$_r/configures/$b"
@@ -34,29 +40,64 @@
 		. $_r/env
 	}
 	log(){
-		"$@" |& while read l ; do
-			echo "$l" >>$_r/scripts/log/$t
-			echo -n .
-		done
-		echo
+		if [ -n "" ] ; then
+			[ -z "$t" ] && t="$( date +%s )"
+			otim="$( timens )"
+			dtim=1000000000
+			ctim=0
+		 # dtim=1000000000 -- 1 s
+			echo -n "$1..."
+			"${@:2}" |& stdbuf -i0 -o0 sed -zu 's/[ 	]\+\\\n[ 	]\+/ /g' | while read -r l ; do
+				echo "$l" >>$_r/scripts/log/$t
+				tim="$( timens )"
+				if [[ $ctim -gt 256 ]] ; then
+					ch="#"
+				elif [[ $ctim -gt 128 ]] ; then
+					ch="@"
+				elif [[ $ctim -gt 64 ]] ; then
+					ch="$"
+				elif [[ $ctim -gt 32 ]] ; then
+					ch="%"
+				elif [[ $ctim -gt 16 ]] ; then
+					ch="!"
+				elif [[ $ctim -gt 8 ]] ; then
+					ch="*"
+				elif [[ $ctim -gt 4 ]] ; then
+					ch="+"
+				elif [[ $ctim -gt 2 ]] ; then
+					ch="-"
+				else
+					ch="."
+				fi
+				echo -ne '\b'"$ch"
+				if [ $(( $tim - $otim )) -gt $dtim ] ; then
+					echo -n .
+					otim=$tim
+					ctim=0
+				else
+					let ctim="$ctim+1"
+				fi
+			done
+			echo ' Done!'
+			echo
+		else
+			"${@:2}"
+			#"${@:2}" |&  sed -zu 's/[ 	]\+\\\n[ 	]\+/ /g' 
+		fi
 	}
 	logmsg(){
 		echo "$@"
 		echo "$@" >>$_r/scripts/log/$t
 	}
 : configuration - ccat,conf,reconf,confhelp
-	ccat-impl(){
-		cat "$bf"
-	}
 	conf-impl(){
 		if declare -fF conf-$d >/dev/null ; then
 			rt="$_s/$b/configure $( conf-$d )"
 			echo "$( date ): $rt" >>$_r/scripts/log/configure.log
-			bash -x $rt
+			$rt
 		else
 			cp "$bf" "../configures/log/$b.$( date +%s )"
-			bash -x "$bf"
-			:
+			"$bf"
 		fi
 	}
 	reconf-impl(){
@@ -73,7 +114,8 @@
 	go-impl(){
 		tgtr=all
 		case "$d" in
-			gcc* ) tgtr=all-gcc ;;
+			gcc-first ) tgtr=all-gcc ;;
+#			gcc* ) tgtr=all-gcc ;;
 		esac
 
 		make $_m_fl $tgtr "$@"
@@ -95,15 +137,19 @@
 	}
 : misc - ldcheck,ldfix,redo,buildall
 	redo-impl(){ 
-		set -e
-		cd $_r
-		rm -r $_r/$d
-		mkdir $_r/$d
-		cd $_r/$d
-		conf-impl
-		go-impl
+		[ -z "$1" ] && return
+		set -x
+		if [ -d "$_r/$1" ] ; then
+			cd $_r &&
+			chmod -R u+rw $_r/$d &&
+			rm -r $_r/$1
+		fi
+		mkdir $_r/$1 &&
+		cd $_r/$1 &&
+		fence &&
+		conf-impl &&
+		go-impl &&
 		inst-impl
-		set +e
 	}	
 	ldcheck(){
 		[ -n "$1" ] && d="$1" || d="."
@@ -118,10 +164,24 @@
 			echo ERROR: something is in the way
 			return 1
 		)
-		set -ex
-		mkdir $_p
-		kernelh-impl
-		cd binutils
-		redo-impl
-
+		unset t
+		pushd .
+		op="$PATH"
+		export PATH=$_p:$PATH
+		mkdir $_p &&
+		log 'Copying kernel headers' kernelh-impl &&
+		xpkg binutils-first gmp-first mpfr-first mpc isl gcc-first glibc 
+		export PATH="$op"
+		popd
 	}
+	xpkg(){
+		[ -n "$1" ] &&
+		mkdir -p $_r/$1 &&
+		cd $_r/$1 &&
+		fence &&
+		log "Building $1" redo-impl "$1" &&
+		log "Installing $1" rsync -Pav "$_r/dest/$1/$_p/" "$_p" &&
+		shift &&
+		xpkg "$@"
+	}
+: eof
