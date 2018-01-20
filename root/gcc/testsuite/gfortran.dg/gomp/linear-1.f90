@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/gomp/linear-1.f90

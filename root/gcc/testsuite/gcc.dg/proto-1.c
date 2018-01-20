@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/proto-1.c

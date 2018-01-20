@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/attr-merge-vfp-10.d

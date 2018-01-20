@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/i386/intrinsics_opt-3.c

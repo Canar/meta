@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/lto19_pkg1.ads

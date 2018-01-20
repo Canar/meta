@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/sparc/pr20732.s

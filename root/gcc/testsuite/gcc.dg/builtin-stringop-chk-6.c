@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/builtin-stringop-chk-6.c

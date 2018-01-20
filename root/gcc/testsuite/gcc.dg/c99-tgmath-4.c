@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/c99-tgmath-4.c

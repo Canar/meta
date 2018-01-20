@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/mips/fpcmp-2.c

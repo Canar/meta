@@ -1,0 +1,1 @@
+../../../binutils-gdb/gas/config/tc-fr30.c

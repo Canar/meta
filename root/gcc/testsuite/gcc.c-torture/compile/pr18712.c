@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.c-torture/compile/pr18712.c

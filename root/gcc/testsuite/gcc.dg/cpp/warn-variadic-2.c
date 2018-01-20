@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/cpp/warn-variadic-2.c

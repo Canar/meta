@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/warn/Wno-narrowing1.C

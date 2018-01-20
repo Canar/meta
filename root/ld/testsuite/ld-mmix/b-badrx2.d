@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-mmix/b-badrx2.d

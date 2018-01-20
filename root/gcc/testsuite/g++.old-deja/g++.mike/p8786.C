@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.old-deja/g++.mike/p8786.C

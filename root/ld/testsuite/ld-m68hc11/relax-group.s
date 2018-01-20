@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-m68hc11/relax-group.s

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/tree-ssa/foldstring-1.c

@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/pa/quadlib.c

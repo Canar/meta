@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/arm/neon-vands64.c

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/binutils/testsuite/binutils-all/remove-relocs-05.d

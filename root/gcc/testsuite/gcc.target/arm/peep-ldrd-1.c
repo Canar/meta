@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/arm/peep-ldrd-1.c

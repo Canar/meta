@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/testing/sub_test.go

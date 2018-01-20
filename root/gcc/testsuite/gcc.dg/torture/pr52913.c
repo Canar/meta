@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/torture/pr52913.c

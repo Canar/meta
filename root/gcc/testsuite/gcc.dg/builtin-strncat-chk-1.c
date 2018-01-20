@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/builtin-strncat-chk-1.c

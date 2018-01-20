@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/format/dfp-scanf-1.c

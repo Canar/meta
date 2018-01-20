@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-mmix/pad2p26m32.s

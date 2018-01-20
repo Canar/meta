@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/i386/avx512f-vextractf32x4-1.c

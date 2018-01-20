@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/attr-ms_struct-2.c

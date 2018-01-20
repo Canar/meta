@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/bfin/add_shift.S

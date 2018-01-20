@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/binutils/testsuite/binutils-all/i386/compressed-1.s

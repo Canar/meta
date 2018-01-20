@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/tsan/vptr_harmful_race.C

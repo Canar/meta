@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/mips/fpr-moves-3.c

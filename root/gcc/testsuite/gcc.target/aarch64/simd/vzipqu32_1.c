@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/aarch64/simd/vzipqu32_1.c

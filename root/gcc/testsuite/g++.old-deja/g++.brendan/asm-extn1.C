@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.old-deja/g++.brendan/asm-extn1.C

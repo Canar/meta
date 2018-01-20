@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/pr69543-3.c

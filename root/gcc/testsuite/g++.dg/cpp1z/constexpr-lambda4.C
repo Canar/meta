@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/cpp1z/constexpr-lambda4.C

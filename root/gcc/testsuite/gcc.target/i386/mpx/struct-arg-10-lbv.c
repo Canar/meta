@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/i386/mpx/struct-arg-10-lbv.c

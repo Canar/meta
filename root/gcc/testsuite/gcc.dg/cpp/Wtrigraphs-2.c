@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/cpp/Wtrigraphs-2.c

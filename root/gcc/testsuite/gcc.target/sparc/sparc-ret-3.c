@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/sparc/sparc-ret-3.c

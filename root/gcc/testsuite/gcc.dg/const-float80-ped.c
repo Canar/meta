@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/const-float80-ped.c

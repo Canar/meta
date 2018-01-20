@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/powerpc/vslv-0.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/gomp/openmp-simd-1.c

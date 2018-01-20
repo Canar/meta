@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/inherit/template-as-base.C

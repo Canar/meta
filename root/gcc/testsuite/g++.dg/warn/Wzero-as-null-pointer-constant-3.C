@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/warn/Wzero-as-null-pointer-constant-3.C

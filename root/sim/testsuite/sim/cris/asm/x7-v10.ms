@@ -1,0 +1,1 @@
+../../../../../../binutils-gdb/sim/testsuite/sim/cris/asm/x7-v10.ms

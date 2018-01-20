@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/hppa/shadd-2.c

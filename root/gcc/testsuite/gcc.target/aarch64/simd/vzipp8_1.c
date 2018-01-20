@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/aarch64/simd/vzipp8_1.c

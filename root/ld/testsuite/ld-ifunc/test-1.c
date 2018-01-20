@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-ifunc/test-1.c

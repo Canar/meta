@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/sparc/v8-movwr-imm.s

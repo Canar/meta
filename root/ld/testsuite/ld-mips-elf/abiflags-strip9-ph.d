@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-mips-elf/abiflags-strip9-ph.d

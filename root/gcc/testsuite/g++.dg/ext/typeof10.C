@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/ext/typeof10.C

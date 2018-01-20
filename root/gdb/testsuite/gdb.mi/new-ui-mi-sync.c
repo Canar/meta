@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.mi/new-ui-mi-sync.c

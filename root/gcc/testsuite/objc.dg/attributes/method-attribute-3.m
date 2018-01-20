@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc.dg/attributes/method-attribute-3.m

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/graphite/scop-8.c

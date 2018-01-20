@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/globalalias-2.c

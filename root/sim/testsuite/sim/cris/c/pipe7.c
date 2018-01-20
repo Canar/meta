@@ -1,0 +1,1 @@
+../../../../../../binutils-gdb/sim/testsuite/sim/cris/c/pipe7.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/cpp/pragma-pop_macro-1.c

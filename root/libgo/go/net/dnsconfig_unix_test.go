@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/net/dnsconfig_unix_test.go

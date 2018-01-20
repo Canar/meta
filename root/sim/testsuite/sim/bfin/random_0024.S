@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/bfin/random_0024.S

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/expr/stmt-expr-1.C

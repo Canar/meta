@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/st2000.sc

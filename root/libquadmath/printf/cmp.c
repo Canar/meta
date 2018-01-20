@@ -1,0 +1,1 @@
+../../../gcc/libquadmath/printf/cmp.c

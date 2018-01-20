@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/powerpc/vsu/vec-xlx-3.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/cpp/strify1.c

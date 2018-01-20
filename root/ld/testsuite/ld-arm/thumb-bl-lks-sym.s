@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/thumb-bl-lks-sym.s

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/i386/xop-vpermil2ps-1.c

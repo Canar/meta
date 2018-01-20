@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/bfin/c_comp3op_dr_or_dr.s

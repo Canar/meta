@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.threads/signal-delivered-right-thread.c

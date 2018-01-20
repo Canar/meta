@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/init/new41.C

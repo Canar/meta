@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/i386/avx2-vpcmpgtd-2.c

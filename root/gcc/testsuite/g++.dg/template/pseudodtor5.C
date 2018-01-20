@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/pseudodtor5.C

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-mips-elf/tlsdyn-o32-2.s

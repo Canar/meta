@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/mips/sd-forward-n32.d

@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/libbid/_isinfd32.c

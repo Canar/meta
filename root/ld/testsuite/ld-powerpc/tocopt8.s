@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-powerpc/tocopt8.s

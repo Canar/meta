@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/fobjc-std-1.m

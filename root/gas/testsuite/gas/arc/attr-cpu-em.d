@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/arc/attr-cpu-em.d

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/opt/declone2.C

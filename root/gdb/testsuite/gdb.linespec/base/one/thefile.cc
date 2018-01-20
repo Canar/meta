@@ -1,0 +1,1 @@
+../../../../../../binutils-gdb/gdb/testsuite/gdb.linespec/base/one/thefile.cc

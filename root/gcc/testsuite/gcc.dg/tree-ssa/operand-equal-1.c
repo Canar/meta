@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/tree-ssa/operand-equal-1.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/mips/20140928.c

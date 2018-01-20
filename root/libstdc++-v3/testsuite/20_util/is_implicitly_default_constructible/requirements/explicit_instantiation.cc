@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/20_util/is_implicitly_default_constructible/requirements/explicit_instantiation.cc

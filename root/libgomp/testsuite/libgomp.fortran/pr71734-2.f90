@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.fortran/pr71734-2.f90

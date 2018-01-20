@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gdb/testsuite/gdb.ada/enum_idx_packed/foo.adb

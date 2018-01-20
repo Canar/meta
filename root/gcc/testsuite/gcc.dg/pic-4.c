@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pic-4.c

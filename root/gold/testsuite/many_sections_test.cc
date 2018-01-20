@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/many_sections_test.cc

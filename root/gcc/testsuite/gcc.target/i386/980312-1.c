@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/i386/980312-1.c

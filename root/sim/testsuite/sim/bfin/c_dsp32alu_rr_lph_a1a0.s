@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/bfin/c_dsp32alu_rr_lph_a1a0.s

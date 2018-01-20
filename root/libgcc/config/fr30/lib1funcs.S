@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/fr30/lib1funcs.S

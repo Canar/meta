@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/warn_conversion_6.f90

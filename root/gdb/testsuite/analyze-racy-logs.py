@@ -1,0 +1,1 @@
+../../../binutils-gdb/gdb/testsuite/analyze-racy-logs.py

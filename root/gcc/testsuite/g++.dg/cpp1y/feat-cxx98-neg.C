@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/cpp1y/feat-cxx98-neg.C

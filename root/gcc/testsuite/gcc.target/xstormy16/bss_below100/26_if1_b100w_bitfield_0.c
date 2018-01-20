@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/xstormy16/bss_below100/26_if1_b100w_bitfield_0.c

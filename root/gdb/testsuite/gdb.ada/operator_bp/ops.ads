@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gdb/testsuite/gdb.ada/operator_bp/ops.ads

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/aarch64/pragma_cpp_predefs_1.c

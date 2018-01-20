@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/ipa/ipa-icf-2.C

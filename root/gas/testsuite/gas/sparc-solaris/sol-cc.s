@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/sparc-solaris/sol-cc.s

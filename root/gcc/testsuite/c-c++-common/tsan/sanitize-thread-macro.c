@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/tsan/sanitize-thread-macro.c

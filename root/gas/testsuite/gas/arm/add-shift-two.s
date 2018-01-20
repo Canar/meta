@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/arm/add-shift-two.s

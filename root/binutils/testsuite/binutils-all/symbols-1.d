@@ -1,0 +1,1 @@
+../../../../binutils-gdb/binutils/testsuite/binutils-all/symbols-1.d

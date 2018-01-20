@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wstrict-aliasing-bogus-never-dereferenced.c

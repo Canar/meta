@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/arm/half-prec-vfpv3.s

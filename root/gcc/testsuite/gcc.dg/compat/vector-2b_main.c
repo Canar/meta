@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/compat/vector-2b_main.c

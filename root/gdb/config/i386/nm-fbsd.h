@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/config/i386/nm-fbsd.h

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/aarch64/pr78382.c

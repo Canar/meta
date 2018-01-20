@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/goacc/loop-processing-1.c

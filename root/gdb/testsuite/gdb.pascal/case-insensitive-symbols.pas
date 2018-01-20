@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.pascal/case-insensitive-symbols.pas

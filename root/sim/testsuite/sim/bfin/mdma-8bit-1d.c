@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/bfin/mdma-8bit-1d.c

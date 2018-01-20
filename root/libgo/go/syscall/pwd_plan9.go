@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/syscall/pwd_plan9.go

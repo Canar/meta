@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.cp/var-tag-4.cc

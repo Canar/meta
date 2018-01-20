@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-x86-64/tlspie2b.d

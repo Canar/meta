@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/warn/delete-non-virtual-dtor.C

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.cp/pr9167.cc

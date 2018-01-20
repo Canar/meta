@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gdb/testsuite/gdb.ada/type_coercion/assign.adb

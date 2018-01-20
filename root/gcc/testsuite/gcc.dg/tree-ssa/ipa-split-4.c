@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/tree-ssa/ipa-split-4.c

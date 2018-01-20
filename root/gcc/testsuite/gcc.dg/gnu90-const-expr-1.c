@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/gnu90-const-expr-1.c

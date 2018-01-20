@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/expr/cond1.C

@@ -1,0 +1,10 @@
+ccat(){ fence && ccat-impl "$@" ; } 
+conf(){ fence && conf-impl "$@" ; } 
+reconf(){ fence && reconf-impl "$@" ; } 
+confhelpa(){ fence && confhelpa-impl "$@" ; } 
+confhelp(){ fence && confhelp-impl "$@" ; } 
+go(){ fence && go-impl "$@" ; } 
+inst(){ fence && inst-impl "$@" ; } 
+kernelh(){ fence && kernelh-impl "$@" ; } 
+redo(){ fence && redo-impl "$@" ; } 
+buildall(){ fence && buildall-impl "$@" ; } 

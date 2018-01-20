@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-frv/tls-dynamic-3.d

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/powerpc/vsx-himode3.c

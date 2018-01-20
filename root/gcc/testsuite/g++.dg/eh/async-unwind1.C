@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/eh/async-unwind1.C

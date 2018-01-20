@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/output_exponents_1.f90

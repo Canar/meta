@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/go/format/format.go

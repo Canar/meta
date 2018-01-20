@@ -1,0 +1,1 @@
+../../../../gcc/gcc/config/arm/cortex-m4.md

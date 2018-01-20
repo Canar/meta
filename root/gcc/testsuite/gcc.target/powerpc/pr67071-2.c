@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/powerpc/pr67071-2.c

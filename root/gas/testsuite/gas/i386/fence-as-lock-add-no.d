@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/i386/fence-as-lock-add-no.d

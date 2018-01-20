@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/noncompile/init-2.c

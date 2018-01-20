@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-ifunc/ifunc-8b-x86-64.s

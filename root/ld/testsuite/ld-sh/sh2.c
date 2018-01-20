@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-sh/sh2.c

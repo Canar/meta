@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/mips/octeon3.d

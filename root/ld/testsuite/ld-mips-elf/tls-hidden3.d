@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-mips-elf/tls-hidden3.d

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-ifunc/ifunc-2-local-x86-64.s

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-m68k/got-multigot-15-er.d

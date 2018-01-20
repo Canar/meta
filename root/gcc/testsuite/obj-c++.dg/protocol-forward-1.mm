@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/protocol-forward-1.mm

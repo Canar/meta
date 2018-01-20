@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/ubsan/c99-wrapv-shift-2.c

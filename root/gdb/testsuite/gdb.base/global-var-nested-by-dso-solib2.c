@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.base/global-var-nested-by-dso-solib2.c

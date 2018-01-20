@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/coarray/this_image_1.f90

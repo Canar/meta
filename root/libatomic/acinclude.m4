@@ -1,0 +1,1 @@
+../../gcc/libatomic/acinclude.m4

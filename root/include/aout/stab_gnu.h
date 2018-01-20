@@ -1,0 +1,1 @@
+../../../binutils-gdb/include/aout/stab_gnu.h

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/darwin-cfstring-1.c

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/attr-merge-unknown-2r.d

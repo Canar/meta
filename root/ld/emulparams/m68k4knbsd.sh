@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/m68k4knbsd.sh

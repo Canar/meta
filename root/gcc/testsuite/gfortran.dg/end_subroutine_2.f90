@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/end_subroutine_2.f90

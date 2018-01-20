@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/torture/20160404-1.c

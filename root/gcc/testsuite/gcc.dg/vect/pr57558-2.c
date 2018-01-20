@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/vect/pr57558-2.c

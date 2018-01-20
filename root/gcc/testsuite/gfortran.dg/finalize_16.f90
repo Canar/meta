@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/finalize_16.f90

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/arm/simd/vminnm_f32_1.c

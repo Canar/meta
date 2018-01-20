@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/graphite/isl-ast-gen-blocks-3.c

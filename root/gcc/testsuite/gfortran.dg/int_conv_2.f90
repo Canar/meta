@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/int_conv_2.f90

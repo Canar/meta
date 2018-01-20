@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-ifunc/ifunc-6-i386.s

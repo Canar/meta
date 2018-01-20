@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/gcov/gcov-threads-1.C

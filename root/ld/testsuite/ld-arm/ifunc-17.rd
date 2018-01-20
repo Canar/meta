@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/ifunc-17.rd

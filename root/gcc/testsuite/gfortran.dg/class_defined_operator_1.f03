@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/class_defined_operator_1.f03

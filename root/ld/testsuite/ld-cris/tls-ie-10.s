@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/tls-ie-10.s

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/h8300/t06_ari2.s

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/powerpc/pr61977-1.c

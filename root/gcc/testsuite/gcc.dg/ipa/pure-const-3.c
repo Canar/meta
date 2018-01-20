@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/ipa/pure-const-3.c

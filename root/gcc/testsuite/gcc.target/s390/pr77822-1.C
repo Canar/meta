@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/s390/pr77822-1.C

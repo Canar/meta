@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/lto/simd-function_0.c

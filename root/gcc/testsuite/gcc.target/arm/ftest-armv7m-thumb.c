@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/arm/ftest-armv7m-thumb.c

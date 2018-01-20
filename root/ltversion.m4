@@ -1,0 +1,1 @@
+../binutils-gdb/ltversion.m4

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.old-deja/g++.pt/cast1.C

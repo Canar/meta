@@ -1,0 +1,1 @@
+../../../../../../../gcc/gcc/testsuite/go.test/test/bench/shootout/binary-tree-freelist.go

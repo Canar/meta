@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/20_util/headers/type_traits/std_c++0x_neg.cc

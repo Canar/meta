@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-mips-elf/mips-64-export-class.rd

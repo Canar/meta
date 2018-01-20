@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/tree-ssa/ssa-dse-29.c

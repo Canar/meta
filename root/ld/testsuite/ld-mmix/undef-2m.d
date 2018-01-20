@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-mmix/undef-2m.d

@@ -1,0 +1,1 @@
+../../../binutils-gdb/libiberty/testsuite/test-demangle.c

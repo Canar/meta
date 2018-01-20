@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/cpp1y/constexpr-recursion1.C

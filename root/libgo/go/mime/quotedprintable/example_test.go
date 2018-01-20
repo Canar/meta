@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/mime/quotedprintable/example_test.go

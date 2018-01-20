@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/25_algorithms/copy/streambuf_iterators/wchar_t/3.cc

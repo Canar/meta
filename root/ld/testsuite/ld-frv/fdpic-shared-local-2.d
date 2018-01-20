@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-frv/fdpic-shared-local-2.d

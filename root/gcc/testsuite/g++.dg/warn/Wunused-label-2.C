@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/warn/Wunused-label-2.C

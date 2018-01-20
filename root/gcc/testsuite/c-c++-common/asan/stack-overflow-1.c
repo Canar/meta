@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/asan/stack-overflow-1.c

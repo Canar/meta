@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-discard/zero-rel.s

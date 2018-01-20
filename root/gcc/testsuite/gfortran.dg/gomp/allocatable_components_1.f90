@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/gomp/allocatable_components_1.f90

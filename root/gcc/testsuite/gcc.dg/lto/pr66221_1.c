@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/lto/pr66221_1.c

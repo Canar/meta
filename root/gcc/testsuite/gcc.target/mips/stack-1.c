@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/mips/stack-1.c

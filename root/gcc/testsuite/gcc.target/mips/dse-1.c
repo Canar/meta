@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/mips/dse-1.c

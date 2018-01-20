@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/dfp/keywords-ignored-c99.c

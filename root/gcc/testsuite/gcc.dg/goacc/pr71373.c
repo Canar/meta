@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/goacc/pr71373.c

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/c-c++-common/cilk-plus/CK/cilk-for-3.c

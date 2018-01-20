@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/switch-warn-1.c

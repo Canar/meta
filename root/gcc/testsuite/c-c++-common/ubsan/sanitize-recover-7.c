@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/ubsan/sanitize-recover-7.c

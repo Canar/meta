@@ -1,0 +1,1 @@
+../../../binutils-gdb/gdb/contrib/cleanup_check.py

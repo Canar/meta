@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/aarch64/reloc-tlsldm_lo12_nc-1.s

@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/merge_string_literals_2.cc

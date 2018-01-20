@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/aarch64/simd/int_comparisons_2.c

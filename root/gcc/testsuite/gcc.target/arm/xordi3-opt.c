@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/arm/xordi3-opt.c

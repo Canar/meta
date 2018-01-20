@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/syscall/socket_linux.go

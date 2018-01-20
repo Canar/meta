@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/g++.dg/cilk-plus/CK/fib-opr-overload.cc

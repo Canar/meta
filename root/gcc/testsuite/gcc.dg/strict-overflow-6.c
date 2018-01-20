@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/strict-overflow-6.c

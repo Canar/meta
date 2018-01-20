@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/write_0_pe_format.f90

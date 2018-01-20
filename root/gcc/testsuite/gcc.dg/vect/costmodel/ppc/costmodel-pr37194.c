@@ -1,0 +1,1 @@
+../../../../../../../gcc/gcc/testsuite/gcc.dg/vect/costmodel/ppc/costmodel-pr37194.c

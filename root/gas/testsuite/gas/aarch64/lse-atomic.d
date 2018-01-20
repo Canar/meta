@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/aarch64/lse-atomic.d

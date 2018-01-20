@@ -1,0 +1,1 @@
+../../../../../gcc/libgcc/config/nds32/isr-library/vec_vid41_4b.S

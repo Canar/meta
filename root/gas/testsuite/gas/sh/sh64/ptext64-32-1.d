@@ -1,0 +1,1 @@
+../../../../../../binutils-gdb/gas/testsuite/gas/sh/sh64/ptext64-32-1.d

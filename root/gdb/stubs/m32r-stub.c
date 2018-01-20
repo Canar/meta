@@ -1,0 +1,1 @@
+../../../binutils-gdb/gdb/stubs/m32r-stub.c

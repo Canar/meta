@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/cris/pushpop-dcr1-sreg.d

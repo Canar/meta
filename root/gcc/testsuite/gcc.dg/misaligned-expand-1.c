@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/misaligned-expand-1.c

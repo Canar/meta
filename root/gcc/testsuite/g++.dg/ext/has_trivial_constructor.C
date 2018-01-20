@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/ext/has_trivial_constructor.C

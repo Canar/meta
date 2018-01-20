@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/powerpc/vsu/vec-xst-len-9.c

@@ -1,0 +1,1 @@
+../../../../../../binutils-gdb/sim/testsuite/sim/cris/asm/ccr-v10.ms

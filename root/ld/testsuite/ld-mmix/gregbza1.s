@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-mmix/gregbza1.s

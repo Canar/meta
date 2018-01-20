@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gdb/unittests/optional/assignment/2.cc

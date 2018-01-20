@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/sh/pr50749-sf-predec-3.c

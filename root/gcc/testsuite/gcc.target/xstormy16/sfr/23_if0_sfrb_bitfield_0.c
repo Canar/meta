@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/xstormy16/sfr/23_if0_sfrb_bitfield_0.c

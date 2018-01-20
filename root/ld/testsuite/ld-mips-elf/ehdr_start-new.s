@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-mips-elf/ehdr_start-new.s

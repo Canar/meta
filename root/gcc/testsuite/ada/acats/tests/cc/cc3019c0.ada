@@ -1,0 +1,1 @@
+../../../../../../../gcc/gcc/testsuite/ada/acats/tests/cc/cc3019c0.ada

@@ -1,0 +1,1 @@
+../../../../../../gcc/libgcc/config/arc/ieee-754/arc600-mul64/mulsf3.S

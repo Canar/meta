@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/tic6x/scomm-directive-7.s

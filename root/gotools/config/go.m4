@@ -1,0 +1,1 @@
+../../../gcc/gotools/config/go.m4

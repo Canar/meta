@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elf/pr16452b.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/common/config/nds32/nds32-common.c

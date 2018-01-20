@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/utf16-4.c

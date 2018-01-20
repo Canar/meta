@@ -1,0 +1,1 @@
+../../../../binutils-gdb/binutils/testsuite/binutils-all/group-5.d

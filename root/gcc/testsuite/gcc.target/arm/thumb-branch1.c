@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/arm/thumb-branch1.c

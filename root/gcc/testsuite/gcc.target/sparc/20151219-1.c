@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/sparc/20151219-1.c

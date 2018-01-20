@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/alloc_comp_assign_2.f90

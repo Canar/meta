@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/goacc/data-clauses.f95

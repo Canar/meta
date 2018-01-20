@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/m68k/crtn.S

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/g++.dg/compat/decimal/pass-5_main.C

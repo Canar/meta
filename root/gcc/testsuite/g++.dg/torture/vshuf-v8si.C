@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/torture/vshuf-v8si.C

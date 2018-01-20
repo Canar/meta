@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/logical_comp.f90

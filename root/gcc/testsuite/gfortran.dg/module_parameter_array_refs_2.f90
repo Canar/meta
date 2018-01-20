@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/module_parameter_array_refs_2.f90

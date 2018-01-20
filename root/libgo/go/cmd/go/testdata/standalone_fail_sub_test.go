@@ -1,0 +1,1 @@
+../../../../../../gcc/libgo/go/cmd/go/testdata/standalone_fail_sub_test.go

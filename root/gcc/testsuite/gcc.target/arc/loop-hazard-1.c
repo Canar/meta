@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/arc/loop-hazard-1.c

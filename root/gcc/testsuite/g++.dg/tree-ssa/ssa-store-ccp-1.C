@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/tree-ssa/ssa-store-ccp-1.C

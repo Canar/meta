@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/nds32/usr-spe-reg.d

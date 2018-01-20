@@ -1,0 +1,1 @@
+../../gcc/libquadmath/quadmath_weak.h

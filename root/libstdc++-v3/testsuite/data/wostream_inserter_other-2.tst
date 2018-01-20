@@ -1,0 +1,1 @@
+../../../../gcc/libstdc++-v3/testsuite/data/wostream_inserter_other-2.tst

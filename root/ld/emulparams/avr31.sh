@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/avr31.sh

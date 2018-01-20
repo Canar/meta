@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/lto/bind_c-2b_1.c

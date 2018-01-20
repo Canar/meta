@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/i386_mov_to_lea1.s

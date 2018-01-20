@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-crx/reloc-rel24.d

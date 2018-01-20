@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/asan/bitfield-4.c

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/lib/opencl_kernel.cl

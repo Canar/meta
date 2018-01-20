@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/nios2/warn_noat.s

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/arm/sp-pc-validations-bad.l

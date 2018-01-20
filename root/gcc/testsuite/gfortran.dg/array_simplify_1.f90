@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/array_simplify_1.f90

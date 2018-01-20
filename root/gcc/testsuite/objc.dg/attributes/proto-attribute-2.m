@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc.dg/attributes/proto-attribute-2.m

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/arm/branch-reloc.s

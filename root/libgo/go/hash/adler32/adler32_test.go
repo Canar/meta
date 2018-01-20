@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/hash/adler32/adler32_test.go

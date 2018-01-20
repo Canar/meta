@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/warn_unused_var_3.f90

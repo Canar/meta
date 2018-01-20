@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/ext/mvc3.C

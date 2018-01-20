@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/nds32/builtin-mfsr-mtsr.c

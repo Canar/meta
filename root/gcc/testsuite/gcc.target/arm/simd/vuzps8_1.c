@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/arm/simd/vuzps8_1.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/spu2vmx-1.C

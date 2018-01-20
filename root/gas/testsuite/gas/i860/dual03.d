@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/i860/dual03.d

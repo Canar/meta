@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/cpp0x/nsdmi-template5.C

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/aarch64/fp-const0-parse.d

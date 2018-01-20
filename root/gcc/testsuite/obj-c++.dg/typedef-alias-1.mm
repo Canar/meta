@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/typedef-alias-1.mm

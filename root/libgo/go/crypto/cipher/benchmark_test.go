@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/crypto/cipher/benchmark_test.go

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/arc/sdata-2.c

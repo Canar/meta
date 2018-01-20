@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/ext/random/simd_fast_mersenne_twister_engine/cons/seed1.cc

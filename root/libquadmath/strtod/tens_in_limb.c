@@ -1,0 +1,1 @@
+../../../gcc/libquadmath/strtod/tens_in_limb.c

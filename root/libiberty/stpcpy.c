@@ -1,0 +1,1 @@
+../../binutils-gdb/libiberty/stpcpy.c

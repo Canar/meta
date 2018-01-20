@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/xgate/abi-xgate-16-32.d

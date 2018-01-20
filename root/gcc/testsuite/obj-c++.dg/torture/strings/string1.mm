@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/obj-c++.dg/torture/strings/string1.mm

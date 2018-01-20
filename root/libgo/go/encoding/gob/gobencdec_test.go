@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/encoding/gob/gobencdec_test.go

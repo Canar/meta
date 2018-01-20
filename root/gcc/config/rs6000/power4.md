@@ -1,0 +1,1 @@
+../../../../gcc/gcc/config/rs6000/power4.md

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/sparc/mism-1.s

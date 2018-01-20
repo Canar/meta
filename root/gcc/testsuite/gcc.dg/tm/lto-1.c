@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/tm/lto-1.c

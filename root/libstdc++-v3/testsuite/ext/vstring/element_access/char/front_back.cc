@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/ext/vstring/element_access/char/front_back.cc

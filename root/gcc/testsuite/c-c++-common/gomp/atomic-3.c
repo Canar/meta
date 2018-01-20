@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/gomp/atomic-3.c

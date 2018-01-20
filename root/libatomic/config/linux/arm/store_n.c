@@ -1,0 +1,1 @@
+../../../../../gcc/libatomic/config/linux/arm/store_n.c

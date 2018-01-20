@@ -1,0 +1,1 @@
+../../binutils-gdb/gold/script-sections.cc

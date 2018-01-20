@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/lookup/crash8.C

@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/sort/example_wrapper_test.go

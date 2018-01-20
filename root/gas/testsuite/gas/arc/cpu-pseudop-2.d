@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/arc/cpu-pseudop-2.d

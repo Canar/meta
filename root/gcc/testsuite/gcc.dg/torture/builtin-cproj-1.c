@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/torture/builtin-cproj-1.c

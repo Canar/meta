@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/data_initialized_3.f90

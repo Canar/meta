@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/fail_always_inline.c

@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/net/mail/example_test.go

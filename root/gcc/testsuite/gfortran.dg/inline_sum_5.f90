@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/inline_sum_5.f90

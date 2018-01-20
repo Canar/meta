@@ -1,0 +1,1 @@
+../../../../binutils-gdb/binutils/testsuite/binutils-all/exclude-1b.d

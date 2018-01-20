@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/25_algorithms/clamp/requirements/explicit_instantiation/1.cc

@@ -1,0 +1,1 @@
+../../gcc/contrib/check_makefile_deps.sh

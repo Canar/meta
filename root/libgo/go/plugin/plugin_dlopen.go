@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/plugin/plugin_dlopen.go

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/unresolved_fixup_2.f90

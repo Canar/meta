@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/ia64/lib1funcs.S

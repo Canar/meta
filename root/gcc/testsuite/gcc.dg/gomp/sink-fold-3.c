@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/gomp/sink-fold-3.c

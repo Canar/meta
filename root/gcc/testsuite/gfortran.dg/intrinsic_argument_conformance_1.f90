@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/intrinsic_argument_conformance_1.f90

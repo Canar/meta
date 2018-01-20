@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/ext/vstring/requirements/exception/generation_prohibited.cc

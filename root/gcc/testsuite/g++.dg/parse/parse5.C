@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/parse/parse5.C

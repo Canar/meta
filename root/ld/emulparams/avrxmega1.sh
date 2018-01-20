@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/avrxmega1.sh

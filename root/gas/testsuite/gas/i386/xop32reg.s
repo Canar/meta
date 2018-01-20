@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/i386/xop32reg.s

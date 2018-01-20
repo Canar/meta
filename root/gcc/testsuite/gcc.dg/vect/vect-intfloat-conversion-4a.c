@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/vect/vect-intfloat-conversion-4a.c

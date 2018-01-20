@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elf/loadaddr1.t

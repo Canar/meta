@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/overload/operator2.C

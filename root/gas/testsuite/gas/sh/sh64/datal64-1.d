@@ -1,0 +1,1 @@
+../../../../../../binutils-gdb/gas/testsuite/gas/sh/sh64/datal64-1.d

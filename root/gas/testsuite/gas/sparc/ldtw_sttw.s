@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/sparc/ldtw_sttw.s

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/noglob1.s

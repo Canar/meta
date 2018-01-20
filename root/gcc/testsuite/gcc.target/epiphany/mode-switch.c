@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/epiphany/mode-switch.c

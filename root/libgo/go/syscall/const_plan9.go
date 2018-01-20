@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/syscall/const_plan9.go

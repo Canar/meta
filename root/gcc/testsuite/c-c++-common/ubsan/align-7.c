@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/ubsan/align-7.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/noncompile/label-1.c

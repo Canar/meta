@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gnat.dg/sso/init6.ads

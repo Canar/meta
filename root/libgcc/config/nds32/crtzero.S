@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/nds32/crtzero.S

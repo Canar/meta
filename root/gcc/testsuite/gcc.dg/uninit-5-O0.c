@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/uninit-5-O0.c

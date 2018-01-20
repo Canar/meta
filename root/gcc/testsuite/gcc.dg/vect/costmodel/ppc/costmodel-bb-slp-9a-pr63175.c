@@ -1,0 +1,1 @@
+../../../../../../../gcc/gcc/testsuite/gcc.dg/vect/costmodel/ppc/costmodel-bb-slp-9a-pr63175.c

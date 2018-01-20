@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.python/source2.py

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/g++.dg/conflict-markers-1.C

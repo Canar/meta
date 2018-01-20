@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/g++.dg/cilk-plus/AN/array_test1_tplt.cc

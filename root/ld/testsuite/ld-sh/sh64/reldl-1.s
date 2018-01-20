@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/ld/testsuite/ld-sh/sh64/reldl-1.s

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gdb/testsuite/gdb.ada/bp_reset/foo.adb

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/ext/utf-cxx98.C

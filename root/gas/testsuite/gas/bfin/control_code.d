@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/bfin/control_code.d

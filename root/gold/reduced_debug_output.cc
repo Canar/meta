@@ -1,0 +1,1 @@
+../../binutils-gdb/gold/reduced_debug_output.cc

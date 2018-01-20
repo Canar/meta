@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-i386/iamcu-3.d

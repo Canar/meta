@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/invalid-method-2.mm

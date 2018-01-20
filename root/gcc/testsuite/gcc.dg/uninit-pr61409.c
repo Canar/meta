@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/uninit-pr61409.c

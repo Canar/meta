@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-vxworks/tls-2.s

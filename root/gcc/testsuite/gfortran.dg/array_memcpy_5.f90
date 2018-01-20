@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/array_memcpy_5.f90

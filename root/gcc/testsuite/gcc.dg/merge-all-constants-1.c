@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/merge-all-constants-1.c

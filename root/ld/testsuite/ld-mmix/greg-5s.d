@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-mmix/greg-5s.d

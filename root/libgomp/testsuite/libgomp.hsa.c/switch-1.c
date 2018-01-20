@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.hsa.c/switch-1.c

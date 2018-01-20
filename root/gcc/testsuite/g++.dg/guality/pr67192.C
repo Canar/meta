@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/guality/pr67192.C

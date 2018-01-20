@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-tic6x/ehtype-reloc-1.d

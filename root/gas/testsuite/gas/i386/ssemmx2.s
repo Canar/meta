@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/i386/ssemmx2.s

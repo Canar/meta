@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/pc532macha.sh

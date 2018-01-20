@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/byte_1.f90

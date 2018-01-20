@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc.dg/property/at-property-12.m

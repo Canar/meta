@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/cris/x-to-dword-sreg.d

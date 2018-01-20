@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/warn_implicit_procedure_1.f90

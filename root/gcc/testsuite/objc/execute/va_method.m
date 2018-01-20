@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc/execute/va_method.m

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/c99-flex-array-typedef-7.c

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/arm/simd/neon-vrndx_f32_1.c

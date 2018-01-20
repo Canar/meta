@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/lto/20081109_0.c

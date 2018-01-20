@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/weak_plt_shared.cc

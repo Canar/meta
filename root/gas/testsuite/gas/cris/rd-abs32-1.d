@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/cris/rd-abs32-1.d

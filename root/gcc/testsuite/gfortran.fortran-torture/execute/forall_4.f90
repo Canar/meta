@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.fortran-torture/execute/forall_4.f90

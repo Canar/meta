@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/parse/friend1.C

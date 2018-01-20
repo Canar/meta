@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/init-desig-obs-1.c

@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libstdc++-v3/testsuite/27_io/manipulators/extended/get_time/char/1.cc

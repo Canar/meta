@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/21_strings/char_traits/requirements/char32_t/65049.cc

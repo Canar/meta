@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/elf32_tic6x_linux_le.sh

@@ -1,0 +1,1 @@
+../../../../gcc/libitm/testsuite/libitm.c++/eh-1.C

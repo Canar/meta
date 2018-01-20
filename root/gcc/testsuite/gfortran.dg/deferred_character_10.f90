@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/deferred_character_10.f90

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/arm/split-live-ranges-for-shrink-wrap.c

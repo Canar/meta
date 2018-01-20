@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/ext/mt_allocator/deallocate_local_thread-7.cc

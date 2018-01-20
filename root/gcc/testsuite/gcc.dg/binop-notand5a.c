@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/binop-notand5a.c

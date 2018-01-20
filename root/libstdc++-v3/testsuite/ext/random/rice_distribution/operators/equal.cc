@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/ext/random/rice_distribution/operators/equal.cc

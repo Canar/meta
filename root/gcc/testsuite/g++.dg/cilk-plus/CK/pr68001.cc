@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/g++.dg/cilk-plus/CK/pr68001.cc

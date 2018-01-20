@@ -1,0 +1,1 @@
+../../gcc/config/ax_check_define.m4

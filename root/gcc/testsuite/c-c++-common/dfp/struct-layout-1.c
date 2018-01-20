@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/dfp/struct-layout-1.c

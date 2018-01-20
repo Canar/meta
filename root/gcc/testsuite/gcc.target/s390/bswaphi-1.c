@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/s390/bswaphi-1.c

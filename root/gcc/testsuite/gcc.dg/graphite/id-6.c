@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/graphite/id-6.c

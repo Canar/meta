@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/msp430/errata_fixes.d

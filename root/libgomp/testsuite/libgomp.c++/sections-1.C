@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c++/sections-1.C

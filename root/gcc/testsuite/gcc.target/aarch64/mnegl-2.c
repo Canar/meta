@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/aarch64/mnegl-2.c

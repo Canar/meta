@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/aarch64/reloc-dtprel_lo12_nc-ldst16.s

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/i386/mpx/thread-local-var-1-ubv.c

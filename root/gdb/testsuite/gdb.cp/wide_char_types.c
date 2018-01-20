@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.cp/wide_char_types.c

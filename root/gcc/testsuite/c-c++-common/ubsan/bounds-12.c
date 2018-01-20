@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/ubsan/bounds-12.c

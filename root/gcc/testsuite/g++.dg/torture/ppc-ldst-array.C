@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/torture/ppc-ldst-array.C

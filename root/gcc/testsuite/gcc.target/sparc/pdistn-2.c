@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/sparc/pdistn-2.c

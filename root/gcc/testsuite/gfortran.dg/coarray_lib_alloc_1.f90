@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/coarray_lib_alloc_1.f90

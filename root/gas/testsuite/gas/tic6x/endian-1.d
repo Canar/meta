@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/tic6x/endian-1.d

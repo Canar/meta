@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/rewind_1.f90

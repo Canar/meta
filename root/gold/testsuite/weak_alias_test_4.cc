@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/weak_alias_test_4.cc

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/z80/rotate.s

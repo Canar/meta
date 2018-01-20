@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-srec/sr1.c

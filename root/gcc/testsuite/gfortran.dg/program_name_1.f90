@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/program_name_1.f90

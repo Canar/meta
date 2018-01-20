@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/abi/mangle22.C

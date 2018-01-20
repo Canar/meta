@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/x86_64/abi/test_3_element_struct_and_unions.c

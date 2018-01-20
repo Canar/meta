@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/m32r/hello.ms

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/elf/ifunc-1.s

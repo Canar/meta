@@ -1,0 +1,1 @@
+../../../../../gcc/libgomp/testsuite/libgomp.fortran/examples-4/simd-6.f90

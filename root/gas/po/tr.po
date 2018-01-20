@@ -1,0 +1,1 @@
+../../../binutils-gdb/gas/po/tr.po

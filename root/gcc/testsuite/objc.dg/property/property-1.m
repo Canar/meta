@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc.dg/property/property-1.m

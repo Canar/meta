@@ -1,0 +1,1 @@
+../../../../gcc/gcc/config/mips/sb1.md

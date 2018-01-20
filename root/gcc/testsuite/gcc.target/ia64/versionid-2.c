@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/ia64/versionid-2.c

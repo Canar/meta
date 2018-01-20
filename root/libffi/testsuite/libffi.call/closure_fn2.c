@@ -1,0 +1,1 @@
+../../../../gcc/libffi/testsuite/libffi.call/closure_fn2.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/div-double-1.c

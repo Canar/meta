@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/arc/builtin_arc_aligned-2.c

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.base/sss-bp-on-user-bp.c

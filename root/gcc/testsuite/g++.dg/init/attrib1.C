@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/init/attrib1.C

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/thumb-rel32.s

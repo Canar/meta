@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/arch-v6.s

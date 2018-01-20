@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/arc/shortlimm_hs.s

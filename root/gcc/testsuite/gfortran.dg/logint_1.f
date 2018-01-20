@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/logint_1.f

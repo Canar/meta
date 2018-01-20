@@ -1,0 +1,1 @@
+../../../../gcc/libvtv/testsuite/libvtv.cc/dup_name.cc

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arc/tls-dtpoff.s

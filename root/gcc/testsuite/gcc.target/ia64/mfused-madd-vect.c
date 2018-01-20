@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/ia64/mfused-madd-vect.c

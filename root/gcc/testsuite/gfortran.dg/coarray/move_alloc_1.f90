@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/coarray/move_alloc_1.f90

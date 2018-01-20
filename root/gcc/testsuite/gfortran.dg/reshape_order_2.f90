@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/reshape_order_2.f90

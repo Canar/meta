@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/23_containers/vector/debug/iterator_self_move_assign_neg.cc

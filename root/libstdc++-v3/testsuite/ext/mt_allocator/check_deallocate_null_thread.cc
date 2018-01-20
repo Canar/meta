@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/ext/mt_allocator/check_deallocate_null_thread.cc

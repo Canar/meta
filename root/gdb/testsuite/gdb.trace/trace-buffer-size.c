@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.trace/trace-buffer-size.c

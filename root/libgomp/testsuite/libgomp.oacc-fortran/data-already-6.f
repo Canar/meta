@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.oacc-fortran/data-already-6.f

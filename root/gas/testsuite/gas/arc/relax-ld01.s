@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/arc/relax-ld01.s

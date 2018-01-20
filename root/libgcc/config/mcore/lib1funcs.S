@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/mcore/lib1funcs.S

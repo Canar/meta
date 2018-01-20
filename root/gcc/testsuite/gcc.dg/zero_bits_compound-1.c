@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/zero_bits_compound-1.c

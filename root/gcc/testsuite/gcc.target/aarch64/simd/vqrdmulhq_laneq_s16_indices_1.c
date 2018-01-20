@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/aarch64/simd/vqrdmulhq_laneq_s16_indices_1.c

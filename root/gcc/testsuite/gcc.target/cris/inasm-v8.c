@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/cris/inasm-v8.c

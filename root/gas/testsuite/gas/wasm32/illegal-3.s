@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/wasm32/illegal-3.s

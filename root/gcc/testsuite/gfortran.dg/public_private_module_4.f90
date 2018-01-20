@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/public_private_module_4.f90

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-sh/vxworks3.s

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/torture/pr79731.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/msg-in-protocol.m

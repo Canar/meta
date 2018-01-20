@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.oacc-c++/routine-1-template-auto.C

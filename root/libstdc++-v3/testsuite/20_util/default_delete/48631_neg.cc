@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/20_util/default_delete/48631_neg.cc

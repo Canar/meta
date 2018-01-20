@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/gomp/master-3.C

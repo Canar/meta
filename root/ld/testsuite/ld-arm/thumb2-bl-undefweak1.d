@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/thumb2-bl-undefweak1.d

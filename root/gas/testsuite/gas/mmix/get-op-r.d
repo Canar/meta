@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/mmix/get-op-r.d

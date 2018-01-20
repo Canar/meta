@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/test_bind_c_parens.f03

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/dfp/pr39902.c

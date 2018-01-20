@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/dfp/nan-2.c

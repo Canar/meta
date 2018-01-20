@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/html/template/clone_test.go

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/c99-init-6.c

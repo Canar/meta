@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/msp430/cmpd.c

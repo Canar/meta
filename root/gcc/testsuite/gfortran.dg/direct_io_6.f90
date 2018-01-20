@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/direct_io_6.f90

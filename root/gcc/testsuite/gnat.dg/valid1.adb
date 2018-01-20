@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/valid1.adb

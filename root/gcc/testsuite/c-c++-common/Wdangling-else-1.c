@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/Wdangling-else-1.c

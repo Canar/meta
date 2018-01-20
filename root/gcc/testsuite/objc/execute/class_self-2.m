@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc/execute/class_self-2.m

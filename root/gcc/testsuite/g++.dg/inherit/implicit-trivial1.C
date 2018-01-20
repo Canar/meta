@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/inherit/implicit-trivial1.C

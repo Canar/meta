@@ -1,0 +1,1 @@
+../../../../../../binutils-gdb/gas/testsuite/gas/hppa/reloc/r_no_reloc.s

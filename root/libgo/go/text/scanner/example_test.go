@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/text/scanner/example_test.go

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/try-catch-11.mm

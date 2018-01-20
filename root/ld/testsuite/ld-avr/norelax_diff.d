@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-avr/norelax_diff.d

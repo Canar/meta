@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/format/gcc_gfc-1.c

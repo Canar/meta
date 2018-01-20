@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/eabi-soft-float-r.d

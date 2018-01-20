@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/c_assoc_4.f90

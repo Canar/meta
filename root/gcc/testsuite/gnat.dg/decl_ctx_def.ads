@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/decl_ctx_def.ads

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/raw-string-9.c

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/mach-o/symbols-6-64.s

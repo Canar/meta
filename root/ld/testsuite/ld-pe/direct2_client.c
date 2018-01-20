@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pe/direct2_client.c

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/all/p2425.s

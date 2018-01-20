@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-aarch64/erratum835769.s

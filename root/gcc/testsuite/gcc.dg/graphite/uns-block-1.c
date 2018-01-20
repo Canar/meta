@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/graphite/uns-block-1.c

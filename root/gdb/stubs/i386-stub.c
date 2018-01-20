@@ -1,0 +1,1 @@
+../../../binutils-gdb/gdb/stubs/i386-stub.c

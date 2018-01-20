@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/mips/gcc-have-sync-compare-and-swap-4.c

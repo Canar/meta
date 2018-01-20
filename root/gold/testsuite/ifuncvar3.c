@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/ifuncvar3.c

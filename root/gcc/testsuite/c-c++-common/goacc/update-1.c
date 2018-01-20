@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/goacc/update-1.c

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gdb/testsuite/gdb.ada/small_reg_param/foo.adb

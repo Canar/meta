@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/30_threads/call_once/call_once1.cc

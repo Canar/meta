@@ -1,0 +1,1 @@
+../../../gcc/libgo/runtime/thread-linux.c

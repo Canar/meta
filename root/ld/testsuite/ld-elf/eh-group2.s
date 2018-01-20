@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elf/eh-group2.s

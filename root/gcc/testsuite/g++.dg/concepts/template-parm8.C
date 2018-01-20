@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/concepts/template-parm8.C

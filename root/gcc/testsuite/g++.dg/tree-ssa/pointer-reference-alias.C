@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/tree-ssa/pointer-reference-alias.C

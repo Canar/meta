@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/atomic-exchange-4.c

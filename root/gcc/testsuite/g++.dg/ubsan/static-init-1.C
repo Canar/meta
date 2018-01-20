@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/ubsan/static-init-1.C

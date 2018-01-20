@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.dg/torture/stackalign/vararg-2.c

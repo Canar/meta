@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/obj-c++.dg/torture/strings/const-cfstring-1.mm

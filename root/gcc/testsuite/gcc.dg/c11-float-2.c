@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/c11-float-2.c

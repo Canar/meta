@@ -1,0 +1,1 @@
+../../binutils-gdb/etc/update-copyright.py

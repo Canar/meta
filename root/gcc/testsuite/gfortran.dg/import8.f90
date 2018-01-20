@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/import8.f90

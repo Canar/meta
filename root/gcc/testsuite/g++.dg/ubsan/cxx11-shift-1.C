@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/ubsan/cxx11-shift-1.C

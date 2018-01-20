@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/nosigned_zero_3.f90

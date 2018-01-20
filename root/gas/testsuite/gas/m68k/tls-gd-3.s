@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/m68k/tls-gd-3.s

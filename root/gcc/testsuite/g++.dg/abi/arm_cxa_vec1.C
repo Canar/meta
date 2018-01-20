@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/abi/arm_cxa_vec1.C

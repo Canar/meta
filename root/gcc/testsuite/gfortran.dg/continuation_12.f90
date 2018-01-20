@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/continuation_12.f90

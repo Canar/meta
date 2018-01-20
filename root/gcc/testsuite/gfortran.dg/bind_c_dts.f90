@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/bind_c_dts.f90

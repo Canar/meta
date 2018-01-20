@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/cfi/cfi-alpha-3.d

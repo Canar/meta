@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/binutils/testsuite/binutils-all/i386/pr21231b.s

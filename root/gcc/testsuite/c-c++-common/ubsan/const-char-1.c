@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/ubsan/const-char-1.c

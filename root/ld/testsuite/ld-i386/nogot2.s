@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-i386/nogot2.s

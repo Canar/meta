@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/x86_64/abi/test_basic_struct_size_and_align.c

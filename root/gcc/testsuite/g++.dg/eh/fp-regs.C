@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/eh/fp-regs.C

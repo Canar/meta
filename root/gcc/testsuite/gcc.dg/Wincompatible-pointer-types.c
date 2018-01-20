@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wincompatible-pointer-types.c

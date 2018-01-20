@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/aarch64/advsimd-intrinsics/vmulxq_lane_f64_indices_1.c

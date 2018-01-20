@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/nodfp-1.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/ia64/20080802-1.c

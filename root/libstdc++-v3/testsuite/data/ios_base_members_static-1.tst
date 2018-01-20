@@ -1,0 +1,1 @@
+../../../../gcc/libstdc++-v3/testsuite/data/ios_base_members_static-1.tst

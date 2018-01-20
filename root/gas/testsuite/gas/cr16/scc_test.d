@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/cr16/scc_test.d

@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c/parloops-exit-first-loop-alt.c

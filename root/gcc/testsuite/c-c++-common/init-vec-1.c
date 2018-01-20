@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/init-vec-1.c

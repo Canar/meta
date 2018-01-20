@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/mmix/err-bpo3.s

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/conversion/memfn1.C

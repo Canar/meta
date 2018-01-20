@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/ada/doc/gnat_ugn/about_this_guide.rst

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/arm/lto/pr65837_0.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/rtti/cv1.C

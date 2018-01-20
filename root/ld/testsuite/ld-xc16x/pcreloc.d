@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-xc16x/pcreloc.d

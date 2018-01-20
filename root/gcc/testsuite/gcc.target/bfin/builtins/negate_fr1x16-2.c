@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/bfin/builtins/negate_fr1x16-2.c

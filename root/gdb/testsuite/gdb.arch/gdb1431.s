@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.arch/gdb1431.s

@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/ifuncmod6.c

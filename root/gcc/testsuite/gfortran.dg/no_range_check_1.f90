@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/no_range_check_1.f90

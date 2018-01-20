@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-ia64/tlspic.rd

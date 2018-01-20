@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/attr-used-2.c

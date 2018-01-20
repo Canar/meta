@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/cortex-a8-fix-bcc.s

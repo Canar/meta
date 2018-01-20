@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/elemental_args_check_7.f90

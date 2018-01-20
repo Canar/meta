@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/math/rand/regress_test.go

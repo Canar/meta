@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/typebound_override_3.f90

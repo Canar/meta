@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/gomp/collapse1.f90

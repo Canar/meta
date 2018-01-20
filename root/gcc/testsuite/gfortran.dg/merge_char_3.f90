@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/merge_char_3.f90

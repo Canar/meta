@@ -1,0 +1,1 @@
+../../../../../../../../gcc/gcc/testsuite/gcc.target/arm/cmse/mainline/softfp-sp/cmse-7.c

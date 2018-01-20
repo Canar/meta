@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/Wimplicit-fallthrough-19.c

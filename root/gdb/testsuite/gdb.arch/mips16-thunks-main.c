@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.arch/mips16-thunks-main.c

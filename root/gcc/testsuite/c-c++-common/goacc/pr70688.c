@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/goacc/pr70688.c

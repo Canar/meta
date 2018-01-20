@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/elemental_dependency_2.f90

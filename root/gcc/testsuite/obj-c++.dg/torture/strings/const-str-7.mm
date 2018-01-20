@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/obj-c++.dg/torture/strings/const-str-7.mm

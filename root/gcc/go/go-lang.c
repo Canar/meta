@@ -1,0 +1,1 @@
+../../../gcc/gcc/go/go-lang.c

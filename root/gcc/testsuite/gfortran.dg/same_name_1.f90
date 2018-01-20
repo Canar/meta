@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/same_name_1.f90

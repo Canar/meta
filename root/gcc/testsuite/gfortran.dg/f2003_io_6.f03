@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/f2003_io_6.f03

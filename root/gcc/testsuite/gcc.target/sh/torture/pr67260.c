@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/sh/torture/pr67260.c

@@ -1,0 +1,1 @@
+../../../../../../binutils-gdb/gas/testsuite/gas/sh/sh64/rel64-5.d

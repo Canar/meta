@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/compliant_elemental_intrinsics_1.f90

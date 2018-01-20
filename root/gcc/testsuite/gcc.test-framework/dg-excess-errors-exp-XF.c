@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.test-framework/dg-excess-errors-exp-XF.c

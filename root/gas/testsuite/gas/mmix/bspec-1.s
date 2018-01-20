@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/mmix/bspec-1.s

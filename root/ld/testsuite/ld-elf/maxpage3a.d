@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elf/maxpage3a.d

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/autopar/pr46099-2.c

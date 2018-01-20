@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/asan/sleep-before-dying-1.c

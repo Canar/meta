@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/elf32msp430_3.sc

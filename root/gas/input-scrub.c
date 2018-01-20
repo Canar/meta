@@ -1,0 +1,1 @@
+../../binutils-gdb/gas/input-scrub.c

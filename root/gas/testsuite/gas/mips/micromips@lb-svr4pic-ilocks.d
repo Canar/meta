@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/mips/micromips@lb-svr4pic-ilocks.d

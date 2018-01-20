@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.hsa.c/builtins-1.c

@@ -1,0 +1,1 @@
+../../binutils-gdb/ld/testplug3.c

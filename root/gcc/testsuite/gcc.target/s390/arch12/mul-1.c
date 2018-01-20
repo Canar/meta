@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/s390/arch12/mul-1.c

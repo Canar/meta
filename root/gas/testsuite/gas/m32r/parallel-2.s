@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/m32r/parallel-2.s

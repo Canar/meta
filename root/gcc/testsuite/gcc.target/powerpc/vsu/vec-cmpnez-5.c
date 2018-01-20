@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/powerpc/vsu/vec-cmpnez-5.c

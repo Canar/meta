@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/pie_copyrelocs_shared_test.cc

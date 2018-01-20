@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/warn3.d

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-tic6x/attr-unknown-54-1.s

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.arch/powerpc-altivec3.s

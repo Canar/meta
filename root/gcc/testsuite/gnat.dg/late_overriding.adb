@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/late_overriding.adb

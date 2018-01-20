@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.oacc-fortran/openacc_version-1.f

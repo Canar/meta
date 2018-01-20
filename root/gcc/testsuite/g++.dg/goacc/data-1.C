@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/goacc/data-1.C

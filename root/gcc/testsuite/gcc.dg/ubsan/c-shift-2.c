@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/ubsan/c-shift-2.c

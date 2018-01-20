@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/s390/fp2int1.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/asan/sanitizer_pthread_wrappers.h

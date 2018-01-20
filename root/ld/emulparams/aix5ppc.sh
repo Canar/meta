@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/aix5ppc.sh

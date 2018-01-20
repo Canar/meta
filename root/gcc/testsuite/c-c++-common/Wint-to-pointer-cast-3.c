@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/Wint-to-pointer-cast-3.c

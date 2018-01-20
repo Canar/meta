@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/common/config/xstormy16/xstormy16-common.c

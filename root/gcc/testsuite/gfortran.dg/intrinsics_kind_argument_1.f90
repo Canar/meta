@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/intrinsics_kind_argument_1.f90

@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/split_x86_64_3.s

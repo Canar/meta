@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.base/macscp3.h

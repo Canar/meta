@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/g++.dg/pr78229.C

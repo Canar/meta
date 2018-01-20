@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/arm_farcall_arm_thumb.s

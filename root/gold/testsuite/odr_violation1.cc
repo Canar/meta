@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/odr_violation1.cc

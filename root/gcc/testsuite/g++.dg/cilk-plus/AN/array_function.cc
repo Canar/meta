@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/g++.dg/cilk-plus/AN/array_function.cc

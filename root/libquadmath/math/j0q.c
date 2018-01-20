@@ -1,0 +1,1 @@
+../../../gcc/libquadmath/math/j0q.c

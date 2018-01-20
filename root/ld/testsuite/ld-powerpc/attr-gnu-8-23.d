@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-powerpc/attr-gnu-8-23.d

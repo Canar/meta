@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/27_io/fpos/11450.cc

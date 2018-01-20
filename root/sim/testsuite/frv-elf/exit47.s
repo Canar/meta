@@ -1,0 +1,1 @@
+../../../../binutils-gdb/sim/testsuite/frv-elf/exit47.s

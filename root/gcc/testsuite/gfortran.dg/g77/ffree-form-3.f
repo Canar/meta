@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/g77/ffree-form-3.f

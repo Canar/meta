@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/score/arith_32-lt.d

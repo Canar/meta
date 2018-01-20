@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc.dg/attributes/objc-exception-1.m

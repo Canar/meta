@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.dg/torture/stackalign/builtin-apply-1.c

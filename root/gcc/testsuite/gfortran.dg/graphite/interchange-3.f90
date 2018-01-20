@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/graphite/interchange-3.f90

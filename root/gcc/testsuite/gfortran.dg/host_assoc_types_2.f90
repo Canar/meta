@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/host_assoc_types_2.f90

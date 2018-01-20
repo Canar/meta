@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/tm/composite1.C

@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/m32c/lib2funcs.c

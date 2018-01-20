@@ -1,0 +1,1 @@
+../../../../gcc/libvtv/testsuite/other-tests/temp_deriv.cc

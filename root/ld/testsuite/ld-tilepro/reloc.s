@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-tilepro/reloc.s

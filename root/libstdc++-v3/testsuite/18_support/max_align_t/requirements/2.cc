@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/18_support/max_align_t/requirements/2.cc

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/endfile_4.f90

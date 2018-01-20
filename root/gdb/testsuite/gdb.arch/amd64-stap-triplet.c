@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.arch/amd64-stap-triplet.c

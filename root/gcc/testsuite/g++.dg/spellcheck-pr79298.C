@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/g++.dg/spellcheck-pr79298.C

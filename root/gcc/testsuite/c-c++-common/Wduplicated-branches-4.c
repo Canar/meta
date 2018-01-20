@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/Wduplicated-branches-4.c

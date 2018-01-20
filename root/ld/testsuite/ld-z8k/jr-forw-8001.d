@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-z8k/jr-forw-8001.d

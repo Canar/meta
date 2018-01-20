@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/aarch64/assembler_arch_1.c

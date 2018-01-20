@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.disasm/t02_mova.s

@@ -1,0 +1,1 @@
+../../../gcc/libstdc++-v3/libsupc++/vtv_stubs.cc

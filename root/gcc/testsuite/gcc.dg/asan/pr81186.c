@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/asan/pr81186.c

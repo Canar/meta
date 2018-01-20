@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/ubsan/pr80349.C

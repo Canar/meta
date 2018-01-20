@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/module_private_array_refs_1.f90

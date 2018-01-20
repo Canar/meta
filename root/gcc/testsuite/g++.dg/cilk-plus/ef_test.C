@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/cilk-plus/ef_test.C

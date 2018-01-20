@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/parm-mismatch-1.c

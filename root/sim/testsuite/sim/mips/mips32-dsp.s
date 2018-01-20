@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/mips/mips32-dsp.s

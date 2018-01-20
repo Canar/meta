@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/pch/warn-1.hs

@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/go/token/serialize_test.go

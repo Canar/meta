@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/microblaze/endian_le_elf.d

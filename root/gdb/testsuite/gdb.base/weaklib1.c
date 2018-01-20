@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.base/weaklib1.c

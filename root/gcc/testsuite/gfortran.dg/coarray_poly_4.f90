@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/coarray_poly_4.f90

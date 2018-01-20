@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/dfp/typeid1.C

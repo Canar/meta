@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/os/user/lookup_plan9.go

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/noncompile/20020130-1.c

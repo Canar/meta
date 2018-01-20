@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/zero_sized_3.f90

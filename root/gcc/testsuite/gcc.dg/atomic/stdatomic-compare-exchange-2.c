@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/atomic/stdatomic-compare-exchange-2.c

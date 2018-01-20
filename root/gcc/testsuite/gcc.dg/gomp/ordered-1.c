@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/gomp/ordered-1.c

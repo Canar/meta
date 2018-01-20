@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/common_equivalence_2.f

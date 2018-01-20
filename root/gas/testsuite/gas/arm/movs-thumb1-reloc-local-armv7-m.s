@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/arm/movs-thumb1-reloc-local-armv7-m.s

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/ubsan/align-2.C

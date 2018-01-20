@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-powerpc/tocsave2s.d

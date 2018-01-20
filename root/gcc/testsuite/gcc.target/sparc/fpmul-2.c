@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/sparc/fpmul-2.c

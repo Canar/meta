@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/arm/thumb2_ldr_immediate_highregs_armv6t2.s

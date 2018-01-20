@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/icf_virtual_function_folding_test.cc

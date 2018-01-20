@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/bfin/dbg_brtkn_nprd_src_kill.S

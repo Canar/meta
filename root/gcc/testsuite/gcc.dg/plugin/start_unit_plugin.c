@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/plugin/start_unit_plugin.c

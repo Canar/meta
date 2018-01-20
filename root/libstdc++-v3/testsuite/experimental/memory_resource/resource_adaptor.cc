@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/experimental/memory_resource/resource_adaptor.cc

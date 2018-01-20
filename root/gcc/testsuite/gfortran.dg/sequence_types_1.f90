@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/sequence_types_1.f90

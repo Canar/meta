@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-crx/reloc-regrel12.s

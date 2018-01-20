@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/go.go-torture/execute/return-2.go

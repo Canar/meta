@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/selected_char_kind_2.f90

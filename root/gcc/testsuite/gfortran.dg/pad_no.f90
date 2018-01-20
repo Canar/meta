@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/pad_no.f90

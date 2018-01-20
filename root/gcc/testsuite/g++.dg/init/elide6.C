@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/init/elide6.C

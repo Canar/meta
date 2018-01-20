@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/aarch64/reloc-tlsdesc_off_g0_nc.s

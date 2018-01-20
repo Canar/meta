@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/Wimplicit-fallthrough-1.m

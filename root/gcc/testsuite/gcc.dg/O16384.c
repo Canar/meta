@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/O16384.c

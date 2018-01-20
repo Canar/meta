@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.oacc-fortran/combined-reduction.f90

@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/exp/proxy/socks5.go

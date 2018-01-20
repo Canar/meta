@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-scripts/provide-1.s

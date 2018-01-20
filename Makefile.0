@@ -1,0 +1,194 @@
+APP=pwn
+TGT=$(shell uname -m)-pc-linux-gnu
+PRE0=/$(APP)0
+bin0=$(PRE0)/bin
+cc0=$(bin0)/$(TGT)-
+LC_ALL=POSIX
+STAGES=0 1
+ALLSTAGE=$(foreach stage,$(STAGES),$(foreach pkg,$(PKG$(stage)),stage$(stage)-$(pkg)))
+ALLMAKE=$(foreach stage,$(STAGES),$(foreach pkg,$(PKG$(stage)),build/$(stage)/$(pkg)/Makefile))
+ALLCONF=$(foreach stage,$(STAGES),$(foreach pkg,$(PKG$(stage)),$(pkg)/configure))
+
+.SUFFIXES:
+
+PKG0=binutils-gdb gcc
+
+PKG1=glibc libstdc++-v3 binutils-gdb gcc tcl expect dejagnu check ncurses bash bison bzip2 coreutils diffutils file findutils gawk gettext grep gzip m4 make patch perl sed tar texinfo util-linux xz
+
+configure: $(wildcard */configure)
+
+build: $(ALLMAKE) $(ALLSTAGE)
+
+.PHONY: build
+
+define _confg = 
+	mkdir -p $(1) && cd $(1) && $(3)/$(patsubst build/$(2)/%,%,$(1))/configure $(4)
+endef
+define _conf0 = 
+	$(call _confg,$(1),0,../../..,$(2))
+endef
+define _conf1 = 
+	$(call _confg,$(1),1,../../..,$(2))
+endef
+
+stage0: $(addprefix stage0-,setup $(PKG0))
+stage0-setup: $(PRE0)
+$(PRE0):
+	sudo $(SHELL) -c 'mkdir $(PRE0) ; chown -R user:user $(PRE0)'
+
+stage1: stage0 $(addprefix stage1-,linux $(PKG1))
+
+#stage%: stage
+#$(ALLSTAGE): stage%
+#	$(MAKE) -C build/0/$* all install
+#	touch build/0/$*/stamp-done
+
+#stage0-clean-$(PKG0): stage0-clean-% : build/0/%/Makefile
+#	$(MAKE) -C build/0/$* -i distclean
+
+$(ALLMAKE): %/Makefile : %
+
+$(dir $(ALLMAKE)):
+	mkdir -p $@
+
+CONF_DT=\
+	--prefix=$(PRE0) \
+	--with-sysroot=$(PRE0) \
+	--disable-nls \
+	--target=$(TGT) \
+	--disable-multilib \
+	--disable-werror 
+
+build/0/binutils-gdb/Makefile: stage0-setup
+	$(call _conf0,$(@D),\
+		$(CONF_DT) \
+		--with-lib-path=$(PRE0)/lib )
+
+CONF_GC= \
+	--prefix=$(PRE0) \
+	--with-local-prefix=$(PRE0) \
+	--with-native-system-header-dir=$(PRE0)/include \
+	--enable-languages=c,c++ 
+	--disable-nls \
+	--disable-libgomp \
+	--disable-bootstrap \
+	--disable-multilib \
+	--disable-werror 
+
+build/0/gcc/Makefile: stage0-binutils-gdb
+	$(call _conf0,$(@D),\
+		$(CONF_GC) \
+		--target=$(TGT) \
+		--with-sysroot=$(PRE0) \
+		--with-glibc-version=2.26 \
+		--with-newlib \
+		--without-headers \
+		--with-local-prefix=$(PRE0) \
+		--with-native-system-header-dir=$(PRE0)/include \
+		--disable-shared \
+		--disable-decimal-float \
+		--disable-threads \
+		--disable-libatomic \
+		--disable-libgomp \
+		--disable-libmpx \
+		--disable-libquadmath \
+		--disable-libssp \
+		--disable-libvtv \
+		--disable-libstdcxx \
+		--disable-bootstrap \
+		--enable-languages=c,c++ )
+
+stage1-linux: $(PRE0)/include/linux/.install stage0-gcc
+$(PRE0)/include/linux/.install:
+	$(MAKE) -C linux INSTALL_HDR_PATH=$(PRE0) headers_install
+
+build/1/glibc/Makefile: stage1-linux
+	$(call _conf1,$(@D),\
+      --prefix=$(PRE0) \
+      --host=$(TGT) \
+      --build=$(TGT) \
+      --enable-kernel=4.14 \
+      --with-headers=$(PRE0)/include \
+      libc_cv_forced_unwind=yes \
+      libc_cv_c_cleanup=yes )
+
+build/1/libstdc++-v3/Makefile: gcc/libstdc++-v3/configure stage1-glibc
+	$(call _confg,$(@D),1,../../../gcc, \
+		--host=$(TGT) \
+		--prefix=$(PRE0) \
+		--disable-multilib \
+		--disable-nls \
+		--disable-libstdcxx-threads \
+		--disable-libstdcxx-pch \
+		--with-gxx-include-dir=$(PRE0)/$(TGT)/include/c++/7.2.0 )
+
+#build/1/binutils-gdb/Makefile: stage1-libstdc++-v3
+build/1/binutils-gdb/Makefile: #stage1-libstdc++-v3
+	CC=$(cc0)gcc
+	AR=$(cc0)ar 
+	RANLIB=$(cc0)ranlib 
+	$(call _conf1,$(@D),\
+		--prefix=$(PRE0) \
+		--disable-nls \
+		--disable-werror \
+		--with-lib-path=/tools/lib \
+		--with-sysroot=$(PRE0))
+
+#stage1-binutils-gdb: build/1/binutils-gdb/ld/ld-new
+
+build/1/binutils-gdb/ld/ld-new:
+	$(MAKE) -C build/1/binutils-gdb/ld clean
+	$(MAKE) -C build/1/binutils-gdb/ld LIB_PATH=/pwn0/lib:/usr/lib:/lib
+	cp -v build/1/binutils-gdb/ld/ld-new $(PRE0)/bin
+
+#build/1/gcc/Makefile: $(PRE0)/$(TGT)/bin/gcc stage1-binutils-gdb
+build/1/gcc/Makefile: #$(PRE0)/$(TGT)/bin/gcc stage1-binutils-gdb
+	cd build/1/gcc && cat gcc/limitx.h gcc/glimits.h gcc/limity.h > \
+		$(dir $(shell $(cc0)gcc -print-libgcc-file-name))include-fixed/limits.h
+	CC=$(cc0)gcc
+	CXX=$(cc0)g++
+	AR=$(cc0)ar 
+	RANLIB=$(cc0)ranlib 
+	$(call _conf1,$(@D),$(CONF_GC) --disable-libstdcxx-pch)
+
+$(addprefix build/1/,$(PKG1)):
+	mkdir -p $@
+
+stage1-libstdc++-v3: | $(PRE0)/$(TGT)/include/c++/7.2.0/cstdlib
+$(PRE0)/$(TGT)/include/c++/7.2.0/cstdlib: | stage1install-libstdc++-v3
+
+libstdc++-v3/configure: gcc/libstdc++-v3/configure
+
+$(addprefix stage0-,$(PKG0)): stage0-% : build/0/%/Makefile
+	$(MAKE) -C build/0/$* all 
+	$(MAKE) -C build/0/$* install 
+
+$(addprefix stage1-,$(PKG1)): stage1-% : build/1/%/Makefile
+	$(MAKE) -C build/1/$* all 
+	$(MAKE) -C build/1/$* install 
+
+$(PRE0)/$(TGT)/bin/gcc: stage0-gcc
+
+stage0-binutils-gdb: stage0-setup
+stage0-gcc: stage0-binutils-gdb
+stage1-linux: stage0-gcc
+stage1-glibc: stage1-linux
+#stage1-binutils-gdb: stage1-glibc
+#stage1-gcc: stage1-binutils-gdb
+	
+# build/0/$(PKG0)/Makefile:
+#	$(call _conf0,$(@D),
+#	mkdir -p $(@D) && cd $(@D) && ../$(patsubst build/0/%,%,$(@D))/configure
+
+$(PKG0)/configure:
+	echo unimplemented
+
+# stage1: $(addprefix stage1-$( 
+
+linux/configure build/0/linux/Makefile:
+	echo $@ $*
+
+%:
+	echo "Unimplemented: $@"
+
+PHONY: $(addprefix stage0-,$(PKG0)) $(addprefix stage1-,$(PKG1)) linux/configure build/1/linux/Makefile build

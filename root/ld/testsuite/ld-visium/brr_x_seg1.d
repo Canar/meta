@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-visium/brr_x_seg1.d

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/tic6x/builtin-math-7.c

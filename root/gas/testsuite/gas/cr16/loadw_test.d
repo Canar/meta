@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/cr16/loadw_test.d

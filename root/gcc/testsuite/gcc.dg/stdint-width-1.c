@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/stdint-width-1.c

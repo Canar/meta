@@ -1,0 +1,1 @@
+../../binutils-gdb/intl/bindtextdom.c

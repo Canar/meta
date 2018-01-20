@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.fortran/condinc1.inc

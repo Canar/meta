@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/read_many_1.f

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/attr-merge-div-21.d

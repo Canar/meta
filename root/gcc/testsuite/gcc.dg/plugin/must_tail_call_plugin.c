@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/plugin/must_tail_call_plugin.c

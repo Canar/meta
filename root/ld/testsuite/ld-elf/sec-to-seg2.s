@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elf/sec-to-seg2.s

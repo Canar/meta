@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/case-bogus-1.c

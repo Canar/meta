@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-m68k/got-multigot-14-ok.d

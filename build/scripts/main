@@ -1,0 +1,127 @@
+#!/bin/bash
+# vim: ts=3 sw=3 fdm=indent:
+: utility - impl-update,fence,fix
+	impl-update(){
+		grep '^[ '$'\t'']*[a-z]\+-impl(' $_r/scripts/main |\
+			sed 's/^[ \t]*\([a-z]\+\)-impl(.*$/\1(){ fence \&\& \1-impl "$@" ; } /g' > $_r/scripts/impl
+	}
+	fence(){
+		t="$( date +%s )"
+		bf=""
+		d="$(pwd)" # current source dirname
+		b=""
+		d="${d##$_r}"
+		b="$d"
+		case "$d" in
+			libc* ) b=glibc ;;
+			binutils* ) b="binutils-gdb" ;;
+		esac
+	#	bf=""
+	#	if [ -f "$_r/configures/$b" ] ; then
+	#		bf="$_r/configures/$b"
+	#	fi
+	#	[ -z "$bf" ] && echo not a good dir && return 1
+		return 0
+	}
+	fix(){
+		f=scripts/main 
+		case "$1" in
+			e* ) f=env ;;
+			c* ) f=scripts/configure ;;
+		esac
+		vi $_r/$f
+		impl-update
+		. $_r/env
+	}
+	log(){
+		"$@" |& while read l ; do
+			echo "$l" >>$_r/scripts/log/$t
+			echo -n .
+		done
+		echo
+	}
+	logmsg(){
+		echo "$@"
+		echo "$@" >>$_r/scripts/log/$t
+	}
+: configuration - ccat,conf,reconf,confhelp
+	ccat-impl(){
+		cat "$bf"
+	}
+	conf-impl(){
+		if declare -fF conf-$d >/dev/null ; then
+			rt="$_s/$b/configure $( conf-$d )"
+			echo "$( date ): $rt" >>$_r/scripts/log/configure.log
+			bash -x $rt
+		else
+			cp "$bf" "../configures/log/$b.$( date +%s )"
+			bash -x "$bf"
+			:
+		fi
+	}
+	reconf-impl(){
+		vi "$bf"
+		conf
+	}
+	confhelpa-impl(){
+		$_s/$d/configure --help=recursive |& less
+	}
+	confhelp-impl(){
+		$_s/$d/configure --help |& less
+	}
+: make - go,inst,kernelh
+	go-impl(){
+		tgtr=all
+		case "$d" in
+			gcc* ) tgtr=all-gcc ;;
+		esac
+
+		make $_m_fl $tgtr "$@"
+	}
+	inst-impl(){
+		instvar="DESTDIR"
+		instcmd="install"
+		case "$d" in
+			libc* ) instvar="install_root" ;;
+			gcc* ) instcmd="install-gcc" ;;
+		esac
+		destd="$_r/dest/$d"
+		mkdir "$destd"
+		make $_m_fl -C $_r/$d $_m_fl $instvar="$destd" $instcmd "$@"
+	}
+	kernelh-impl(){
+		git -C $_s/linux checkout current_stable	
+		make $_m_fl -C $_s/linux INSTALL_HDR_PATH=$_p ARCH=$_a_bl headers_install
+	}
+: misc - ldcheck,ldfix,redo,buildall
+	redo-impl(){ 
+		set -e
+		cd $_r
+		rm -r $_r/$d
+		mkdir $_r/$d
+		cd $_r/$d
+		conf-impl
+		go-impl
+		inst-impl
+		set +e
+	}	
+	ldcheck(){
+		[ -n "$1" ] && d="$1" || d="."
+		find "$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --print-interpreter "{}"' \;
+	}
+	ldfix(){
+		[ -n "$1" ] && d="$1" || d="."
+		find "$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --set-interpreter /usr/local/opt/lib/ld-2.26.so "{}"' \;
+	}
+	buildall-impl(){
+		[ -d "$_p" ] && (
+			echo ERROR: something is in the way
+			return 1
+		)
+		set -ex
+		mkdir $_p
+		kernelh-impl
+		cd binutils
+		redo-impl
+
+	}

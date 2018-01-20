@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/ref3.C

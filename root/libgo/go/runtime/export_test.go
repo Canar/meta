@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/runtime/export_test.go

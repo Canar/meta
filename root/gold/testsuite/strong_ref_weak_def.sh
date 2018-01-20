@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/strong_ref_weak_def.sh

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/ubsan/bounds-2.c

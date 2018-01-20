@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-gc/pr14265.t

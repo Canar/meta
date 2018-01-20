@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/varsize3_3.adb

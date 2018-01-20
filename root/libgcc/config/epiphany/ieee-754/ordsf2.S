@@ -1,0 +1,1 @@
+../../../../../gcc/libgcc/config/epiphany/ieee-754/ordsf2.S

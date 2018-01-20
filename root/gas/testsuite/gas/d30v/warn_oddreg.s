@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/d30v/warn_oddreg.s

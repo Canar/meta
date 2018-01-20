@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/ld/testsuite/ld-sh/sh64/crange1.rd

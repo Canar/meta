@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/ipa/ipcp-cstagg-7.c

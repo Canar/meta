@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/powerpc/bfp/scalar-cmp-exp-eq-2.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/data_bounds_1.f90

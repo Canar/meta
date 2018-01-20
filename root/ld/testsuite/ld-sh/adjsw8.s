@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-sh/adjsw8.s

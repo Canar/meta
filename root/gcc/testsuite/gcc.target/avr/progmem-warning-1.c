@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/avr/progmem-warning-1.c

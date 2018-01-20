@@ -1,0 +1,1 @@
+../../../../../../gcc/libgo/go/internal/syscall/unix/getentropy_openbsd.go

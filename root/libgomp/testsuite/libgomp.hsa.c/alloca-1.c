@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.hsa.c/alloca-1.c

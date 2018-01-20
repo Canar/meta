@@ -1,0 +1,1 @@
+../../../../gcc/libstdc++-v3/testsuite/20_util/variable_templates_for_traits.cc

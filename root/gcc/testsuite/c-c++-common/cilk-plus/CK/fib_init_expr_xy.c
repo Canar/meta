@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/c-c++-common/cilk-plus/CK/fib_init_expr_xy.c

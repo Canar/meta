@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/tm/opt-1.c

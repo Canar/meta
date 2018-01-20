@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/jit.dg/test-error-gcc_jit_context_new_field-opaque-struct.c

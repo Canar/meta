@@ -1,0 +1,1 @@
+../../../gcc/gcc/lto/lto-partition.h

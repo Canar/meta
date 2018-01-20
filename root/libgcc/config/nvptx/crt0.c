@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/nvptx/crt0.c

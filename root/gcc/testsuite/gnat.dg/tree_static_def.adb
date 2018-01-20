@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/tree_static_def.adb

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/struct-alias-1.c

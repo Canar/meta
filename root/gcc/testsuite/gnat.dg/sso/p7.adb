@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gnat.dg/sso/p7.adb

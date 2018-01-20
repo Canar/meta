@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/sh/torture/pr34777.c

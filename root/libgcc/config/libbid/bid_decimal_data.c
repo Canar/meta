@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/libbid/bid_decimal_data.c

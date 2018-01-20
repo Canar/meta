@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/asan/no-redundant-odr-indicators-1.c

@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/29_atomics/headers/atomic/types_std_c++0x_neg.cc

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/arm-app-abs32.r

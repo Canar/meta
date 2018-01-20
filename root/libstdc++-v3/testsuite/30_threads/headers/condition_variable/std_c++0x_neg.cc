@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/30_threads/headers/condition_variable/std_c++0x_neg.cc

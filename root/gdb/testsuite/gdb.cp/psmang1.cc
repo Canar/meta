@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.cp/psmang1.cc

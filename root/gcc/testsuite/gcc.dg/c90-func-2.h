@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/c90-func-2.h

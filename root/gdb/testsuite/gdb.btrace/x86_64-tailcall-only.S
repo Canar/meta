@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.btrace/x86_64-tailcall-only.S

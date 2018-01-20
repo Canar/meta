@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/compat/struct-complex-1.h

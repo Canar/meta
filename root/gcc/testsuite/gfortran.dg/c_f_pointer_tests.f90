@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/c_f_pointer_tests.f90

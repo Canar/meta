@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/object_unittest.cc

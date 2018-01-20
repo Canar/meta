@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/lto/pr46036_0.f90

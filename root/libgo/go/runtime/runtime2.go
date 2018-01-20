@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/runtime/runtime2.go

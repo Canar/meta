@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-powerpc/ppc476-shared.d

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.fortran-torture/execute/inquire_3.f90

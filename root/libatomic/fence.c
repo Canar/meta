@@ -1,0 +1,1 @@
+../../gcc/libatomic/fence.c

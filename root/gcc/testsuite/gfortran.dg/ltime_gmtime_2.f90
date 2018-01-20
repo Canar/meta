@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/ltime_gmtime_2.f90

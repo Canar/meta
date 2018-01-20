@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/tls-ldgde-15.d

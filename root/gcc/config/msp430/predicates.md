@@ -1,0 +1,1 @@
+../../../../gcc/gcc/config/msp430/predicates.md

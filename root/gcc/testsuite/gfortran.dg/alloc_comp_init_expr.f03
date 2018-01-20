@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/alloc_comp_init_expr.f03

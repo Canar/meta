@@ -1,0 +1,1 @@
+../../../../../../../gcc/gcc/testsuite/ada/acats/tests/c5/c52008a.ada

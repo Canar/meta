@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/unused-variable-3.c

@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/go/build/syslist.go

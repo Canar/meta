@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/26_numerics/accumulate/requirements/explicit_instantiation/pod.cc

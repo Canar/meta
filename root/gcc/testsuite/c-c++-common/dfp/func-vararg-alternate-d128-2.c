@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/dfp/func-vararg-alternate-d128-2.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/value_4.c

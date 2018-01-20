@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/cv_func4.C

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/tree-ssa/20040317-1.C

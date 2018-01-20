@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/cris/torture/trap-v3.c

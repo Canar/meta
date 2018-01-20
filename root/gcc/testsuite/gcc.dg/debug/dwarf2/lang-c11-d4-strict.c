@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.dg/debug/dwarf2/lang-c11-d4-strict.c

@@ -1,0 +1,1 @@
+../../../gcc/libquadmath/math/sqrtq.c

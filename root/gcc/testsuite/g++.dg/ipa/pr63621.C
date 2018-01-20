@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/ipa/pr63621.C

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/attributes-enum-2.c

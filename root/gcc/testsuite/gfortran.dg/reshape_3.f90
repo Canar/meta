@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/reshape_3.f90

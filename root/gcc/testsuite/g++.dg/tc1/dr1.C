@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/tc1/dr1.C

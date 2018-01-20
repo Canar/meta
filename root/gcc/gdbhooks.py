@@ -1,0 +1,1 @@
+../../gcc/gcc/gdbhooks.py

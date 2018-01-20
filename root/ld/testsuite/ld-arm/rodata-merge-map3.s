@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/rodata-merge-map3.s

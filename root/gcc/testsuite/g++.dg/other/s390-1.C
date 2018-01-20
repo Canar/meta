@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/s390-1.C

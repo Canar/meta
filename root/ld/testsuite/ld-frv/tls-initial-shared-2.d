@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-frv/tls-initial-shared-2.d

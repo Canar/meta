@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/Wshift-negative-value-6.c

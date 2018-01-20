@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/23_containers/multiset/debug/construct3_neg.cc

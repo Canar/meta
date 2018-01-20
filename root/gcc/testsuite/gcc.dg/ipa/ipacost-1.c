@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/ipa/ipacost-1.c

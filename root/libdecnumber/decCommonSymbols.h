@@ -1,0 +1,1 @@
+../../binutils-gdb/libdecnumber/decCommonSymbols.h

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/gomp/linear-2.C

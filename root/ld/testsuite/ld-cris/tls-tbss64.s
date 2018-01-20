@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/tls-tbss64.s

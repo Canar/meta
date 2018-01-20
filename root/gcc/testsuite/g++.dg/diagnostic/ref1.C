@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/diagnostic/ref1.C

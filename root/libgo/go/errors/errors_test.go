@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/errors/errors_test.go

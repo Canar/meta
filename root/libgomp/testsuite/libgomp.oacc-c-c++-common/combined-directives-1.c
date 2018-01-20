@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.oacc-c-c++-common/combined-directives-1.c

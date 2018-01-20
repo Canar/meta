@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/machine_code1.adb

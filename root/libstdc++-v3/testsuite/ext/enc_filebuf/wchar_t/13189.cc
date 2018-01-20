@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/ext/enc_filebuf/wchar_t/13189.cc

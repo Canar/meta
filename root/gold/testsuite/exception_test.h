@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/exception_test.h

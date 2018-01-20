@@ -1,0 +1,1 @@
+../../gcc/libssp/vsnprintf-chk.c

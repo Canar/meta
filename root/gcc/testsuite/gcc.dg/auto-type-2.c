@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/auto-type-2.c

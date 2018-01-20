@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-z8k/ldr-forw-8002.d

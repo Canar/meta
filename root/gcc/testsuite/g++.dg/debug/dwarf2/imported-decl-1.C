@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/g++.dg/debug/dwarf2/imported-decl-1.C

@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emultempl/cr16elf.em

@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/mn10200.sh

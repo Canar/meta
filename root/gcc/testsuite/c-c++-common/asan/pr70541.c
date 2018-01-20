@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/asan/pr70541.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/conversion/err-recover1.C

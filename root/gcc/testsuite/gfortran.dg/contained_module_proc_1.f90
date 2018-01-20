@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/contained_module_proc_1.f90

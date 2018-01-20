@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/tr1/8_c_compatibility/cstdint/types_std_tr1.cc

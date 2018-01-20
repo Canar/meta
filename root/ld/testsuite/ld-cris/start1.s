@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/start1.s

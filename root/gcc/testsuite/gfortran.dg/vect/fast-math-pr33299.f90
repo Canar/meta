@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/vect/fast-math-pr33299.f90

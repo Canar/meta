@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/reg-vol-struct-1.c

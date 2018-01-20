@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-powerpc/aix-toc-1b.s

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/cris/torture/sync-mis-xchg-s-1ml.c

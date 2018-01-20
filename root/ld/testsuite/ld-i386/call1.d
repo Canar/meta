@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-i386/call1.d

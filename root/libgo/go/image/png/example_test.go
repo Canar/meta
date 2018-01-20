@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/image/png/example_test.go

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/duplicate-class-1.m

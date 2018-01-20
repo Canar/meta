@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/dfp/usual-arith-conv-bad.c

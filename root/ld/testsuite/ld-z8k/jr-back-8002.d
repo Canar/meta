@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-z8k/jr-back-8002.d

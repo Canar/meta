@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-x86-64/pr20253-1g.d

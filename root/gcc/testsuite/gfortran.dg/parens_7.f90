@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/parens_7.f90

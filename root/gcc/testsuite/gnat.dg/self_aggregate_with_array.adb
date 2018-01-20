@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/self_aggregate_with_array.adb

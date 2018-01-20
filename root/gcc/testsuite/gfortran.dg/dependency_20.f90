@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/dependency_20.f90

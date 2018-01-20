@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/assign_from_packed_pixels.ads

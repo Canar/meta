@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/Wlogical-op-3.c

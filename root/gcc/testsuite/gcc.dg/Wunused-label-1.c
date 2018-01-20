@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wunused-label-1.c

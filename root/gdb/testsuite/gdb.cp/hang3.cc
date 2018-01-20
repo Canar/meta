@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.cp/hang3.cc

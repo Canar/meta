@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/eoshift_2.f90

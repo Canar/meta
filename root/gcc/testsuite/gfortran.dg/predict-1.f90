@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/predict-1.f90

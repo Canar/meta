@@ -1,0 +1,1 @@
+../../../gcc/gcc/cp/vtable-class-hierarchy.c

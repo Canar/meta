@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/overload/error1.C

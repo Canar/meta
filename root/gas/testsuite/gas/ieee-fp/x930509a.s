@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/ieee-fp/x930509a.s

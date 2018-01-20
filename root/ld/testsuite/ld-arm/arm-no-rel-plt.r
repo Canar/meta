@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/arm-no-rel-plt.r

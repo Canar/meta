@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/ada/doc/share/gnu_free_documentation_license.rst

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gnat.dg/specs/size_clause2.ads

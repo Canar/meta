@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/os/executable_windows.go

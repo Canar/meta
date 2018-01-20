@@ -1,0 +1,1 @@
+../../../../../../../../../../../../gcc/libgo/go/cmd/go/testdata/src/vend/vendor/vend/dir1/dir2/dir2.go

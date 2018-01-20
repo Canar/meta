@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/outer_agg_bitfield_constructor.adb

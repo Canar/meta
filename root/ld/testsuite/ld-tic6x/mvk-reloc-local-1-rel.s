@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-tic6x/mvk-reloc-local-1-rel.s

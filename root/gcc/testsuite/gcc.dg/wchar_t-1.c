@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/wchar_t-1.c

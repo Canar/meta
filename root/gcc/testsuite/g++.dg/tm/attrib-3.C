@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/tm/attrib-3.C

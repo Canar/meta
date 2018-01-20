@@ -1,0 +1,1 @@
+../../../../gcc/libstdc++-v3/src/c++11/cow-string-io-inst.cc

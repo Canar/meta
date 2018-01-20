@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/23_containers/array/tuple_interface/get.cc

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/symver/symver3.l

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/fold-reassoc-2.c

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elf/tls_gc.s

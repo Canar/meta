@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/special/wkali-2.c

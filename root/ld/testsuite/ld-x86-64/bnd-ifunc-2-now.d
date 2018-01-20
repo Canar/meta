@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-x86-64/bnd-ifunc-2-now.d

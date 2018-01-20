@@ -1,0 +1,1 @@
+../../binutils-gdb/config/uintmax_t.m4

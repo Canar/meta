@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/non-const1.C

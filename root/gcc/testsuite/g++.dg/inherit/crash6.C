@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/inherit/crash6.C

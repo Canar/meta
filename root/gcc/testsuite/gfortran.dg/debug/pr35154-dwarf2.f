@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/debug/pr35154-dwarf2.f

@@ -1,0 +1,1 @@
+../../../../../gcc/libgcc/config/i386/64/eqtf2.c

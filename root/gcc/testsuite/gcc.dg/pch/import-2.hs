@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/pch/import-2.hs

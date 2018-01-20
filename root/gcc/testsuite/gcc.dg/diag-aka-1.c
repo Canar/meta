@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/diag-aka-1.c

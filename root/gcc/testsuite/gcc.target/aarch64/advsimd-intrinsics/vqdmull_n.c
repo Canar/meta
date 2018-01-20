@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/aarch64/advsimd-intrinsics/vqdmull_n.c

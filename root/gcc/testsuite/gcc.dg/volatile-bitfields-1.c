@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/volatile-bitfields-1.c

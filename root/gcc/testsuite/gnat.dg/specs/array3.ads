@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gnat.dg/specs/array3.ads

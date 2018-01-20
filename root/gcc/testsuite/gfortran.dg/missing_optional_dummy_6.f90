@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/missing_optional_dummy_6.f90

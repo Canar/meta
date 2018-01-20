@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.dwarf2/dwp-sepdebug.c

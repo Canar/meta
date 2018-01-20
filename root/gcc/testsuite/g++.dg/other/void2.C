@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/void2.C

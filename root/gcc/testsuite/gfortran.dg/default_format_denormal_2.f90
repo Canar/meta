@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/default_format_denormal_2.f90

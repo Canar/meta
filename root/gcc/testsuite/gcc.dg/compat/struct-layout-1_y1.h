@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/compat/struct-layout-1_y1.h

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.threads/pthread_cond_wait.c

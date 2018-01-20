@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/g++.dg/ext/visibility/fvisibility-inlines-hidden-3.C

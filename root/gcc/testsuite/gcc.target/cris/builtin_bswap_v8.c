@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/cris/builtin_bswap_v8.c

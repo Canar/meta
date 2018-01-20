@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-scripts/dynamic-sections-1.s

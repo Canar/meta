@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/raise_from_pure.ads

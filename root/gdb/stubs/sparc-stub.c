@@ -1,0 +1,1 @@
+../../../binutils-gdb/gdb/stubs/sparc-stub.c

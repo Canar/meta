@@ -1,0 +1,1 @@
+../../../../gcc/libstdc++-v3/testsuite/data/wistream_extractor_other-2.tst

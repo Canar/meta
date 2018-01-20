@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/s-intman-susv3.adb

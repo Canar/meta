@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/d30velf.sh

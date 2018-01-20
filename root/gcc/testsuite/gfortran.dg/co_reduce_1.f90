@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/co_reduce_1.f90

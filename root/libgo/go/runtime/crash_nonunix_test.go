@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/runtime/crash_nonunix_test.go

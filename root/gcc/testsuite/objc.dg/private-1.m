@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/private-1.m

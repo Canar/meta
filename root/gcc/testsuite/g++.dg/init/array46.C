@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/init/array46.C

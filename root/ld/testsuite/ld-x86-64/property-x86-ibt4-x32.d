@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-x86-64/property-x86-ibt4-x32.d

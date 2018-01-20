@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/powerpc/bfp/scalar-extract-exp-1.c

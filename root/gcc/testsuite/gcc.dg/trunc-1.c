@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/trunc-1.c

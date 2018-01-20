@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/arm-call2.s

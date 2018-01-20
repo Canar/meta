@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/20_util/bind/is_placeholder_v.cc

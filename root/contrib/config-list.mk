@@ -1,0 +1,1 @@
+../../gcc/contrib/config-list.mk

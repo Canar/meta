@@ -1,0 +1,1 @@
+../../../gcc/gcc/cp/g++spec.c

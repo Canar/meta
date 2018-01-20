@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/fmt_missing_period_2.f

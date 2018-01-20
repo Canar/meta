@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/debug_msg.sh

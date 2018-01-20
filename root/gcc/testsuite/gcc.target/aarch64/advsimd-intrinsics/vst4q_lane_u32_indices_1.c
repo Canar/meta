@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/aarch64/advsimd-intrinsics/vst4q_lane_u32_indices_1.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pragma-ms_struct.c

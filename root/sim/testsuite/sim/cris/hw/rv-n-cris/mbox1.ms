@@ -1,0 +1,1 @@
+../../../../../../../binutils-gdb/sim/testsuite/sim/cris/hw/rv-n-cris/mbox1.ms

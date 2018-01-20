@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/no-math-errno-4.c

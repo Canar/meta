@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/vmx/3b-15.c

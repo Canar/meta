@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/asan/use-after-scope-goto-1.c

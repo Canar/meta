@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/taft_type2.adb

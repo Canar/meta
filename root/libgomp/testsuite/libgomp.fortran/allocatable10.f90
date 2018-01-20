@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.fortran/allocatable10.f90

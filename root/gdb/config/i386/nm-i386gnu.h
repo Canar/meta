@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/config/i386/nm-i386gnu.h

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/mips/mips16e2-interaptiv-mr2@mips16-asmacro.d

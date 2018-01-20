@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.asm/m68k.inc

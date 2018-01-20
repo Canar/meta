@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/tree-prof/pr79259.C

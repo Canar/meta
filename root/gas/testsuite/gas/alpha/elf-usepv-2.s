@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/alpha/elf-usepv-2.s

@@ -1,0 +1,1 @@
+../../../../gcc/libatomic/testsuite/libatomic.c/atomic-load-4.c

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-scripts/section-flags-2.t

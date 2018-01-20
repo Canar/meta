@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/inline13_pkg.adb

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/linked_list_1.f90

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/asan/interception-test-1.C

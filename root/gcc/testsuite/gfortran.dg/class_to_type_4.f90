@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/class_to_type_4.f90

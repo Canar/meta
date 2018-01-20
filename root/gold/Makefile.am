@@ -1,0 +1,1 @@
+../../binutils-gdb/gold/Makefile.am

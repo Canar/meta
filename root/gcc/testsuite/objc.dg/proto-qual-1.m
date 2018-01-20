@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/proto-qual-1.m

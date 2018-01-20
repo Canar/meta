@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/i386/enable-execute-stack-mingw32.c

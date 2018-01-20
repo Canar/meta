@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/pch/macro-4.hs

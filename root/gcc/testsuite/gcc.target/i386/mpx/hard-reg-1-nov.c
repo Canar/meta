@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/i386/mpx/hard-reg-1-nov.c

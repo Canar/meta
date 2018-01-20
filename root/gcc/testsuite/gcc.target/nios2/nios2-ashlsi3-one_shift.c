@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/nios2/nios2-ashlsi3-one_shift.c

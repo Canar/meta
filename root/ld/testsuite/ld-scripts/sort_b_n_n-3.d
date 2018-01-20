@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-scripts/sort_b_n_n-3.d

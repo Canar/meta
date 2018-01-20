@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/c99-fordecl-1.c

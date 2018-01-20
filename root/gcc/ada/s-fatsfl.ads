@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/s-fatsfl.ads

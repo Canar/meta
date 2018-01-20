@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/net/cgo_unix_test.go

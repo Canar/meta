@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/split_s390x_1_z2.s

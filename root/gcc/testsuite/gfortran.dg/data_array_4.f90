@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/data_array_4.f90

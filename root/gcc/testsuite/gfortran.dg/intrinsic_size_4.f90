@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/intrinsic_size_4.f90

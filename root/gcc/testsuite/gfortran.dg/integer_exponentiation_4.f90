@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/integer_exponentiation_4.f90

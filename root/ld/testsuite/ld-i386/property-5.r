@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-i386/property-5.r

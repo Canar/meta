@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/goacc-gomp/nesting-1.c

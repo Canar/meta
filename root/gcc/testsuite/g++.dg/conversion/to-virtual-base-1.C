@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/conversion/to-virtual-base-1.C

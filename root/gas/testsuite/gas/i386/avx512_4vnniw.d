@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/i386/avx512_4vnniw.d

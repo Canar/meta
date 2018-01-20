@@ -1,0 +1,1 @@
+../../../binutils-gdb/gas/config/te-riscix.h

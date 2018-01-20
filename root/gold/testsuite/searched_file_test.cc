@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/searched_file_test.cc

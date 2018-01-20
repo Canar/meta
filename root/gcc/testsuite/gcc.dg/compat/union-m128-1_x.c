@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/compat/union-m128-1_x.c

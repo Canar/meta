@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/goacc/if-clause-1.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/var_copy-1.C

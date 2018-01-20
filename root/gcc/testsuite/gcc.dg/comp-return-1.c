@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/comp-return-1.c

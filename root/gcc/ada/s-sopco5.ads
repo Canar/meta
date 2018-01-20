@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/s-sopco5.ads

@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/config/abi/post/sparc-solaris2.10/sparcv9/baseline_symbols.txt

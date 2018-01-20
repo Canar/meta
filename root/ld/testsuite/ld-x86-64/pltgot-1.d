@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-x86-64/pltgot-1.d

@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/bnd_ifunc_1.s

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/const-elim-1.c

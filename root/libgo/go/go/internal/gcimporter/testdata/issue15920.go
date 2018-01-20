@@ -1,0 +1,1 @@
+../../../../../../../gcc/libgo/go/go/internal/gcimporter/testdata/issue15920.go

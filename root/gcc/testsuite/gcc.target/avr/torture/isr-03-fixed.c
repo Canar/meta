@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/avr/torture/isr-03-fixed.c

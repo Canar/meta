@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/null_8.f90

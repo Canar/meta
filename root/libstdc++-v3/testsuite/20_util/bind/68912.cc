@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/20_util/bind/68912.cc

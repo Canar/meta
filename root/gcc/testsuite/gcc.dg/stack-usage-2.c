@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/stack-usage-2.c

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/bfin/builtins/diff_lh_fr2x16-2.c

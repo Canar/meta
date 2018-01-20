@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/system-hpux-ia64.ads

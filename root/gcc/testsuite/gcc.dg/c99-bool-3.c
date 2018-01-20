@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/c99-bool-3.c

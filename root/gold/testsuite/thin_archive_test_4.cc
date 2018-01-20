@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/thin_archive_test_4.cc

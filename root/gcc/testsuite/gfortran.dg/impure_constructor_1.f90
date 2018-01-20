@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/impure_constructor_1.f90

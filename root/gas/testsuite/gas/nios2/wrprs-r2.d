@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/nios2/wrprs-r2.d

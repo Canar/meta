@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/w65.sh

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/visium/bit_test.c

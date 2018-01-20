@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/rx/mvfaclo.d

@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/sol2/crtp.c

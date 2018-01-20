@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/duplicate1.C

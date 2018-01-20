@@ -1,0 +1,1 @@
+../../../binutils-gdb/libdecnumber/bid/bid2dpd_dpd2bid.h

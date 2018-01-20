@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/plugin/diagnostic_plugin_test_string_literals.c

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/i386/mpx/vla-trailing-1-ubv.c

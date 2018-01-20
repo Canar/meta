@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/mn10300/pr997.s

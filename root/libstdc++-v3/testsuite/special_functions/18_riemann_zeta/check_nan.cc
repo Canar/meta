@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/special_functions/18_riemann_zeta/check_nan.cc

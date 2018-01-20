@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/armv7m-1.C

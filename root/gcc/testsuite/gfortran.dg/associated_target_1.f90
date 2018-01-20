@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/associated_target_1.f90

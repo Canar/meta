@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/goacc/kernels-loop-data-2.f95

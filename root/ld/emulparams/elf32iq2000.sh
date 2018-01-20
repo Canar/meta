@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/elf32iq2000.sh

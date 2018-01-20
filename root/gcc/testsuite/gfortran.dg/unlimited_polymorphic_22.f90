@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/unlimited_polymorphic_22.f90

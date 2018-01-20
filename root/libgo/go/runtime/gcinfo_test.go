@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/runtime/gcinfo_test.go

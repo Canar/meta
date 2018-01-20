@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/20_util/common_type/requirements/sfinae_friendly_2.cc

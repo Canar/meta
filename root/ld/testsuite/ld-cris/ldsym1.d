@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/ldsym1.d

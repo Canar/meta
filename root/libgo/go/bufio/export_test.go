@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/bufio/export_test.go

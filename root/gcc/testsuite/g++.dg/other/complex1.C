@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/complex1.C

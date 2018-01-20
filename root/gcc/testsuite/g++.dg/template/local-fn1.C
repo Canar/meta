@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/local-fn1.C

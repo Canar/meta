@@ -1,0 +1,1 @@
+../../../../../../gcc/libgo/go/debug/dwarf/testdata/line1.c

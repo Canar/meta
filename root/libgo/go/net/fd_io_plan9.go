@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/net/fd_io_plan9.go

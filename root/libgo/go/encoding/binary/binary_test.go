@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/encoding/binary/binary_test.go

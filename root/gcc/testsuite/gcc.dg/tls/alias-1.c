@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/tls/alias-1.c

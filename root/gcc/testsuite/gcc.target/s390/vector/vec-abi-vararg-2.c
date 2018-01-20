@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/s390/vector/vec-abi-vararg-2.c

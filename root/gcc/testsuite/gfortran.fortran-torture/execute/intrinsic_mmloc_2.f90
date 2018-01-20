@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.fortran-torture/execute/intrinsic_mmloc_2.f90

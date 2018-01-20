@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wconversion-pr34389.c

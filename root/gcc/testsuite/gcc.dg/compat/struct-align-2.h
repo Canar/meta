@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/compat/struct-align-2.h

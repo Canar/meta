@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/bfin/builtins/shl_fr1x32-7.c

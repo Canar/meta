@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/vmx/sn7153.c

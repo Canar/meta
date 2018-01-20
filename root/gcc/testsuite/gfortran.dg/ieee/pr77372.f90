@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/ieee/pr77372.f90

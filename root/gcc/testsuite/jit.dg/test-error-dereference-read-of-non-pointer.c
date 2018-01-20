@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/jit.dg/test-error-dereference-read-of-non-pointer.c

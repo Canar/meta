@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/sh/too_large.s

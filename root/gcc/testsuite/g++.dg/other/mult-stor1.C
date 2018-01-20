@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/mult-stor1.C

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/microblaze/others/data_var2.c

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-undefined/require-defined-1.d

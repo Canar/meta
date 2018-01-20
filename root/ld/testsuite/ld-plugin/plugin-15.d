@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-plugin/plugin-15.d

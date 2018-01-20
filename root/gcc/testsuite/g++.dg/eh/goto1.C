@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/eh/goto1.C

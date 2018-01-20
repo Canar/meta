@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/jit.dg/test-error-param-used-from-other-function.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pragma-push_macro-1.c

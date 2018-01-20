@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/va-meth-1.mm

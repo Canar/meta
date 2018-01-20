@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/incomplete-typedef-1.c

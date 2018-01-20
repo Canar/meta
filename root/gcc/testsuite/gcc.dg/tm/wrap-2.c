@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/tm/wrap-2.c

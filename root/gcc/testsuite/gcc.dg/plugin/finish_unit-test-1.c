@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/plugin/finish_unit-test-1.c

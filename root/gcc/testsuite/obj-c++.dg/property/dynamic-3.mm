@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/obj-c++.dg/property/dynamic-3.mm

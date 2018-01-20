@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/cfi/cfi-m68k.d

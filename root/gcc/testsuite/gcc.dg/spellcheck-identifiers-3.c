@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/spellcheck-identifiers-3.c

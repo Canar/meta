@@ -1,0 +1,1 @@
+../../../../gcc/gcc/config/visium/gr6.md

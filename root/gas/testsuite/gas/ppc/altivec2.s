@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/ppc/altivec2.s

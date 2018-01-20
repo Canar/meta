@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/mach-o/zerofill-2.d

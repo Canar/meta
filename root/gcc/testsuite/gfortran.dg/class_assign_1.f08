@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/class_assign_1.f08

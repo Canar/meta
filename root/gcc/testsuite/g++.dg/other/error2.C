@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/error2.C

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.fortran-torture/execute/enum_1.f90

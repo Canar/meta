@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/obj-c++.dg/attributes/categ-attribute-1.mm

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/compound-lvalue-1.c

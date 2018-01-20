@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/double-greater-than-fixit.C

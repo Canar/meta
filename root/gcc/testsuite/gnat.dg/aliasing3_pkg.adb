@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/aliasing3_pkg.adb

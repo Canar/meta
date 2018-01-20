@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/i386/mpx/builtin-bnd-init-ptr-bounds-2-nov.c

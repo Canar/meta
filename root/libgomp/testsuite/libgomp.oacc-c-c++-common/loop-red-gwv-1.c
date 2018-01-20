@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.oacc-c-c++-common/loop-red-gwv-1.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/function_optimize_3.f90

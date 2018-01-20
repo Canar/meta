@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/22_locale/num_put/cons/3.cc

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/pch/common-1.hs

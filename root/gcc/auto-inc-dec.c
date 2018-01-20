@@ -1,0 +1,1 @@
+../../gcc/gcc/auto-inc-dec.c

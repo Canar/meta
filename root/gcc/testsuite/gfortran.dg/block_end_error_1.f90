@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/block_end_error_1.f90

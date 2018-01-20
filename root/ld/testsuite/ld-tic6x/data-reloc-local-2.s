@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-tic6x/data-reloc-local-2.s

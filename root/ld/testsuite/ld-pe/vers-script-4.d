@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pe/vers-script-4.d

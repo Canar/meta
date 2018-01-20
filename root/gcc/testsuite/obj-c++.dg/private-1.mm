@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/private-1.mm

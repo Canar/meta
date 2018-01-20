@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/26_numerics/random/gamma_distribution/operators/equal.cc

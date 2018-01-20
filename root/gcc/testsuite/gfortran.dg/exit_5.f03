@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/exit_5.f03

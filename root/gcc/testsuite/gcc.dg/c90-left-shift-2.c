@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/c90-left-shift-2.c

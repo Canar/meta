@@ -1,0 +1,1 @@
+../../gcc/libgcc/mkmap-symver.awk

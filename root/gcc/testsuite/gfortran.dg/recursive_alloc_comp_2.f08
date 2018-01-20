@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/recursive_alloc_comp_2.f08

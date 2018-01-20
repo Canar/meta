@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/elfm68hc11.sc

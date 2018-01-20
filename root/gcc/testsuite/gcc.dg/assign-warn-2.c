@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/assign-warn-2.c

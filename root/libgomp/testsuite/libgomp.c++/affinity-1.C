@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c++/affinity-1.C

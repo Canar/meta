@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/iq2000/allinsn.s

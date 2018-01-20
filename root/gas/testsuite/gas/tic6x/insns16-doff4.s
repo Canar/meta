@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/tic6x/insns16-doff4.s

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/wrap1.C

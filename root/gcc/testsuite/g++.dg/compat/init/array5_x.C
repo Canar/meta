@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/g++.dg/compat/init/array5_x.C

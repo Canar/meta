@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/g++.dg/spellcheck-identifiers-2.C

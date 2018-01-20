@@ -1,0 +1,1 @@
+../../gcc/libcpp/directives-only.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/comma_format_extension_2.f

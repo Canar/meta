@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/ia64/reloc-uw-ilp32.d

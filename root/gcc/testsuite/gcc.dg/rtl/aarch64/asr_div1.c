@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.dg/rtl/aarch64/asr_div1.c

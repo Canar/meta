@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/coarray/sendget_array.f90

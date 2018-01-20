@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/jit.dg/test-calling-function-ptr.c

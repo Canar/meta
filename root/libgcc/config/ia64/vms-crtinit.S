@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/ia64/vms-crtinit.S

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/vmx/7d-01.c

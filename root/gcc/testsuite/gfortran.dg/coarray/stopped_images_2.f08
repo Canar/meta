@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/coarray/stopped_images_2.f08

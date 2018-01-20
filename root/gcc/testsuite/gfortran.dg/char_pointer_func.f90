@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/char_pointer_func.f90

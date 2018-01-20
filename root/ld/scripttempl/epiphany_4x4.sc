@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/epiphany_4x4.sc

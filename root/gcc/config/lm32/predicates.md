@@ -1,0 +1,1 @@
+../../../../gcc/gcc/config/lm32/predicates.md

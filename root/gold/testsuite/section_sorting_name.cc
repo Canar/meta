@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/section_sorting_name.cc

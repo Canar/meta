@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/vect/fast-math-rnflow-trs2a2.f90

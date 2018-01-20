@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.opt/inline-cmds.c

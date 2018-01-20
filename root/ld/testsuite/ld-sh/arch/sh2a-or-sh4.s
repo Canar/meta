@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/ld/testsuite/ld-sh/arch/sh2a-or-sh4.s

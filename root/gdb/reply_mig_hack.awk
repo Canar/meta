@@ -1,0 +1,1 @@
+../../binutils-gdb/gdb/reply_mig_hack.awk

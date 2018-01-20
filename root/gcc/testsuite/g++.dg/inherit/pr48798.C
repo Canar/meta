@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/inherit/pr48798.C

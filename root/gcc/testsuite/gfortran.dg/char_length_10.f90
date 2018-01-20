@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/char_length_10.f90

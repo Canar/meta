@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/atomic-pr51256.c

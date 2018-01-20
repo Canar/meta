@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/arm_attr_merge_6a.s

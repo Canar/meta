@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/arm_exidx_test.sh

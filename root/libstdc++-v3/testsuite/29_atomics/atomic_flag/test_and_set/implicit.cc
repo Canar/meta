@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/29_atomics/atomic_flag/test_and_set/implicit.cc

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Woverlength-strings-pedantic-c99.c

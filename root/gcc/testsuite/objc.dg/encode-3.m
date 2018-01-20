@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/encode-3.m

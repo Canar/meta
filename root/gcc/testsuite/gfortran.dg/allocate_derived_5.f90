@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/allocate_derived_5.f90

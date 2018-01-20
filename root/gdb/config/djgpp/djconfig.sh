@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/config/djgpp/djconfig.sh

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/s390/md/atomic_exchange-1.c

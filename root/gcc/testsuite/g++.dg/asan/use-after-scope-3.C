@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/asan/use-after-scope-3.C

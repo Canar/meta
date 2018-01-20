@@ -1,0 +1,1 @@
+../../gcc/contrib/update-copyright.py

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-gc/pr19161-1.c

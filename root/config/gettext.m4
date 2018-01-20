@@ -1,0 +1,1 @@
+../../binutils-gdb/config/gettext.m4

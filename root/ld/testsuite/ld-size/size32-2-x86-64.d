@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-size/size32-2-x86-64.d

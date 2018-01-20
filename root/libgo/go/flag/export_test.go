@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/flag/export_test.go

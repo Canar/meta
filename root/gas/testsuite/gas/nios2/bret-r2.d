@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/nios2/bret-r2.d

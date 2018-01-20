@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/spu/divmodti4.c

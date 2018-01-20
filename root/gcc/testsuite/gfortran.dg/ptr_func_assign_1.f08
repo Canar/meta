@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/ptr_func_assign_1.f08

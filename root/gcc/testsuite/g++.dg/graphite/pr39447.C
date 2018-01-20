@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/graphite/pr39447.C

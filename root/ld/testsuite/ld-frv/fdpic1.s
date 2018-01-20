@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-frv/fdpic1.s

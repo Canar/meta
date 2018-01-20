@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/elf/warn-2.s

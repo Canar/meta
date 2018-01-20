@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/net/writev_test.go

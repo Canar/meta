@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/io/ioutil/example_test.go

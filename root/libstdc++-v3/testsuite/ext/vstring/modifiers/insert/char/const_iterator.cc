@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libstdc++-v3/testsuite/ext/vstring/modifiers/insert/char/const_iterator.cc

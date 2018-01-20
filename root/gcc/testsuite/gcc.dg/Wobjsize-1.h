@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wobjsize-1.h

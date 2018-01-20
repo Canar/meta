@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/shelf_fd.sh

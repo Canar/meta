@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.dwarf2/pr10770.c

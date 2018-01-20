@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/select_type_32.f90

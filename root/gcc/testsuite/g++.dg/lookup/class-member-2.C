@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/lookup/class-member-2.C

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/metag/metacore21ext.d

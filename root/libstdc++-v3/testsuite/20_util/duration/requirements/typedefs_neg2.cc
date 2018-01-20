@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/20_util/duration/requirements/typedefs_neg2.cc

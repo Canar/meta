@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-m68k/plt1-68020.d

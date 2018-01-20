@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/frv/reloc1.d

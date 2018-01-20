@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-v850/split-lo16.d

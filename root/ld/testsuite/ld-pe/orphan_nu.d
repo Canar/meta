@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pe/orphan_nu.d

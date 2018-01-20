@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/nios2/and-r2.d

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/renaming8_pkg1.ads

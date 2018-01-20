@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libstdc++-v3/testsuite/21_strings/basic_string/operations/data/wchar_t/2.cc

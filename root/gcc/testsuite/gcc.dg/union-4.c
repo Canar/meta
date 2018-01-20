@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/union-4.c

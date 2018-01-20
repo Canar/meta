@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/cmd/gofmt/long_test.go

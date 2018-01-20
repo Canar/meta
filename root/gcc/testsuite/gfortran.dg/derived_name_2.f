@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/derived_name_2.f

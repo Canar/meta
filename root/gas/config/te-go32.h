@@ -1,0 +1,1 @@
+../../../binutils-gdb/gas/config/te-go32.h

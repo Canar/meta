@@ -1,0 +1,1 @@
+../../gcc/gcc/gengtype-state.c

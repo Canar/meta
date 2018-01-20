@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/vec-andxor1.c

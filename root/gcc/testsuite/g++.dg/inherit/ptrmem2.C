@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/inherit/ptrmem2.C

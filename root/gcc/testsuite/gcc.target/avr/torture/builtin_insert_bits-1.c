@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/avr/torture/builtin_insert_bits-1.c

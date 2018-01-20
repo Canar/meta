@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-i386/protected5.d

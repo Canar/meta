@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc/execute/bycopy-3.m

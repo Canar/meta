@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/coarray/coindexed_1.f90

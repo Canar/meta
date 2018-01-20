@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/binutils/testsuite/binutils-all/arc/double_store.s

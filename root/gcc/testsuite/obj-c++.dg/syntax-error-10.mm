@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/syntax-error-10.mm

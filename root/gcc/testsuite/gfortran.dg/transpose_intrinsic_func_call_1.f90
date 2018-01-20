@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/transpose_intrinsic_func_call_1.f90

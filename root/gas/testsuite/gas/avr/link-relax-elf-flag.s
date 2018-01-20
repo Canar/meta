@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/avr/link-relax-elf-flag.s

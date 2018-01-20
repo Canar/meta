@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/any_all_1.f90

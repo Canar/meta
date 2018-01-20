@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libgo/go/cmd/go/testdata/src/cgocover3/x_test.go

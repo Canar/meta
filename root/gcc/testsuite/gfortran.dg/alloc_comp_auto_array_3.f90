@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/alloc_comp_auto_array_3.f90

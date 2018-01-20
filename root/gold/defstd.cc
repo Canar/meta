@@ -1,0 +1,1 @@
+../../binutils-gdb/gold/defstd.cc

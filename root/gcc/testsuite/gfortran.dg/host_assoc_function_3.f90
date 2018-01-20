@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/host_assoc_function_3.f90

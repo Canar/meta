@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/char_spread_1.f90

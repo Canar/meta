@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/attr-alloc_size-5.c

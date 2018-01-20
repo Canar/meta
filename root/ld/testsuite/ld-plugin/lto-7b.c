@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-plugin/lto-7b.c

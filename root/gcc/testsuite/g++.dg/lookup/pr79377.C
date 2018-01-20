@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/lookup/pr79377.C

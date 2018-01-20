@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/sequence-pt-2.c

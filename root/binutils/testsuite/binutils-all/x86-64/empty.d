@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/binutils/testsuite/binutils-all/x86-64/empty.d

@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/21_strings/headers/cstring/types_std.cc

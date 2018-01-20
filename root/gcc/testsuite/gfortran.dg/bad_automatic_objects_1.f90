@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/bad_automatic_objects_1.f90

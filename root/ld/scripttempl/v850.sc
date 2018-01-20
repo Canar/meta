@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/v850.sc

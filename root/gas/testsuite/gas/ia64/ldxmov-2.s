@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/ia64/ldxmov-2.s

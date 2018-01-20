@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/dynamic_elab1.adb

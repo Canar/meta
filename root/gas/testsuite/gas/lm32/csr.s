@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/lm32/csr.s

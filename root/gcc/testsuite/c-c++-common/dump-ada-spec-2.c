@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/dump-ada-spec-2.c

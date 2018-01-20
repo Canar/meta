@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/fold-narrowbopcst-1.c

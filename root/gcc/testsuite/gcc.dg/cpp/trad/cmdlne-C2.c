@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.dg/cpp/trad/cmdlne-C2.c

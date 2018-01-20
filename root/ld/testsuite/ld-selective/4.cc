@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-selective/4.cc

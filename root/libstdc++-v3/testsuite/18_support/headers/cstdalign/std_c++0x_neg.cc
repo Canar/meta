@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/18_support/headers/cstdalign/std_c++0x_neg.cc

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/func_derived_2.f90

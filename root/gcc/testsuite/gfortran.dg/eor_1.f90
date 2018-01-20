@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/eor_1.f90

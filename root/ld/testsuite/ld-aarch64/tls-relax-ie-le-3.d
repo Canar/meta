@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-aarch64/tls-relax-ie-le-3.d

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/no_profile_instrument_function-attr-1.c

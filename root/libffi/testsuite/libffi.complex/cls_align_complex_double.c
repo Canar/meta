@@ -1,0 +1,1 @@
+../../../../gcc/libffi/testsuite/libffi.complex/cls_align_complex_double.c

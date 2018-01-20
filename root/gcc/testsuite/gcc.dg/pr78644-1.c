@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pr78644-1.c

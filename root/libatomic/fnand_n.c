@@ -1,0 +1,1 @@
+../../gcc/libatomic/fnand_n.c

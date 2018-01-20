@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.reverse/fstatat-reverse.c

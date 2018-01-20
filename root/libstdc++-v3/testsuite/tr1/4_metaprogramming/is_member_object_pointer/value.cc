@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/tr1/4_metaprogramming/is_member_object_pointer/value.cc

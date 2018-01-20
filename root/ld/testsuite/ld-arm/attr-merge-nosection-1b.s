@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/attr-merge-nosection-1b.s

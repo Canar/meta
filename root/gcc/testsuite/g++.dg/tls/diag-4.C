@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/tls/diag-4.C

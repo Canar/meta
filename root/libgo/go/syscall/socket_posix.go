@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/syscall/socket_posix.go

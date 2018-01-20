@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/zero_stride_1.f90

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/allocate_deferred_char_scalar_1.f03

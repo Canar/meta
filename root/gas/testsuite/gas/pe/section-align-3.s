@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/pe/section-align-3.s

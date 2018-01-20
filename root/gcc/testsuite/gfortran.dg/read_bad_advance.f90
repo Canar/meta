@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/read_bad_advance.f90

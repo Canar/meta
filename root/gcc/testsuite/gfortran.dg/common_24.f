@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/common_24.f

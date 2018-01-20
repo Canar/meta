@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/spill-1.c

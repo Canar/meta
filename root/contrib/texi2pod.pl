@@ -1,0 +1,1 @@
+../../gcc/contrib/texi2pod.pl

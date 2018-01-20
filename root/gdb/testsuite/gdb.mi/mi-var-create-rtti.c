@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.mi/mi-var-create-rtti.c

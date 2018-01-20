@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/mach-o/dysymtab-1.d

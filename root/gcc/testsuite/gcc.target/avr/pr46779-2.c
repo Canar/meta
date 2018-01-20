@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/avr/pr46779-2.c

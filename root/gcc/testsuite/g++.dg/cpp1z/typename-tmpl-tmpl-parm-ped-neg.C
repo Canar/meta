@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/cpp1z/typename-tmpl-tmpl-parm-ped-neg.C

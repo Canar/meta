@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.oacc-c-c++-common/par-loop-comb-reduction-1.c

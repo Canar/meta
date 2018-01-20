@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-sh/fdpic-plti20-le.d

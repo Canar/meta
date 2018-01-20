@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/jit.dg/test-error-block-in-wrong-function.c

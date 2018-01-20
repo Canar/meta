@@ -1,0 +1,1 @@
+../../../binutils-gdb/gas/config/tc-mn10200.h

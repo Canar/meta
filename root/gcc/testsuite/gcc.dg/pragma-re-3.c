@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pragma-re-3.c

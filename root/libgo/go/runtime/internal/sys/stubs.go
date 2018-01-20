@@ -1,0 +1,1 @@
+../../../../../../gcc/libgo/go/runtime/internal/sys/stubs.go

@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/xtensa/crti.S

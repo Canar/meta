@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/arm_target_lazy_init.s

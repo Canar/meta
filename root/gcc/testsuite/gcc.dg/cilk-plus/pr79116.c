@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/cilk-plus/pr79116.c

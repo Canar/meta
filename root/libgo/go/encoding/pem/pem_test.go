@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/encoding/pem/pem_test.go

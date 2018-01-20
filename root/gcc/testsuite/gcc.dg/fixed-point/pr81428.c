@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/fixed-point/pr81428.c

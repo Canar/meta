@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/enclosing_record_reference.ads

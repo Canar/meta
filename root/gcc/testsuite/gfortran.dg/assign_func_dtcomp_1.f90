@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/assign_func_dtcomp_1.f90

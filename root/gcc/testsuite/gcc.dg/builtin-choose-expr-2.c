@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/builtin-choose-expr-2.c

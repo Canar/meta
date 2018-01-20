@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/align-1.c

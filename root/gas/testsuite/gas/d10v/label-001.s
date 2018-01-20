@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/d10v/label-001.s

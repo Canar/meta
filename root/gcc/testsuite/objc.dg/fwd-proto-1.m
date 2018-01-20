@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/fwd-proto-1.m

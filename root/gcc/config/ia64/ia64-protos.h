@@ -1,0 +1,1 @@
+../../../../gcc/gcc/config/ia64/ia64-protos.h

@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/26_numerics/headers/random/types_std_c++0x.cc

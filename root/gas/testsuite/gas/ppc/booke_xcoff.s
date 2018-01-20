@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/ppc/booke_xcoff.s

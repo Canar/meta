@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/nds32elf_linux.sh

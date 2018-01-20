@@ -1,0 +1,1 @@
+../../gcc/libvtv/vtv_fail.cc

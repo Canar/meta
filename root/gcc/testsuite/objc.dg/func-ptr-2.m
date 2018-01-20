@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/func-ptr-2.m

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/cwsc1.c

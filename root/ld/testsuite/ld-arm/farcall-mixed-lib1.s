@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/farcall-mixed-lib1.s

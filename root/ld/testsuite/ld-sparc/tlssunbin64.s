@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-sparc/tlssunbin64.s

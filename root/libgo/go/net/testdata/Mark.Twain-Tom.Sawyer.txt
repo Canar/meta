@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/net/testdata/Mark.Twain-Tom.Sawyer.txt

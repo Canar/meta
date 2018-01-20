@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/visium/allinsn_gr6.s

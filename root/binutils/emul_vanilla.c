@@ -1,0 +1,1 @@
+../../binutils-gdb/binutils/emul_vanilla.c

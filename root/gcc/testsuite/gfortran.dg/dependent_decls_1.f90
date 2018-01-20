@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/dependent_decls_1.f90

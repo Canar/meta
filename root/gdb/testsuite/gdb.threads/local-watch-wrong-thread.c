@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.threads/local-watch-wrong-thread.c

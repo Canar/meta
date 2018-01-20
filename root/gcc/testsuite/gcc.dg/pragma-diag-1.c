@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pragma-diag-1.c

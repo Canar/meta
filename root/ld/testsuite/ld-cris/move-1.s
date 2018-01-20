@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/move-1.s

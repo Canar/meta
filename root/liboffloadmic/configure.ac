@@ -1,0 +1,1 @@
+../../gcc/liboffloadmic/configure.ac

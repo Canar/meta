@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/xgate/insns-dwarf2.d

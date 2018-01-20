@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/s390/zvector/vec-load_bndry-1.c

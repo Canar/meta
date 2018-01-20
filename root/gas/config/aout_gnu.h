@@ -1,0 +1,1 @@
+../../../binutils-gdb/gas/config/aout_gnu.h

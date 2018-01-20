@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/score/branch_32-lt.d

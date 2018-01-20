@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/c90-hexfloat-2.c

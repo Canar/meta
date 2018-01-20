@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/tls-descrelax-be32.d

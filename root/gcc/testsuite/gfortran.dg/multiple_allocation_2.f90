@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/multiple_allocation_2.f90

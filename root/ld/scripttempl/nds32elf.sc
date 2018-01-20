@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/nds32elf.sc

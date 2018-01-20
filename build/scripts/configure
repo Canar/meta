@@ -1,0 +1,588 @@
+#!/bin/bash
+# vim: ts=3 sw=3 fdm=indent:
+
+: common
+	parse-conf(){
+		while read l ; do 
+			eval echo "$l"
+		done | sed -z 's/[ \t\n]\+/ /g'
+		echo -n ' '
+	}
+	conf-gnu-toolchain(){
+		parse-conf <<-'EOF'
+			--prefix=$_p
+			--with-sysroot=/
+			--with-local-prefix=$_p/sub
+			--with-lib-path=$_p/lib
+			--with-native-system-header-dir=$_p/include
+			LIB_PATH=$_p/lib
+
+			--with-glibc-version=2.25 
+			--with-target-system-zlib 
+			--with-system-zlib 
+			
+			--disable-nls
+			--disable-werror
+
+			--enable-linker-build-id
+			--enable-clocale=gnu
+			--enable-gnu-unique-object
+			--enable-default-pie
+			--enable-multibyte 
+			--enable-plugins
+		EOF
+	}
+	conf-gnu-toolchain-multi(){
+		parse-conf <<-'EOF'
+			--enable-shared
+			--with-arch=native
+			--with-arch-32=native
+			--with-arch-64=native
+			--enable-multiarch
+			--enable-multilib
+			--with-abi=m64
+			--with-multilib-list=m32,m64,mx32
+			--enable-checking=release
+			--enable-lto 
+		EOF
+	}
+	conf-gnu-toolchain-glibcmanypy(){
+		parse-conf <<-'EOF'
+			--prefix=$_p
+			--with-sysroot=/
+			--build=%s
+			--host=%s
+			--target=%s
+		EOF
+	}
+: binutils
+	conf-binutils-mine(){
+		conf-gnu-toolchain
+		conf-gnu-toolchain-multi
+		parse-conf <<-'EOF'
+			--enable-targets=all
+			--enable-gold
+			--disable-gdb
+			--enable-install-libiberty
+			--enable-install-libbfd
+		EOF
+	}
+	conf-binutils-manypy(){
+		conf-gnu-toolchain-manypy
+		parse-conf <<-'EOF'
+			--disable-gdb
+			--disable-libdecnumber
+			--disable-readline
+			--disable-sim
+		EOF
+	}
+	conf-binutils(){
+		conf-binutils-manypy
+	}
+: gcc
+	conf-gcc-mine(){
+		conf-gnu-toolchain
+		conf-gnu-toolchain-multi
+		parse-conf <<-'EOF'
+			--enable-languages=c,c++ 
+			--disable-bootstrap 
+			--disable-vtable-verify 
+		EOF
+	}
+	conf-gcc-manypy-common(){
+		parse-conf <<-'EOF'
+			--disable-libsanitizer
+			--disable-libssp
+			--with-glibc-version=2.25
+		EOF
+	}
+	conf-gcc-manypy(){
+		conf-gnu-toolchain-manypy
+		conf-gcc-manypy-common
+		parse-conf <<-'EOF'
+			--enable-languages=c,c++
+			--enable-shared
+			--enable-threads
+		EOF
+	}
+	conf-gcc-strap-manypy(){
+		conf-gnu-toolchain-manypy
+		conf-gcc-manypy-common
+		parse-conf <<-'EOF'
+			--enable-languages=c
+			--disable-shared
+			--disable-threads
+			--disable-libatomic
+			--disable-decimal-float
+			--disable-libffi
+			--disable-libgomp
+			--disable-libitm
+			--disable-libmpx
+			--disable-libquadmath
+			--without-headers
+			--with-newlib
+		EOF
+	}
+	conf-gcc(){
+		conf-gnu-toolchain
+		conf-gnu-toolchain-multi
+		parse-conf <<-'EOF'
+			--enable-languages=c,c++ 
+			--disable-bootstrap 
+			--disable-vtable-verify 
+		EOF
+	}
+: glibc
+	conf-glibc-mine(){
+		parse-conf <<-'EOF'
+			--with-headers=$_p/include 
+			--prefix=$_p
+			--with-sysroot=/ 
+			--enable-shared 
+			--disable-profile 
+			--enable-kernel=4.2.0 
+			--enable-multilib 
+			--enable-multi-arch 
+			--with-arch=native
+		EOF
+	}
+	conf-glibc-manypy(){
+		parse-conf <<-'EOF'
+			--prefix=$_p
+			--enable-add-ons
+			--enable-profile
+			--build=%s
+			--host=%s
+			CC=%s
+			CXX=%s
+			AR=%s
+			AS=%s
+			LD=%s
+			NM=%s
+			OBJCOPY=%s
+			OBJDUMP=%s
+			RANLIB=%s
+			READELF=%s
+			STRIP=%s
+		EOF
+	}
+	conf-glibc(){
+		conf-glibc-mine
+	}
+: aux libraries
+	conf-gmp(){
+		parse-conf <<-'EOF'
+			--prefix=$_p
+			--enable-cxx
+		EOF
+	}
+	conf-mpfr(){
+		parse-conf <<-'EOF'
+			--enable-decimal-float
+			--enable-float128
+			--with-gnu-ld
+			--prefix=$_p
+		EOF
+	}
+	conf-mpc(){
+		parse-conf <<-'EOF'
+			--{prefix,with-{mpfr,gmp}}=$_p
+			--with-gnu-ld
+		EOF
+	}
+	conf-isl(){
+		parse-conf <<-'EOF'
+			--with-gnu-ld 
+			--prefix=$_p
+		EOF
+	}
+	conf-zlib(){
+		parse-conf <<-'EOF'
+			--prefix=$_p
+			--{,shared}libdir=$_p/lib
+			--includedir=$_p/include
+			--shared
+		EOF
+	}
+: trash
+	conf-root(){
+		parse-conf <<-'EOF'
+			--enable-multiarch 
+			--enable-languages=c 
+			--enable-c++ 
+			--enable-shared 
+			--enable-plugin 
+			--enable-plugins 
+			--disable-nls 
+			--disable-multilib 
+			--disable-bootstrap 
+			--disable-gdb 
+			--disable-libsanitizer 
+			--disable-gold 
+			--disable-libstdcxx 
+			--without-gdb 
+			--prefix=/usr/local/opt 
+			--with-local-prefix=/usr/local/opt/sub 
+			--with-sysroot=/ 
+			--with-native-system-header-dir=/include
+		EOF
+	}
+	__old__(){
+		cat <<-EOF
+		#binutils:
+			#--enable-{multi{arch,byte,lib},lto,shared,plugins,targets=all,golfd} \
+			#--disable-{nls,gdb,werror,bootstrap} \
+			#--with-{system-zlib,arch=native,sysroot=/,glibc-version=2.25} \
+			#--enable-linker-build-id \
+			#--enable-clocale=gnu \
+			#--enable-gnu-unique-object --disable-vtable-verify \
+			#--enable-default-pie \
+			#--enable-checking=release \
+			#--prefix=/usr/local/opt \
+			#--with-local-prefix=/usr/local/opt/sub \
+			#--with-lib-path=/usr/local/opt/lib \
+			#--with-native-system-header-dir=/usr/local/opt/include \
+			#--enable-install-lib{iberty,bfd} \
+			#--{build,host}=x86_64-pc-linux-gnu \
+			#--target=i686-pc-linux-gnu \
+			#LIB_PATH=/usr/local/opt/lib
+		echo you
+		EOF
+	}
+	_nope__(){
+		/dev/null <<-'EOFEOF'
+			# --with-build-sysroot=/usr/local/opt 
+			# --with-lib-path=/usr/local/opt/lib
+			# --with-sysroot=/ 
+			# --with-local-prefix=/usr/local/opt 
+			# --with-build-sysroot=/usr/local/opt 
+			#eof
+
+			################################################################################
+			################################################################################
+			##  OLD CONFIGURES  ############################################################
+			################################################################################
+			################################################################################
+
+			/binutils-gdb/configure \
+				--enable-{multi{arch,byte,lib},lto,shared,plugins,targets=all,golfd} \
+				--disable-{nls,gdb,werror,bootstrap} \
+				--with-{system-zlib,arch{,-{32,64}}=native,sysroot=/,glibc-version=2.25} \
+				--enable-linker-build-id \
+			--enable-clocale=gnu \
+			--enable-gnu-unique-object --disable-vtable-verify \
+			--enable-default-pie \
+			--with-abi=m64 --with-multilib-list=m32,m64,mx32 \
+			 --enable-checking=release \
+				--prefix=/usr/local/opt \
+				--with-local-prefix=/usr/local/opt/sub \
+				--with-lib-path=/usr/local/opt/lib \
+				--with-native-system-header-dir=/usr/local/opt/include \
+				--enable-install-lib{iberty,bfd} \
+				LIB_PATH=/usr/local/opt/lib
+			 
+
+			#	--with-build-sysroot=/usr/local/opt \
+			#	--with-lib-path=/usr/local/opt/lib
+			#	--with-sysroot=/ \
+			#	--with-local-prefix=/usr/local/opt \
+			#	--with-build-sysroot=/usr/local/opt \
+			#eof
+
+			#configures/binutils-i686
+			../../binutils-gdb/configure \
+				--enable-{multi{arch,byte,lib},lto,shared,plugins,targets=all,golfd} \
+				--disable-{nls,gdb,werror,bootstrap} \
+				--with-{system-zlib,arch=native,sysroot=/,glibc-version=2.25} \
+				--enable-linker-build-id \
+			--enable-clocale=gnu \
+			--enable-gnu-unique-object --disable-vtable-verify \
+			--enable-default-pie \
+			 --enable-checking=release \
+				--prefix=/usr/local/opt \
+				--with-local-prefix=/usr/local/opt/sub \
+				--with-lib-path=/usr/local/opt/lib \
+				--with-native-system-header-dir=/usr/local/opt/include \
+				--enable-install-lib{iberty,bfd} \
+				--{build,host}=x86_64-pc-linux-gnu \
+				--target=i686-pc-linux-gnu \
+				LIB_PATH=/usr/local/opt/lib
+			 
+
+			#	--with-build-sysroot=/usr/local/opt \
+			#	--with-lib-path=/usr/local/opt/lib
+			#	--with-sysroot=/ \
+			#	--with-local-prefix=/usr/local/opt \
+			#	--with-build-sysroot=/usr/local/opt \
+			#eof
+
+			#configures/binutils-i686-local
+			../../binutils-gdb/configure \
+				--enable-{multi{arch,byte,lib},lto,shared,plugins,targets=all,golfd} \
+				--disable-{nls,gdb,werror,bootstrap} \
+				--with-{system-zlib,arch=native,sysroot=/,glibc-version=2.25} \
+				--enable-linker-build-id \
+			--enable-clocale=gnu \
+			--enable-gnu-unique-object --disable-vtable-verify \
+			--enable-default-pie \
+			 --enable-checking=release \
+				--prefix=/usr/local/opt \
+				--with-local-prefix=/usr/local/opt/sub \
+				--with-lib-path=/usr/local/opt/lib \
+				--with-native-system-header-dir=/usr/local/opt/include \
+				--enable-install-lib{iberty,bfd} \
+				--build=x86_64-pc-linux-gnu \
+				--{host,target}=i686-pc-linux-gnu \
+				LIB_PATH=/usr/local/opt/lib
+			 
+
+			#	--with-build-sysroot=/usr/local/opt \
+			#	--with-lib-path=/usr/local/opt/lib
+			#	--with-sysroot=/ \
+			#	--with-local-prefix=/usr/local/opt \
+			#	--with-build-sysroot=/usr/local/opt \
+			#eof
+
+			#configures/binutils-i686-strap
+			../../binutils-gdb/configure \
+				--enable-{multi{arch,byte,lib},lto,shared,plugins,targets=all,gold} \
+				--disable-{nls,gdb,werror,bootstrap} \
+				--with-{system-zlib,arch{,-{32,64}}=native,sysroot=/,glibc-version=2.25} \
+				--enable-linker-build-id \
+			--enable-clocale=gnu \
+			--enable-gnu-unique-object --disable-vtable-verify \
+			--enable-default-pie \
+			--with-abi=m64 --with-multilib-list=m32,m64,mx32 \
+			 --enable-checking=release \
+				--prefix=/usr/local/opt \
+				--with-local-prefix=/usr/local/opt/sub \
+				--with-lib-path=/usr/local/opt/lib \
+				--with-native-system-header-dir=/usr/local/opt/include \
+				--enable-install-lib{iberty,bfd} \
+				--{build,host}=x86_64-pc-linux-gnu \
+				--target=i686-pc-linux-gnu \
+				LIB_PATH=/usr/local/opt/lib
+			 
+
+			#	--with-build-sysroot=/usr/local/opt \
+			#	--with-lib-path=/usr/local/opt/lib
+			#	--with-sysroot=/ \
+			#	--with-local-prefix=/usr/local/opt \
+			#	--with-build-sysroot=/usr/local/opt \
+			#eof
+
+			#configures/gcc
+			../../gcc/configure \
+				--enable-{multi{arch,byte,lib},shared,languages=c\,c++\,lto,lto} \
+				--disable-{nls,werror,bootstrap} \
+				--with-{{target-,}system-zlib,arch{,-32,-64}=native,sysroot=/,glibc-version=2.25} \
+				--enable-linker-build-id \
+			--enable-clocale=gnu \
+			--enable-gnu-unique-object --disable-vtable-verify \
+			--enable-default-pie \
+			--with-abi=m64 --with-multilib-list=m32,m64,mx32 \
+			 --enable-checking=release \
+				--prefix=/usr/local/opt \
+				--with-native-system-header-dir=/usr/local/opt/include \
+				--with-lib-path=/usr/local/opt/lib \
+				--with-local-prefix=/usr/local/opt/sub \
+				--enable-install-lib{iberty,bfd} \
+				LIB_PATH=/usr/local/opt/lib
+
+			#	--with-arch=skylake-avx512 \
+			#	--with-build-sysroot=/usr/local/opt \
+			#	--with-sysroot=/ \
+			#	--with-local-prefix=/usr/local/opt \
+			#	--with-build-sysroot=/usr/local/opt \
+			#eof
+
+			#configures/gcc-i686-strap
+			../../gcc/configure \
+				--enable-languages=c \
+				--disable-{shared,threads,decimal-float,multilib,lib{atomic,ffi,gomp,itm,mpx,quadmath,stdcxx}} \
+				--prefix=/usr/local/opt \
+				--with-build-libsubdir=/usr/local/opt/lib \
+				--with-slibdir=/usr/local/opt/lib/ \
+				--without-headers \
+				--with-newlib \
+				--with-glibc-version=2.25 \
+				--{build,host}=x86_64-pc-linux-gnu \
+				--target=i686-pc-linux-gnu 
+			#eof
+
+			#configures/gcc-i686-strap-native
+			../../gcc/configure \
+				--enable-languages=c \
+				--disable-{shared,threads,decimal-float,multilib,lib{atomic,ffi,gomp,itm,mpx,quadmath,stdcxx}} \
+				--prefix=/usr/local/opt \
+				--without-headers \
+				--with-newlib \
+				--with-glibc-version=2.25 \
+				--{build,host,target}=i686-pc-linux-gnu 
+				
+			#eof
+
+			#configures/glibc
+			../../glibc/configure --enable-multi-arch --enable-kernel=4.2.0 --enable-shared --with-headers=/usr/local/opt/include --prefix=/usr/local/opt --enable-multilib --with-sysroot=/ --disable-profile --with-arch=haswell
+			#eof
+
+			#configures/gmp
+			../../gmp/configure --enable-cxx --prefix=/usr/local/opt/
+			#eof
+
+			#configures/gmp-i686
+			../../gmp/configure --prefix=/usr/local/opt/ --build=x86_64-pc-linux-gnu --host=i686-pc-linux-gnu
+			#eof
+
+			#configures/isl
+			../../isl/configure --with-gnu-ld --prefix=/usr/local/opt/
+			#eof
+
+			#configures/libc-i686
+			../../glibc/configure \
+				--enable-multi-arch \
+				--enable-kernel=4.2.0 \
+				--enable-shared \
+				--with-headers=/usr/local/opt/include \
+				--prefix=/usr/local/opt \
+				--enable-multilib \
+				--with-sysroot=/ \
+				--disable-profile \
+				--disable-werror \
+				--with-arch=native \
+				--build=x86_64-pc-linux-gnu \
+				--host=i686-pc-linux-gnu
+
+			#        cfg_cmd = [os.path.join(srcdir_copy, 'configure'),
+			#                   '--prefix=/usr',
+			#                   '--enable-add-ons',
+			#                   '--enable-profile',
+			#                   '--build=%s' % self.ctx.build_triplet,
+			#                   '--host=%s' % self.triplet,
+			#                   'CC=%s' % self.tool_name('gcc'),
+			#                   'CXX=%s' % self.tool_name('g++'),
+			#                   'AR=%s' % self.tool_name('ar'),
+			#                   'AS=%s' % self.tool_name('as'),
+			#                   'LD=%s' % self.tool_name('ld'),
+			#                   'NM=%s' % self.tool_name('nm'),
+			#                   'OBJCOPY=%s' % self.tool_name('objcopy'),
+			#                   'OBJDUMP=%s' % self.tool_name('objdump'),
+			#                   'RANLIB=%s' % self.tool_name('ranlib'),
+			#                   'READELF=%s' % self.tool_name('readelf'),
+			#                   'STRIP=%s' % self.tool_name('strip')]
+			#eof
+
+			#configures/log
+			#eof
+
+			#configures/mpc
+			../../mpc/configure --{prefix,with-{mpfr,gmp}}=/usr/local/opt  --with-gnu-ld
+
+			#eof
+
+			#configures/mpfr
+			../../mpfr/configure --enable-{decimal-float,float128} --with-gnu-ld --prefix=/usr/local/opt/
+			#eof
+
+			#configures/root
+			../../root/configure \
+				--enable-{multiarch,languages=c\,c++,shared,plugin,plugins} \
+				--disable-{nls,multilib,bootstrap,gdb,libsanitizer,gold,libstdcxx} \
+				--without-gdb \
+				--prefix=/usr/local/opt  \
+				--with-local-prefix=/usr/local/opt/sub \
+				--with-sysroot=/ \
+				--with-native-system-header-dir=/include
+
+			#	--with-build-sysroot=/usr/local/opt \
+			#	--with-lib-path=/usr/local/opt/lib
+			#	--with-sysroot=/ \
+			#	--with-local-prefix=/usr/local/opt \
+			#	--with-build-sysroot=/usr/local/opt \
+			#eof
+			#configures/binutils-i686
+			../../binutils-gdb/configure --enable-multiarch --enable-multibyte --enable-multilib --enable-lto --enable-shared --enable-plugins --enable-targets=all --enable-golfd --disable-nls --disable-gdb --disable-werror --disable-bootstrap --with-system-zlib --with-arch=native --with-sysroot=/ --with-glibc-version=2.25 --enable-linker-build-id -enable-clocale=gnu -enable-gnu-unique-object --disable-vtable-verify -enable-default-pie --enable-checking=release --prefix=/usr/local/opt --with-local-prefix=/usr/local/opt/sub --with-lib-path=/usr/local/opt/lib --with-native-system-header-dir=/usr/local/opt/include --enable-install-libiberty --enable-install-libbfd --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=i686-pc-linux-gnu LIB_PATH=/usr/local/opt/lib
+
+
+			# --with-build-sysroot=/usr/local/opt 
+			# --with-lib-path=/usr/local/opt/lib
+			# --with-sysroot=/ 
+			# --with-local-prefix=/usr/local/opt 
+			# --with-build-sysroot=/usr/local/opt 
+			#eof
+
+			#configures/binutils-i686-local
+			../../binutils-gdb/configure --enable-multiarch --enable-multibyte --enable-multilib --enable-lto --enable-shared --enable-plugins --enable-targets=all --enable-golfd --disable-nls --disable-gdb --disable-werror --disable-bootstrap --with-system-zlib --with-arch=native --with-sysroot=/ --with-glibc-version=2.25 --enable-linker-build-id -enable-clocale=gnu -enable-gnu-unique-object --disable-vtable-verify -enable-default-pie --enable-checking=release --prefix=/usr/local/opt --with-local-prefix=/usr/local/opt/sub --with-lib-path=/usr/local/opt/lib --with-native-system-header-dir=/usr/local/opt/include --enable-install-libiberty --enable-install-libbfd --build=x86_64-pc-linux-gnu --host=i686-pc-linux-gnu --target=i686-pc-linux-gnu LIB_PATH=/usr/local/opt/lib
+
+
+			# --with-build-sysroot=/usr/local/opt 
+			# --with-lib-path=/usr/local/opt/lib
+			# --with-sysroot=/ 
+			# --with-local-prefix=/usr/local/opt 
+			# --with-build-sysroot=/usr/local/opt 
+			#eof
+
+			#configures/binutils-i686-strap
+			../../binutils-gdb/configure --enable-multiarch --enable-multibyte --enable-multilib --enable-lto --enable-shared --enable-plugins --enable-targets=all --enable-gold --disable-nls --disable-gdb --disable-werror --disable-bootstrap --with-system-zlib --with-arch=native --with-arch-32=native --with-arch-64=native --with-sysroot=/ --with-glibc-version=2.25 --enable-linker-build-id -enable-clocale=gnu -enable-gnu-unique-object --disable-vtable-verify -enable-default-pie -with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-checking=release --prefix=/usr/local/opt --with-local-prefix=/usr/local/opt/sub --with-lib-path=/usr/local/opt/lib --with-native-system-header-dir=/usr/local/opt/include --enable-install-libiberty --enable-install-libbfd --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=i686-pc-linux-gnu LIB_PATH=/usr/local/opt/lib
+
+
+			# --with-build-sysroot=/usr/local/opt 
+			# --with-lib-path=/usr/local/opt/lib
+			# --with-sysroot=/ 
+			# --with-local-prefix=/usr/local/opt 
+			# --with-build-sysroot=/usr/local/opt 
+			#eof
+
+			#configures/gcc
+
+			# --with-arch=skylake-avx512 
+			# --with-build-sysroot=/usr/local/opt 
+			# --with-sysroot=/ 
+			# --with-local-prefix=/usr/local/opt 
+			# --with-build-sysroot=/usr/local/opt 
+			#eof
+
+			#configures/gcc-i686-strap
+			../../gcc/configure --enable-languages=c --disable-shared --disable-threads --disable-decimal-float --disable-multilib --disable-libatomic --disable-libffi --disable-libgomp --disable-libitm --disable-libmpx --disable-libquadmath --disable-libstdcxx --prefix=/usr/local/opt --with-build-libsubdir=/usr/local/opt/lib --with-slibdir=/usr/local/opt/lib/ --without-headers --with-newlib --with-glibc-version=2.25 --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=i686-pc-linux-gnu
+			#eof
+
+			#configures/gcc-i686-strap-native
+			../../gcc/configure --enable-languages=c --disable-shared --disable-threads --disable-decimal-float --disable-multilib --disable-libatomic --disable-libffi --disable-libgomp --disable-libitm --disable-libmpx --disable-libquadmath --disable-libstdcxx --prefix=/usr/local/opt --without-headers --with-newlib --with-glibc-version=2.25 --build=i686-pc-linux-gnu --host=i686-pc-linux-gnu --target=i686-pc-linux-gnu
+
+			#eof
+
+			#configures/glibc
+			../../glibc/configure --enable-multi-arch --enable-kernel=4.2.0 --enable-shared --with-headers=/usr/local/opt/include --prefix=/usr/local/opt --enable-multilib --with-sysroot=/ --disable-profile --with-arch=haswell
+			#eof
+
+
+			#configures/zlib
+			../../zlib/configure --prefix=/usr/local/opt --libdir=/usr/local/opt/lib --sharedlibdir=/usr/local/opt/lib --includedir=/usr/local/opt/include --shared
+			#eof
+
+			#configures/libc-i686
+			../../glibc/configure --enable-multi-arch --enable-kernel=4.2.0 --enable-shared --with-headers=/usr/local/opt/include --prefix=/usr/local/opt --enable-multilib --with-sysroot=/ --disable-profile --disable-werror --with-arch=native --build=x86_64-pc-linux-gnu --host=i686-pc-linux-gnu
+
+			# cfg_cmd = [os.path.join(srcdir_copy, 'configure'),
+			# '--prefix=/usr',
+			# '--enable-add-ons',
+			# '--enable-profile',
+			# '--build=%s' % self.ctx.build_triplet,
+			# '--host=%s' % self.triplet,
+			# 'CC=%s' % self.tool_name('gcc'),
+			# 'CXX=%s' % self.tool_name('g++'),
+			# 'AR=%s' % self.tool_name('ar'),
+			# 'AS=%s' % self.tool_name('as'),
+			# 'LD=%s' % self.tool_name('ld'),
+			# 'NM=%s' % self.tool_name('nm'),
+			# 'OBJCOPY=%s' % self.tool_name('objcopy'),
+			# 'OBJDUMP=%s' % self.tool_name('objdump'),
+			# 'RANLIB=%s' % self.tool_name('ranlib'),
+			# 'READELF=%s' % self.tool_name('readelf'),
+			# 'STRIP=%s' % self.tool_name('strip')]
+			#eof
+
+			#configures/log
+			#eof
+		EOFEOF
+	}

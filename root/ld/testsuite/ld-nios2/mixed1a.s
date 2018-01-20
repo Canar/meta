@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-nios2/mixed1a.s

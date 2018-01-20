@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/bfin/workarounds-4.c

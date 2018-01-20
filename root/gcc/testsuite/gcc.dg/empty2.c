@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/empty2.c

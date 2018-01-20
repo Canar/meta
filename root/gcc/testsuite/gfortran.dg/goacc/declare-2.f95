@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/goacc/declare-2.f95

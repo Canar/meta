@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/gdb_index_test_comm.sh

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/dec_loc_rval_3.f03

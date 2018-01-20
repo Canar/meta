@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/asan/use-after-scope-switch-2.c

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-z8k/dbjnz-forw-8002.d

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/pure_byref_1.f90

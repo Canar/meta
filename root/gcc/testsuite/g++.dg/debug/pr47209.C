@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/debug/pr47209.C

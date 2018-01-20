@@ -1,0 +1,1 @@
+../../../../gcc/fixincludes/tests/base/tinfo.h

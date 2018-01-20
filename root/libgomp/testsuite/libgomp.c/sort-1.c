@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c/sort-1.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/parm-impl-decl-3.c

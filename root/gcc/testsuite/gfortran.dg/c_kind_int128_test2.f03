@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/c_kind_int128_test2.f03

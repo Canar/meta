@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/sancov/pr80444.c

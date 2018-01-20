@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/tls-le-13s.s

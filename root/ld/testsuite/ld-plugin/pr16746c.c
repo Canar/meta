@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-plugin/pr16746c.c

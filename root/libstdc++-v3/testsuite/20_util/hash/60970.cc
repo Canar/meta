@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/20_util/hash/60970.cc

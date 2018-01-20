@@ -1,0 +1,1 @@
+../../binutils-gdb/gold/aclocal.m4

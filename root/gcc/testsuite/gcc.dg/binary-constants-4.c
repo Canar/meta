@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/binary-constants-4.c

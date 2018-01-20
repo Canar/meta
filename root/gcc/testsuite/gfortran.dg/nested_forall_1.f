@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/nested_forall_1.f

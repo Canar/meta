@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/goacc/kernels-loop-inner.f95

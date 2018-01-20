@@ -1,0 +1,1 @@
+../../../../../../../gcc/gcc/testsuite/gcc.dg/vect/costmodel/x86_64/costmodel-pr69297.c

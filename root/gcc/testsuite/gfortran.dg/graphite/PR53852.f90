@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/graphite/PR53852.f90

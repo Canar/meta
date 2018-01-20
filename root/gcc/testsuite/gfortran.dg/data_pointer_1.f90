@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/data_pointer_1.f90

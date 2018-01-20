@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/30_threads/lock/1.cc

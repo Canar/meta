@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pru/relax_ldi32_symbol.s

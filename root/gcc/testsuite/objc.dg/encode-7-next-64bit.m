@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/encode-7-next-64bit.m

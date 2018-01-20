@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/score/bit_32.d

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/asan/deep-stack-uaf-1.C

@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libstdc++-v3/testsuite/21_strings/basic_string/operations/compare/char/13650.cc

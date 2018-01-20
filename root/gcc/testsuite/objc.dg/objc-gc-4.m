@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/objc-gc-4.m

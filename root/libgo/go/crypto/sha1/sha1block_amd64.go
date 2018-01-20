@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/crypto/sha1/sha1block_amd64.go

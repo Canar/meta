@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/va-meth-1.m

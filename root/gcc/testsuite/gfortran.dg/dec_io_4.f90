@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/dec_io_4.f90

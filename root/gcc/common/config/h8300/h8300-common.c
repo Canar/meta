@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/common/config/h8300/h8300-common.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/asm-3.c

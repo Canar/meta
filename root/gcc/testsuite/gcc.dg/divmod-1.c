@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/divmod-1.c

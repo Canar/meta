@@ -1,0 +1,1 @@
+../../../../gcc/libffi/testsuite/libffi.call/strlen4.c

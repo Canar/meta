@@ -1,0 +1,1 @@
+../../gcc/libatomic/cas_n.c

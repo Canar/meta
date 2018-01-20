@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-mn10300/i135409-2.d

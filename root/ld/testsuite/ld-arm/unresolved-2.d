@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/unresolved-2.d

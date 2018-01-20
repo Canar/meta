@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pointer-array-quals-2.c

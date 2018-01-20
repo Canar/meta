@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/encoding/json/fold.go

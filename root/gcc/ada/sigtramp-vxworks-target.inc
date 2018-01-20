@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/sigtramp-vxworks-target.inc

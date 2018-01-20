@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/20_util/unique_ptr/creation/array_neg.cc

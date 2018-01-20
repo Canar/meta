@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-metag/stub_pic_app.d

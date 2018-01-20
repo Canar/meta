@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/metag/metadsp21-invalid.l

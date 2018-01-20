@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/30_threads/this_thread/60421.cc

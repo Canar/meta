@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/atomic/stdatomic-load-2.c

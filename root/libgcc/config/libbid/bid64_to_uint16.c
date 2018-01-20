@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/libbid/bid64_to_uint16.c

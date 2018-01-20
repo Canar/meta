@@ -1,0 +1,1 @@
+../../../../../../../gcc/gcc/testsuite/go.test/test/bench/go1/fasta_test.go

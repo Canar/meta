@@ -1,0 +1,1 @@
+../../../gcc/libgo/runtime/goc2c.c

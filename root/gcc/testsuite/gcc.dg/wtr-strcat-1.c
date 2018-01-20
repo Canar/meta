@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/wtr-strcat-1.c

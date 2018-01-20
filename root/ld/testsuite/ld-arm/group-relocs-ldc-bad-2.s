@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/group-relocs-ldc-bad-2.s

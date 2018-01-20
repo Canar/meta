@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/split_i386.sh

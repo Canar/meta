@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/goacc/kernels-alias-ipa-pta-4.c

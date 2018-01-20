@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/bit_packed_array2.adb

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/method-13.m

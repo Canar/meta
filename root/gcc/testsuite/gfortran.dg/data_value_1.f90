@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/data_value_1.f90

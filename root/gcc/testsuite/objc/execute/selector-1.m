@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc/execute/selector-1.m

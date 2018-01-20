@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-avr/pr21404-3.s

@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/armelfb_linux.sh

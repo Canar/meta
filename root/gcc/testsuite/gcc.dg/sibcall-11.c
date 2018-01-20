@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/sibcall-11.c

@@ -1,0 +1,1 @@
+../../gcc/contrib/dg-extract-results.py

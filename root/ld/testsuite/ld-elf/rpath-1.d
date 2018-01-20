@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elf/rpath-1.d

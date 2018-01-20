@@ -1,0 +1,1 @@
+../../../gcc/libquadmath/math/sincosq_kernel.c

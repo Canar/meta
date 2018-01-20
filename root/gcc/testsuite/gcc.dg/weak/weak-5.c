@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/weak/weak-5.c

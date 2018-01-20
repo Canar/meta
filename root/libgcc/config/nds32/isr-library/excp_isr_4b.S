@@ -1,0 +1,1 @@
+../../../../../gcc/libgcc/config/nds32/isr-library/excp_isr_4b.S

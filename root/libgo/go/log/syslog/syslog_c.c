@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/log/syslog/syslog_c.c

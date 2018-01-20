@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.dg/torture/stackalign/comp-goto-1.c

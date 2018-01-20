@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/pure_dummy_length_1.f90

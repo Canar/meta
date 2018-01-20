@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/allocate_with_source_8.f08

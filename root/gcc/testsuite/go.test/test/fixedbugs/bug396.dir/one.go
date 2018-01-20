@@ -1,0 +1,1 @@
+../../../../../../../gcc/gcc/testsuite/go.test/test/fixedbugs/bug396.dir/one.go

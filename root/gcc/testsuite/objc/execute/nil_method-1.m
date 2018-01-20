@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc/execute/nil_method-1.m

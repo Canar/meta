@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emultempl/spu_icache.S

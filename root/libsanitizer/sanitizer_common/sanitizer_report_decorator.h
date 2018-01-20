@@ -1,0 +1,1 @@
+../../../gcc/libsanitizer/sanitizer_common/sanitizer_report_decorator.h

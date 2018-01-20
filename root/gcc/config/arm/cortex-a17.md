@@ -1,0 +1,1 @@
+../../../../gcc/gcc/config/arm/cortex-a17.md

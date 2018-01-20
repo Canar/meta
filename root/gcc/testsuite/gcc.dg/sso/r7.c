@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/sso/r7.c

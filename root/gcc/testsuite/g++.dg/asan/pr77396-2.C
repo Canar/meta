@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/asan/pr77396-2.C

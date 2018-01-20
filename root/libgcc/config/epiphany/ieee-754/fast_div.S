@@ -1,0 +1,1 @@
+../../../../../gcc/libgcc/config/epiphany/ieee-754/fast_div.S

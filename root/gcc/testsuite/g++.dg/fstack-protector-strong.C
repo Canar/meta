@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/g++.dg/fstack-protector-strong.C

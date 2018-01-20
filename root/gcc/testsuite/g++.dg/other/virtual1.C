@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/virtual1.C

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/common/config/iq2000/iq2000-common.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/string_length_2.f90

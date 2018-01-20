@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wstrict-aliasing-converted-assigned.c

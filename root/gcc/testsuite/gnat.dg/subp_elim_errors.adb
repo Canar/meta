@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/subp_elim_errors.adb

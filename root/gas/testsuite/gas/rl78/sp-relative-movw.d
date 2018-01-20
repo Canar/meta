@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/rl78/sp-relative-movw.d

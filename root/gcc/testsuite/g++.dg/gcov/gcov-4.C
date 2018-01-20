@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/gcov/gcov-4.C

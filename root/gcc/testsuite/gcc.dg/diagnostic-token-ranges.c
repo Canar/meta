@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/diagnostic-token-ranges.c

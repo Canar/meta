@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/net/external_test.go

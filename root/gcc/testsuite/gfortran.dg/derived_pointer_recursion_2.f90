@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/derived_pointer_recursion_2.f90

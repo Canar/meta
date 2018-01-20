@@ -1,0 +1,1 @@
+../../../binutils-gdb/gas/doc/c-m32c.texi

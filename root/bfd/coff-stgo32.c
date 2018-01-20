@@ -1,0 +1,1 @@
+../../binutils-gdb/bfd/coff-stgo32.c

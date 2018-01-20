@@ -1,0 +1,1 @@
+../../../../gcc/libitm/testsuite/libitm.c++/static_ctor.C

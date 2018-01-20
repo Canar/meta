@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/common/config/c6x/c6x-common.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/config/mips/loongson2ef.md

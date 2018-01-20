@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/warn/Wstrict-aliasing-float-ref-int-obj.C

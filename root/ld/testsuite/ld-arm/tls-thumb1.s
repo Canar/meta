@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/tls-thumb1.s

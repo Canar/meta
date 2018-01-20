@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/armelf_nbsd.sh

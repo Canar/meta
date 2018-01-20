@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/go/parser/interface.go

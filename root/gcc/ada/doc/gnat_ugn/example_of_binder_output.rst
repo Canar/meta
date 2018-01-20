@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/ada/doc/gnat_ugn/example_of_binder_output.rst

@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/crypto/sha1/fallback_test.go

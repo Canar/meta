@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/nios2/bmx.c

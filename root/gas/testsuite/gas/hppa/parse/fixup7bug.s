@@ -1,0 +1,1 @@
+../../../../../../binutils-gdb/gas/testsuite/gas/hppa/parse/fixup7bug.s

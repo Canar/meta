@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/ifunc-7.gd

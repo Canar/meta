@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/jit.dg/test-sum-of-squares.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/objc-gc-3.mm

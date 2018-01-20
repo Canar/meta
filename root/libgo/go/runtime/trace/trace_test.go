@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/runtime/trace/trace_test.go

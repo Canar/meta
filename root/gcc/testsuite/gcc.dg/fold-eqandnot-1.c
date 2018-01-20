@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/fold-eqandnot-1.c

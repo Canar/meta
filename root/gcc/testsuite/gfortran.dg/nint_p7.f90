@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/nint_p7.f90

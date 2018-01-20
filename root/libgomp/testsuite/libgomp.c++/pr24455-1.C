@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c++/pr24455-1.C

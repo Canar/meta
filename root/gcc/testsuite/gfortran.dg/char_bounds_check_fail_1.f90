@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/char_bounds_check_fail_1.f90

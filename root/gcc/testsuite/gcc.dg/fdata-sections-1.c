@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/fdata-sections-1.c

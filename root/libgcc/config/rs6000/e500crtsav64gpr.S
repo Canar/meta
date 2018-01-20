@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/rs6000/e500crtsav64gpr.S

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/assign_1.f90

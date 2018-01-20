@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/dec_exp_3.f90

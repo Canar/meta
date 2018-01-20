@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/os/signal/signal_test.go

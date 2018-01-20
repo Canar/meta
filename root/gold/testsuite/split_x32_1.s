@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/split_x32_1.s

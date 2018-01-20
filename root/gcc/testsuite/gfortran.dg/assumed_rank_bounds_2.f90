@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/assumed_rank_bounds_2.f90

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/invalid_procedure_name.f90

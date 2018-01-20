@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/avr/torture/isr-02-call.c

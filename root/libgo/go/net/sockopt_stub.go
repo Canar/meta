@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/net/sockopt_stub.go

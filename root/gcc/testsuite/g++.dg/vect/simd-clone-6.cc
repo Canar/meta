@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/vect/simd-clone-6.cc

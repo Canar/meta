@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/mach-o/err-syms-6.s

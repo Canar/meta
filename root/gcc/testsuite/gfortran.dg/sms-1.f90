@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/sms-1.f90

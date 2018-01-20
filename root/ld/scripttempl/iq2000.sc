@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/iq2000.sc

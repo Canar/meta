@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libstdc++-v3/testsuite/21_strings/basic_string/modifiers/pop_back/char/1.cc

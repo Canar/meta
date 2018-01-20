@@ -1,0 +1,1 @@
+../../../../../../../gcc/gcc/testsuite/go.test/test/interface/recursive1.dir/recursive2.go

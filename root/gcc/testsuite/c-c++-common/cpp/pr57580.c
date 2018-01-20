@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/cpp/pr57580.c

@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/strings/replace_test.go

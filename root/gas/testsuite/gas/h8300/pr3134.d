@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/h8300/pr3134.d

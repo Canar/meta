@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/Wint-in-bool-context-2.c

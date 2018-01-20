@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/cfi/cfi-ppc-1.d

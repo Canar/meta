@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/plugin/def_plugin.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/avr/pr71151-6.c

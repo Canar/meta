@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/h8300/ldc.s

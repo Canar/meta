@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-aarch64/copy-reloc-2.d

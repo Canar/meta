@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/go.test/test/ddd2.dir/ddd2.go

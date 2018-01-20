@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc/execute/class-3.m

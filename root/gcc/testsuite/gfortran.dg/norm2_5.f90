@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/norm2_5.f90

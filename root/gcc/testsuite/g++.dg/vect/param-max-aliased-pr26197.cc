@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/vect/param-max-aliased-pr26197.cc

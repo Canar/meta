@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/runtime/race0.go

@@ -1,0 +1,1 @@
+../../../gcc/gcc/cp/cp-array-notation.c

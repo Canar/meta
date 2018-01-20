@@ -1,0 +1,1 @@
+../../gcc/gcc/omp-simd-clone.c

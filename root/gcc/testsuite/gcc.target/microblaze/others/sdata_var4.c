@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/microblaze/others/sdata_var4.c

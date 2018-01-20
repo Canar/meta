@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/m68k/xgot-1.c

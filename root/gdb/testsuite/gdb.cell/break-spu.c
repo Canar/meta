@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.cell/break-spu.c

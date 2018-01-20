@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/desig-init-2.m

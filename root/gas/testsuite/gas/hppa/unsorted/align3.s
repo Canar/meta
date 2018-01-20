@@ -1,0 +1,1 @@
+../../../../../../binutils-gdb/gas/testsuite/gas/hppa/unsorted/align3.s

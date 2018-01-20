@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/icf_safe_so_test.sh

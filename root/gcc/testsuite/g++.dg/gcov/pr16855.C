@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/gcov/pr16855.C

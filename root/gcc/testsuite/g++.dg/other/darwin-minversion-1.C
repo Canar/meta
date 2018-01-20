@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/darwin-minversion-1.C

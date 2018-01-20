@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wold-style-definition-2.c

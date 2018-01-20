@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/tls/thread_local-wrap2.C

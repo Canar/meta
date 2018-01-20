@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-sh/tlspic-1.d

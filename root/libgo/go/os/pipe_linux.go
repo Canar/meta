@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/os/pipe_linux.go

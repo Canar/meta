@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/write_to_null.F90

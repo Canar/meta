@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/duff-1.c

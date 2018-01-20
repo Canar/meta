@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/frv/all-tls-initial-exec-pic.c

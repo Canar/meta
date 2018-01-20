@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emultempl/m68kcoff.em

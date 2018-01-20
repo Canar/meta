@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/29_atomics/headers/atomic/functions_std_c++0x.cc

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/tilepro/t_insns.s

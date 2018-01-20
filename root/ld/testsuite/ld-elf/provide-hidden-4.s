@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elf/provide-hidden-4.s

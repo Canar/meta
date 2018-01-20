@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/diagnostic-tree-expr-ranges-2.c

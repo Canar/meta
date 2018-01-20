@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elf/dynamic-1.c

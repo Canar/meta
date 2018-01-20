@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/math/pow10.go

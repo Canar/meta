@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/27_io/objects/char/2523-1_xin.cc

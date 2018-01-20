@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/protected_1.f90

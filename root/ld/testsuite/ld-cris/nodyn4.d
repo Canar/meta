@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/nodyn4.d

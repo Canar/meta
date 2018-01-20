@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.dwarf2/dw2-anon-mptr.S

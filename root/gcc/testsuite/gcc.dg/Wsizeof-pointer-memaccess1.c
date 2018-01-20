@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wsizeof-pointer-memaccess1.c

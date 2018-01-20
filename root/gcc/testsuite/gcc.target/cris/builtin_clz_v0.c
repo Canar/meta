@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/cris/builtin_clz_v0.c

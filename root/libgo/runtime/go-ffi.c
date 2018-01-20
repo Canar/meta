@@ -1,0 +1,1 @@
+../../../gcc/libgo/runtime/go-ffi.c

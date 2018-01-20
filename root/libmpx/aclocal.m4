@@ -1,0 +1,1 @@
+../../gcc/libmpx/aclocal.m4

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wc99-c11-compat-3.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/cris/20011127-1.c

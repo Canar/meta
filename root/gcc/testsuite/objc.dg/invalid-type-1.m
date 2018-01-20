@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/invalid-type-1.m

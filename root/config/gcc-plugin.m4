@@ -1,0 +1,1 @@
+../../binutils-gdb/config/gcc-plugin.m4

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/gnu-api-2-object.m

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/ieee/intrinsics_2.F90

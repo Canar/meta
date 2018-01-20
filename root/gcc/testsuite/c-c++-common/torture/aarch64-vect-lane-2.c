@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/torture/aarch64-vect-lane-2.c

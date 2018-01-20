@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/extra-semi-3.c

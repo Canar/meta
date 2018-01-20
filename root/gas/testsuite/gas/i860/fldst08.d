@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/i860/fldst08.d

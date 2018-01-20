@@ -1,0 +1,1 @@
+../../gcc/libbacktrace/filetype.awk

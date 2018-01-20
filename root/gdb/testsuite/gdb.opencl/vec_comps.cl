@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.opencl/vec_comps.cl

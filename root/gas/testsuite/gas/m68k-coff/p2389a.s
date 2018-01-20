@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/m68k-coff/p2389a.s

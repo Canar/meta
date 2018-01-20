@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/rs6000/ppc64-fp.c

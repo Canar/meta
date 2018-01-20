@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/g++.dg/Wframe-address-in-Wall.C

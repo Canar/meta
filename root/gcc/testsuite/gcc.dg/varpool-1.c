@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/varpool-1.c

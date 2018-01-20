@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/symtab-1.m

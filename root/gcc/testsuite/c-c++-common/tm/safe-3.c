@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/tm/safe-3.c

@@ -1,0 +1,1 @@
+../../../../gcc/libstdc++-v3/testsuite/data/istream_extractor_other-1.tst

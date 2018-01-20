@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wwrite-strings-1.c

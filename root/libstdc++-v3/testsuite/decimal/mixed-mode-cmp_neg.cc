@@ -1,0 +1,1 @@
+../../../../gcc/libstdc++-v3/testsuite/decimal/mixed-mode-cmp_neg.cc

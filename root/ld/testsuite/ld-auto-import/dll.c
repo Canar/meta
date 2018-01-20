@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-auto-import/dll.c

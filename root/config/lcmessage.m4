@@ -1,0 +1,1 @@
+../../binutils-gdb/config/lcmessage.m4

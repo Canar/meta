@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/runtime/closure_test.go

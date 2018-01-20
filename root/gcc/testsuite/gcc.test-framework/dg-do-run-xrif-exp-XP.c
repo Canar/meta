@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.test-framework/dg-do-run-xrif-exp-XP.c

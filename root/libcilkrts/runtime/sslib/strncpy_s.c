@@ -1,0 +1,1 @@
+../../../../gcc/libcilkrts/runtime/sslib/strncpy_s.c

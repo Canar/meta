@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/in_out_parameter.adb

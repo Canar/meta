@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/score/shift_32.d

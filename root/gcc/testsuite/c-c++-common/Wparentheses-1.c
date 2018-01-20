@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/Wparentheses-1.c

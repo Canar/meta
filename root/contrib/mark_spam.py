@@ -1,0 +1,1 @@
+../../gcc/contrib/mark_spam.py

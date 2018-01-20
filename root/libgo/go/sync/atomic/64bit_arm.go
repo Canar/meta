@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/sync/atomic/64bit_arm.go

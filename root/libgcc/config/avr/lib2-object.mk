@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/avr/lib2-object.mk

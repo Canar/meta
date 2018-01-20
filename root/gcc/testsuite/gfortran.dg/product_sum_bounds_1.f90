@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/product_sum_bounds_1.f90

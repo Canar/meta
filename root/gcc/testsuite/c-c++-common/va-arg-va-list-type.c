@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/va-arg-va-list-type.c

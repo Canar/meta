@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/22_locale/num_put/requirements/explicit_instantiation.cc

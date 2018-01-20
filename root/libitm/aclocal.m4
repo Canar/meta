@@ -1,0 +1,1 @@
+../../gcc/libitm/aclocal.m4

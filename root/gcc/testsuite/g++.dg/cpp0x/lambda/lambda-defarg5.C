@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/g++.dg/cpp0x/lambda/lambda-defarg5.C

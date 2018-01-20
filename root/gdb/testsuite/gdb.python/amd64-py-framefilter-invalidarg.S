@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.python/amd64-py-framefilter-invalidarg.S

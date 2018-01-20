@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.dg/cpp/trad/literals-2.c

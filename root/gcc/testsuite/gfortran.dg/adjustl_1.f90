@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/adjustl_1.f90

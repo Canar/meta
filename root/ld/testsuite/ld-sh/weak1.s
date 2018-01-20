@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-sh/weak1.s

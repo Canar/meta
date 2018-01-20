@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc.dg/torture/forward-1.m

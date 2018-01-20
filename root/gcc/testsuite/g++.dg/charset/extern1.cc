@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/charset/extern1.cc

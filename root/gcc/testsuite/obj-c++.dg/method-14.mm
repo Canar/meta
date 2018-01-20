@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/method-14.mm

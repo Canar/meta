@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/ada/doc/gnat_rm/compatibility_and_porting_guide.rst

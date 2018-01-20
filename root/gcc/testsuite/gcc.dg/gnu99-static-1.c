@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/gnu99-static-1.c

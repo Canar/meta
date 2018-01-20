@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/no_version_test.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/frv/all-read-write-1.c

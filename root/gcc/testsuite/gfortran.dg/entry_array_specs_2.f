@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/entry_array_specs_2.f

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/objc/execute/exceptions/finally-1.m

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/config/nds32/nds32-fp-as-gp.c

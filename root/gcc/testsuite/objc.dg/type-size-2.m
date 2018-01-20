@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/type-size-2.m

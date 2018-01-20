@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-s390/tlsbinpic_64.s

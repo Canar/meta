@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/struct-parse-1.c

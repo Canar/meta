@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/syscall/libcall_solaris_386.go

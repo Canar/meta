@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/arm_abs_global.sh

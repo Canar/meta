@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/end_associate_label_1.f90

@@ -1,0 +1,1 @@
+../../gcc/libssp/snprintf-chk.c

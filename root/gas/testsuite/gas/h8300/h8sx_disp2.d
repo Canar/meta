@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/h8300/h8sx_disp2.d

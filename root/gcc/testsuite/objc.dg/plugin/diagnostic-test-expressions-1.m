@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc.dg/plugin/diagnostic-test-expressions-1.m

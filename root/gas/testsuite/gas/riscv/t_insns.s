@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/riscv/t_insns.s

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-visium/reloc1.s

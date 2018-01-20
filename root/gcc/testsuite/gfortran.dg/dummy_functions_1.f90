@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/dummy_functions_1.f90

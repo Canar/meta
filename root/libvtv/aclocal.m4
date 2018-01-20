@@ -1,0 +1,1 @@
+../../gcc/libvtv/aclocal.m4

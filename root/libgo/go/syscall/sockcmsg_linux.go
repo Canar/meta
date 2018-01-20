@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/syscall/sockcmsg_linux.go

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/reshape-alloc.f90

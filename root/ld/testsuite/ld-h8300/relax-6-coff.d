@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-h8300/relax-6-coff.d

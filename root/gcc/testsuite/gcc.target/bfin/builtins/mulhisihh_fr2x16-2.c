@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/bfin/builtins/mulhisihh_fr2x16-2.c

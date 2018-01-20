@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elf/check-ptr-eq.c

@@ -1,0 +1,1 @@
+../../../../../../../gcc/gcc/testsuite/gcc.dg/vect/costmodel/spu/costmodel-vect-iv-9.c

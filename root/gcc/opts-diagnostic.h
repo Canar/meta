@@ -1,0 +1,1 @@
+../../gcc/gcc/opts-diagnostic.h

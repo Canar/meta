@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/syscall/creds_test.go

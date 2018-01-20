@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/25_algorithms/any_of/1.cc

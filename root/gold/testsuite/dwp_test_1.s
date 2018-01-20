@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/dwp_test_1.s

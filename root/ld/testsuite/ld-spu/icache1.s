@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-spu/icache1.s

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/widechar_2.f90

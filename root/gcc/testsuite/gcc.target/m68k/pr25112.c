@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/m68k/pr25112.c

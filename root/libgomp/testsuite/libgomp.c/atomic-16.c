@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c/atomic-16.c

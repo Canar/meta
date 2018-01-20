@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/avr/torture/builtins-5-countlsfx.c

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.btrace/record_goto.c

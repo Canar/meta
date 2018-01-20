@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/debug/static1.C

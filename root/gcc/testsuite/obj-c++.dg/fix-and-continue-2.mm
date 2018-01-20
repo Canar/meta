@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/fix-and-continue-2.mm

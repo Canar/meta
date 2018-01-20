@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/import6.f90

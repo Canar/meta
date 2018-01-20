@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc/execute/encode-1.m

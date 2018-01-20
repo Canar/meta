@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libstdc++-v3/testsuite/ext/vstring/modifiers/pop_back/wchar_t/1.cc

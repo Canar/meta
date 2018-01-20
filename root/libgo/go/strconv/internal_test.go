@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/strconv/internal_test.go

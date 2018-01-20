@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/libdso-10.d

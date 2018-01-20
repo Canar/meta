@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/two-types-5.c

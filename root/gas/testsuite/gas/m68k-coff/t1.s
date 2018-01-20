@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/m68k-coff/t1.s

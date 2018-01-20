@@ -1,0 +1,1 @@
+../../gcc/libgfortran/mk-kinds-h.sh

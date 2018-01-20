@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-frv/tls-static-3.d

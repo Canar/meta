@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/syscall/syscall_errno.go

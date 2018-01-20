@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/bfin/c_seq_wb_rti_lsmmrj_mvp.S

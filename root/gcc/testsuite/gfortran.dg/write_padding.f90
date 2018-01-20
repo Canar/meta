@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/write_padding.f90

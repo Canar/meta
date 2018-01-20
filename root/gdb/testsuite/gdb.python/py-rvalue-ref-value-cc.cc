@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.python/py-rvalue-ref-value-cc.cc

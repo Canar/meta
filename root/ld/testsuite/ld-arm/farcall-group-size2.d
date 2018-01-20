@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/farcall-group-size2.d

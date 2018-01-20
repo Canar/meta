@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/merge_bits_2.F90

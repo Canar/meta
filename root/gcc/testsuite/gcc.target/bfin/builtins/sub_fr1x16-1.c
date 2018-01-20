@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/bfin/builtins/sub_fr1x16-1.c

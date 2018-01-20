@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/gc_orphan_section_test.cc

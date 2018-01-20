@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/call-super-3.m

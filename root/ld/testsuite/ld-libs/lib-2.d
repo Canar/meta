@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-libs/lib-2.d

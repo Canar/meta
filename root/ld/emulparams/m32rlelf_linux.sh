@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/m32rlelf_linux.sh

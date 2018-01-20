@@ -124,3 +124,36 @@
 [submodule "ncurses"]
 	path = ncurses
 	url = git://ncurses.scripts.mit.edu/ncurses.git
+[submodule "bzip2"]
+	path = bzip2
+	url = git://git.debian.org/collab-maint/bzip2.git
+[submodule "check"]
+	path = check
+	url = https://github.com/libcheck/check.git
+[submodule "cloog"]
+	path = cloog
+	url = http://repo.or.cz/cloog.git
+[submodule "expect"]
+	path = expect
+	url = https://github.com/aeruder/expect
+[submodule "file"]
+	path = file
+	url = https://github.com/file/file
+[submodule "flex"]
+	path = flex
+	url = https://github.com/westes/flex
+[submodule "glibc-static"]
+	path = glibc-static
+	url = https://src.fedoraproject.org/git/rpms/glibc.git
+[submodule "mxe"]
+	path = mxe
+	url = https://github.com/mxe/mxe.git
+[submodule "poky"]
+	path = poky
+	url = git://git.yoctoproject.org/poky
+[submodule "tcl"]
+	path = tcl
+	url = https://github.com/tcltk/tcl
+[submodule "zlib"]
+	path = zlib
+	url = https://github.com/madler/zlib

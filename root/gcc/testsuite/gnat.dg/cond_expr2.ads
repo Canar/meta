@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/cond_expr2.ads

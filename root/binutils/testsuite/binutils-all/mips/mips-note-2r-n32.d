@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/binutils/testsuite/binutils-all/mips/mips-note-2r-n32.d

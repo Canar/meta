@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/non-deducible1.C

@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c++/master-1.C

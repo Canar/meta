@@ -1,0 +1,1 @@
+../../../gcc/libgfortran/intrinsics/selected_char_kind.c

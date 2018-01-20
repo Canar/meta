@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/html/entity_test.go

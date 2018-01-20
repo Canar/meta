@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/spu/ea/cache1.c

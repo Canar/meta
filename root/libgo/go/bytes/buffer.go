@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/bytes/buffer.go

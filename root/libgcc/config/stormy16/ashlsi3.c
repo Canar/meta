@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/stormy16/ashlsi3.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/cond-lvalue-1.c

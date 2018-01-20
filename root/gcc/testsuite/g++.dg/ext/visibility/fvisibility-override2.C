@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/g++.dg/ext/visibility/fvisibility-override2.C

@@ -1,0 +1,1 @@
+../../../../../../../gcc/libgo/go/cmd/go/testdata/testterminal18153/terminal_test.go

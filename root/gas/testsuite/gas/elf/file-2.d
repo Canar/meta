@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/elf/file-2.d

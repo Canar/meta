@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elf/warn2.d

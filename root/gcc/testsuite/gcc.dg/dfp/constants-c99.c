@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/dfp/constants-c99.c

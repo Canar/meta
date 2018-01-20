@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.asm/xstormy16.inc

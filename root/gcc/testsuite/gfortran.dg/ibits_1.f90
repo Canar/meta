@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/ibits_1.f90

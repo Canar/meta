@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/rtti/no-rtti.C

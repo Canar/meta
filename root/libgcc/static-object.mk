@@ -1,0 +1,1 @@
+../../gcc/libgcc/static-object.mk

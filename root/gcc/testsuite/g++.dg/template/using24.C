@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/using24.C

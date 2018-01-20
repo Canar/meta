@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/c_loc_tests_2_funcs.c

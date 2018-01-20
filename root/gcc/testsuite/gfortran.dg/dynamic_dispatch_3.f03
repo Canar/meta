@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/dynamic_dispatch_3.f03

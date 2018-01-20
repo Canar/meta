@@ -1,0 +1,1 @@
+../../../gcc/gcc/c-family/stub-objc.c

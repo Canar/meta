@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/diagnostic/bitfld1.C

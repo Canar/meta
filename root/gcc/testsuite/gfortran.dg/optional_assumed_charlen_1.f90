@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/optional_assumed_charlen_1.f90

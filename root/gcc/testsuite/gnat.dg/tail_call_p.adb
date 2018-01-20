@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/tail_call_p.adb

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/dec_intrinsic_ints.f90

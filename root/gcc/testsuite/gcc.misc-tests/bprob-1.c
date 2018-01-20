@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.misc-tests/bprob-1.c

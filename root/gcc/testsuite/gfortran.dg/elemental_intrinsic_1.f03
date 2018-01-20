@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/elemental_intrinsic_1.f03

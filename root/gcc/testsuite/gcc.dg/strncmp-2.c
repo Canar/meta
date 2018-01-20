@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/strncmp-2.c

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.c-torture/execute/ieee/pr29302-1.c

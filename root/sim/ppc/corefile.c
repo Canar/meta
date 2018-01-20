@@ -1,0 +1,1 @@
+../../../binutils-gdb/sim/ppc/corefile.c

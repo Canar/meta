@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pack-test-5.c

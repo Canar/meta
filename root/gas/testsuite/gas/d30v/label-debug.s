@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/d30v/label-debug.s

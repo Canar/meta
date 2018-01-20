@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/record_marker_2.f

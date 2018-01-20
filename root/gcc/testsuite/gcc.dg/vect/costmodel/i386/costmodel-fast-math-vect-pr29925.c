@@ -1,0 +1,1 @@
+../../../../../../../gcc/gcc/testsuite/gcc.dg/vect/costmodel/i386/costmodel-fast-math-vect-pr29925.c

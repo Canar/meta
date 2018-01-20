@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-nios2/imm5_symbol.s

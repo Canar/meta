@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elfweak/main1.c

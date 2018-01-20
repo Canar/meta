@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/asynchronous_3.f03

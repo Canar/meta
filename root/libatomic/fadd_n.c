@@ -1,0 +1,1 @@
+../../gcc/libatomic/fadd_n.c

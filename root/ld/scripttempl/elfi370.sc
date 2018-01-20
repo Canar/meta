@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/elfi370.sc

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/tsan/fd_pipe_race.c

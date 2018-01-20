@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/euwref1.s

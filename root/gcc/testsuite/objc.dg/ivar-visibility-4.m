@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/ivar-visibility-4.m

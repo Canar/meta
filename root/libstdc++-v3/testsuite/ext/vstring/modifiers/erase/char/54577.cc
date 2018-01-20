@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libstdc++-v3/testsuite/ext/vstring/modifiers/erase/char/54577.cc

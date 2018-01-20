@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.c-torture/execute/builtins/mempcpy-2.c

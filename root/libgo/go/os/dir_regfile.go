@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/os/dir_regfile.go

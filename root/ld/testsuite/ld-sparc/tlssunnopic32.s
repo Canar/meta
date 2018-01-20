@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-sparc/tlssunnopic32.s

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/movw-shared-2.d

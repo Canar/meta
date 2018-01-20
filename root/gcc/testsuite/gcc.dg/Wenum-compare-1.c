@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wenum-compare-1.c

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-tic6x/attr-stack-8-816.d

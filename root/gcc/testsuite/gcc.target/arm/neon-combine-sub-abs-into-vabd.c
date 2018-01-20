@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/arm/neon-combine-sub-abs-into-vabd.c

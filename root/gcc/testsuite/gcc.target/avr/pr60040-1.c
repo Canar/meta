@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/avr/pr60040-1.c

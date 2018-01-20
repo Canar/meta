@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/g++.dg/torture/stackalign/stdcall-1.C

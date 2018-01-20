@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/27_io/basic_stringbuf/sputn/char/9404-2.cc

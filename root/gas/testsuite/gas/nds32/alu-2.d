@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/nds32/alu-2.d

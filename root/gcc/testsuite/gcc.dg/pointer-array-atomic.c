@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pointer-array-atomic.c

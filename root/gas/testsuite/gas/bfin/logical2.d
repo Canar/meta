@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/bfin/logical2.d

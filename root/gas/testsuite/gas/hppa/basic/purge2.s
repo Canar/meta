@@ -1,0 +1,1 @@
+../../../../../../binutils-gdb/gas/testsuite/gas/hppa/basic/purge2.s

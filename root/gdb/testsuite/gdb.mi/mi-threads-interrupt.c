@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.mi/mi-threads-interrupt.c

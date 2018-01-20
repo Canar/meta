@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/include/ext/pb_ds/detail/pat_trie_/synth_access_traits.hpp

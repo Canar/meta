@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/pch/array-1.C

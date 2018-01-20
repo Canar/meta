@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libstdc++-v3/testsuite/ext/vstring/requirements/explicit_instantiation/char16_t/1.cc

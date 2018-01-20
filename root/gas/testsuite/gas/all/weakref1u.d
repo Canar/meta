@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/all/weakref1u.d

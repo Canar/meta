@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/Wlogical-not-parentheses-3.c

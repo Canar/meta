@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/tm/atomic-2.c

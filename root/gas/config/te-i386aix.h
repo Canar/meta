@@ -1,0 +1,1 @@
+../../../binutils-gdb/gas/config/te-i386aix.h

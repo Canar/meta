@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/h8300/andsi3_ashift_n_lower.c

@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/text_section_grouping.cc

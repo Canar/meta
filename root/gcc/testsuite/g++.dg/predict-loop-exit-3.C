@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/g++.dg/predict-loop-exit-3.C

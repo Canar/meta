@@ -1,0 +1,1 @@
+../../gcc/libcc1/configure.ac

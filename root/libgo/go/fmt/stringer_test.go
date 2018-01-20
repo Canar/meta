@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/fmt/stringer_test.go

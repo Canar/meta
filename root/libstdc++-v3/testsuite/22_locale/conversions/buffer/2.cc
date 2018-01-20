@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/22_locale/conversions/buffer/2.cc

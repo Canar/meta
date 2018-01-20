@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/concepts/fn-concept2.C

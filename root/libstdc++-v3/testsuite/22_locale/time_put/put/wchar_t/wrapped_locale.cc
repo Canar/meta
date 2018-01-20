@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/22_locale/time_put/put/wchar_t/wrapped_locale.cc

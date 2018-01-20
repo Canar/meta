@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/call-diag-1.c

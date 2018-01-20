@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/thumb1-movs-armv7-m.s

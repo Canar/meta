@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/20_util/function_objects/dr660.cc

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/vect/vect-9.f90

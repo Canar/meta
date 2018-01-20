@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pr33919-0.h

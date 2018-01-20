@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/warn_function_without_result_2.f90

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.cell/coremaker-spu.c

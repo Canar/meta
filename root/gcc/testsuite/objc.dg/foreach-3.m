@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/foreach-3.m

@@ -1,0 +1,1 @@
+../../binutils-gdb/ld/ldmain.c

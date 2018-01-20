@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/m32r/relax-1.d

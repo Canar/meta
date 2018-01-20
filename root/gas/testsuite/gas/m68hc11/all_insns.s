@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/m68hc11/all_insns.s

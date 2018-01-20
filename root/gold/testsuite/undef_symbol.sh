@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/undef_symbol.sh

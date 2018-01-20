@@ -1,0 +1,1 @@
+../../binutils-gdb/gold/int_encoding.h

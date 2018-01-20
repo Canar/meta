@@ -1,0 +1,1 @@
+../../../../../../../gcc/libgo/go/golang_org/x/text/width/kind_string.go

@@ -1,0 +1,1 @@
+../../../../../gcc/libgomp/testsuite/libgomp.c/examples-4/target-5.c

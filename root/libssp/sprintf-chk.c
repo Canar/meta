@@ -1,0 +1,1 @@
+../../gcc/libssp/sprintf-chk.c

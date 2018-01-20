@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/sync/example_test.go

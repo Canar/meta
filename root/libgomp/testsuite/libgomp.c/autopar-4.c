@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c/autopar-4.c

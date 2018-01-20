@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/cmd/gofmt/rewrite.go

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/fix-and-continue-1.m

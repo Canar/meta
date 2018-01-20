@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/framework-2.c

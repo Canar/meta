@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/super-class-3.m

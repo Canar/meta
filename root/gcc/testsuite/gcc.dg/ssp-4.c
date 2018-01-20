@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/ssp-4.c

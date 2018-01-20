@@ -1,0 +1,1 @@
+../../../binutils-gdb/sim/m32c/srcdest.c

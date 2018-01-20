@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/alignment3.adb

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.trace/change-loc-1.c

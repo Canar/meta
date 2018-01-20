@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/incr_comdat_test_1.cc

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/parent_ltd_with.ads

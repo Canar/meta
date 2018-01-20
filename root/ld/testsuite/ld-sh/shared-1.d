@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-sh/shared-1.d

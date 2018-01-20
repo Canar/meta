@@ -1,0 +1,1 @@
+../../../../../gcc/libgomp/testsuite/libgomp.fortran/examples-4/array_sections-3.f90

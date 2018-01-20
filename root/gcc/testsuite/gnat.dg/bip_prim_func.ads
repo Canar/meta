@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/bip_prim_func.ads

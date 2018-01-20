@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/gnu-runtime-3.m

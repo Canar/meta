@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/jit.dg/test-error-gcc_jit_function_new_local-opaque-struct.c

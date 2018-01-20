@@ -1,0 +1,1 @@
+../../binutils-gdb/gold/mapfile.cc

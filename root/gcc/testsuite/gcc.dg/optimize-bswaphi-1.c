@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/optimize-bswaphi-1.c

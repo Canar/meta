@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/nios2/r2-eni.c

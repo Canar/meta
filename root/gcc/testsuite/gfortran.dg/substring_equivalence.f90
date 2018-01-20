@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/substring_equivalence.f90

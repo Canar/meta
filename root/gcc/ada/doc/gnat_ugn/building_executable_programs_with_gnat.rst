@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/ada/doc/gnat_ugn/building_executable_programs_with_gnat.rst

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/implicit_12.f90

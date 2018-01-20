@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/vfa1_3.adb

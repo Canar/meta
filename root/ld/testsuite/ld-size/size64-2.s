@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-size/size64-2.s

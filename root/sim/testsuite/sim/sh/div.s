@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/sh/div.s

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.threads/non-ldr-exc-1.c

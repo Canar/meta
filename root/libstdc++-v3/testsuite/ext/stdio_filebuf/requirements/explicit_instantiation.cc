@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/ext/stdio_filebuf/requirements/explicit_instantiation.cc

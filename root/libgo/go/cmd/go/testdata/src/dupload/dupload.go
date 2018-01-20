@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libgo/go/cmd/go/testdata/src/dupload/dupload.go

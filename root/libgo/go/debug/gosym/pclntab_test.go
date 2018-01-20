@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/debug/gosym/pclntab_test.go

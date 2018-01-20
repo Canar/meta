@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/array-2.c

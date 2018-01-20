@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/pr12826_1.s

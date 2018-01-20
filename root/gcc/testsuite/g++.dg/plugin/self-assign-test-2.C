@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/plugin/self-assign-test-2.C

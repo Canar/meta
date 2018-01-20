@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/ttp8.C

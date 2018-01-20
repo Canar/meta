@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/math/cmplx/example_test.go

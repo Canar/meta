@@ -1,0 +1,1 @@
+../../../gcc/libgcc/soft-fp/floatsisf.c

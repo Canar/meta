@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/30_threads/recursive_mutex/cons/assign_neg.cc

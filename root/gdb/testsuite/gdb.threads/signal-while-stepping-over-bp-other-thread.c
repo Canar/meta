@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.threads/signal-while-stepping-over-bp-other-thread.c

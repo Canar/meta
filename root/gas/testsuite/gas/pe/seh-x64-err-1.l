@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/pe/seh-x64-err-1.l

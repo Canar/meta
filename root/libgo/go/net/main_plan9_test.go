@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/net/main_plan9_test.go

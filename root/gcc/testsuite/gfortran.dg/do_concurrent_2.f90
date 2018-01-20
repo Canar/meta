@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/do_concurrent_2.f90

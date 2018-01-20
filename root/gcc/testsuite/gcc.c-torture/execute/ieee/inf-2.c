@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.c-torture/execute/ieee/inf-2.c

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/tic4x/registers_c3x.d

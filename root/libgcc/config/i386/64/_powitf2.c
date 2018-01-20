@@ -1,0 +1,1 @@
+../../../../../gcc/libgcc/config/i386/64/_powitf2.c

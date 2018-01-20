@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/attr-weak-1.c

@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/ver_test_4.sh

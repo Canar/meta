@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/weak_undef_test.cc

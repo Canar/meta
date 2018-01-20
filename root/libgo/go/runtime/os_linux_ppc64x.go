@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/runtime/os_linux_ppc64x.go

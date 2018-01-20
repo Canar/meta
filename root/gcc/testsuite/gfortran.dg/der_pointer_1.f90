@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/der_pointer_1.f90

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/Wbool-compare-2.c

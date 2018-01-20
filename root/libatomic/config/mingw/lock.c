@@ -1,0 +1,1 @@
+../../../../gcc/libatomic/config/mingw/lock.c

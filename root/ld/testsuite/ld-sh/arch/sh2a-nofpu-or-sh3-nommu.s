@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/ld/testsuite/ld-sh/arch/sh2a-nofpu-or-sh3-nommu.s

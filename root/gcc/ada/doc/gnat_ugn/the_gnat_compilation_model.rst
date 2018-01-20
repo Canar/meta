@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/ada/doc/gnat_ugn/the_gnat_compilation_model.rst

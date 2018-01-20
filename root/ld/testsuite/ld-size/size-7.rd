@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-size/size-7.rd

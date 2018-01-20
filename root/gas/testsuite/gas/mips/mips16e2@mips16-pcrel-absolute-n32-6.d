@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/mips/mips16e2@mips16-pcrel-absolute-n32-6.d

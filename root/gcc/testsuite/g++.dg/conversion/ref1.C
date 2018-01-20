@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/conversion/ref1.C

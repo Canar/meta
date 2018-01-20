@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c/critical-1.c

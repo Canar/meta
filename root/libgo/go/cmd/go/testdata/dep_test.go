@@ -1,0 +1,1 @@
+../../../../../../gcc/libgo/go/cmd/go/testdata/dep_test.go

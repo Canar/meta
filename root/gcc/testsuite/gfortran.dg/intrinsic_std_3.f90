@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/intrinsic_std_3.f90

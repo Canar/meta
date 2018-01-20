@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-sh/fdpic-gotoffi20-static.s

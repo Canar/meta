@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/enum-const-2.c

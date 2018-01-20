@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/libobjc-selector-1.m

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/duplicate-class-1.mm

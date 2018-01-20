@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/frv/all-accs-1.c

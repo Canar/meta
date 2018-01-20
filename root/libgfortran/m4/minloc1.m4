@@ -1,0 +1,1 @@
+../../../gcc/libgfortran/m4/minloc1.m4

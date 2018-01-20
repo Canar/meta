@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/tic80coff.sc

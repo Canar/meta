@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/two_file_shared.sh

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pie/weakundef.c

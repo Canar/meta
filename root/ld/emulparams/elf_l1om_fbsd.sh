@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/elf_l1om_fbsd.sh

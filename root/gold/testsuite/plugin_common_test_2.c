@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/plugin_common_test_2.c

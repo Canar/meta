@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/rtti/predefined-rtti-macro-1.C

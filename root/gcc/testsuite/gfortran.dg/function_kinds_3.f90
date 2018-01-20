@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/function_kinds_3.f90

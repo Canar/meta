@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/init_flag_9.f90

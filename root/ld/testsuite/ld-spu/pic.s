@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-spu/pic.s

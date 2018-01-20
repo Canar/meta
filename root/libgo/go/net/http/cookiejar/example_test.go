@@ -1,0 +1,1 @@
+../../../../../../gcc/libgo/go/net/http/cookiejar/example_test.go

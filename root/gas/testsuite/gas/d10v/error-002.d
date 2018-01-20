@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/d10v/error-002.d

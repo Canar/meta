@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wc90-c99-compat-5.c

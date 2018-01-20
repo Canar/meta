@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/local1.c

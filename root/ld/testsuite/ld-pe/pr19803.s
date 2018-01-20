@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pe/pr19803.s

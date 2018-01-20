@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/localalias-2.c

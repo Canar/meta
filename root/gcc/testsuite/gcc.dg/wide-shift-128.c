@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/wide-shift-128.c

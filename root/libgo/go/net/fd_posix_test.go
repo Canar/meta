@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/net/fd_posix_test.go

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/stack_check1.adb

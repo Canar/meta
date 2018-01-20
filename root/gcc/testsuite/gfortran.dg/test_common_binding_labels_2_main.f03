@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/test_common_binding_labels_2_main.f03

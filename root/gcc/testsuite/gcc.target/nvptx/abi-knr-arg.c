@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/nvptx/abi-knr-arg.c

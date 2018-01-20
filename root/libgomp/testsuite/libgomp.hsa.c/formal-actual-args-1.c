@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.hsa.c/formal-actual-args-1.c

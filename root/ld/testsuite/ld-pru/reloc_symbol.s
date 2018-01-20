@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pru/reloc_symbol.s

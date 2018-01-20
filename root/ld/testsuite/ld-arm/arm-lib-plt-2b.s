@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/arm-lib-plt-2b.s

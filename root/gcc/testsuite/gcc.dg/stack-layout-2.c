@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/stack-layout-2.c

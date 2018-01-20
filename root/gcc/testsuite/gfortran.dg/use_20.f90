@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/use_20.f90

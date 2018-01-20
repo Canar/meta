@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/io/multi.go

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/non-type-template-argument-1.C

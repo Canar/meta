@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-versados/t1.ld

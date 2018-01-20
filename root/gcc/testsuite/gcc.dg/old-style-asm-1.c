@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/old-style-asm-1.c

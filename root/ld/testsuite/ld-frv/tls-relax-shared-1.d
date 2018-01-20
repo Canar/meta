@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-frv/tls-relax-shared-1.d

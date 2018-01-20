@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/alpha/elf-reloc-4.d

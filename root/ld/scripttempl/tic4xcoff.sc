@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/tic4xcoff.sc

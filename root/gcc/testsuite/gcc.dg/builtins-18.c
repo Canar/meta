@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/builtins-18.c

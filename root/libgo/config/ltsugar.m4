@@ -1,0 +1,1 @@
+../../../gcc/libgo/config/ltsugar.m4

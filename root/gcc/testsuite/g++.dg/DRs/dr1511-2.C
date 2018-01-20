@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/DRs/dr1511-2.C

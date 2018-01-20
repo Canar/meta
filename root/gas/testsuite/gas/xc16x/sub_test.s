@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/xc16x/sub_test.s

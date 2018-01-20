@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc/compile/method-1.m

@@ -1,0 +1,1 @@
+../../gcc/libhsail-rt/aclocal.m4

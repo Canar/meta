@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/20_util/duration/requirements/treat_as_floating_point_v.cc

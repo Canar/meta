@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/visium/set_trampoline_parity.c

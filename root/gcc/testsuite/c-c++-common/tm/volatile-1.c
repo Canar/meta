@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/tm/volatile-1.c

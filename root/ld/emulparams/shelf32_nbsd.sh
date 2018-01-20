@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/shelf32_nbsd.sh

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elfweak/foo1b.c

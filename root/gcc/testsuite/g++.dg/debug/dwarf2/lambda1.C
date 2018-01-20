@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/g++.dg/debug/dwarf2/lambda1.C

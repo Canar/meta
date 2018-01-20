@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.misc-tests/godump-1.c

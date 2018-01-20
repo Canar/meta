@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/type_to_class_2.f03

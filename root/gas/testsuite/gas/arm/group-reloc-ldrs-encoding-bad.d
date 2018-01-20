@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/arm/group-reloc-ldrs-encoding-bad.d

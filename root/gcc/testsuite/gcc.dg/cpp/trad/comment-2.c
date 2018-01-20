@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.dg/cpp/trad/comment-2.c

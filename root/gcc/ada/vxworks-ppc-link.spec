@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/vxworks-ppc-link.spec

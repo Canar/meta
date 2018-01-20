@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/aarch64/reloc-dtprel_lo12-ilp32-1.s

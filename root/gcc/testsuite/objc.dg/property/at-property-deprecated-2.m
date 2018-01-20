@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc.dg/property/at-property-deprecated-2.m

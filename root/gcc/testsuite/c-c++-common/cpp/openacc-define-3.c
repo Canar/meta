@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/cpp/openacc-define-3.c

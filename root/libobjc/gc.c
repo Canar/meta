@@ -1,0 +1,1 @@
+../../gcc/libobjc/gc.c

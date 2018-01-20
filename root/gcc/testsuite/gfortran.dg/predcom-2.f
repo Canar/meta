@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/predcom-2.f

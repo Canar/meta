@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/microblaze/others/strings1.c

@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/experimental/iterator/make_ostream_joiner.cc

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/obj-c++.dg/torture/tls/thr-init-1.mm

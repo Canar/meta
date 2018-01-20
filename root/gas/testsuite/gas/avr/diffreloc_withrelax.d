@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/avr/diffreloc_withrelax.d

@@ -1,0 +1,1 @@
+../../gcc/gcc/multiple_target.c

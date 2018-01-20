@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/gc-hidden-1.d

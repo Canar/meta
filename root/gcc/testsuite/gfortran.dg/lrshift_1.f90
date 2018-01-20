@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/lrshift_1.f90

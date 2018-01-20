@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc-obj-c++-shared/objc-test-suite-next-encode-assist-impl.h

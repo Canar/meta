@@ -1,0 +1,1 @@
+../../../../gcc/libatomic/testsuite/libatomic.c/atomic-op-4.c

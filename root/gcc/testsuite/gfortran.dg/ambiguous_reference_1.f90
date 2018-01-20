@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/ambiguous_reference_1.f90

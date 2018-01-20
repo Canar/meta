@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/if-empty-1.c

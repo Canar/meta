@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/open_readonly_1.f90

@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/index/suffixarray/example_test.go

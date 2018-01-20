@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/bind_c_usage_15.f90

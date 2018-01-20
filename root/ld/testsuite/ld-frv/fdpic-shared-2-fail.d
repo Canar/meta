@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-frv/fdpic-shared-2-fail.d

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/ivar-scope-4.m

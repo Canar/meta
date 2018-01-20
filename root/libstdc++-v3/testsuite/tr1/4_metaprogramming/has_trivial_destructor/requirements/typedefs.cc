@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/tr1/4_metaprogramming/has_trivial_destructor/requirements/typedefs.cc

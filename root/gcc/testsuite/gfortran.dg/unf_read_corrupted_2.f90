@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/unf_read_corrupted_2.f90

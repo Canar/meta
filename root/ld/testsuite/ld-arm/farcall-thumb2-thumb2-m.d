@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/farcall-thumb2-thumb2-m.d

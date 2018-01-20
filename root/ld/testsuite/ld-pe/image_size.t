@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pe/image_size.t

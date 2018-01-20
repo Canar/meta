@@ -1,0 +1,1 @@
+../../../../gcc/libffi/testsuite/libffi.call/stret_medium2.c

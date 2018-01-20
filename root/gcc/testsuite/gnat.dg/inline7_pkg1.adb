@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/inline7_pkg1.adb

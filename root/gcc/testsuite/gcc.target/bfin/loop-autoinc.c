@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/bfin/loop-autoinc.c

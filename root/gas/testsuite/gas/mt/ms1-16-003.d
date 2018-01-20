@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/mt/ms1-16-003.d

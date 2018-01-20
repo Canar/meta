@@ -1,0 +1,1 @@
+../../../../../gcc/libgomp/testsuite/libgomp.fortran/examples-4/target_data-5.f90

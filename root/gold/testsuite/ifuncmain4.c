@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/ifuncmain4.c

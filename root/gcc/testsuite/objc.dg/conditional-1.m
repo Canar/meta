@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/conditional-1.m

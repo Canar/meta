@@ -1,0 +1,1 @@
+../../../../gcc/libffi/src/pa/hpux32.S

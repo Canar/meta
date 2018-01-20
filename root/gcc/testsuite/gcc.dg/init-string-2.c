@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/init-string-2.c

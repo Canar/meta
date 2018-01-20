@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/matmul_9.f90

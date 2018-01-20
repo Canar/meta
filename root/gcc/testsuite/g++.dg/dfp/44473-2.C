@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/dfp/44473-2.C

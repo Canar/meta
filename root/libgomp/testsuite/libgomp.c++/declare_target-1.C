@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c++/declare_target-1.C

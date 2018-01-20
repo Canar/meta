@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-aarch64/tls-relax-gdesc-le-2-ilp32.d

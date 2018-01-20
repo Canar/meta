@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.dg/cpp/inc/pr20356-aux.h

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/instantiate8.C

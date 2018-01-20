@@ -1,0 +1,1 @@
+../../../binutils-gdb/bfd/doc/header.sed

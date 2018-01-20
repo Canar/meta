@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/internal_readwrite_1.f90

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arc/got-01.s

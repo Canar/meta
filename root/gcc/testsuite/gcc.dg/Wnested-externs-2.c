@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wnested-externs-2.c

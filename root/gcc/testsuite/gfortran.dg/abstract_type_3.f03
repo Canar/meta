@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/abstract_type_3.f03

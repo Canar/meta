@@ -1,0 +1,1 @@
+../../../gcc/libquadmath/printf/flt1282mpn.c

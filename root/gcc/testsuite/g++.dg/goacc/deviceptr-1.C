@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/goacc/deviceptr-1.C

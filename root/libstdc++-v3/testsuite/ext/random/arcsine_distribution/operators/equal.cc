@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/ext/random/arcsine_distribution/operators/equal.cc

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/microblaze/isa/mulh-bshift-pcmp.c

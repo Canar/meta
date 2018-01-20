@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/lns/lns-diag-1.l

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/wide_pi.adb

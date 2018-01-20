@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/30_threads/condition_variable/requirements/standard_layout.cc

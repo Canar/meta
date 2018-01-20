@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/assumed_type_2.f90

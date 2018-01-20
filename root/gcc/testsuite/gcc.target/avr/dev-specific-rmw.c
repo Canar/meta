@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/avr/dev-specific-rmw.c

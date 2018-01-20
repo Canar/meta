@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/x86_64_mov_to_lea3.s

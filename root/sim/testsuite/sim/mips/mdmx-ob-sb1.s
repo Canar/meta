@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/mips/mdmx-ob-sb1.s

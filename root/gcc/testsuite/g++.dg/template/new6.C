@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/new6.C

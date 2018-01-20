@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc/execute/class-tests-2.h

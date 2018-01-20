@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-nds32/imm_symbol.s

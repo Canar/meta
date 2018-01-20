@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/private_type_3.f90

@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/elf64lriscv.sh

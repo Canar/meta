@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/crypto/sha256/example_test.go

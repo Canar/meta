@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/temporary_1.f90

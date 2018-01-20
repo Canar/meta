@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/a-ciorse.adb

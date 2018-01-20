@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/interop_params.f03

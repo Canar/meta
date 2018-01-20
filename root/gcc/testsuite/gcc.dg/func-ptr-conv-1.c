@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/func-ptr-conv-1.c

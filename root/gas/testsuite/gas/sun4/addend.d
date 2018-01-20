@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/sun4/addend.d

@@ -1,0 +1,1 @@
+../../../gcc/libgfortran/intrinsics/string_intrinsics.c

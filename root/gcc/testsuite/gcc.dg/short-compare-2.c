@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/short-compare-2.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/pch/externc-1.C

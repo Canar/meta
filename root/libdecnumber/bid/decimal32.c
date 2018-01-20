@@ -1,0 +1,1 @@
+../../../binutils-gdb/libdecnumber/bid/decimal32.c

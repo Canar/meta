@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/h8300-stack-1.c

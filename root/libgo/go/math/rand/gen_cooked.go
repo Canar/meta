@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/math/rand/gen_cooked.go

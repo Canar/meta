@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.mi/pr11022.c

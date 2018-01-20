@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/cris/sync-1.c

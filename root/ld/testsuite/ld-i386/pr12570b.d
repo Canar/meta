@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-i386/pr12570b.d

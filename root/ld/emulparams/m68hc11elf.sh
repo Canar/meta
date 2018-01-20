@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/m68hc11elf.sh

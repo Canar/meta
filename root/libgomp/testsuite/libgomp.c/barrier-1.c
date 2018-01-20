@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c/barrier-1.c

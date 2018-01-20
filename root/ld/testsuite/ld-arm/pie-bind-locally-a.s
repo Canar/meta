@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/pie-bind-locally-a.s

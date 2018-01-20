@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/vax/pr56875.c

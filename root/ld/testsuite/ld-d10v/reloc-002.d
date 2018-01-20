@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-d10v/reloc-002.d

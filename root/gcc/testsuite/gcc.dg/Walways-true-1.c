@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Walways-true-1.c

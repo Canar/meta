@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/aix5rs6.sh

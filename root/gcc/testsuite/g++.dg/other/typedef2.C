@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/typedef2.C

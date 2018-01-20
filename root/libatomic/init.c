@@ -1,0 +1,1 @@
+../../gcc/libatomic/init.c

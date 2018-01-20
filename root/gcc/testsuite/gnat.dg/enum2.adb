@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/enum2.adb

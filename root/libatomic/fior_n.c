@@ -1,0 +1,1 @@
+../../gcc/libatomic/fior_n.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/matmul_bounds_7.f90

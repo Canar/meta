@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/m32r/allinsn.d

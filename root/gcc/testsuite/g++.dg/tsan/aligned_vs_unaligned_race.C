@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/tsan/aligned_vs_unaligned_race.C

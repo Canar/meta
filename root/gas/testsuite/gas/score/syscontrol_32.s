@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/score/syscontrol_32.s

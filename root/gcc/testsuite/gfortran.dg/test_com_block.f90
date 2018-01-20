@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/test_com_block.f90

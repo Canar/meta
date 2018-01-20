@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/libbid/_gt_td.c

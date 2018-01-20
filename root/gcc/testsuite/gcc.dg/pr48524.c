@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pr48524.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/concepts/pr65636.C

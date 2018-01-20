@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/delta68.sh

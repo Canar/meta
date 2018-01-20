@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c++/collapse-1.C

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.opt/solib-intra-step-lib.c

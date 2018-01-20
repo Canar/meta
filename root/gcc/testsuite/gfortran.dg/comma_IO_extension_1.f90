@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/comma_IO_extension_1.f90

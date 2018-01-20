@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/rep_clause3.adb

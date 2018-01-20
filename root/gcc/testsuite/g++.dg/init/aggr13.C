@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/init/aggr13.C

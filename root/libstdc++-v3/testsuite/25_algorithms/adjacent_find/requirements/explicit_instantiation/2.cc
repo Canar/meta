@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/25_algorithms/adjacent_find/requirements/explicit_instantiation/2.cc

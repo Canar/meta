@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.cell/bt2-spu.c

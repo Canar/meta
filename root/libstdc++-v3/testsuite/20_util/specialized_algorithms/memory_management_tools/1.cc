@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/20_util/specialized_algorithms/memory_management_tools/1.cc

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/init-bad-2.c

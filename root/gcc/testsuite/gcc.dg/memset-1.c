@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/memset-1.c

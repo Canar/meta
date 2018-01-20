@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/discard_locals_test.sh

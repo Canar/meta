@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/go.test/test/import2.dir/import3.go

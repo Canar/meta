@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c/vla-1.c

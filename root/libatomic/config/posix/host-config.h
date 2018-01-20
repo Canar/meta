@@ -1,0 +1,1 @@
+../../../../gcc/libatomic/config/posix/host-config.h

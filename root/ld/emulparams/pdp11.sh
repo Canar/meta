@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/pdp11.sh

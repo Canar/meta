@@ -1,0 +1,1 @@
+../../gcc/libgcc/fixed-obj.mk

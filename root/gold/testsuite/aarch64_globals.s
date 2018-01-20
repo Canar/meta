@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/aarch64_globals.s

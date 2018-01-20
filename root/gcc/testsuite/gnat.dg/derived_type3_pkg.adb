@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/derived_type3_pkg.adb

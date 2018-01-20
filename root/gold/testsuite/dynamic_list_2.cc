@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/dynamic_list_2.cc

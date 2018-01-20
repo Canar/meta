@@ -1,0 +1,1 @@
+../../../../../../../binutils-gdb/gas/testsuite/gas/i386/ilp32/cfi/cfi-common-3.d

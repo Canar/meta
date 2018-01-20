@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/23_containers/set/modifiers/erase/dr130-linkage-check.cc

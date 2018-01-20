@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/30_threads/shared_timed_mutex/cons/copy_neg.cc

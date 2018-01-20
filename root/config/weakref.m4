@@ -1,0 +1,1 @@
+../../binutils-gdb/config/weakref.m4

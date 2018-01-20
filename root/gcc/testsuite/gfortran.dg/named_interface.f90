@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/named_interface.f90

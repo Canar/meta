@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c++/simd10.C

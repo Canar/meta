@@ -1,0 +1,1 @@
+../../../binutils-gdb/opcodes/po/pt_BR.po

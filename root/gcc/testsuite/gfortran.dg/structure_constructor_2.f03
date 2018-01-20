@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/structure_constructor_2.f03

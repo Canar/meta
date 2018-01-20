@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/alpha/asm-1.c

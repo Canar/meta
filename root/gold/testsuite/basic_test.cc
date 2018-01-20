@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/basic_test.cc

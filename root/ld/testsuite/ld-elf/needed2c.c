@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elf/needed2c.c

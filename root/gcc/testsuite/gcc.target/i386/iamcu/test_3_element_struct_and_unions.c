@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/i386/iamcu/test_3_element_struct_and_unions.c

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-visium/ld1.ld

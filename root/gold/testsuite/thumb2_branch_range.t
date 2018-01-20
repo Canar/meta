@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/thumb2_branch_range.t

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/microblaze/pass.s

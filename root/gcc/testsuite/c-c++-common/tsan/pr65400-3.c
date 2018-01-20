@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/tsan/pr65400-3.c

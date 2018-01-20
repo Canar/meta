@@ -1,0 +1,1 @@
+../../../../gcc/libatomic/config/x86/init.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/fastmath-1.c

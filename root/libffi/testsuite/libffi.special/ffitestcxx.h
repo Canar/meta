@@ -1,0 +1,1 @@
+../../../../gcc/libffi/testsuite/libffi.special/ffitestcxx.h

@@ -1,0 +1,1 @@
+../../../../gcc/libstdc++-v3/include/backward/auto_ptr.h

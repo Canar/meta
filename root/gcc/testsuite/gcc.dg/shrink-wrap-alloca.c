@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/shrink-wrap-alloca.c

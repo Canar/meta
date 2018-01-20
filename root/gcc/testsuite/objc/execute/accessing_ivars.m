@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc/execute/accessing_ivars.m

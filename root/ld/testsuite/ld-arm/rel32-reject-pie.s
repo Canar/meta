@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/rel32-reject-pie.s

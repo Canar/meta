@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/sync/example_pool_test.go

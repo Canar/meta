@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Waddress-2.c

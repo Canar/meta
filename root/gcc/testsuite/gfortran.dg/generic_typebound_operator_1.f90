@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/generic_typebound_operator_1.f90

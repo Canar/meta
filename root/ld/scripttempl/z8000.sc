@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/z8000.sc

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/used_types_18.f90

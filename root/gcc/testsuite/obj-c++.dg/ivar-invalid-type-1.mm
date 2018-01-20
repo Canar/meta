@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/ivar-invalid-type-1.mm

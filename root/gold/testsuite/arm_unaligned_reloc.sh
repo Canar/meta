@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/arm_unaligned_reloc.sh

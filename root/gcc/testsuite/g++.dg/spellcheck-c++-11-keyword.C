@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/g++.dg/spellcheck-c++-11-keyword.C

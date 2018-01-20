@@ -1,0 +1,1 @@
+../../../../../../../gcc/gcc/testsuite/g++.dg/ext/interface3/dir1/interface3.h

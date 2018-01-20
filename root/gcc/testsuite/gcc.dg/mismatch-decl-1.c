@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/mismatch-decl-1.c

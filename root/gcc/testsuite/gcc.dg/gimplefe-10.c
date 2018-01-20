@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/gimplefe-10.c

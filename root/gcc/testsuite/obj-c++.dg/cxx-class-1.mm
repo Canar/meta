@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/cxx-class-1.mm

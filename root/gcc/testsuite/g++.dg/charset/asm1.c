@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/charset/asm1.c

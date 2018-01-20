@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-d10v/linktest-001.s

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.python/py-objfile-script-gdb.py

@@ -1,0 +1,1 @@
+../../../gcc/liboffloadmic/plugin/aclocal.m4

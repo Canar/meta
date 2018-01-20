@@ -1,0 +1,1 @@
+../../../../../../binutils-gdb/gas/testsuite/gas/i386/ilp32/svme64.d

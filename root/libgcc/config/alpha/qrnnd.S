@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/alpha/qrnnd.S

@@ -1,0 +1,1 @@
+../../../gcc/libgfortran/intrinsics/move_alloc.c

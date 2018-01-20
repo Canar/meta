@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/ref_type.ads

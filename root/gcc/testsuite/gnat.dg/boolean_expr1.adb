@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/boolean_expr1.adb

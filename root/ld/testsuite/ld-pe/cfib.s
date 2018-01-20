@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pe/cfib.s

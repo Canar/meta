@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/ucnid-1.C

@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/vxworks-x86-link.spec

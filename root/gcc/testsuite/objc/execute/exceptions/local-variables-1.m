@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/objc/execute/exceptions/local-variables-1.m

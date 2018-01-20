@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc.dg/strings/const-cfstring-2.m

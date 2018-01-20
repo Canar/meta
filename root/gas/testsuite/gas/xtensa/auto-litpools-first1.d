@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/xtensa/auto-litpools-first1.d

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/tf_interface_1.adb

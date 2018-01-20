@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/ret_pointer_1.f90

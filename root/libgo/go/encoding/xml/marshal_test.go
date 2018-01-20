@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/encoding/xml/marshal_test.go

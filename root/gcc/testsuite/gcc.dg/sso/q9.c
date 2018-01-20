@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/sso/q9.c

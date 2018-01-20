@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/20_util/tuple/comparison_operators/35480_neg.cc

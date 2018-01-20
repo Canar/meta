@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/canon-31724.C

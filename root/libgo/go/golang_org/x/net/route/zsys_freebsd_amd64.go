@@ -1,0 +1,1 @@
+../../../../../../../gcc/libgo/go/golang_org/x/net/route/zsys_freebsd_amd64.go

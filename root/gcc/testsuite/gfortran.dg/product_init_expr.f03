@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/product_init_expr.f03

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pru/pcrel_s10.d

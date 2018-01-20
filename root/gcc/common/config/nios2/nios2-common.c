@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/common/config/nios2/nios2-common.c

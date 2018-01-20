@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/store_merging_7.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/go.test/test/rotate1.go

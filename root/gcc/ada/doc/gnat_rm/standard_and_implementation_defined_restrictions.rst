@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/ada/doc/gnat_rm/standard_and_implementation_defined_restrictions.rst

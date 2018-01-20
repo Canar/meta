@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/arcv2elf.sh

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/warning-directive-1.F90

@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/log/log_test.go

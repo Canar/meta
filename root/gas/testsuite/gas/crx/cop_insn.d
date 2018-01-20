@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/crx/cop_insn.d

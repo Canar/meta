@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/crisaout.sh

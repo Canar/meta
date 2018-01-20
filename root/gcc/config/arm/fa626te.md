@@ -1,0 +1,1 @@
+../../../../gcc/gcc/config/arm/fa626te.md

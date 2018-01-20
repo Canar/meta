@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/g++.dg/torture/stackalign/eh-thiscall-1.C

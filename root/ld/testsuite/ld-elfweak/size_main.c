@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elfweak/size_main.c

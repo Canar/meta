@@ -1,0 +1,1 @@
+../../../../gcc/libffi/testsuite/libffi.go/static-chain.h

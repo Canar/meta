@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/lib/read1.c

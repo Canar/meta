@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emultempl/tic6xdsbt.em

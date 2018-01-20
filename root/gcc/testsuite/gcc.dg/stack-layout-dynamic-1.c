@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/stack-layout-dynamic-1.c

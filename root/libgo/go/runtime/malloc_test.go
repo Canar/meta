@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/runtime/malloc_test.go

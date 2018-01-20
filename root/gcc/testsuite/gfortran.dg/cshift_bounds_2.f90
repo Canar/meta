@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/cshift_bounds_2.f90

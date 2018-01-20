@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/ft32/lib1funcs.S

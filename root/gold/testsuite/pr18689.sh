@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/pr18689.sh

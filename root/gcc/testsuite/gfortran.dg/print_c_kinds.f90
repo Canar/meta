@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/print_c_kinds.f90

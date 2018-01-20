@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/loop-9.c

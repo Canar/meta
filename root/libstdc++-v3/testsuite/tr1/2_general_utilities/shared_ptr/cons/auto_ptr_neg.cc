@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/tr1/2_general_utilities/shared_ptr/cons/auto_ptr_neg.cc

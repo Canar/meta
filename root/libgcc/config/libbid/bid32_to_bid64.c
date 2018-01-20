@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/libbid/bid32_to_bid64.c

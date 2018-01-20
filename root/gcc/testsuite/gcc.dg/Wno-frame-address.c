@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wno-frame-address.c

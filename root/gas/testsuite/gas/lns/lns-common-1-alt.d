@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/lns/lns-common-1-alt.d

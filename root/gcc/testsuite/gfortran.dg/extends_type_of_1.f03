@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/extends_type_of_1.f03

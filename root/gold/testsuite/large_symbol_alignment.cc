@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/large_symbol_alignment.cc

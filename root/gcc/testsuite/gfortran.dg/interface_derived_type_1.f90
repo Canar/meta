@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/interface_derived_type_1.f90

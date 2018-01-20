@@ -1,0 +1,1 @@
+../../../../gcc/libvtv/testsuite/libvtv.cc/mul_inh.cc

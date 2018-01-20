@@ -1,0 +1,1 @@
+../../binutils-gdb/ld/h8-doc.texi

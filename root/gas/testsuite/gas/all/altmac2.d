@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/all/altmac2.d

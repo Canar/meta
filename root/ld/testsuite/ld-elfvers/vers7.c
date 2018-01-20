@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elfvers/vers7.c

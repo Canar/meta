@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pru/norelax_ldi32-dis.d

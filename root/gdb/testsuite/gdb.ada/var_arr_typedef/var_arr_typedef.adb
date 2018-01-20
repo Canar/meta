@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gdb/testsuite/gdb.ada/var_arr_typedef/var_arr_typedef.adb

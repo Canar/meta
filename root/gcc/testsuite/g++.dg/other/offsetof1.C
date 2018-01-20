@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/offsetof1.C

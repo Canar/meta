@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.perf/gmonster-pervasive-typedef.py

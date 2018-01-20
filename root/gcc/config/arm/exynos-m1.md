@@ -1,0 +1,1 @@
+../../../../gcc/gcc/config/arm/exynos-m1.md

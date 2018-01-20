@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/lvalue-5.c

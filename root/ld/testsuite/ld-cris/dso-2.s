@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/dso-2.s

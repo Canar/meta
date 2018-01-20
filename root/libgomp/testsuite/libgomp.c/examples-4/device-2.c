@@ -1,0 +1,1 @@
+../../../../../gcc/libgomp/testsuite/libgomp.c/examples-4/device-2.c

@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libstdc++-v3/testsuite/21_strings/char_traits/requirements/explicit_instantiation/wchar_t/1.cc

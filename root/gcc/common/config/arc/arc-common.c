@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/common/config/arc/arc-common.c

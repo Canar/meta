@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/libbid/bid_flag_operations.c

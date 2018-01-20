@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/rl78/test_addm3.c

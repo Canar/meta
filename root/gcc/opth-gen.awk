@@ -1,0 +1,1 @@
+../../gcc/gcc/opth-gen.awk

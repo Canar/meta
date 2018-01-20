@@ -1,0 +1,1 @@
+../../binutils-gdb/config/intdiv0.m4

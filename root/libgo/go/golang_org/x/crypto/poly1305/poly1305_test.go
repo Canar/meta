@@ -1,0 +1,1 @@
+../../../../../../../gcc/libgo/go/golang_org/x/crypto/poly1305/poly1305_test.go

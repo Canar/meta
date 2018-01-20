@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/xtensa/entry_misalign2.s

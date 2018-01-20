@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/m88kbcs.sh

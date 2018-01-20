@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/smod-1.c

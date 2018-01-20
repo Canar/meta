@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/darwin-weakref-1.c

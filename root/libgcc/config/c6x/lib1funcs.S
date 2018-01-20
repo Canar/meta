@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/c6x/lib1funcs.S

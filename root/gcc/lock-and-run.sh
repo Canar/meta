@@ -1,0 +1,1 @@
+../../gcc/gcc/lock-and-run.sh

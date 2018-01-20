@@ -1,0 +1,1 @@
+../../../../../../../gcc/libgo/go/internal/syscall/windows/registry/registry_test.go

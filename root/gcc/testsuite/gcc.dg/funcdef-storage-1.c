@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/funcdef-storage-1.c

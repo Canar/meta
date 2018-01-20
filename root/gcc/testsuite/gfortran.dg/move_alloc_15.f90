@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/move_alloc_15.f90

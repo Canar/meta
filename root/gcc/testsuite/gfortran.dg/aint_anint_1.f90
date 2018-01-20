@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/aint_anint_1.f90

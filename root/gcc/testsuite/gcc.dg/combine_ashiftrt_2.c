@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/combine_ashiftrt_2.c

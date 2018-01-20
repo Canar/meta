@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/encoding/base32/base32.go

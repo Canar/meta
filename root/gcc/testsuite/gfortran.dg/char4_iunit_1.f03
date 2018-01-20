@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/char4_iunit_1.f03

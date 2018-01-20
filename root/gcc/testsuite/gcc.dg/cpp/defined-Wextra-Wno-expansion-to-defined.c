@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/cpp/defined-Wextra-Wno-expansion-to-defined.c

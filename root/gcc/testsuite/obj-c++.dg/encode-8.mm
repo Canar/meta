@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/encode-8.mm

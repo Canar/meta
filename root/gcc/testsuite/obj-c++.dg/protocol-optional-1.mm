@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/protocol-optional-1.mm

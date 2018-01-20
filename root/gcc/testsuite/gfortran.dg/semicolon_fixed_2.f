@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/semicolon_fixed_2.f

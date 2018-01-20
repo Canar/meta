@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/cshift_shift_real_2.f90

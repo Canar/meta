@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/gotrel2.s

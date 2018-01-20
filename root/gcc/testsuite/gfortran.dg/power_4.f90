@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/power_4.f90

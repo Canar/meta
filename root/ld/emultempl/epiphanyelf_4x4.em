@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emultempl/epiphanyelf_4x4.em

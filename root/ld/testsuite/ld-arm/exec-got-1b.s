@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/exec-got-1b.s

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/cast-lvalue-2.c

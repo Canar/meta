@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Walloca-1.c

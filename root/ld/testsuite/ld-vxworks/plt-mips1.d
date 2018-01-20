@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-vxworks/plt-mips1.d

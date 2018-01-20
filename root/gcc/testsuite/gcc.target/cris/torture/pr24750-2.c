@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/cris/torture/pr24750-2.c

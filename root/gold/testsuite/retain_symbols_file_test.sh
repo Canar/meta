@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/retain_symbols_file_test.sh

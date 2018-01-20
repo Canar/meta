@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/hypot_1.f90

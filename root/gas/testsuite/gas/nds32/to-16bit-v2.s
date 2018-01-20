@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/nds32/to-16bit-v2.s

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/chmod_2.f90

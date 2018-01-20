@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/score/rD_rA_BN.s

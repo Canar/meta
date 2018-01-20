@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-m68hc11/bug-1417.d

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc.dg/tls/diag-4.m

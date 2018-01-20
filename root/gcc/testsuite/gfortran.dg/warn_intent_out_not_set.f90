@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/warn_intent_out_not_set.f90

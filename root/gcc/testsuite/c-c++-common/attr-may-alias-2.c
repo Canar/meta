@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/attr-may-alias-2.c

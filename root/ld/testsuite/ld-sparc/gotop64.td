@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-sparc/gotop64.td

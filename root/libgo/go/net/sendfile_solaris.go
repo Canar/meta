@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/net/sendfile_solaris.go

@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/ehdr_start_test.t

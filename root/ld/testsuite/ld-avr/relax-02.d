@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-avr/relax-02.d

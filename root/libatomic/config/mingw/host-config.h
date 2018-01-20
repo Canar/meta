@@ -1,0 +1,1 @@
+../../../../gcc/libatomic/config/mingw/host-config.h

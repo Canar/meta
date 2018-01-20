@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/protected_self_ref1.adb

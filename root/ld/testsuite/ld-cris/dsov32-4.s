@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/dsov32-4.s

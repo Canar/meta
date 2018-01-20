@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/dollar_edit_descriptor_2.f

@@ -1,0 +1,1 @@
+../../../gcc/libquadmath/printf/mul_1.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pr70161-2.c

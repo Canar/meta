@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/mmix/crti.S

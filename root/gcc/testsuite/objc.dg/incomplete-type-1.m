@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/incomplete-type-1.m

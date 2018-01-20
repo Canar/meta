@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/impure_3.f90

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-avr/pr20789.s

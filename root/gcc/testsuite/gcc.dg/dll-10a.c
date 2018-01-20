@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/dll-10a.c

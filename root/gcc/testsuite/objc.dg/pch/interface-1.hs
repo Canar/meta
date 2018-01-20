@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc.dg/pch/interface-1.hs

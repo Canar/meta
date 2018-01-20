@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/simpleif_2.f90

@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/22_locale/codecvt/in/char/1.cc

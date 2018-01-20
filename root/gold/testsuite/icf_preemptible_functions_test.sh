@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/icf_preemptible_functions_test.sh

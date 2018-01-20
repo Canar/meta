@@ -1,0 +1,1 @@
+../../../../../gcc/libgcc/config/nds32/isr-library/jmptbl_vid68.S

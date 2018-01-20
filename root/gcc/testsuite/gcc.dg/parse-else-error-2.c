@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/parse-else-error-2.c

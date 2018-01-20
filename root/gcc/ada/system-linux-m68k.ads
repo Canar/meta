@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/system-linux-m68k.ads

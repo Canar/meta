@@ -1,0 +1,1 @@
+../../../../gcc/libatomic/testsuite/libatomic.c/atomic-compare-exchange-5.c

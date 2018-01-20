@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.test-framework/dg-output-exp-P.c

@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/ifuncdep2.c

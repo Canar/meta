@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/switch-b.adb

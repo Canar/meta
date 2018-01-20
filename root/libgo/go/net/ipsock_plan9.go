@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/net/ipsock_plan9.go

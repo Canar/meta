@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arc/sda-relocs.s

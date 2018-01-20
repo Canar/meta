@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/common/config/lm32/lm32-common.c

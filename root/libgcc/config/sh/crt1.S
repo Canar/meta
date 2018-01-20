@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/sh/crt1.S

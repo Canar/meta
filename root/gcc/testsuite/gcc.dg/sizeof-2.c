@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/sizeof-2.c

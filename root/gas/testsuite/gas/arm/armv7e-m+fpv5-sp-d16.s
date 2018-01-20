@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/arm/armv7e-m+fpv5-sp-d16.s

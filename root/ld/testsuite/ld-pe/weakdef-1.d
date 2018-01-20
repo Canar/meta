@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pe/weakdef-1.d

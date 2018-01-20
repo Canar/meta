@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/22_locale/codecvt/length/wchar_t/4.cc

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/readwrite_unf_direct_eor_1.f90

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/stat_1.f90

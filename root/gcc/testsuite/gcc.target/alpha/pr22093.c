@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/alpha/pr22093.c

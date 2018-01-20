@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/mn10200/mov3.s

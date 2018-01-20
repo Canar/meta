@@ -1,0 +1,1 @@
+../../../../../../../gcc/libgo/go/go/internal/gccgoimporter/testdata/imports.go

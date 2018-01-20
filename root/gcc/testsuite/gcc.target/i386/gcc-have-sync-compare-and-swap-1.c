@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/i386/gcc-have-sync-compare-and-swap-1.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/dtio_20.f03

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/boolean_subtype2_pkg.ads

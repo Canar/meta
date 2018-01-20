@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wlogical-op-1.c

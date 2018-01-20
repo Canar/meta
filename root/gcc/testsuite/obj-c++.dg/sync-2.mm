@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/sync-2.mm

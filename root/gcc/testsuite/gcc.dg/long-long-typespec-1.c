@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/long-long-typespec-1.c

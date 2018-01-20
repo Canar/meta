@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/decl-10.c

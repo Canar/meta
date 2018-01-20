@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/sun3.sh

@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/encoding/gob/type_test.go

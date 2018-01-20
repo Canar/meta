@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emultempl/nds32elf.em

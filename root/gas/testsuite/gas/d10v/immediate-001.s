@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/d10v/immediate-001.s

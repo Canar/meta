@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/opts-4.c

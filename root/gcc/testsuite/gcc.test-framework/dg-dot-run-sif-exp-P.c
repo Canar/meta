@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.test-framework/dg-dot-run-sif-exp-P.c

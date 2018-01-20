@@ -1,0 +1,1 @@
+../../../../gcc/libffi/testsuite/libffi.call/err_bad_abi.c

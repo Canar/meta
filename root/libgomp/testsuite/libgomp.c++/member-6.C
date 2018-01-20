@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c++/member-6.C

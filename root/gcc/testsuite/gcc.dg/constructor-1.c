@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/constructor-1.c

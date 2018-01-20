@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/experimental/string_view/inserters/pod/10081-out.cc

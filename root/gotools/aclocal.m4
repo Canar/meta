@@ -1,0 +1,1 @@
+../../gcc/gotools/aclocal.m4

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc/compile/20060406-1.m

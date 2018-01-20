@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-avr/gc-section-debugline.d

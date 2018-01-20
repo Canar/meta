@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/ada/doc/gnat_rm/implementation_defined_attributes.rst

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/malloc_free_1.f90

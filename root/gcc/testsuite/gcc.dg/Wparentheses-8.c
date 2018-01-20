@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wparentheses-8.c

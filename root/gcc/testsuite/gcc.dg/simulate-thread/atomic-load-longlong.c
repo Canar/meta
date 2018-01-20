@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/simulate-thread/atomic-load-longlong.c

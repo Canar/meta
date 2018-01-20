@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/arc/lib1funcs.S

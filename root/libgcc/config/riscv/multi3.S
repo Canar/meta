@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/riscv/multi3.S

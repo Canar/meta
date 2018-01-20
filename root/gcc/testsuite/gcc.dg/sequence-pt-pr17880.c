@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/sequence-pt-pr17880.c

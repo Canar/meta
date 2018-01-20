@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/warnings_are_errors_1.f

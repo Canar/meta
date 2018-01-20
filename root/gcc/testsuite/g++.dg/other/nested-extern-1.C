@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/nested-extern-1.C

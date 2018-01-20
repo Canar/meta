@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/anon8.C

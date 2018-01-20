@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/nios2/nios2-stack-check-2.c

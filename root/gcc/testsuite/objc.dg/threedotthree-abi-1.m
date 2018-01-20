@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/threedotthree-abi-1.m

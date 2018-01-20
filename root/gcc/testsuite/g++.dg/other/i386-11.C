@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/i386-11.C

@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/html/template/transition_test.go

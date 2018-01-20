@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-sh/ld-r-1.d

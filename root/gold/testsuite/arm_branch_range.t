@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/arm_branch_range.t

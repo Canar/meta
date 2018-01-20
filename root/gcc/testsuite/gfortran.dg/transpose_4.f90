@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/transpose_4.f90

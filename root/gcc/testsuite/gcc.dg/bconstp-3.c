@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/bconstp-3.c

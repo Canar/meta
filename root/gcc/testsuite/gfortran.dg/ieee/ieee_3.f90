@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/ieee/ieee_3.f90

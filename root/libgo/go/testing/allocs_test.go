@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/testing/allocs_test.go

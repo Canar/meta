@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/procedure_lvalue.f90

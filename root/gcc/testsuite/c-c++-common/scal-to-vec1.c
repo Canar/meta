@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/scal-to-vec1.c

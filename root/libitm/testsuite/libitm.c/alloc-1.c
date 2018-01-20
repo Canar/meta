@@ -1,0 +1,1 @@
+../../../../gcc/libitm/testsuite/libitm.c/alloc-1.c

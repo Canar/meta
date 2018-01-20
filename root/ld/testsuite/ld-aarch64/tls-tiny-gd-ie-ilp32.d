@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-aarch64/tls-tiny-gd-ie-ilp32.d

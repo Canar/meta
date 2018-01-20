@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/bound_5.f90

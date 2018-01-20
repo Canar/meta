@@ -1,0 +1,1 @@
+../../../../gcc/gcc/config/arm/marvell-pj4.md

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/dollar_sym_3.f

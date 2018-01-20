@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/Wmemset-transposed-args1.c

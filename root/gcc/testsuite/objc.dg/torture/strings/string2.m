@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/objc.dg/torture/strings/string2.m

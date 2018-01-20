@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/jit.dg/test-pr66700-observing-write-through-ptr.c

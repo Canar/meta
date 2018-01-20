@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/arm/atomic-comp-swap-release-acquire-2.c

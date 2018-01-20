@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/loop_optimization8_pkg1.ads

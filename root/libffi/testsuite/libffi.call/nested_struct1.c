@@ -1,0 +1,1 @@
+../../../../gcc/libffi/testsuite/libffi.call/nested_struct1.c

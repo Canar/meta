@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/substr_alloc_string_comp_1.f90

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/qualttp19.C

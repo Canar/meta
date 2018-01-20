@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/di-sync-multithread.c

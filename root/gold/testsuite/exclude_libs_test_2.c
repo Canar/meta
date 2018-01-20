@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/exclude_libs_test_2.c

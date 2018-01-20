@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/all/pr20312.l

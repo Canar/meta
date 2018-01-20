@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/ada/doc/gnat_ugn/platform_specific_information.rst

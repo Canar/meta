@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/math/export_s390x_test.go

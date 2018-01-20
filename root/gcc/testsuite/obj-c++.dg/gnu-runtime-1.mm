@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/gnu-runtime-1.mm

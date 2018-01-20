@@ -1,0 +1,1 @@
+../../../../gcc/gcc/config/vax/netbsd-elf.h

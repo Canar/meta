@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/avrxmega7.sh

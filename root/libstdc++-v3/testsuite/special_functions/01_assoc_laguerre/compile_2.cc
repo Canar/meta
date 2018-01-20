@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/special_functions/01_assoc_laguerre/compile_2.cc

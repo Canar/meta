@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/sh/pabs.s

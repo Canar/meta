@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/vshift-5.c

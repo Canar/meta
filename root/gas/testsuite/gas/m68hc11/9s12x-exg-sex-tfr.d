@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/m68hc11/9s12x-exg-sex-tfr.d

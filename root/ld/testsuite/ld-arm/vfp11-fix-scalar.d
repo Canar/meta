@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/vfp11-fix-scalar.d

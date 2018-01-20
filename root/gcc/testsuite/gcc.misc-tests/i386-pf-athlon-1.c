@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.misc-tests/i386-pf-athlon-1.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/ivar-problem-1.mm

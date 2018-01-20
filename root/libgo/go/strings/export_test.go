@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/strings/export_test.go

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/s390/machine-parsing-5.s

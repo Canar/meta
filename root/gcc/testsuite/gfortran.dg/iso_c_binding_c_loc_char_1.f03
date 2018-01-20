@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/iso_c_binding_c_loc_char_1.f03

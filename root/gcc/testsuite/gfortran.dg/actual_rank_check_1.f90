@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/actual_rank_check_1.f90

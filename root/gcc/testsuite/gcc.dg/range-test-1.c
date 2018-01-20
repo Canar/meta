@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/range-test-1.c

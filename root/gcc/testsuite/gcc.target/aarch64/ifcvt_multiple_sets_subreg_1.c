@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/aarch64/ifcvt_multiple_sets_subreg_1.c

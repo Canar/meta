@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/ifcvt-1.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/bitfield-3.m

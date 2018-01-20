@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/bfin/c_cc_regmvlogi_mvbrsft_s1.s

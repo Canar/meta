@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-gc/pr20022a.s

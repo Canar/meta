@@ -1,0 +1,1 @@
+../../../../../../../gcc/libgo/go/golang_org/x/crypto/chacha20poly1305/chacha20poly1305_test_vectors.go

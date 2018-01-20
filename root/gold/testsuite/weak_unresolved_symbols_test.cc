@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/weak_unresolved_symbols_test.cc

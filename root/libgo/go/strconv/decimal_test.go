@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/strconv/decimal_test.go

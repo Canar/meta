@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wshadow-local-1.c

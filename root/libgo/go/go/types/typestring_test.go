@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/go/types/typestring_test.go

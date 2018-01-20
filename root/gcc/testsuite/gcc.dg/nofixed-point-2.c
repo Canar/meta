@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/nofixed-point-2.c

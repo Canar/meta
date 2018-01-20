@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/21_strings/basic_string/requirements/exception/basic.cc

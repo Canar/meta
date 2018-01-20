@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wunsuffixed-float-constants-1.c

@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/w65.sc

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/case_character.adb

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/spellcheck-options-12.c

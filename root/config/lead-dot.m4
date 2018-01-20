@@ -1,0 +1,1 @@
+../../binutils-gdb/config/lead-dot.m4

@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/ia64/pr13167.s

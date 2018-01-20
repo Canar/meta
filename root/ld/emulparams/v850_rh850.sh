@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/v850_rh850.sh

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/inline3_pkg.ads

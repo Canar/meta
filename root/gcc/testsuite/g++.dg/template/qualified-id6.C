@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/qualified-id6.C

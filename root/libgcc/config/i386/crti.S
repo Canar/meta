@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/i386/crti.S

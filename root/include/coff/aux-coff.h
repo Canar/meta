@@ -1,0 +1,1 @@
+../../../binutils-gdb/include/coff/aux-coff.h

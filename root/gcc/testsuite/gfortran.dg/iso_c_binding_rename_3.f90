@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/iso_c_binding_rename_3.f90

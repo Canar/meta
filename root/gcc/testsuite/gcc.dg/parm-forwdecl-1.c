@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/parm-forwdecl-1.c

@@ -1,0 +1,1 @@
+../../../../../../binutils-gdb/gas/testsuite/gas/sh/arch/sh2a-nofpu-or-sh4-nommu-nofpu.s

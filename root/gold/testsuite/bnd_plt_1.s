@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/bnd_plt_1.s

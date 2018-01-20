@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/transparent-union-1.c

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.dg/debug/dwarf2/stacked-qualified-types-1.c

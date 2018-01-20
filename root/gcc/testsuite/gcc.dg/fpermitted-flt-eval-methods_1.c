@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/fpermitted-flt-eval-methods_1.c

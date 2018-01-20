@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/tic4xcoff.sh

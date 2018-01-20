@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c/static-chunk-size-one.c

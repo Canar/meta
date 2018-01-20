@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/invalid_interface_assignment.f90

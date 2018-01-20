@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/ia64/ltoff22x-4.s

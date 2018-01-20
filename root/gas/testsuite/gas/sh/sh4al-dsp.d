@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/sh/sh4al-dsp.d

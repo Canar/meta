@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pow-sqrt-3.c

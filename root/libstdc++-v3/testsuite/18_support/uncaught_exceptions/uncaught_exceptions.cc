@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/18_support/uncaught_exceptions/uncaught_exceptions.cc

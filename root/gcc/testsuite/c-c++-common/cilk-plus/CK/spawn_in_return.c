@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/c-c++-common/cilk-plus/CK/spawn_in_return.c

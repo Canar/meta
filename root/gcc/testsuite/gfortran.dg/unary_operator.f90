@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/unary_operator.f90

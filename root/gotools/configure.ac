@@ -1,0 +1,1 @@
+../../gcc/gotools/configure.ac

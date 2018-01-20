@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/iq2000/lib2funcs.c

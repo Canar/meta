@@ -1,0 +1,1 @@
+../../../binutils-gdb/libiberty/testsuite/demangler-fuzzer.c

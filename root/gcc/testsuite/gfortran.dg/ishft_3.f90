@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/ishft_3.f90

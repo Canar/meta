@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/score/mv_32.s

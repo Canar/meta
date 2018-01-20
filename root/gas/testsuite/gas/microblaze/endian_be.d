@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/microblaze/endian_be.d

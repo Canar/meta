@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/elfarcv2.sc

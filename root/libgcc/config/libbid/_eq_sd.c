@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/libbid/_eq_sd.c

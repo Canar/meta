@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/multiple-overflow-warn-1.c

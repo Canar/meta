@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/29_atomics/atomic/is_always_lock_free.cc

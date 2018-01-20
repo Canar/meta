@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/x32_overflow_pc32.sh

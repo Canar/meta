@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/openacc-define-1.f90

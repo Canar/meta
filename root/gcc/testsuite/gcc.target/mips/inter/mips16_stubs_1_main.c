@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/mips/inter/mips16_stubs_1_main.c

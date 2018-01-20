@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/random_3.f90

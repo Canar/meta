@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/protected_4.cc

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/string_0xfe_0xff_1.f90

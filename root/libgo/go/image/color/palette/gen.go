@@ -1,0 +1,1 @@
+../../../../../../gcc/libgo/go/image/color/palette/gen.go

@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/26_numerics/slice_array/requirements/typedefs.cc

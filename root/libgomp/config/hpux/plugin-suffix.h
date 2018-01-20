@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/config/hpux/plugin-suffix.h

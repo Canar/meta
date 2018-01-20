@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/ext/random/hypergeometric_distribution/requirements/typedefs.cc

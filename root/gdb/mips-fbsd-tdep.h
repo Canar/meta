@@ -1,0 +1,1 @@
+../../binutils-gdb/gdb/mips-fbsd-tdep.h

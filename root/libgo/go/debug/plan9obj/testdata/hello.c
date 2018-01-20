@@ -1,0 +1,1 @@
+../../../../../../gcc/libgo/go/debug/plan9obj/testdata/hello.c

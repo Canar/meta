@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/method-4.m

@@ -1,0 +1,1 @@
+../../../../../gcc/libgcc/config/nds32/lib2csrc-mculib/_clzdi2.c

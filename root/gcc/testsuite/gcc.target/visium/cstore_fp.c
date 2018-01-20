@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/visium/cstore_fp.c

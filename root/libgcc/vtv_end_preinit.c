@@ -1,0 +1,1 @@
+../../gcc/libgcc/vtv_end_preinit.c

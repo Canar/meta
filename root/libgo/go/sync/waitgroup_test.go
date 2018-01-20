@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/sync/waitgroup_test.go

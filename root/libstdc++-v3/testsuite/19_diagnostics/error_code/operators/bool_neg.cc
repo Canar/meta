@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/19_diagnostics/error_code/operators/bool_neg.cc

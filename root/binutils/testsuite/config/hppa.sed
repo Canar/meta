@@ -1,0 +1,1 @@
+../../../../binutils-gdb/binutils/testsuite/config/hppa.sed

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/typeof-2.c

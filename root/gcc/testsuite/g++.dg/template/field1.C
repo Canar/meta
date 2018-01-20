@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/field1.C

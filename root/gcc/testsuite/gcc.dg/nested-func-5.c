@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/nested-func-5.c

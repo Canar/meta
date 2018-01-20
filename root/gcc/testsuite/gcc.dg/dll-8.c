@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/dll-8.c

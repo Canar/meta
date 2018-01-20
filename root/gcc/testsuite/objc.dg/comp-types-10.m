@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/comp-types-10.m

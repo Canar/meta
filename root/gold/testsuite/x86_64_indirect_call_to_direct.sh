@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/x86_64_indirect_call_to_direct.sh

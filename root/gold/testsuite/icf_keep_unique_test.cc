@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/icf_keep_unique_test.cc

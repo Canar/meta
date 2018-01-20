@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/image/geom.go

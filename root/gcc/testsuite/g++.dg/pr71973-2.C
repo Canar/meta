@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/g++.dg/pr71973-2.C

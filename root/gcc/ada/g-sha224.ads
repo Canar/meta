@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/g-sha224.ads

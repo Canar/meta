@@ -1,0 +1,1 @@
+../../binutils-gdb/gold/symtab.cc

@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/elf32b4300.sh

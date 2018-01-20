@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/bf-spl1.c

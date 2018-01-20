@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/dispatch1.adb

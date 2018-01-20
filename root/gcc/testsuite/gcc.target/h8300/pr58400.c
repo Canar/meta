@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/h8300/pr58400.c

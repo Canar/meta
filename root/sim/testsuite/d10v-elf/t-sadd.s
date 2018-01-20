@@ -1,0 +1,1 @@
+../../../../binutils-gdb/sim/testsuite/d10v-elf/t-sadd.s

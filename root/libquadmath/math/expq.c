@@ -1,0 +1,1 @@
+../../../gcc/libquadmath/math/expq.c

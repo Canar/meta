@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-nios2/pcrel16_label.s

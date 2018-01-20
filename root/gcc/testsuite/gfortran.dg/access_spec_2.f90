@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/access_spec_2.f90

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/c11-thread-local-1.c

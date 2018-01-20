@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elfvers/vers23a.c

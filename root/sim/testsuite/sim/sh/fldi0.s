@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/sh/fldi0.s

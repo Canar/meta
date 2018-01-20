@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c++/pr66199-3.C

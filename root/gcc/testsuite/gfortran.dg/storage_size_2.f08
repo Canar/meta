@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/storage_size_2.f08

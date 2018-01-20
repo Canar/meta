@@ -1,0 +1,1 @@
+../../../../gcc/libffi/testsuite/libffi.call/va_struct3.c

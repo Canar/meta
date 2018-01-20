@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/vector-shift-2.c

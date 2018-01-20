@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/Wcast-qual-1.c

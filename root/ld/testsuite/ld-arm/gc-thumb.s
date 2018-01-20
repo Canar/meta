@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/gc-thumb.s

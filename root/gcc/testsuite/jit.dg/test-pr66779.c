@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/jit.dg/test-pr66779.c

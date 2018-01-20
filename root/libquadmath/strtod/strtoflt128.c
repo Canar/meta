@@ -1,0 +1,1 @@
+../../../gcc/libquadmath/strtod/strtoflt128.c

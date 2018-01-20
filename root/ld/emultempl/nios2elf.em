@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emultempl/nios2elf.em

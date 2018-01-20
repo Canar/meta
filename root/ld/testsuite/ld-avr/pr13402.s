@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-avr/pr13402.s

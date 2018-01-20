@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/tic3xcoff_onchip.sh

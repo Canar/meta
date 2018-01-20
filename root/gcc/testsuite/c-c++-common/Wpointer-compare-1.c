@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/Wpointer-compare-1.c

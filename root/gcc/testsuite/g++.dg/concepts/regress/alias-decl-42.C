@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/g++.dg/concepts/regress/alias-decl-42.C

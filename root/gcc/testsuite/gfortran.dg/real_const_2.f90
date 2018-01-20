@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/real_const_2.f90

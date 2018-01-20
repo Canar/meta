@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libstdc++-v3/testsuite/ext/random/nakagami_distribution/requirements/explicit_instantiation/1.cc

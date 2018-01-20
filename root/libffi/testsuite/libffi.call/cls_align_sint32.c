@@ -1,0 +1,1 @@
+../../../../gcc/libffi/testsuite/libffi.call/cls_align_sint32.c

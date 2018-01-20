@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/h8300s.sc

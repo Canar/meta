@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-nios2/relax_call26_boundary_fc.d

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/fobjc-std-1.mm

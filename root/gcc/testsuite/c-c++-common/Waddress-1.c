@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/Waddress-1.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/missing-field-init-1.c

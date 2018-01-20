@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/transpose_optimization_2.f90

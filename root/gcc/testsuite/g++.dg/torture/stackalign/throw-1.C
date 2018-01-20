@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/g++.dg/torture/stackalign/throw-1.C

@@ -1,0 +1,1 @@
+../../../binutils-gdb/gdb/guile/scm-symbol.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/m68k/tls-ld-xgot-xtls.c

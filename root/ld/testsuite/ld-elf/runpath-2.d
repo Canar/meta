@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elf/runpath-2.d

@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/arcelf_prof.sh

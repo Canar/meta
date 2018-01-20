@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/ext/rope/5.cc

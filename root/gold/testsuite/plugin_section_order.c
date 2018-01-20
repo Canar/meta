@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/plugin_section_order.c

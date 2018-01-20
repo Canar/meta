@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/ctor1.c

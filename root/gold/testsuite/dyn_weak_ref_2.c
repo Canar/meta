@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/dyn_weak_ref_2.c

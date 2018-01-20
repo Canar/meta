@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/crypto/elliptic/p256_amd64.go

@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/pr14265.c

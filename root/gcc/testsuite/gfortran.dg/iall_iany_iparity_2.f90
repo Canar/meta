@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/iall_iany_iparity_2.f90

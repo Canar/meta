@@ -1,0 +1,1 @@
+../../gcc/libgomp/aclocal.m4

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/userdef_operator_2.f90

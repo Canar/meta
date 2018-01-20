@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/void-cast-1.c

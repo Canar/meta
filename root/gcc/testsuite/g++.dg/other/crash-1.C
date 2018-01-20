@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/crash-1.C

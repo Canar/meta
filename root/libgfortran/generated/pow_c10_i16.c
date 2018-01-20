@@ -1,0 +1,1 @@
+../../../gcc/libgfortran/generated/pow_c10_i16.c

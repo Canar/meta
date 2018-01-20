@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/union-cast-2.c

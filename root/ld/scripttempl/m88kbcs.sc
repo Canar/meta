@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/m88kbcs.sc

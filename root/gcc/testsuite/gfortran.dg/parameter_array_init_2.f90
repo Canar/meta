@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/parameter_array_init_2.f90

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.dg/gomp/appendix-a/a.32.1.c

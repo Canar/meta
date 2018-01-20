@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/selector-warn-1.mm

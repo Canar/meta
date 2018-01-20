@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/canon-type-7.C

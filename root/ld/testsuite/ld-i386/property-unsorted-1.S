@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-i386/property-unsorted-1.S

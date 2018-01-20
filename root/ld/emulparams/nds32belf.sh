@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/nds32belf.sh

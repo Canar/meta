@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pru/pcrel_u8-illegal.d

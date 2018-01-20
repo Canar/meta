@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/encoding/binary/varint_test.go

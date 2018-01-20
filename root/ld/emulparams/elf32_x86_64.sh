@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/elf32_x86_64.sh

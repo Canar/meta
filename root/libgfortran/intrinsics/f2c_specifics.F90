@@ -1,0 +1,1 @@
+../../../gcc/libgfortran/intrinsics/f2c_specifics.F90

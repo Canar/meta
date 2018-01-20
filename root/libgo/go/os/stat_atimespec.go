@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/os/stat_atimespec.go

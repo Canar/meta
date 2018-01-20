@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/m68k/mcf-mov3q.s

@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/hp3hpux.sh

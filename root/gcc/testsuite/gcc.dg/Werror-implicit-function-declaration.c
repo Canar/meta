@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Werror-implicit-function-declaration.c

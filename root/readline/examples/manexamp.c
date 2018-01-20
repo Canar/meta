@@ -1,0 +1,1 @@
+../../../binutils-gdb/readline/examples/manexamp.c

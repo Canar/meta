@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/ext-elim-1.c

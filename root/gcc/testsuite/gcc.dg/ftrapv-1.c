@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/ftrapv-1.c

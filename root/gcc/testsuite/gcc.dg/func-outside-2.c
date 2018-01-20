@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/func-outside-2.c

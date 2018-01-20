@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/z8002.sh

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pru/ldi32_symbol.s

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/streamio_5.f90

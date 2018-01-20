@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/mixed_io_1.f90

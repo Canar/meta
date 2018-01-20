@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/vect/if-cvt-stores-vect-ifcvt-18.c

@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/text/template/exec_test.go

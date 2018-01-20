@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/nds32/br-2.d

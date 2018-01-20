@@ -1,0 +1,1 @@
+../../../../gcc/gcc/config/c6x/constraints.md

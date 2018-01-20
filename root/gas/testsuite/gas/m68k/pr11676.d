@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/m68k/pr11676.d

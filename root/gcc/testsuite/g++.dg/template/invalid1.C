@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/invalid1.C

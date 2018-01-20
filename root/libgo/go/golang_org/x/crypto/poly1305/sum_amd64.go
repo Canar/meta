@@ -1,0 +1,1 @@
+../../../../../../../gcc/libgo/go/golang_org/x/crypto/poly1305/sum_amd64.go

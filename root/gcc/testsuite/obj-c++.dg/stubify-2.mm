@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/stubify-2.mm

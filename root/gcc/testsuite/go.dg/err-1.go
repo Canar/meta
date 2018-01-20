@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/go.dg/err-1.go

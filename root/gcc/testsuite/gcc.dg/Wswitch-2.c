@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wswitch-2.c

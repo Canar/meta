@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/get_targ.adb

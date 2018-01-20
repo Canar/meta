@@ -1,0 +1,1 @@
+../../../binutils-gdb/gas/config/te-aix5.h

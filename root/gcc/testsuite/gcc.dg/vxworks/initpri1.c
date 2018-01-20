@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/vxworks/initpri1.c

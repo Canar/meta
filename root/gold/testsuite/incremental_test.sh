@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/incremental_test.sh

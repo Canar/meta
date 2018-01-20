@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.dg/debug/dwarf2/dwarf2-3.c

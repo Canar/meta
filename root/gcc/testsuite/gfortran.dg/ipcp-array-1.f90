@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/ipcp-array-1.f90

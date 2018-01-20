@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/cpp1y/udlit-char-template-vs-std-literal-operator.C

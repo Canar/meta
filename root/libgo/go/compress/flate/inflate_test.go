@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/compress/flate/inflate_test.go

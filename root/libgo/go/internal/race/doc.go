@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/internal/race/doc.go

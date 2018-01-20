@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/20_util/unique_ptr/requirements/pointer_type_array.cc

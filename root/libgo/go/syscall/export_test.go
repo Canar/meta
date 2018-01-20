@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/syscall/export_test.go

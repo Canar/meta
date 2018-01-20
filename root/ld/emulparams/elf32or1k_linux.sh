@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/elf32or1k_linux.sh

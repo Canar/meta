@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/attr-aligned-1.c

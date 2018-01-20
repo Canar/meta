@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/aarch64fbsd.sh

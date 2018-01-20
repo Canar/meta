@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/nios2/lib2-mul.c

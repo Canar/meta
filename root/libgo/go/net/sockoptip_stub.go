@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/net/sockoptip_stub.go

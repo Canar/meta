@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.guile/source2.scm

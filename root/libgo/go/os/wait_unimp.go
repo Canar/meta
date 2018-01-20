@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/os/wait_unimp.go

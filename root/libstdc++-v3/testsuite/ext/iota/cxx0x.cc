@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/ext/iota/cxx0x.cc

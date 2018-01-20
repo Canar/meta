@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/pointer_discr1.adb

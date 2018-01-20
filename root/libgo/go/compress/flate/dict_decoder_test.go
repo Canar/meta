@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/compress/flate/dict_decoder_test.go

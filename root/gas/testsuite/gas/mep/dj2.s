@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/mep/dj2.s

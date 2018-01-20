@@ -1,0 +1,1 @@
+../../../binutils-gdb/gdb/testsuite/dg-extract-results.sh

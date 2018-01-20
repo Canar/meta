@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/wtr-unary-plus-1.c

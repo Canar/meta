@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/29_atomics/atomic_integral/requirements/standard_layout.cc

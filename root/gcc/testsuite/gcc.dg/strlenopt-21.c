@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/strlenopt-21.c

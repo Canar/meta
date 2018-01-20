@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/parity_2.f90

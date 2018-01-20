@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/objc/execute/exceptions/pr31281.m

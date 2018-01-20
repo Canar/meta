@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/spu/ea/execute3.c

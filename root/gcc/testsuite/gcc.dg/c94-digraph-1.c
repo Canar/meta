@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/c94-digraph-1.c

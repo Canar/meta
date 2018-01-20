@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/opt48_pkg1.adb

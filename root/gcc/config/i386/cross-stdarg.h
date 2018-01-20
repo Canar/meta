@@ -1,0 +1,1 @@
+../../../../gcc/gcc/config/i386/cross-stdarg.h

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/predict-9.c

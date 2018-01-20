@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/nested-func-2.c

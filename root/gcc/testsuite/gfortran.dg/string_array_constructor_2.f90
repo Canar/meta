@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/string_array_constructor_2.f90

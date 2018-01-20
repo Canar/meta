@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/c-c++-common/dfp/compare-special-d32.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/cr-decimal-dig-1.c

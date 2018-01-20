@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/open_new_segv.f90

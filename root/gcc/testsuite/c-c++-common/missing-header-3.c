@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/missing-header-3.c

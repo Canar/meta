@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pe/longsecn-4.d

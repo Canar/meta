@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/optimize-bswapdi-2.c

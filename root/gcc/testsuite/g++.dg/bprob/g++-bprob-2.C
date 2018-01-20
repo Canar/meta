@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/bprob/g++-bprob-2.C

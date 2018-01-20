@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libstdc++-v3/testsuite/26_numerics/random/cauchy_distribution/requirements/explicit_instantiation/1.cc

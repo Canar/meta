@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/profile-update-warning.c

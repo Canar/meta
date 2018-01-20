@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gdb/testsuite/gdb.ada/out_of_line_in_inlined/foo_o224_021.adb

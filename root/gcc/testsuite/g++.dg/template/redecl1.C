@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/template/redecl1.C

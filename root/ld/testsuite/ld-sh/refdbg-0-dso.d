@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-sh/refdbg-0-dso.d

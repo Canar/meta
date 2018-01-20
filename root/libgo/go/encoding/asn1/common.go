@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/encoding/asn1/common.go

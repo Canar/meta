@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.disasm/mn10200.s

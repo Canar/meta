@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.dg/debug/dwarf2/align-1.c

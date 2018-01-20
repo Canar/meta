@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c++/doacross-1.C

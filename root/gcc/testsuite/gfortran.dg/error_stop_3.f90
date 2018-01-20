@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/error_stop_3.f90

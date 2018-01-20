@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wredundant-decls-2.c

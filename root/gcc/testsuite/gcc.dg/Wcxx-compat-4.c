@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wcxx-compat-4.c

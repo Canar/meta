@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/vector-scalar-2.c

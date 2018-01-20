@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/mips/fpu64-ps-sb1.s

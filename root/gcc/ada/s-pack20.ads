@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/s-pack20.ads

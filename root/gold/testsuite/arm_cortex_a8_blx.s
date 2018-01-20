@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/arm_cortex_a8_blx.s

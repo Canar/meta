@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/misplaced_implicit_character.f90

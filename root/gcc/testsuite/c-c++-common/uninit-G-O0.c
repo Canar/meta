@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/uninit-G-O0.c

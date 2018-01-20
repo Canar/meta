@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/syscall/lsf_linux.go

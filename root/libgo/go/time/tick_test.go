@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/time/tick_test.go

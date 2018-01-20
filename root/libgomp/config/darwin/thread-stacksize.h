@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/config/darwin/thread-stacksize.h

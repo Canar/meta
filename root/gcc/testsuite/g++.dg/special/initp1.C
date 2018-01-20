@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/special/initp1.C

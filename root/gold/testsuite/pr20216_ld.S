@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/pr20216_ld.S

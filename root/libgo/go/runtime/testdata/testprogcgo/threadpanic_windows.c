@@ -1,0 +1,1 @@
+../../../../../../gcc/libgo/go/runtime/testdata/testprogcgo/threadpanic_windows.c

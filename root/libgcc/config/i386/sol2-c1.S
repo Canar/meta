@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/i386/sol2-c1.S

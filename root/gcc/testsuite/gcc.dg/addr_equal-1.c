@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/addr_equal-1.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/empty_function_1.f90

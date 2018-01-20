@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pr79255.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/spread_init_expr_2.f90

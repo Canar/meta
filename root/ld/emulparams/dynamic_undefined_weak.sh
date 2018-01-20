@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/dynamic_undefined_weak.sh

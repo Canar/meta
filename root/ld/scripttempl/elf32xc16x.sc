@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/elf32xc16x.sc

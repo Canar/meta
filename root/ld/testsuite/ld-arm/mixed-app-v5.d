@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/mixed-app-v5.d

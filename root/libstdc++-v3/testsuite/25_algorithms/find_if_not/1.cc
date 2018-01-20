@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/25_algorithms/find_if_not/1.cc

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-size/size32-3-x32.d

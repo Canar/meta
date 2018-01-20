@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libgo/go/go/build/testdata/other/file/file.go

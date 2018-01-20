@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/arclinux_prof.sh

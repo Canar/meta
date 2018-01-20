@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/fold-bitand-4.c

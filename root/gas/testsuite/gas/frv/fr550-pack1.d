@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/frv/fr550-pack1.d

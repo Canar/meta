@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/i386beos.sh

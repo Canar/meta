@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/io_err_1.f90

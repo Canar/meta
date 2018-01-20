@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/deallocate_stat.f90

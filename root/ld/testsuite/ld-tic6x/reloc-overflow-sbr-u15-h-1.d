@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-tic6x/reloc-overflow-sbr-u15-h-1.d

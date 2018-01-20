@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/unformatted_subrecord_1.f90

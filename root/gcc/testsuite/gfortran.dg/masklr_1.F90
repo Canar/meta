@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/masklr_1.F90

@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/go/types/token_test.go

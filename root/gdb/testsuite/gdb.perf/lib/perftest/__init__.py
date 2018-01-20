@@ -1,0 +1,1 @@
+../../../../../../binutils-gdb/gdb/testsuite/gdb.perf/lib/perftest/__init__.py

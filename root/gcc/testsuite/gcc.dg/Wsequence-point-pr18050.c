@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wsequence-point-pr18050.c

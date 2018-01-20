@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/pr16044.d

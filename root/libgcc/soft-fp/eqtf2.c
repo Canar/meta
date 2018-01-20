@@ -1,0 +1,1 @@
+../../../gcc/libgcc/soft-fp/eqtf2.c

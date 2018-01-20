@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/mips/hilo-hazard-3.s

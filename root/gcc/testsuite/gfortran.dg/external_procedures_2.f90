@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/external_procedures_2.f90

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/subref_array_pointer_3.f90

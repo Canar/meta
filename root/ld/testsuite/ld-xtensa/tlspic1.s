@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-xtensa/tlspic1.s

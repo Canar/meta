@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/math/big/arith_decl_pure.go

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/i386/mpx/builtin-bnd-store-ptr-bounds-2.c

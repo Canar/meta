@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/addr_builtin-1.c

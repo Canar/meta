@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/common/config/mips/mips-common.c

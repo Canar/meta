@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/22_locale/numpunct_byname/1.cc

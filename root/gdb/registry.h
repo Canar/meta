@@ -1,0 +1,1 @@
+../../binutils-gdb/gdb/registry.h

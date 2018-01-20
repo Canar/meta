@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/g++.dg/cdce3.C

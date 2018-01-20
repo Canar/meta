@@ -1,0 +1,1 @@
+../../../../gcc/libstdc++-v3/testsuite/decimal/mixed-mode-arith_neg.cc

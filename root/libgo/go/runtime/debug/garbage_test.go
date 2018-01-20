@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/runtime/debug/garbage_test.go

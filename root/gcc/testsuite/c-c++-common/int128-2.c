@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/int128-2.c

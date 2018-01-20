@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/warn6.mm

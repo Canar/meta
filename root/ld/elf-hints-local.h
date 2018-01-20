@@ -1,0 +1,1 @@
+../../binutils-gdb/ld/elf-hints-local.h

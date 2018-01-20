@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/repeat_6.f90

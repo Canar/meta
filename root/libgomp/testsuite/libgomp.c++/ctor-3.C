@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c++/ctor-3.C

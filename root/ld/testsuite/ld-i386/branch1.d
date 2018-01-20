@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-i386/branch1.d

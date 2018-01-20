@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/g++.dg/torture/stackalign/eh-vararg-1.C

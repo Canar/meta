@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-size/size-9a.c

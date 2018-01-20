@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/sparc/crti.S

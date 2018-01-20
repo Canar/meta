@@ -1,0 +1,1 @@
+../../gcc/contrib/check_GNU_style.sh

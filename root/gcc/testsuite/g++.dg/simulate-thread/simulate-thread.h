@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/simulate-thread/simulate-thread.h

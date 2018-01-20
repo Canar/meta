@@ -1,0 +1,1 @@
+../../binutils-gdb/bfd/trad-core.c

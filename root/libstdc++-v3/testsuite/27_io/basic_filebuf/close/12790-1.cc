@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/27_io/basic_filebuf/close/12790-1.cc

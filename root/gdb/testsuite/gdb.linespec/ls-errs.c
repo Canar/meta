@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.linespec/ls-errs.c

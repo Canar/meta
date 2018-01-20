@@ -1,0 +1,1 @@
+../../../../gcc/libstdc++-v3/testsuite/data/ostream_seeks-1.tst

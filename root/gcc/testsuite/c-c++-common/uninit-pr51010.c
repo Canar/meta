@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/uninit-pr51010.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/vect/wrapv-vect-reduc-dot-s8b.c

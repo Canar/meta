@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/enum-mode-2.c

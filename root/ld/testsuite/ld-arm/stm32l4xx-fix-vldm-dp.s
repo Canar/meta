@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/stm32l4xx-fix-vldm-dp.s

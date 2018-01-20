@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/empty_label_typedecl.f90

@@ -1,0 +1,1 @@
+../../../../gcc/libstdc++-v3/testsuite/decimal/pr54036-2.cc

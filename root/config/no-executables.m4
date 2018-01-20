@@ -1,0 +1,1 @@
+../../binutils-gdb/config/no-executables.m4

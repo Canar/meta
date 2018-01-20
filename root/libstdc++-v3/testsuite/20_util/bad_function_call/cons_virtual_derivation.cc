@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/20_util/bad_function_call/cons_virtual_derivation.cc

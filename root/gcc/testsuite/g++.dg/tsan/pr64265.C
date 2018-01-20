@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/tsan/pr64265.C

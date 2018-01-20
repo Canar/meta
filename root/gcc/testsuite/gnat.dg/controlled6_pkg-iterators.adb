@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/controlled6_pkg-iterators.adb

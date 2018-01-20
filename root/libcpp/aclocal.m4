@@ -1,0 +1,1 @@
+../../gcc/libcpp/aclocal.m4

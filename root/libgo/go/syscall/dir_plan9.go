@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/syscall/dir_plan9.go

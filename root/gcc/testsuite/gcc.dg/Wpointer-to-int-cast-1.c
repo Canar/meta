@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wpointer-to-int-cast-1.c

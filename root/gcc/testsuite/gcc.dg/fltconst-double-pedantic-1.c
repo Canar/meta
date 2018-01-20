@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/fltconst-double-pedantic-1.c

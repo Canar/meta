@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/22_locale/collate/transform/wchar_t/wrapped_locale.cc

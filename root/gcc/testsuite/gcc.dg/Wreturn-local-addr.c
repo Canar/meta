@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wreturn-local-addr.c

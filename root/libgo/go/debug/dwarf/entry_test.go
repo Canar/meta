@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/debug/dwarf/entry_test.go

@@ -1,0 +1,1 @@
+../../../binutils-gdb/gas/config/obj-coff-seh.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/lower-subreg-1.c

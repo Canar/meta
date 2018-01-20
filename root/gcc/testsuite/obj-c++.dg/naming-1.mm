@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/naming-1.mm

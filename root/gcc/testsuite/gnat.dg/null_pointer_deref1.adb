@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/null_pointer_deref1.adb

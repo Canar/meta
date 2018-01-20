@@ -1,0 +1,1 @@
+../../../binutils-gdb/gdb/contrib/test_pubnames_and_indexes.py

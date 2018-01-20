@@ -1,0 +1,1 @@
+../../gcc/libgcc/find-symver.awk

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/got7.s

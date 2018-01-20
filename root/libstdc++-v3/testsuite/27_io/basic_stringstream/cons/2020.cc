@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/27_io/basic_stringstream/cons/2020.cc

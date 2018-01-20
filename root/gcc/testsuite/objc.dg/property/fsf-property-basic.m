@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc.dg/property/fsf-property-basic.m

@@ -1,0 +1,1 @@
+../../../../../../binutils-gdb/gas/testsuite/gas/i386/ilp32/x86-64-sse4_1-intel.d

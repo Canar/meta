@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/ext/numeric_traits/numeric_traits.cc

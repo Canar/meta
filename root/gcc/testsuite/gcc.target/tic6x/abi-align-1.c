@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/tic6x/abi-align-1.c

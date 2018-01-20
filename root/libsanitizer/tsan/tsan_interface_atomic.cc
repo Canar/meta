@@ -1,0 +1,1 @@
+../../../gcc/libsanitizer/tsan/tsan_interface_atomic.cc

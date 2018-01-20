@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/arm_thm_jump11.t

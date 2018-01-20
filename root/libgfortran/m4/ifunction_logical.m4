@@ -1,0 +1,1 @@
+../../../gcc/libgfortran/m4/ifunction_logical.m4

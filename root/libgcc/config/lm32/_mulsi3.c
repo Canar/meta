@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/lm32/_mulsi3.c

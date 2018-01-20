@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/d10v/warning-016.s

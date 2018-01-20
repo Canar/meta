@@ -1,0 +1,1 @@
+../../../../../../gcc/libgo/go/net/internal/socktest/switch_stub.go

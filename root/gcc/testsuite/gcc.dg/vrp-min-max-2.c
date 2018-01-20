@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/vrp-min-max-2.c

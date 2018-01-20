@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/cmd/cgo/out.go

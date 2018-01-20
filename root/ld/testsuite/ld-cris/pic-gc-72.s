@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/pic-gc-72.s

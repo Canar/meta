@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/min_max_conformance_2.f90

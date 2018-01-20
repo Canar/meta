@@ -1,0 +1,1 @@
+../../../../gcc/libitm/testsuite/libitm.c/priv-1.c

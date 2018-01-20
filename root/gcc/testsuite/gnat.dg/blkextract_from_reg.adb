@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/blkextract_from_reg.adb

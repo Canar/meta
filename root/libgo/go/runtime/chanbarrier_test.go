@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/runtime/chanbarrier_test.go

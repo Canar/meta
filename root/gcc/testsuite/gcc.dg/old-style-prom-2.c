@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/old-style-prom-2.c

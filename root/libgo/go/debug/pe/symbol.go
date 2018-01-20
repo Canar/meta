@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/debug/pe/symbol.go

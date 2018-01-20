@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.asm/asmsrc1.s

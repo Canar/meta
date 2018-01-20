@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/vxworks2.s

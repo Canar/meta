@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/pe/peseh-x64-6.d

@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/rs6000/trunctfkf2-sw.c

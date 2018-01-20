@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/parloops-exit-first-loop-alt-2.f95

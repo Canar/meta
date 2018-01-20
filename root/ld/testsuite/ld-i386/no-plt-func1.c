@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-i386/no-plt-func1.c

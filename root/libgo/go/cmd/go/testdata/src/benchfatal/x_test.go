@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libgo/go/cmd/go/testdata/src/benchfatal/x_test.go

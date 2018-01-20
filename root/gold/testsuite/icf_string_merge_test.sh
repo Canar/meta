@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/icf_string_merge_test.sh

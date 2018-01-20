@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/graphite/interchange-4.f

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/jump-reloc-veneers-short2.d

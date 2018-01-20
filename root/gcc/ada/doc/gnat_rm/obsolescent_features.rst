@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/ada/doc/gnat_rm/obsolescent_features.rst

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/i386/mpx/builtin-bnd-get-ptr-lbound-1.c

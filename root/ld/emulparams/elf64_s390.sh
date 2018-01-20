@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/elf64_s390.sh

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/func_decl_5.f90

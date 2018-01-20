@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/runtime/iface_test.go

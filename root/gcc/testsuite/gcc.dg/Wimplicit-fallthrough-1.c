@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wimplicit-fallthrough-1.c

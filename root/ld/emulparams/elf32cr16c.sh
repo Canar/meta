@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/elf32cr16c.sh

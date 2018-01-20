@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/minmaxloc_5.f90

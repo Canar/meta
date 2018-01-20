@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-checks/over2.d

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.asm/i386.inc

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/unchecked_convert6.adb

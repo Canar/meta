@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/proto-lossage-6.mm

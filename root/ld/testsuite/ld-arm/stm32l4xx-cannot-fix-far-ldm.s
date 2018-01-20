@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/stm32l4xx-cannot-fix-far-ldm.s

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/Wshift-count-negative-2.c

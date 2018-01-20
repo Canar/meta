@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/util/regression/trait/assoc/type_trait.hpp

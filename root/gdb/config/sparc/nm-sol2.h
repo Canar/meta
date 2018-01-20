@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/config/sparc/nm-sol2.h

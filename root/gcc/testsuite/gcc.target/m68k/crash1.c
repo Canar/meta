@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/m68k/crash1.c

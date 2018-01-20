@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/comref1.s

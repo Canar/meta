@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/shlelf32.sh

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/auto_char_len_1.f90

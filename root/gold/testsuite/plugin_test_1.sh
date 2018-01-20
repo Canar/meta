@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/plugin_test_1.sh

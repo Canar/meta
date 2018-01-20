@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/bound_simplification_5.f90

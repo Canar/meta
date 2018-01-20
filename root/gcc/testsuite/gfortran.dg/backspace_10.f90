@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/backspace_10.f90

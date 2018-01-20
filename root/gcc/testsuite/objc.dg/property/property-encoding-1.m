@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc.dg/property/property-encoding-1.m

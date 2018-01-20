@@ -1,0 +1,1 @@
+../../../gcc/gcc/config/initfini-array.h

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/reassoc_9.f

@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/initpri2.c

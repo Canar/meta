@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wimplicit-int-1.c

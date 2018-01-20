@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/net/interface_windows_test.go

@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/gnat_rm.texi

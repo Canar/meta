@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/score/cmp_32-lt.d

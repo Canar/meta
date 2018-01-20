@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/contrib/ari/update-web-ari.sh

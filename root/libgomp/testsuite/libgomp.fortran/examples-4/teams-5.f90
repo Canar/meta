@@ -1,0 +1,1 @@
+../../../../../gcc/libgomp/testsuite/libgomp.fortran/examples-4/teams-5.f90

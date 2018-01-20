@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/redecl-2.c

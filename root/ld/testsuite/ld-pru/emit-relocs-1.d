@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pru/emit-relocs-1.d

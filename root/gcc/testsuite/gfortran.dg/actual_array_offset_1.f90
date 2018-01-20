@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/actual_array_offset_1.f90

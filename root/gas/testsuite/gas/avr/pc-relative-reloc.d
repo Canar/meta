@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/avr/pc-relative-reloc.d

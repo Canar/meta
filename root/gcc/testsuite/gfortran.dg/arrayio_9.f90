@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/arrayio_9.f90

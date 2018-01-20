@@ -1,0 +1,1 @@
+../../../../../../../binutils-gdb/gas/testsuite/gas/i386/ilp32/lns/lns-common-1.d

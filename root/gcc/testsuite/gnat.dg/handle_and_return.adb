@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/handle_and_return.adb

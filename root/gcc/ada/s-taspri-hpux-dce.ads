@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/s-taspri-hpux-dce.ads

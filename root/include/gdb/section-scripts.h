@@ -1,0 +1,1 @@
+../../../binutils-gdb/include/gdb/section-scripts.h

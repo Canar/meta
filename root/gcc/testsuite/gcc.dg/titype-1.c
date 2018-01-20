@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/titype-1.c

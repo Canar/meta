@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/selected_real_kind_3.f90

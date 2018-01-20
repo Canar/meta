@@ -1,0 +1,1 @@
+../../../../binutils-gdb/sim/testsuite/common/bits-gen.c

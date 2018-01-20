@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/epiphany/btst-1.c

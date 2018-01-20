@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/avr/avr-prop-1.d

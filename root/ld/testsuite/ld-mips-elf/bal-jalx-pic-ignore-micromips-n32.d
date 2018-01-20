@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-mips-elf/bal-jalx-pic-ignore-micromips-n32.d

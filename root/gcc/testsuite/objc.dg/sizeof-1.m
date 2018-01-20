@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/objc.dg/sizeof-1.m

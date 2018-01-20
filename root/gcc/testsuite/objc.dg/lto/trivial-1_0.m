@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc.dg/lto/trivial-1_0.m

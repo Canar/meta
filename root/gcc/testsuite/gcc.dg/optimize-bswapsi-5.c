@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/optimize-bswapsi-5.c

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/tsan/pr80110.C

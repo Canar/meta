@@ -1,0 +1,1 @@
+../../../../gcc/libstdc++-v3/testsuite/libstdc++-prettyprinters/debug_cxx11.cc

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/error_recovery_4.f90

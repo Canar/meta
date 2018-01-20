@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/crx/beq_insn.s

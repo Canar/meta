@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/arm_target2_got_rel.sh

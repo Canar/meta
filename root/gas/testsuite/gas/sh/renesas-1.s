@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/sh/renesas-1.s

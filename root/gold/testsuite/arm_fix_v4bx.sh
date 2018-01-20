@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/arm_fix_v4bx.sh

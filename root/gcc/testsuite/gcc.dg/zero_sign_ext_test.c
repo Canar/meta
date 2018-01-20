@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/zero_sign_ext_test.c

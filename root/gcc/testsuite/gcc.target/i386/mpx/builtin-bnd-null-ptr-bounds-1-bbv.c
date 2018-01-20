@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.target/i386/mpx/builtin-bnd-null-ptr-bounds-1-bbv.c

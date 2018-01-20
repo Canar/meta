@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/func-args-2.c

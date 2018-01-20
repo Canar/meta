@@ -1,0 +1,1 @@
+../../../../gcc/libffi/testsuite/libffi.call/cls_1_1byte.c

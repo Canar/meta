@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/os/sticky_notbsd.go

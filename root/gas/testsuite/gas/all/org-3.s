@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/all/org-3.s

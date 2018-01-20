@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/old-style-param-1.c

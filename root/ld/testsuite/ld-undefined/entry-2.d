@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-undefined/entry-2.d

@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/obj-c++.dg/torture/tls/diag-1.mm

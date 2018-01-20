@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/bom_UTF16-BE.f90

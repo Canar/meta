@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/enum-incomplete-4.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/object_overflow1.adb

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-avr/relax-elf-flags-04.d

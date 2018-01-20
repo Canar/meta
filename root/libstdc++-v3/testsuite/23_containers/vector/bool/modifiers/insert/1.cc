@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libstdc++-v3/testsuite/23_containers/vector/bool/modifiers/insert/1.cc

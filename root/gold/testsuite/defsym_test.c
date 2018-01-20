@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/defsym_test.c

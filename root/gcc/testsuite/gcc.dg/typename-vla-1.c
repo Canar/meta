@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/typename-vla-1.c

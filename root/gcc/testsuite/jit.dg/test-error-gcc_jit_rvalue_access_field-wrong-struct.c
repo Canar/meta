@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/jit.dg/test-error-gcc_jit_rvalue_access_field-wrong-struct.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/obj-c++.dg/gnu-api-2-objc_msg_lookup.mm

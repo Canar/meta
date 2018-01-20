@@ -1,0 +1,1 @@
+../../../../gcc/libgcc/config/h8300/lib1funcs.S

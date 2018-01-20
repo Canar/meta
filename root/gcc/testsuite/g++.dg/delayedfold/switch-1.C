@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/delayedfold/switch-1.C

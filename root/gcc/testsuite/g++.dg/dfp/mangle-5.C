@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/dfp/mangle-5.C

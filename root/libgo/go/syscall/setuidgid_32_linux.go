@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/syscall/setuidgid_32_linux.go

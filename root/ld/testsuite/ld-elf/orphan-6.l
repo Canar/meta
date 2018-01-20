@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elf/orphan-6.l

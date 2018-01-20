@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/v10-v32.d

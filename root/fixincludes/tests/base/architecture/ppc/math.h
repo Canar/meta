@@ -1,0 +1,1 @@
+../../../../../../gcc/fixincludes/tests/base/architecture/ppc/math.h

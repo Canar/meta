@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-linkonce/zeroehl32.d

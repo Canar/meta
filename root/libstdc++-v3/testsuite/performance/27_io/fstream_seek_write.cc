@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/performance/27_io/fstream_seek_write.cc

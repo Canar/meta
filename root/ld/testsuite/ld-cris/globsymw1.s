@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-cris/globsymw1.s

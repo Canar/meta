@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/sim/testsuite/sim/aarch64/ldn_single.s

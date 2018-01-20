@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/default_numeric_type_1.f90

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/errnocheck_1.f90

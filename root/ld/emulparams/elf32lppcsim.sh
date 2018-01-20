@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/elf32lppcsim.sh

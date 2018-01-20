@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.guile/scm-error-1.scm

@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/sancov/basic0.c

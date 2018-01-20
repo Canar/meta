@@ -1,0 +1,1 @@
+../../../../../../../binutils-gdb/sim/testsuite/sim/cris/hw/rv-n-cris/irq3.ms

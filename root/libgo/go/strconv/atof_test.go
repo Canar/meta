@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/strconv/atof_test.go

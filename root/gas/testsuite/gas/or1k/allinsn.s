@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/or1k/allinsn.s

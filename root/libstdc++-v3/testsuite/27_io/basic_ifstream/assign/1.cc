@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/27_io/basic_ifstream/assign/1.cc

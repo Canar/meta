@@ -1,0 +1,1 @@
+../../gcc/gcc/double-int.c

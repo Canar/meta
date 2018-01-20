@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-d10v/default_layout.d

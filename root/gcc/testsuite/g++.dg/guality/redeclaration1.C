@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/guality/redeclaration1.C

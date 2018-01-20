@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/jit.dg/test-error-gcc_jit_block_end_with_switch-overlapping-ranges.c

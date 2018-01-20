@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/go.test/test/label1.go

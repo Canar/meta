@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wattributes-4.c

@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/hidden_test.sh

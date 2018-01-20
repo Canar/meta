@@ -1,0 +1,1 @@
+../../gcc/contrib/dg-cmp-results.sh

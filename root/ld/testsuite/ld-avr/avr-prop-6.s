@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-avr/avr-prop-6.s

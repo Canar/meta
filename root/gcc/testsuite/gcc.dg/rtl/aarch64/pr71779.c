@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/gcc.dg/rtl/aarch64/pr71779.c

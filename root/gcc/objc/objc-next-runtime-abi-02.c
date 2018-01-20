@@ -1,0 +1,1 @@
+../../../gcc/gcc/objc/objc-next-runtime-abi-02.c

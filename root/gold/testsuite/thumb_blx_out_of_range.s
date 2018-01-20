@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/thumb_blx_out_of_range.s

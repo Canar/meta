@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc/execute/object_is_meta_class.m

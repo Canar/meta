@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/fsyntax-only1.C

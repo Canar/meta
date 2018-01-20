@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/ftell_2.f90

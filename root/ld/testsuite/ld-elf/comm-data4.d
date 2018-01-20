@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elf/comm-data4.d

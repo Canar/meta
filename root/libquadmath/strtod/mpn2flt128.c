@@ -1,0 +1,1 @@
+../../../gcc/libquadmath/strtod/mpn2flt128.c

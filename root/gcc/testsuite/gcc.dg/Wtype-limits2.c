@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wtype-limits2.c

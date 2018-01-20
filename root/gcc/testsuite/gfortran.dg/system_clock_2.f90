@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/system_clock_2.f90

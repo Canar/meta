@@ -1,0 +1,1 @@
+../../../../../../../gcc/gcc/testsuite/gcc.target/arm/cmse/baseline/cmse-6.c

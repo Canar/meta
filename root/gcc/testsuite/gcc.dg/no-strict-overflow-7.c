@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/no-strict-overflow-7.c

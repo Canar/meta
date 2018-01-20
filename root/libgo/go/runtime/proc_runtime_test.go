@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/runtime/proc_runtime_test.go

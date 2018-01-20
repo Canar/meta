@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/submodule_6.f08

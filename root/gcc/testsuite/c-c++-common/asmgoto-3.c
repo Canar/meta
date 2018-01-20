@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/asmgoto-3.c

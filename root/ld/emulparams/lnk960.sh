@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/lnk960.sh

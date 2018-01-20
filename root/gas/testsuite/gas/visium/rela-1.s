@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/visium/rela-1.s

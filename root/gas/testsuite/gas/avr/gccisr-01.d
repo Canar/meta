@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/avr/gccisr-01.d

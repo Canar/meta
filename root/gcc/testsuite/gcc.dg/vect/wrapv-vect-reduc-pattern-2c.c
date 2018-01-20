@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/vect/wrapv-vect-reduc-pattern-2c.c

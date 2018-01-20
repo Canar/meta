@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/Wconversion-3.c

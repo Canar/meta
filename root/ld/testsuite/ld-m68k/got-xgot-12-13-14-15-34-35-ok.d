@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-m68k/got-xgot-12-13-14-15-34-35-ok.d

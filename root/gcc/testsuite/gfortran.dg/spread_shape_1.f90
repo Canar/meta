@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/spread_shape_1.f90

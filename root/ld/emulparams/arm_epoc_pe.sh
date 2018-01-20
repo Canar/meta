@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/arm_epoc_pe.sh

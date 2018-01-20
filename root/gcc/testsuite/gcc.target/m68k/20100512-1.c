@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/m68k/20100512-1.c

@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/testsuite/libgomp.c/omp-single-1.c

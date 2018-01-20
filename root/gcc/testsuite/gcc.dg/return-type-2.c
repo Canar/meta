@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/return-type-2.c

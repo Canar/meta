@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/complex_intrinsic_1.f90

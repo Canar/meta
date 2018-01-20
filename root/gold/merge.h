@@ -1,0 +1,1 @@
+../../binutils-gdb/gold/merge.h

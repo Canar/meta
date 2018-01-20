@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/select_type_11.f03

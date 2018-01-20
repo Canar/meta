@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/minmaxval_1.f90

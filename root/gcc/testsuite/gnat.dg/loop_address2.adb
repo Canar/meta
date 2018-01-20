@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/loop_address2.adb

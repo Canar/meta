@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/memory_test_inc.t

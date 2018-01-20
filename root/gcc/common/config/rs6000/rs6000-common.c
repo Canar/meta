@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/common/config/rs6000/rs6000-common.c

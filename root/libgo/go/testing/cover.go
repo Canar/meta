@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/testing/cover.go

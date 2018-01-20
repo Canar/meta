@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.dg/simulate-thread/speculative-store-2.c

@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/syscall/errstr_linux.go

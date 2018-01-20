@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/bytes/bytes_amd64.go

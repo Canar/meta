@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/common/config/alpha/alpha-common.c

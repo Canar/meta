@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/20_util/is_trivial/requirements/explicit_instantiation.cc

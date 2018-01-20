@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/delay-slot-1.c

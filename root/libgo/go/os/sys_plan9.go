@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/os/sys_plan9.go

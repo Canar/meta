@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/scalar_mode_agg_compare_loop.adb

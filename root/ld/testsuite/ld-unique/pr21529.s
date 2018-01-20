@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-unique/pr21529.s

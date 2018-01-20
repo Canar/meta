@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/net/tcpsock_plan9.go

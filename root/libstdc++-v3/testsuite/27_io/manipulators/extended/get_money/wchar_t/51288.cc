@@ -1,0 +1,1 @@
+../../../../../../../../gcc/libstdc++-v3/testsuite/27_io/manipulators/extended/get_money/wchar_t/51288.cc

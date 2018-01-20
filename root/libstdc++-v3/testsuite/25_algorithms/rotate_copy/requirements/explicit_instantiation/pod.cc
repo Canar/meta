@@ -1,0 +1,1 @@
+../../../../../../../gcc/libstdc++-v3/testsuite/25_algorithms/rotate_copy/requirements/explicit_instantiation/pod.cc

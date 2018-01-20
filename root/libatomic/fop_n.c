@@ -1,0 +1,1 @@
+../../gcc/libatomic/fop_n.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/case_optimization_pkg2.ads

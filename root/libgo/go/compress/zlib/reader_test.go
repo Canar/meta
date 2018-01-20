@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/compress/zlib/reader_test.go

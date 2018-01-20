@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/inline8_pkg2.ads

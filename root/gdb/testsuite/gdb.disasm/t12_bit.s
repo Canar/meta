@@ -1,0 +1,1 @@
+../../../../binutils-gdb/gdb/testsuite/gdb.disasm/t12_bit.s

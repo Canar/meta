@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/msp430/function-attributes-2.c

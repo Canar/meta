@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/go/ast/print_test.go

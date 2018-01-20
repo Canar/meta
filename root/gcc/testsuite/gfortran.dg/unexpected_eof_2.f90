@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/unexpected_eof_2.f90

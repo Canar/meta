@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/vax/bswapdi-1.c

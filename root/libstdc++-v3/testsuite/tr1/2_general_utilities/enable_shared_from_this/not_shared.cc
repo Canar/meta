@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/tr1/2_general_utilities/enable_shared_from_this/not_shared.cc

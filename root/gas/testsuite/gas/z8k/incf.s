@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/z8k/incf.s

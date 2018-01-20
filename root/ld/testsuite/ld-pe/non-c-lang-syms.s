@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pe/non-c-lang-syms.s

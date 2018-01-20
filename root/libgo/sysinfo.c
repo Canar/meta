@@ -1,0 +1,1 @@
+../../gcc/libgo/sysinfo.c

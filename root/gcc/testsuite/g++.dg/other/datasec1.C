@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/g++.dg/other/datasec1.C

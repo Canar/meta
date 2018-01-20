@@ -1,0 +1,1 @@
+../../../../../../gcc/gcc/testsuite/go.test/test/interface/receiver1.go

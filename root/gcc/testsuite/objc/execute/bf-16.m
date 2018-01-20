@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/objc/execute/bf-16.m

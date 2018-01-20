@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/struct-empty-2.c

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arc/nps-1a.d

@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-elf/tbss1.s

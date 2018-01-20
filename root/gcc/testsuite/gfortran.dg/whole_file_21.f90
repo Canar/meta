@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/whole_file_21.f90

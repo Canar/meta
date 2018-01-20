@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/syscall/netlink_linux.go

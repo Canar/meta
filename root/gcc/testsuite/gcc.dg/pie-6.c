@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pie-6.c

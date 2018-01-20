@@ -1,0 +1,1 @@
+../../../../../../../gcc/libgo/go/golang_org/x/crypto/curve25519/mont25519_amd64.go

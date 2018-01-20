@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/global_references_2.f90

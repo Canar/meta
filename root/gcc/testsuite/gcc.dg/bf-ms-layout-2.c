@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/bf-ms-layout-2.c

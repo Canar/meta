@@ -1,0 +1,1 @@
+../../../../gcc/libgomp/config/nvptx/oacc-mem.c

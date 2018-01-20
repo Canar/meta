@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/score/load_store_32.d

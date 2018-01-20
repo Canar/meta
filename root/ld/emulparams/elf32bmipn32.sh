@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/elf32bmipn32.sh

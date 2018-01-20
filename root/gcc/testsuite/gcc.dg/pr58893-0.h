@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pr58893-0.h

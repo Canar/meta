@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-pe/export_dynamic_warning.d

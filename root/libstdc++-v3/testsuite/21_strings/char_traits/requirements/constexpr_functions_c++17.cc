@@ -1,0 +1,1 @@
+../../../../../../gcc/libstdc++-v3/testsuite/21_strings/char_traits/requirements/constexpr_functions_c++17.cc

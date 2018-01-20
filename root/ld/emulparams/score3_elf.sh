@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/score3_elf.sh

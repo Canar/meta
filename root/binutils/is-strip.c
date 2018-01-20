@@ -1,0 +1,1 @@
+../../binutils-gdb/binutils/is-strip.c

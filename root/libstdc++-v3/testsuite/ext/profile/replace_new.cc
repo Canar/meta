@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/ext/profile/replace_new.cc

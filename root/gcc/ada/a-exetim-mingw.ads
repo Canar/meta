@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/a-exetim-mingw.ads

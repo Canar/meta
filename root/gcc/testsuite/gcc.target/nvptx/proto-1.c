@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gcc.target/nvptx/proto-1.c

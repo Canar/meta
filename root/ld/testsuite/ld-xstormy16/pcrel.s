@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-xstormy16/pcrel.s

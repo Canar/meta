@@ -1,0 +1,1 @@
+../../../../../../../gcc/libgo/go/golang_org/x/crypto/curve25519/doc.go

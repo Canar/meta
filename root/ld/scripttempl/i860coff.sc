@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/scripttempl/i860coff.sc

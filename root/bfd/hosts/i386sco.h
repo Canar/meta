@@ -1,0 +1,1 @@
+../../../binutils-gdb/bfd/hosts/i386sco.h

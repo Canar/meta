@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/hex-round-2.c

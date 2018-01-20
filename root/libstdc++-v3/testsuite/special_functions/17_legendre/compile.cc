@@ -1,0 +1,1 @@
+../../../../../gcc/libstdc++-v3/testsuite/special_functions/17_legendre/compile.cc

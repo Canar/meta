@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/is_iostat_end_eor_2.f90

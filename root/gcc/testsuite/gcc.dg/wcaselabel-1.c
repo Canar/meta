@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/wcaselabel-1.c

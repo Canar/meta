@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/relro_test.cc

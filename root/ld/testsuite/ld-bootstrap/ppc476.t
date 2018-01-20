@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-bootstrap/ppc476.t

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/vector-1.c

@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/icf_sht_rel_addend_test_2.cc

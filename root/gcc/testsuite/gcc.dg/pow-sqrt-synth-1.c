@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/pow-sqrt-synth-1.c

@@ -1,0 +1,1 @@
+../../../binutils-gdb/sim/mcore/aclocal.m4

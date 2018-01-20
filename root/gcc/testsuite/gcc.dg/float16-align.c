@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/float16-align.c

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/aru-2.c

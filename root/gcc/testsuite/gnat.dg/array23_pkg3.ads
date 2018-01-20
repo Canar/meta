@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/array23_pkg3.ads

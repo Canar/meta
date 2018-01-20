@@ -1,0 +1,1 @@
+../../../binutils-gdb/gold/testsuite/pr17704a_test.s

@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gcc.dg/loop-unswitch-3.c

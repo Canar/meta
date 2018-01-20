@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/c-c++-common/Wshift-count-overflow-1.c

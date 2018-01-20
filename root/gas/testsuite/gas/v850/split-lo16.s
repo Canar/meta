@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/v850/split-lo16.s

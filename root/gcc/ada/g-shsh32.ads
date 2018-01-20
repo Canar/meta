@@ -1,0 +1,1 @@
+../../../gcc/gcc/ada/g-shsh32.ads

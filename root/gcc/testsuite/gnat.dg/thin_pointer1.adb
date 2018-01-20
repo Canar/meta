@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gnat.dg/thin_pointer1.adb

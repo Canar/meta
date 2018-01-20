@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-arm/callweak-2.d

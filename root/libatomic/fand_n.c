@@ -1,0 +1,1 @@
+../../gcc/libatomic/fand_n.c

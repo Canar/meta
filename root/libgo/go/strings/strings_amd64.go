@@ -1,0 +1,1 @@
+../../../../gcc/libgo/go/strings/strings_amd64.go

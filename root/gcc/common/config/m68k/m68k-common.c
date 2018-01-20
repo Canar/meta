@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/common/config/m68k/m68k-common.c

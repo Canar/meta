@@ -1,0 +1,1 @@
+../../../../../gcc/gcc/testsuite/gfortran.dg/graphite/id-6.f

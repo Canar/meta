@@ -1,0 +1,1 @@
+../../../../../binutils-gdb/gas/testsuite/gas/arm/sp-usage-thumb2-relax-on-v8.d

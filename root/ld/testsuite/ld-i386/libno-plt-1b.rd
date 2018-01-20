@@ -1,0 +1,1 @@
+../../../../binutils-gdb/ld/testsuite/ld-i386/libno-plt-1b.rd

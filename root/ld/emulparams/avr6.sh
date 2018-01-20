@@ -1,0 +1,1 @@
+../../../binutils-gdb/ld/emulparams/avr6.sh

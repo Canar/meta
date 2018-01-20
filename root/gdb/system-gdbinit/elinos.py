@@ -1,0 +1,1 @@
+../../../binutils-gdb/gdb/system-gdbinit/elinos.py

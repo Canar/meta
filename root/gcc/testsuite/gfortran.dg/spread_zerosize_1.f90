@@ -1,0 +1,1 @@
+../../../../gcc/gcc/testsuite/gfortran.dg/spread_zerosize_1.f90

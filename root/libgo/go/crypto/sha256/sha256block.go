@@ -1,0 +1,1 @@
+../../../../../gcc/libgo/go/crypto/sha256/sha256block.go
