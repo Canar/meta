@@ -44,14 +44,21 @@
 			[ -z "$t" ] && t="$( date +%s )"
 			otim="$( timens )"
 			dtim=300000000
-			#dtim=1000000000 
+			sectim=1000000000 # 1 second
+			dstim="$(( $dtim / $sectim )).$(( $dtim % $sectim))"
 			ctim=0
-		 # dtim=1000000000 -- 1 s
 			echo -n "$1..."
 			#"${@:2}" |& stdbuf -i0 -o0 sed -zu 's/[ 	]\+\\\n[ 	]\+/ /g' | while read -r l ; do
-			"${@:2}" |& while read -r l ; do
-				echo "$l" >>$_r/scripts/log/$t
+			"${@:2}" |& while read -t "$dstim" -r l || test $? -gt 128 ; do
 				tim="$( timens )"
+				if [ -n "$l" ] ; then
+					echo "$l" >>$_r/scripts/log/$t
+					unset l
+				else
+					echo -n .
+					otim=$tim
+					ctim=0
+				fi
 				if [[ $ctim -gt 256 ]] ; then
 					ch="#"
 				elif [[ $ctim -gt 128 ]] ; then
@@ -74,7 +81,7 @@
 				echo -ne '\b'"$ch"
 				if [ $(( $tim - $otim )) -gt $dtim ] ; then
 					echo -n .
-					otim=$tm
+					otim=$tim
 					ctim=0
 				else
 					let ctim="$ctim+1"
@@ -131,6 +138,9 @@
 		mkdir "$destd"
 		make $_m_fl -C $_r/$d $_m_fl $instvar="$destd" $instcmd "$@"
 	}
+	place-impl(){
+		rsync -Pav "$_r/dest/$d/$_p/" "$_p"
+	}
 	kernelh-impl(){
 		git -C $_s/linux checkout current_stable	
 		make $_m_fl -C $_s/linux INSTALL_HDR_PATH=$_p ARCH=$_a_bl headers_install
@@ -149,6 +159,10 @@
 		conf-impl &&
 		go-impl &&
 		inst-impl
+	}
+	alter-impl(){
+		redo-impl "$@" &&
+		place-impl
 	}	
 	ldcheck(){
 		[ -n "$1" ] && d="$1" || d="."
@@ -156,7 +170,8 @@
 	}
 	ldfix(){
 		[ -n "$1" ] && d="$1" || d="."
-		find "$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --set-interpreter /usr/local/opt/lib/ld-2.26.so "{}"' \;
+		[ -n "$2" ] && ld="$2" || ld="$_p/lib/ld-2.26.so"
+		find "$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --set-interpreter '"$ld"' "{}"' \;
 	}
 	buildall-impl(){
 		[ -d "$_p" ] && (
@@ -169,8 +184,11 @@
 		export PATH=$_p:$PATH
 		mkdir $_p &&
 		log 'Copying kernel headers' kernelh-impl &&
+		echo '...done.'
 		export LD_LIBRARY_PATH=$_p/lib &&
-		xpkg binutils-first gmp-first mpfr-first mpc isl gcc-first glibc-first binutils gmp mpfr mpc isl gcc glibc
+		xpkg binutils-first gmp-first mpfr-first mpc isl gcc-first &&
+		export -n LD_LIBRARY_PATH &&
+		xpkg glibc-first binutils gmp mpfr mpc isl gcc glibc
 		export PATH="$op"
 		popd
 	}
@@ -179,10 +197,9 @@
 		mkdir -p $_r/$1 &&
 		cd $_r/$1 &&
 		fence &&
-		log "Building $1" redo-impl "$1" &&
-		rsync -Pav "$_r/dest/$1/$_p/" "$_p" &&
+		log "Building $1" alter-impl "$@" &&
 		echo '...and installed!' &&
 		shift &&
-		xpkg "$@"
+		xpkg "$@" || true
 	}
 : eof

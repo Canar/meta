@@ -4,6 +4,8 @@ confhelpa(){ fence && confhelpa-impl "$@" ; }
 confhelp(){ fence && confhelp-impl "$@" ; } 
 go(){ fence && go-impl "$@" ; } 
 inst(){ fence && inst-impl "$@" ; } 
+place(){ fence && place-impl "$@" ; } 
 kernelh(){ fence && kernelh-impl "$@" ; } 
 redo(){ fence && redo-impl "$@" ; } 
+alter(){ fence && alter-impl "$@" ; } 
 buildall(){ fence && buildall-impl "$@" ; } 
