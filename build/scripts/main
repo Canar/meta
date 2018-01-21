@@ -172,11 +172,11 @@
 	}
 	alter-impl(){
 		redo-impl "$@" &&
-		place-impl
+		place-impl || return 1
 	}
 	pepint () { # PatchElf Print INTerpreter;
 		 [ -n "$1" ] && d="$1" || d="."
-		 find "$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --print-interpreter "{}"' \;
+		 find "$_r/$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --print-interpreter "{}"' \;
 	}
 	pesint(){ 
 		 [ -n "$1" ] && d="$1" || d="."
@@ -209,9 +209,9 @@
 			return 1
 		fi
 		rm -rf "$pesrpd.tmp"
-		cp -r "$d" "$pesrpd.tmp"
+		cp -r "$pesrpd" "$pesrpd.tmp"
 		TMPDIR=${TMPDIR:-/tmp}
-		find "$d" -type f -exec bash -c 'patchelf --set-rpath '"$ld"' "{}" >& '"$TMPDIR/pesrp.tmp"' && echo "{} patched. '"$( cat $TMPDIR/pesrp.tmp | tr '\n' ' ' )"'"' \;
+		find "$pesrpd" -type f -exec bash -c 'patchelf --set-rpath '"$ld"' "{}" >& '"$TMPDIR/pesrp.tmp"' && echo "{} patched. '"$( cat $TMPDIR/pesrp.tmp | tr '\n' ' ' )"'"' \;
 	}
 	buildall-impl(){
 		if [ -d "$_p" ] ; then
