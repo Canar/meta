@@ -61,6 +61,8 @@
 	}
 : binutils
 	conf-binutils-first(){
+		conf-binutils-mine
+		return 0
 		parse-conf <<-'EOF'
 			--prefix=$_p
 			--with-sysroot=/
