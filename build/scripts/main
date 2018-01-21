@@ -172,8 +172,7 @@
 		redo-impl "$@" &&
 		place-impl
 	}
-	pepint () { 
-		 $PatchElf Print INTerpreter;
+	pepint () { # PatchElf Print INTerpreter;
 		 [ -n "$1" ] && d="$1" || d="."
 		 find "$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --print-interpreter "{}"' \;
 	}
@@ -197,7 +196,8 @@
 		 find "$d" -type f -exec bash -c 'patchelf --set-rpath'"$ld"' "{}" >& /dev/null && echo "{} patched."' \;
 	}
 	pesrp(){ 
-		[ -n "$1" ] && d="$1" || d="."
+		local pesrpd
+		[ -n "$1" ] && pesrpd="$1" || pesrpd="."
 		if [ -n "$2" ]; then
 		ld="$2"
 		elif [ -d "$_p/lib" ]; then
@@ -206,8 +206,8 @@
 			echo "Cannot fix, no libdir found."
 			return 1
 		fi
-		rm -rf "$d.tmp"
-		cp -r "$d" "$d.tmp"
+		rm -rf "$pesrpd.tmp"
+		cp -r "$d" "$pesrpd.tmp"
 		TMPDIR=${TMPDIR:-/tmp}
 		find "$d" -type f -exec bash -c 'patchelf --set-rpath '"$ld"' "{}" >& '"$TMPDIR/pesrp.tmp"' && echo "{} patched. '"$( cat $TMPDIR/pesrp.tmp | tr '\n' ' ' )"'"' \;
 	}
