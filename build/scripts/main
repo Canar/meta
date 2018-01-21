@@ -85,7 +85,7 @@
 				fi
 				echo -ne '\b'"$ch"
 				if [ $(( $tim - $otim )) -gt $dtim ] ; then
-					echo -n .
+					echo -ne '...\b\b'
 					otim=$tim
 					ctim=0
 				else
