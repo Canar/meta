@@ -94,7 +94,7 @@
 			done
 			echo
 		else
-			"${@:2}" >>$lf
+			( "${@:2}" ) >>$lf
 			#"${@:2}" |&  sed -zu 's/[ 	]\+\\\n[ 	]\+/ /g' 
 		fi
 	}
@@ -248,8 +248,8 @@
 		 less -S "$(find $_r/scripts/log | grep '/[0-9]\+$' | sort -rn | head -1)"
 	}
 	lastclog () { 
-		 lf="$(find $_r/scripts/log | grep '/[0-9]\+$' | sort -rn | head -1)"
-		 clf="$(grep -B2 'See .config.log. for more details' $lf | head -1 | sed 's/configure: error: in `//g ; s/'\''://g')/config.log"
-		 less -S "$clf"
+		 llf="$(find $_r/scripts/log | grep '/[0-9]\+$' | sort -rn | head -1)"
+		 cllf="$(grep -B2 'See .config.log. for more details' "$llf" | head -1 | sed 's/configure: error: in `//g ; s/'\''://g')/config.log"
+		 less -S "$cllf"
 	}
 : eof
