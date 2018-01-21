@@ -44,7 +44,7 @@
 		date +%s > $_r/scripts/log/latestlogtime
 	}
 	log(){
-		if [ -n "." ] ; then
+		if [ -n "" ] ; then
 			otim="$( timens )"
 			dtim=300000000
 			sectim=1000000000 # 1 second
