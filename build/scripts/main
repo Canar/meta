@@ -219,7 +219,7 @@
 		fi	
 		( 
 			export PATH=$_p:$PATH
-			mkdir $_p &&
+			mkdir -p $_p/lib &&
 			log 'Copying kernel headers' kernelh-impl &&
 			xpkg binutils-first gmp-first mpfr-first mpc-first isl-first zlib-first gcc-first || return 1
 
