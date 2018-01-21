@@ -105,7 +105,7 @@
 : configuration - ccat,conf,reconf,confhelp
 	conf-impl(){
 		if declare -fF conf-$d >/dev/null ; then
-			$_s/b/configure $( conf-d )  || return 1
+			$_s/$b/configure $( conf-$d )  || return 1
 		else
 			echo "No configure found."
 			return 1
