@@ -44,14 +44,13 @@
 		date +%s > $_r/scripts/log/latestlogtime
 	}
 	log(){
+		local lf="$_r/scripts/log/$( cat $_r/scripts/log/latestlogtime )"
 		if [ -n "$loglev" ] ; then
 			otim="$( timens )"
 			dtim=300000000
 			sectim=1000000000 # 1 second
 			dstim="$(( $dtim / $sectim )).$(( $dtim % $sectim))"
 			ctim=0
-			local t=""
-			local lf="$_r/scripts/log/$( cat $_r/scripts/log/latestlogtime )"
 			echo -n "$1..."
 			#"${@:2}" |& stdbuf -i0 -o0 sed -zu 's/[ 	]\+\\\n[ 	]\+/ /g' | while read -r l ; do
 			"${@:2}" |& while read -t "$dstim" -r l || test $? -gt 128 ; do
