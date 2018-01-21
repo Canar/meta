@@ -142,7 +142,7 @@
 		mkdir "$destd"
 		e=0
 		make $_m_fl -C $_r/$d $_m_fl $instvar="$destd" $instcmd "$@" &&
-		pesrp $destd || 
+		pesrp $destd $_p/lib || 
 		e=1
 		return $e
 	}
@@ -201,7 +201,7 @@
 		local pesrpd
 		[ -n "$1" ] && pesrpd="$1" || pesrpd="."
 		if [ -n "$2" ]; then
-		ld="$2"
+			ld="$2"
 		elif [ -d "$_p/lib" ]; then
 			ld="$_p/lib"
 		else
