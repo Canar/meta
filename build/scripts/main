@@ -33,7 +33,7 @@
 		case "$1" in
 			e* ) f=env ;;
 			c* ) f=scripts/configure ;;
-			* ) f=scripts/log/latestlogtime ;;
+			* ) f=scripts/main ;;
 		esac
 		vi $_r/$f
 		impl-update
@@ -106,7 +106,7 @@
 		if declare -fF conf-$d >/dev/null ; then
 			rt="$_s/$b/configure $( conf-$d )"
 			echo "$( date ): $rt" >>$_r/scripts/log/configure.log
-			$rt
+			"$rt" || return 1
 		else
 			cp "$bf" "../configures/log/$b.$( date +%s )"
 			"$bf"
@@ -216,5 +216,9 @@
 		 rm -rf $_p;
 		 buildall "$@"
 	}
-reco
+	lastclog () { 
+		 lf="$(find $_r/scripts/log | grep '/[0-9]\+$' | sort -rn | head -1)";
+		 clf="$(grep -B2 'See .config.log. for more details' $lf | head -1 | sed 's/configure: error: in `//g ; s/'\''://g')/config.log";
+		 less -S "$clf"
+	}
 : eof
