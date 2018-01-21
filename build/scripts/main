@@ -30,13 +30,14 @@
 		return 0
 	}
 	fix(){
-		f=scripts/main 
 		case "$1" in
 			e* ) f=env ;;
 			c* ) f=scripts/configure ;;
+			* ) f=scripts/log/latestlogtime ;;
 		esac
 		vi $_r/$f
 		impl-update
+		( cd $_r ; git add -A ; git commit -a -m $( date +%s) )
 		. $_r/env
 	}
 	newlog(){
