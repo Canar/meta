@@ -165,7 +165,7 @@
 		fence &&
 		conf-impl &&
 		go-impl &&
-		inst-impl
+		inst-impl || return 1
 	}
 	alter-impl(){
 		redo-impl "$@" &&
@@ -173,44 +173,42 @@
 	}
 	pepint () { 
 		 $PatchElf Print INTerpreter;
-		 [ -n "$1" ] && d="$1" || d=".";
+		 [ -n "$1" ] && d="$1" || d="."
 		 find "$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --print-interpreter "{}"' \;
 	}
 	pesint(){ 
-		 [ -n "$1" ] && d="$1" || d=".";
+		 [ -n "$1" ] && d="$1" || d="."
 		 if [ -n "$2" ]; then
-			  ld="$2";
+			  ld="$2"
 		 else
 			  if [ -f "$_p/lib/ld-2.26.so" ]; then
-					ld="$_p/lib/ld-2.26.so";
+					ld="$_p/lib/ld-2.26.so"
 			  else
-					echo "Cannot fix, no linker found.";
-					return 1;
-			  fi;
-		 fi;
+					echo "Cannot fix, no linker found."
+					return 1
+			  fi
+		 fi
 		 find "$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --set-interpreter '"$ld"' "{}"' \;
 	}
 	pesr(){
-		 [ -n "$1" ] && d="$1" || d=".";
-		 [ -n "$2" ] && ld="$2" || ld="$_p/lib";
+		 [ -n "$1" ] && d="$1" || d="."
+		 [ -n "$2" ] && ld="$2" || ld="$_p/lib"
 		 find "$d" -type f -exec bash -c 'patchelf --set-rpath'"$ld"' "{}" >& /dev/null && echo "{} patched."' \;
 	}
 	pesrp(){ 
-		 [ -n "$1" ] && d="$1" || d=".";
-		 if [ -n "$2" ]; then
-			  ld="$2";
-		 else
-			  if [ -d "$_p/lib" ]; then
-					ld="$_p/lib";
-			  else
-					echo "Cannot fix, no libdir found.";
-					return 1;
-			  fi;
-		 fi;
-		 rm -rf "$d.tmp";
-		 cp -r "$d" "$d.tmp";
-		 TMPDIR=${TMPDIR+/tmp};
-		 find "$d" -type f -exec bash -c 'patchelf --set-rpath '"$ld"' "{}" >& '"$TMPDIR/pesrp.tmp"' && echo "{} patched. '"$( cat $TMPDIR/pesrp.tmp | tr '\n' ' ' )"'"' \;
+		[ -n "$1" ] && d="$1" || d="."
+		if [ -n "$2" ]; then
+		ld="$2"
+		elif [ -d "$_p/lib" ]; then
+			ld="$_p/lib"
+		else
+			echo "Cannot fix, no libdir found."
+				return 1
+		fi
+		rm -rf "$d.tmp"
+		cp -r "$d" "$d.tmp"
+		TMPDIR=${TMPDIR:-/tmp}
+		find "$d" -type f -exec bash -c 'patchelf --set-rpath '"$ld"' "{}" >& '"$TMPDIR/pesrp.tmp"' && echo "{} patched. '"$( cat $TMPDIR/pesrp.tmp | tr '\n' ' ' )"'"' \;
 	}
 	buildall-impl(){
 		if [ -d "$_p" ] ; then
@@ -240,15 +238,15 @@
 		fence && rebuildall-impl "$@"
 	}
 	rebuildall-impl (){
-		 rm -rf $_p;
+		 rm -rf $_p
 		 buildall "$@"
 	}
 	lastlog () {
 		 less -S "$(find $_r/scripts/log | grep '/[0-9]\+$' | sort -rn | head -1)"
 	}
 	lastclog () { 
-		 lf="$(find $_r/scripts/log | grep '/[0-9]\+$' | sort -rn | head -1)";
-		 clf="$(grep -B2 'See .config.log. for more details' $lf | head -1 | sed 's/configure: error: in `//g ; s/'\''://g')/config.log";
+		 lf="$(find $_r/scripts/log | grep '/[0-9]\+$' | sort -rn | head -1)"
+		 clf="$(grep -B2 'See .config.log. for more details' $lf | head -1 | sed 's/configure: error: in `//g ; s/'\''://g')/config.log"
 		 less -S "$clf"
 	}
 : eof
