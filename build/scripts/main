@@ -145,6 +145,7 @@
 
 	}
 	place-impl(){
+		echo "$d	$_r	$_p"
 		echo rsync -Pav "$_r/dest/$d/$_p/" "$_p" || return $?
 		rsync -Pav "$_r/dest/$d/$_p/" "$_p" || return $?
 	}
@@ -203,7 +204,7 @@
 			ld="$_p/lib"
 		else
 			echo "Cannot fix, no libdir found."
-				return 1
+			return 1
 		fi
 		rm -rf "$d.tmp"
 		cp -r "$d" "$d.tmp"
