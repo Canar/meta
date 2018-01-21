@@ -140,9 +140,11 @@
 		esac
 		destd="$_r/dest/$d"
 		mkdir "$destd"
+		e=0
 		make $_m_fl -C $_r/$d $_m_fl $instvar="$destd" $instcmd "$@" &&
-		pesrp $destd	|| return 1
-
+		pesrp $destd || 
+		e=1
+		return $e
 	}
 	place-impl(){
 		echo "$d	$_r	$_p"
