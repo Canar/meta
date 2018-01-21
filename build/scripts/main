@@ -105,12 +105,10 @@
 : configuration - ccat,conf,reconf,confhelp
 	conf-impl(){
 		if declare -fF conf-$d >/dev/null ; then
-			rt="$_s/$b/configure $( conf-$d )"
-			echo "$( date ): $rt" >>$_r/scripts/log/configure.log
-			"$rt" || return 1
+			$_s/b/configure $( conf-d )  || return 1
 		else
-			cp "$bf" "../configures/log/$b.$( date +%s )"
-			"$bf"
+			echo "No configure found."
+			return 1
 		fi
 	}
 	reconf-impl(){
