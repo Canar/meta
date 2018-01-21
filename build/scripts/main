@@ -39,20 +39,24 @@
 		impl-update
 		. $_r/env
 	}
+	newlog(){
+		date +%s > $_r/scripts/log/latestlogtime
+	}
 	log(){
 		if [ -n "." ] ; then
-			[ -z "$t" ] && t="$( date +%s )"
 			otim="$( timens )"
 			dtim=300000000
 			sectim=1000000000 # 1 second
 			dstim="$(( $dtim / $sectim )).$(( $dtim % $sectim))"
 			ctim=0
+			local t=""
+			local lf="$_r/scripts/log/$( cat $_r/scripts/log/latestlogtime )"
 			echo -n "$1..."
 			#"${@:2}" |& stdbuf -i0 -o0 sed -zu 's/[ 	]\+\\\n[ 	]\+/ /g' | while read -r l ; do
 			"${@:2}" |& while read -t "$dstim" -r l || test $? -gt 128 ; do
 				tim="$( timens )"
 				if [ -n "$l" ] ; then
-					echo "$l" >>$_r/scripts/log/$t
+					echo "$l" >>$lf
 					unset l
 				else
 					echo -n .
@@ -131,15 +135,17 @@
 		instvar="DESTDIR"
 		instcmd="install"
 		case "$d" in
-			libc* ) instvar="install_root" ;;
+			glibc* | libc* ) instvar="install_root" ;;
 #			gcc* ) instcmd="install-gcc" ;;
 		esac
 		destd="$_r/dest/$d"
 		mkdir "$destd"
-		make $_m_fl -C $_r/$d $_m_fl $instvar="$destd" $instcmd "$@"
+		make $_m_fl -C $_r/$d $_m_fl $instvar="$destd" $instcmd "$@" &&
+		pesr $destd	|| return 1
+
 	}
 	place-impl(){
-		rsync -Pav "$_r/dest/$d/$_p/" "$_p"
+		rsync -Pav "$_r/dest/$d/$_p/" "$_p" || return $?
 	}
 	kernelh-impl(){
 		git -C $_s/linux checkout current_stable	
@@ -163,7 +169,12 @@
 	alter-impl(){
 		redo-impl "$@" &&
 		place-impl
-	}	
+	}
+	pesr(){
+		[ -n "$1" ] && d="$1" || d="."
+		[ -n "$2" ] && ld="$2" || ld="$_p/lib"
+		find "$d" -type f -exec bash -c 'patchelf --set-rpath'"$ld"' "{}" >& /dev/null && echo "{} patched."' \;
+	}
 	ldcheck(){
 		[ -n "$1" ] && d="$1" || d="."
 		find "$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --print-interpreter "{}"' \;
@@ -174,24 +185,19 @@
 		find "$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --set-interpreter '"$ld"' "{}"' \;
 	}
 	buildall-impl(){
-		[ -d "$_p" ] && (
+		if [ -d "$_p" ] ; then
 			echo ERROR: something is in the way
 			return 1
-		)
-		unset t
-		pushd .
-		op="$PATH"
-		export PATH=$_p:$PATH
-		mkdir $_p &&
-		log 'Copying kernel headers' kernelh-impl &&
-		echo '...done.'
-		export LD_LIBRARY_PATH=$_p/lib &&
-		xpkg binutils-first gmp-first mpfr-first mpc-first isl-first zlib-first gcc-first
+		fi	
+		( 
+			export PATH=$_p:$PATH
+			mkdir $_p &&
+			log 'Copying kernel headers' kernelh-impl &&
+			xpkg binutils-first gmp-first mpfr-first mpc-first isl-first zlib-first gcc-first || return 1
 
-		# export -n LD_LIBRARY_PATH &&
-		# xpkg glibc-first binutils gmp mpfr mpc isl gcc glibc
-		export PATH="$op"
-		popd
+			# export -n LD_LIBRARY_PATH &&
+			# xpkg glibc-first binutils gmp mpfr mpc isl gcc glibc
+		) || return 1
 	}
 	xpkg(){
 		[ -n "$1" ] &&
@@ -199,8 +205,15 @@
 		cd $_r/$1 &&
 		fence &&
 		log "Building $1" alter-impl "$@" &&
-		echo '...and installed!' &&
 		shift &&
 		xpkg "$@" || true
 	}
+	rebuildall(){
+		fence && rebuildall-impl "$@"
+	}
+	rebuildall-impl (){
+		 rm -rf $_p;
+		 buildall "$@"
+	}
+reco
 : eof
