@@ -92,6 +92,7 @@
 					let ctim="$ctim+1"
 				fi
 			done
+			echo
 		else
 			"${@:2}"
 			#"${@:2}" |&  sed -zu 's/[ 	]\+\\\n[ 	]\+/ /g' 
@@ -142,7 +143,7 @@
 		destd="$_r/dest/$d"
 		mkdir "$destd"
 		make $_m_fl -C $_r/$d $_m_fl $instvar="$destd" $instcmd "$@" &&
-		pesr $destd	|| return 1
+		pesrp $destd	|| return 1
 
 	}
 	place-impl(){
@@ -171,19 +172,46 @@
 		redo-impl "$@" &&
 		place-impl
 	}
+	pepint () { 
+		 $PatchElf Print INTerpreter;
+		 [ -n "$1" ] && d="$1" || d=".";
+		 find "$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --print-interpreter "{}"' \;
+	}
+	pesint(){ 
+		 [ -n "$1" ] && d="$1" || d=".";
+		 if [ -n "$2" ]; then
+			  ld="$2";
+		 else
+			  if [ -f "$_p/lib/ld-2.26.so" ]; then
+					ld="$_p/lib/ld-2.26.so";
+			  else
+					echo "Cannot fix, no linker found.";
+					return 1;
+			  fi;
+		 fi;
+		 find "$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --set-interpreter '"$ld"' "{}"' \;
+	}
 	pesr(){
-		[ -n "$1" ] && d="$1" || d="."
-		[ -n "$2" ] && ld="$2" || ld="$_p/lib"
-		find "$d" -type f -exec bash -c 'patchelf --set-rpath'"$ld"' "{}" >& /dev/null && echo "{} patched."' \;
+		 [ -n "$1" ] && d="$1" || d=".";
+		 [ -n "$2" ] && ld="$2" || ld="$_p/lib";
+		 find "$d" -type f -exec bash -c 'patchelf --set-rpath'"$ld"' "{}" >& /dev/null && echo "{} patched."' \;
 	}
-	ldcheck(){
-		[ -n "$1" ] && d="$1" || d="."
-		find "$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --print-interpreter "{}"' \;
-	}
-	ldfix(){
-		[ -n "$1" ] && d="$1" || d="."
-		[ -n "$2" ] && ld="$2" || ld="$_p/lib/ld-2.26.so"
-		find "$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --set-interpreter '"$ld"' "{}"' \;
+	pesrp(){ 
+		 [ -n "$1" ] && d="$1" || d=".";
+		 if [ -n "$2" ]; then
+			  ld="$2";
+		 else
+			  if [ -d "$_p/lib" ]; then
+					ld="$_p/lib";
+			  else
+					echo "Cannot fix, no libdir found.";
+					return 1;
+			  fi;
+		 fi;
+		 rm -rf "$d.tmp";
+		 cp -r "$d" "$d.tmp";
+		 TMPDIR=${TMPDIR+/tmp};
+		 find "$d" -type f -exec bash -c 'patchelf --set-rpath '"$ld"' "{}" >& '"$TMPDIR/pesrp.tmp"' && echo "{} patched. '"$( cat $TMPDIR/pesrp.tmp | tr '\n' ' ' )"'"' \;
 	}
 	buildall-impl(){
 		if [ -d "$_p" ] ; then
@@ -215,6 +243,9 @@
 	rebuildall-impl (){
 		 rm -rf $_p;
 		 buildall "$@"
+	}
+	lastlog () {
+		 less -S "$(find $_r/scripts/log | grep '/[0-9]\+$' | sort -rn | head -1)"
 	}
 	lastclog () { 
 		 lf="$(find $_r/scripts/log | grep '/[0-9]\+$' | sort -rn | head -1)";
