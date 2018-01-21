@@ -45,7 +45,7 @@
 	}
 	log(){
 		local lf="$_r/scripts/log/$( cat $_r/scripts/log/latestlogtime )"
-		if [ -n "$loglev" ] ; then
+		if [ -z "$nolog" ] ; then
 			otim="$( timens )"
 			dtim=300000000
 			sectim=1000000000 # 1 second
@@ -93,8 +93,8 @@
 			done
 			echo
 		else
-			echo "CMD: ${@:2}" &| tee -a "$lf"
-			( "${@:2}" ) &| tee -a "$lf"
+			echo "CMD: ${@:2}" |& tee -a "$lf"
+			( "${@:2}" ) |& tee -a "$lf"
 			#"${@:2}" |&  sed -zu 's/[ 	]\+\\\n[ 	]\+/ /g' 
 		fi
 	}
