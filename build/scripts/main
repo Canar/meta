@@ -145,6 +145,7 @@
 
 	}
 	place-impl(){
+		echo rsync -Pav "$_r/dest/$d/$_p/" "$_p" || return $?
 		rsync -Pav "$_r/dest/$d/$_p/" "$_p" || return $?
 	}
 	kernelh-impl(){
