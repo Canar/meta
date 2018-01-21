@@ -301,18 +301,21 @@
 			--with-gnu-ld
 		EOF
 	}
+	conf-mpc-first(){ conf-mpc ;}
 	conf-mpc(){
 		parse-conf <<-'EOF'
 			--{prefix,with-{mpfr,gmp}}=$_p
 			--with-gnu-ld
 		EOF
 	}
+	conf-isl-first(){ conf-isl ;}
 	conf-isl(){
 		parse-conf <<-'EOF'
 			--{prefix,with-{mpfr,gmp,mpc}}=$_p
 			--with-gnu-ld 
 		EOF
 	}
+	conf-zlib-first(){ conf-zlib ;}
 	conf-zlib(){
 		parse-conf <<-'EOF'
 			--prefix=$_p

@@ -186,9 +186,10 @@
 		log 'Copying kernel headers' kernelh-impl &&
 		echo '...done.'
 		export LD_LIBRARY_PATH=$_p/lib &&
-		xpkg binutils-first gmp-first mpfr-first mpc isl gcc-first &&
-		export -n LD_LIBRARY_PATH &&
-		xpkg glibc-first binutils gmp mpfr mpc isl gcc glibc
+		xpkg binutils-first gmp-first mpfr-first mpc-first isl-first zlib-first gcc-first
+
+		# export -n LD_LIBRARY_PATH &&
+		# xpkg glibc-first binutils gmp mpfr mpc isl gcc glibc
 		export PATH="$op"
 		popd
 	}
