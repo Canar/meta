@@ -34,10 +34,9 @@
 	}
 	conf-gnu-toolchain-multi(){
 		parse-conf <<-'EOF'
-			--enable-shared
-			--with-arch=native
+			--with-arch=skylake
 			--with-arch-32=native
-			--with-arch-64=native
+			--with-arch-64=skylakee
 			--enable-multiarch
 			--enable-multilib
 			--with-abi=m64
@@ -61,7 +60,7 @@
 	}
 : binutils
 	conf-binutils-first(){
-		conf-binutils-mine
+		conf-binutils-mine-static
 		return 0
 		parse-conf <<-'EOF'
 			--prefix=$_p
@@ -88,7 +87,7 @@
 			--disable-multiarch
 			
 #			--enable-static
-			--with-arch=native
+			--with-arch=skylake
 #			--enable-targets=i686-pc-linux-gnu,x86_64-pc-linux-gnu,x86_64-pc-linux-gnux32
 #			--enable-default-pie
 #			--enable-multibyte 
@@ -96,6 +95,18 @@
 #			--enable-linker-build-id
 #			--enable-clocale=gnu
 #			--enable-gnu-unique-object
+		EOF
+	}
+	conf-binutils-mine-static(){
+		conf-gnu-toolchain
+		conf-gnu-toolchain-multi
+		parse-conf <<-'EOF'
+			--disable-shared
+			--enable-targets=all
+			--enable-gold
+			--disable-gdb
+			--enable-install-libiberty
+			--enable-install-libbfd
 		EOF
 	}
 	conf-binutils-mine(){
@@ -131,6 +142,16 @@
 			--disable-vtable-verify 
 		EOF
 	}
+	conf-gcc-mine-static(){
+		conf-gnu-toolchain
+		conf-gnu-toolchain-multi
+		parse-conf <<-'EOF'
+			--disable-shared
+			--enable-languages=c,c++ 
+			--disable-bootstrap 
+			--disable-vtable-verify 
+		EOF
+	}
 	conf-gcc-manypy-common(){
 		parse-conf <<-'EOF'
 			--disable-libsanitizer
@@ -155,7 +176,7 @@
 			--with-lib-path=$_p/lib
 			--with-native-system-header-dir=$_p/include
 			LIB_PATH=$_p/lib
-			LD_LIBRARY_PATH=/data/test/lib
+			LD_LIBRARY_PATH=$_p/lib
 #			LDFLAGS="-L$_p/lib"
 #			CFLAGS="-L$_p/lib"
 #			CXXFLAGS="-L$_p/lib"
