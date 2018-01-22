@@ -1,7 +1,7 @@
 #!/bin/bash
 # vim: ts=3 sw=3 fdm=indent:
 : utility - impl-update,fence,fix
-	local ei=0
+	# local ei=0
 	ERR_UNSPEC=$((ei++))	# unspecified error
 	ERR_INST=$((ei++))	# error in install
 	ERR_CONF=$((ei++))	# error in configure process
@@ -12,9 +12,7 @@
 	ERR_PESRP=$((ei++))	# error in patch elf set rpath
 	ERR_BUILDALL=$((ei++))	# error in buildall
 	ERR_PREFIX_FULL=$((ei++))	# prefix has content 
-
-
-
+	ERR_XPKG=$((ei++))		# error in xpkg
 
 	timens(){
 		cat /proc/timer_list  | grep now | cut -d\  -f3
@@ -244,57 +242,6 @@
 		TMPDIR=${TMPDIR:-/tmp}
 		find "$ldir" -type f -exec bash -c 'patchelf --set-rpath "'"$dldir"'" "{}" >& '"$TMPDIR/pesrp.tmp"' && echo "{} patched. '"$( cat $TMPDIR/pesrp.tmp | tr '\n' ' ' )"'" ; rm -rf '"'$TMPDIR/pesrp.tmp'" \;
 	}
-	kernelh-impl(){
-		git -C $_s/linux checkout current_stable	
-		make $_m_fl -C $_s/linux INSTALL_HDR_PATH=$_p ARCH=$_a_bl headers_install
-	}
-: misc - ldcheck,ldfix,redo,buildall
-	redo-impl(){ 
-		[ -z "$1" ] && return
-		if [ -d "$_r/$1" ] ; then
-			cd $_r &&
-			chmod -R u+rw $_r/$d &&
-			rm -r $_r/$1
-		fi
-		mkdir $_r/$1 &&
-		cd $_r/$1 &&
-		fence &&
-		conf-impl &&
-		go-impl &&
-		inst-impl || return $ERR_REDO
-	}
-	alter-impl(){
-		redo-impl "$@" &&
-		place-impl || return $ERR_ALTER
-	}
-	pepint () { # PatchElf Print INTerpreter;
-		local ldir="${1:-$_r/${d:-.}}"
-		find "$ldir" -type f -exec bash -c 'echo -n "{} " ; patchelf --print-interpreter "{}"' \;
-	}
-	pesint(){ 
-		local ldir="${1:-.}"
-		local ldfi="${2:-$_p/lib/ld-2.26.so}"
-		if [ ! -f "$_p/lib/ld-2.26.so" ]; then
-			echo "Cannot fix, no linker found."
-			return $ERR_PESINT
-		fi
-		find "$ldir" -type f -exec bash -c 'echo -n "{} " ; patchelf --set-interpreter '"$ldfi"' "{}"' \;
-	}
-	pesrp(){ 
-		local ldir="${1:-.}"
-		local lddir
-		if [ -n "$2" ]; then
-			lddir="$2"
-		elif [ -d "$_p/lib" ]; then
-			lddir="$_p/lib"
-		else
-			echo "Cannot fix, no libdir found."
-			return $ERR_PESRP
-		fi
-		TMPDIR=${TMPDIR:-/tmp}
-		find "$ldir" -type f -exec bash -c 'patchelf --set-rpath "'"$dldir"'" "{}" >& '"$TMPDIR/pesrp.tmp"' && echo "{} patched. '"$( cat $TMPDIR/pesrp.tmp | tr '\n' ' ' )"'" ; rm -rf '"'$TMPDIR/pesrp.tmp'" \;
-	}
-
 	buildall-postcheck(){
 		mkdir -p $_p/lib &&
 		xpkg binutils-first gmp-first mpfr-first mpc-first isl-first zlib-first gcc-first || return $ERR_BUILDALL_POST
@@ -308,9 +255,6 @@
 		local e=$?
 		[ $e -gt 0 ] && echo "ERROR: something shitty happened, woops"
 		return $?
-
-		# export -n LD_LIBRARY_PATH &&
-		# xpkg glibc-first binutils gmp mpfr mpc isl gcc glibc
 	}
 	xpkg(){
 		[ -n "$1" ] &&
@@ -319,7 +263,7 @@
 		fence &&
 		log "Building $1" alter-impl "$@" &&
 		shift &&
-		xpkg "$@" || true
+		xpkg "$@" || return $ERR_XPKG 
 	}
 	rebuildall-impl (){
 		log "Preparing the prefix" init-pre
