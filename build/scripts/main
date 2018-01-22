@@ -18,7 +18,7 @@
 		cat /proc/timer_list  | grep now | cut -d\  -f3
 	}
 	impl-update(){
-		grep '^[ '$'\t'']*[a-z]\+-impl(' $_r/scripts/main |\
+		grep '^[ '$'\t'']*[a-z]\+-impl *(' $_r/scripts/main |\
 			sed 's/^[ \t]*\([a-z]\+\)-impl(.*$/\1(){ fence \&\& \1-impl "$@" ; } /g' > $_r/scripts/impl
 	}
 	fence(){
@@ -63,7 +63,7 @@
 			linecount=1
 			lineavg=1
 			tupac=1
-			echo -n "$1..."
+			echo -n "$1....."
 			#"${@:2}" |& stdbuf -i0 -o0 sed -zu 's/[ 	]\+\\\n[ 	]\+/ /g' | while read -r l ; do
 			"${@:2}" |& while read -t "$dstim" -r l || test $? -gt 128 ; do
 				if [ -n "$l" ] ; then
@@ -94,11 +94,11 @@
 					ch="%"
 				elif [[ $ctim -gt $(( $lineavg + $tupac )) ]] ; then
 					ch="!"
-				elif [[ $ctim -gt $lineavg ]] ; then
+				elif [[ $ctim -gt $(( $lineavg )) ]] ; then
 					ch="*"
-				elif [[ $ctim -gt $(( $lineavg * 2 / 3 )) ]] ; then
+				elif [[ $ctim -gt $(( $lineavg * 4 / 5 )) ]] ; then
 					ch="+"
-				elif [[ $ctim -gt $(( $lineavg / 3 )) ]] ; then
+				elif [[ $ctim -gt $(( $lineavg * 3 / 5 )) ]] ; then
 					ch="-"
 				else
 					ch="."
