@@ -8,4 +8,6 @@ place(){ fence && place-impl "$@" ; }
 kernelh(){ fence && kernelh-impl "$@" ; } 
 redo(){ fence && redo-impl "$@" ; } 
 alter(){ fence && alter-impl "$@" ; } 
-buildall(){ fence && buildall-impl "$@" ; } 
+kernelh(){ fence && kernelh-impl "$@" ; } 
+redo(){ fence && redo-impl "$@" ; } 
+alter(){ fence && alter-impl "$@" ; } 

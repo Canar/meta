@@ -1,6 +1,21 @@
 #!/bin/bash
 # vim: ts=3 sw=3 fdm=indent:
 : utility - impl-update,fence,fix
+	local ei=0
+	ERR_UNSPEC=$((ei++))	# unspecified error
+	ERR_INST=$((ei++))	# error in install
+	ERR_CONF=$((ei++))	# error in configure process
+	ERR_CONF_NOTFOUND=$((ei++))	# configure script not found
+	ERR_REDO=$((ei++))	# error in redo
+	ERR_ALTER=$((ei++))	# error in alter
+	ERR_PESINT=$((ei++)) # error in patch3elf set interpreter
+	ERR_PESRP=$((ei++))	# error in patch elf set rpath
+	ERR_BUILDALL=$((ei++))	# error in buildall
+	ERR_PREFIX_FULL=$((ei++))	# prefix has content 
+
+
+
+
 	timens(){
 		cat /proc/timer_list  | grep now | cut -d\  -f3
 	}
@@ -16,18 +31,11 @@
 		b="$d"
 		dd="${d%%-first}"
 		case "$dd" in
-			libc* ) b=glibc ;;
+			libc* | glibc* ) b=glibc ;;
 			binutils* ) b=binutils-gdb ;;
 			gcc* ) b=gcc ;;
 			* ) b="$dd"
 		esac
-
-	#	bf=""
-	#	if [ -f "$_r/configures/$b" ] ; then
-	#		bf="$_r/configures/$b"
-	#	fi
-	#	[ -z "$bf" ] && echo not a good dir && return 1
-		return 0
 	}
 	fix(){
 		case "$1" in
@@ -48,9 +56,13 @@
 		if [ -z "$nolog" ] ; then
 			otim="$( timens )"
 			dtim=300000000
-			sectim=1000000000 # 1 second
+			sectim=1000000000 # 1 second, 9 zeroes
 			dstim="$(( $dtim / $sectim )).$(( $dtim % $sectim))"
 			ctim=0
+			pklines=1
+			pkval=1
+			linesum=1
+			linecount=1
 			echo -n "$1..."
 			#"${@:2}" |& stdbuf -i0 -o0 sed -zu 's/[ 	]\+\\\n[ 	]\+/ /g' | while read -r l ; do
 			"${@:2}" |& while read -t "$dstim" -r l || test $? -gt 128 ; do
@@ -63,29 +75,37 @@
 					otim=$tim
 					ctim=0
 				fi
-				if [[ $ctim -gt 256 ]] ; then
-					ch="#"
-				elif [[ $ctim -gt 128 ]] ; then
-					ch="@"
-				elif [[ $ctim -gt 64 ]] ; then
-					ch="$"
-				elif [[ $ctim -gt 32 ]] ; then
-					ch="%"
-				elif [[ $ctim -gt 16 ]] ; then
-					ch="!"
-				elif [[ $ctim -gt 8 ]] ; then
-					ch="*"
-				elif [[ $ctim -gt 4 ]] ; then
-					ch="+"
-				elif [[ $ctim -gt 2 ]] ; then
-					ch="-"
-				else
-					ch="."
-				fi
-				echo -ne '\b'"$ch"
 				if [ $(( $tim - $otim )) -gt $dtim ] ; then
-					echo -ne '...\b\b'
-					otim=$tim
+					if [ $ctim -ge $(( $pkval * $pklines / $linecount )) ] ; then
+						pklines=$linecount
+						pkval=$ctim
+					fi
+					echo -ne '..\b'
+					let otim="$tim - $dtim"
+					let linesum="$linesum+$ctim"
+					let linecount="$linecount+1"
+					let lineavg="$linesum/$linecount"
+					let tupac="( ( ( $pkval * $pklines / $linecount ) - $lineavg ) / 5 )"
+					if [[ $ctim -gt $(( $lineavg + $tupac * 5 )) ]] ; then
+						ch="#"
+					elif [[ $ctim -gt $(( $lineavg + $tupac * 4 )) ]] ; then
+						ch="@"
+					elif [[ $ctim -gt $(( $lineavg + $tupac * 3 )) ]] ; then
+						ch="$"
+					elif [[ $ctim -gt $(( $lineavg + $tupac * 2 )) ]] ; then
+						ch="%"
+					elif [[ $ctim -gt $(( $lineavg + $tupac )) ]] ; then
+						ch="!"
+					elif [[ $ctim -gt $lineavg ]] ; then
+						ch="*"
+					elif [[ $ctim -gt $(( $lineavg * 2 / 3 )) ]] ; then
+						ch="+"
+					elif [[ $ctim -gt $(( $lineavg / 3 )) ]] ; then
+						ch="-"
+					else
+						ch="."
+					fi
+					echo -ne '\b'"$ch"
 					ctim=0
 				else
 					let ctim="$ctim+1"
@@ -105,10 +125,10 @@
 : configuration - ccat,conf,reconf,confhelp
 	conf-impl(){
 		if declare -fF conf-$d >/dev/null ; then
-			$_s/$b/configure $( conf-$d )  || return 1
+			$_s/$b/configure $( conf-$d )  || return $?
 		else
 			echo "No configure found."
-			return 1
+			return $ERR_CONF_NOTFOUND
 		fi
 	}
 	reconf-impl(){
@@ -151,6 +171,24 @@
 		echo rsync -Pav "$_r/dest/$d/$_p/" "$_p" || return $?
 		rsync -Pav "$_r/dest/$d/$_p/" "$_p" || return $?
 	}
+	init-pre(){
+		rm -rf $_p
+		mkdir -p $_p/bin
+		echo -e "#!/bin/bash\necho -n valid" >$_p/bin/validate
+		chmod +x $_p/bin/validate
+		if [ ! "$( $_p/bin/validate )" == "valid" ] ; then
+			echo "YAY"
+		fi
+		local dirh="$( readlink -f $_p/../include )"
+		local dirhmark="linux.h"
+		if [ "$(cat $dirh/.mark)" == "$dirhmark" ] ; then
+			rsync -Pav "$dirh" "$_p"
+		else
+			git -C $_s/linux checkout current_stable	
+			make $_m_fl -C $_s/linux INSTALL_HDR_PATH="$dirh" ARCH=$_a_bl headers_install
+			echo "$dirhmark" > "$dirh/.mark"
+		fi
+	}
 	kernelh-impl(){
 		git -C $_s/linux checkout current_stable	
 		make $_m_fl -C $_s/linux INSTALL_HDR_PATH=$_p ARCH=$_a_bl headers_install
@@ -168,65 +206,106 @@
 		fence &&
 		conf-impl &&
 		go-impl &&
-		inst-impl || return 1
+		inst-impl || return $ERR_REDO
 	}
 	alter-impl(){
 		redo-impl "$@" &&
-		place-impl || return 1
+		place-impl || return $ERR_ALTER
 	}
 	pepint () { # PatchElf Print INTerpreter;
-		 [ -n "$1" ] && d="$1" || d="."
-		 find "$_r/$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --print-interpreter "{}"' \;
+		local ldir="${1:-$_r/${d:-.}}"
+		find "$ldir" -type f -exec bash -c 'echo -n "{} " ; patchelf --print-interpreter "{}"' \;
 	}
 	pesint(){ 
-		 [ -n "$1" ] && d="$1" || d="."
-		 if [ -n "$2" ]; then
-			  ld="$2"
-		 else
-			  if [ -f "$_p/lib/ld-2.26.so" ]; then
-					ld="$_p/lib/ld-2.26.so"
-			  else
-					echo "Cannot fix, no linker found."
-					return 1
-			  fi
-		 fi
-		 find "$d" -type f -exec bash -c 'echo -n "{} " ; patchelf --set-interpreter '"$ld"' "{}"' \;
-	}
-	pesr(){
-		 [ -n "$1" ] && d="$1" || d="."
-		 [ -n "$2" ] && ld="$2" || ld="$_p/lib"
-		 find "$d" -type f -exec bash -c 'patchelf --set-rpath'"$ld"' "{}" >& /dev/null && echo "{} patched."' \;
+		local ldir="${1:-.}"
+		local ldfi="${2:-$_p/lib/ld-2.26.so}"
+		if [ ! -f "$_p/lib/ld-2.26.so" ]; then
+			echo "Cannot fix, no linker found."
+			return $ERROR_PESINT
+		fi
+		find "$ldir" -type f -exec bash -c 'echo -n "{} " ; patchelf --set-interpreter '"$ldfi"' "{}"' \;
 	}
 	pesrp(){ 
-		local pesrpd
-		[ -n "$1" ] && pesrpd="$1" || pesrpd="."
+		local ldir="${1:-.}"
+		local lddir
 		if [ -n "$2" ]; then
-			ld="$2"
+			lddir="$2"
 		elif [ -d "$_p/lib" ]; then
-			ld="$_p/lib"
+			lddir="$_p/lib"
 		else
 			echo "Cannot fix, no libdir found."
-			return 1
+			return $ERR_PESRP
 		fi
-		rm -rf "$pesrpd.tmp"
-		cp -r "$pesrpd" "$pesrpd.tmp"
 		TMPDIR=${TMPDIR:-/tmp}
-		find "$pesrpd" -type f -exec bash -c 'patchelf --set-rpath '"$ld"' "{}" >& '"$TMPDIR/pesrp.tmp"' && echo "{} patched. '"$( cat $TMPDIR/pesrp.tmp | tr '\n' ' ' )"'"' \;
+		find "$ldir" -type f -exec bash -c 'patchelf --set-rpath "'"$dldir"'" "{}" >& '"$TMPDIR/pesrp.tmp"' && echo "{} patched. '"$( cat $TMPDIR/pesrp.tmp | tr '\n' ' ' )"'" ; rm -rf '"'$TMPDIR/pesrp.tmp'" \;
 	}
-	buildall-impl(){
+	kernelh-impl(){
+		git -C $_s/linux checkout current_stable	
+		make $_m_fl -C $_s/linux INSTALL_HDR_PATH=$_p ARCH=$_a_bl headers_install
+	}
+: misc - ldcheck,ldfix,redo,buildall
+	redo-impl(){ 
+		[ -z "$1" ] && return
+		if [ -d "$_r/$1" ] ; then
+			cd $_r &&
+			chmod -R u+rw $_r/$d &&
+			rm -r $_r/$1
+		fi
+		mkdir $_r/$1 &&
+		cd $_r/$1 &&
+		fence &&
+		conf-impl &&
+		go-impl &&
+		inst-impl || return $ERR_REDO
+	}
+	alter-impl(){
+		redo-impl "$@" &&
+		place-impl || return $ERR_ALTER
+	}
+	pepint () { # PatchElf Print INTerpreter;
+		local ldir="${1:-$_r/${d:-.}}"
+		find "$ldir" -type f -exec bash -c 'echo -n "{} " ; patchelf --print-interpreter "{}"' \;
+	}
+	pesint(){ 
+		local ldir="${1:-.}"
+		local ldfi="${2:-$_p/lib/ld-2.26.so}"
+		if [ ! -f "$_p/lib/ld-2.26.so" ]; then
+			echo "Cannot fix, no linker found."
+			return $ERR_PESINT
+		fi
+		find "$ldir" -type f -exec bash -c 'echo -n "{} " ; patchelf --set-interpreter '"$ldfi"' "{}"' \;
+	}
+	pesrp(){ 
+		local ldir="${1:-.}"
+		local lddir
+		if [ -n "$2" ]; then
+			lddir="$2"
+		elif [ -d "$_p/lib" ]; then
+			lddir="$_p/lib"
+		else
+			echo "Cannot fix, no libdir found."
+			return $ERR_PESRP
+		fi
+		TMPDIR=${TMPDIR:-/tmp}
+		find "$ldir" -type f -exec bash -c 'patchelf --set-rpath "'"$dldir"'" "{}" >& '"$TMPDIR/pesrp.tmp"' && echo "{} patched. '"$( cat $TMPDIR/pesrp.tmp | tr '\n' ' ' )"'" ; rm -rf '"'$TMPDIR/pesrp.tmp'" \;
+	}
+
+	buildall-postcheck(){
+		mkdir -p $_p/lib &&
+		xpkg binutils-first gmp-first mpfr-first mpc-first isl-first zlib-first gcc-first || return $ERR_BUILDALL_POST
+	}
+	buildall(){
 		if [ -d "$_p" ] ; then
 			echo ERROR: something is in the way
-			return 1
+			return $ERR_PREFIX_FULL
 		fi	
-		( 
-			export PATH=$_p:$PATH
-			mkdir -p $_p/lib &&
-			log 'Copying kernel headers' kernelh-impl &&
-			xpkg binutils-first gmp-first mpfr-first mpc-first isl-first zlib-first gcc-first || return 1
+		buildall-postcheck
+		local e=$?
+		[ $e -gt 0 ] && echo "ERROR: something shitty happened, woops"
+		return $?
 
-			# export -n LD_LIBRARY_PATH &&
-			# xpkg glibc-first binutils gmp mpfr mpc isl gcc glibc
-		) || return 1
+		# export -n LD_LIBRARY_PATH &&
+		# xpkg glibc-first binutils gmp mpfr mpc isl gcc glibc
 	}
 	xpkg(){
 		[ -n "$1" ] &&
@@ -237,12 +316,9 @@
 		shift &&
 		xpkg "$@" || true
 	}
-	rebuildall(){
-		fence && rebuildall-impl "$@"
-	}
 	rebuildall-impl (){
-		 rm -rf $_p
-		 buildall "$@"
+		log "Preparing the prefix" init-pre
+		buildall-postcheck "$@"
 	}
 	lastlog () {
 		 less -S "$(find $_r/scripts/log | grep '/[0-9]\+$' | sort -rn | head -1)"
