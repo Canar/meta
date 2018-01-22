@@ -2,11 +2,16 @@
 _s=/ennorath/imladris/src/local/share/meta
 _r=$_s/build
 _p=/data/live
+_pl=$_p/lib
+_pi=$_pl/i686
+_px=$_pl/x32
 #_p=/data/test
 _m_ifl="V=2 " # makeflags for install
 #_m_ifl="-Oline" # makeflags for install
 _m_fl="-j9 $_m_ifl" # makeflags
 _a_b=x86_64-pc-linux-gnu
+_a_bi=i686-pc-linux-gnu
+_a_bx=x86_64-pc-linux-gnux32
 _a_bl=x86_64 #linux arch
 
 export PATH="$_p/bin:/data/live/bin:/usr/bin:/bin:/usr/local/games:/usr/games"

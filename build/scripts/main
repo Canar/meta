@@ -63,53 +63,55 @@
 			pkval=1
 			linesum=1
 			linecount=1
+			lineavg=1
+			tupac=1
 			echo -n "$1..."
 			#"${@:2}" |& stdbuf -i0 -o0 sed -zu 's/[ 	]\+\\\n[ 	]\+/ /g' | while read -r l ; do
 			"${@:2}" |& while read -t "$dstim" -r l || test $? -gt 128 ; do
-				tim="$( timens )"
 				if [ -n "$l" ] ; then
 					echo "$l" >>$lf
-					unset l
-				else
-					echo -n .
-					otim=$tim
-					ctim=0
+					let ctim="$ctim+1"
 				fi
+				tim="$( timens )"
 				if [ $(( $tim - $otim )) -gt $dtim ] ; then
 					if [ $ctim -ge $(( $pkval * $pklines / $linecount )) ] ; then
 						pklines=$linecount
 						pkval=$ctim
 					fi
-					echo -ne '..\b'
-					let otim="$tim - $dtim"
+					let otim="$otim + $dtim"
+					ctim=0
 					let linesum="$linesum+$ctim"
 					let linecount="$linecount+1"
 					let lineavg="$linesum/$linecount"
 					let tupac="( ( ( $pkval * $pklines / $linecount ) - $lineavg ) / 5 )"
-					if [[ $ctim -gt $(( $lineavg + $tupac * 5 )) ]] ; then
-						ch="#"
-					elif [[ $ctim -gt $(( $lineavg + $tupac * 4 )) ]] ; then
-						ch="@"
-					elif [[ $ctim -gt $(( $lineavg + $tupac * 3 )) ]] ; then
-						ch="$"
-					elif [[ $ctim -gt $(( $lineavg + $tupac * 2 )) ]] ; then
-						ch="%"
-					elif [[ $ctim -gt $(( $lineavg + $tupac )) ]] ; then
-						ch="!"
-					elif [[ $ctim -gt $lineavg ]] ; then
-						ch="*"
-					elif [[ $ctim -gt $(( $lineavg * 2 / 3 )) ]] ; then
-						ch="+"
-					elif [[ $ctim -gt $(( $lineavg / 3 )) ]] ; then
-						ch="-"
-					else
-						ch="."
-					fi
-					echo -ne '\b'"$ch"
-					ctim=0
-				else
-					let ctim="$ctim+1"
+					echo -n .
 				fi
+				if [[ $ctim -gt $(( $lineavg + $tupac * 5 )) ]] ; then
+					ch="#"
+				elif [[ $ctim -gt $(( $lineavg + $tupac * 4 )) ]] ; then
+					ch="@"
+				elif [[ $ctim -gt $(( $lineavg + $tupac * 3 )) ]] ; then
+					ch="$"
+				elif [[ $ctim -gt $(( $lineavg + $tupac * 2 )) ]] ; then
+					ch="%"
+				elif [[ $ctim -gt $(( $lineavg + $tupac )) ]] ; then
+					ch="!"
+				elif [[ $ctim -gt $lineavg ]] ; then
+					ch="*"
+				elif [[ $ctim -gt $(( $lineavg * 2 / 3 )) ]] ; then
+					ch="+"
+				elif [[ $ctim -gt $(( $lineavg / 3 )) ]] ; then
+					ch="-"
+				else
+					ch="."
+				fi
+				echo -ne '\b\b\b'"$ch.."
+				if [ -z "$l" ] ; then
+					echo -n .
+					otim=$tim
+					ctim=0
+				fi
+				unset l
 			done
 			echo
 		else
@@ -125,7 +127,7 @@
 : configuration - ccat,conf,reconf,confhelp
 	conf-impl(){
 		if declare -fF conf-$d >/dev/null ; then
-			$_s/$b/configure $( conf-$d )  || return $?
+			eval $_s/$b/configure "$( conf-$d )"  || return $?
 		else
 			echo "No configure found."
 			return $ERR_CONF_NOTFOUND
@@ -185,13 +187,16 @@
 			rsync -Pav "$dirh" "$_p"
 		else
 			git -C $_s/linux checkout current_stable	
-			make $_m_fl -C $_s/linux INSTALL_HDR_PATH="$dirh" ARCH=$_a_bl headers_install
+			inst-kernel $_a_bl $dirh
 			echo "$dirhmark" > "$dirh/.mark"
 		fi
 	}
+	inst-kernel(){ # params are: arch path
+		make $_m_fl -C $_s/linux INSTALL_HDR_PATH="$2" ARCH="$1" headers_install
+	}
 	kernelh-impl(){
 		git -C $_s/linux checkout current_stable	
-		make $_m_fl -C $_s/linux INSTALL_HDR_PATH=$_p ARCH=$_a_bl headers_install
+		inst-kernel $_a_bl $dirh
 	}
 : misc - ldcheck,ldfix,redo,buildall
 	redo-impl(){ 

@@ -8,19 +8,25 @@
 		done | sed -z 's/[ \t\n]\+/ /g'
 		echo -n ' '
 	}
+	conf-build-i686(){
+		parse-conf <<-'EOF'
+			--build=$_a_b
+			BUILD_CC=gcc
+			CC=gcc\\\\ -m32
+			CXX=g++\\\\ -m32
+		EOF
+	}
+	conf-build-x32(){
+		parse-conf <<-'EOF'
+			--build=$_a_b
+			BUILD_CC=gcc
+			CC=gcc\\\\ -mx32
+			CXX=g++\\\\ -mx32
+		EOF
+	}
 	conf-gnu-toolchain(){
 		parse-conf <<-'EOF'
-			--prefix=$_p
-			--with-sysroot=/
-			--with-local-prefix=$_p/sub
-			--with-lib-path=$_p/lib
-			--with-native-system-header-dir=$_p/include
-			LIB_PATH=$_p/lib
-
 			--with-glibc-version=2.25 
-			--with-target-system-zlib 
-			--with-system-zlib 
-			
 			--disable-nls
 			--disable-werror
 
@@ -32,17 +38,59 @@
 			--enable-plugins
 		EOF
 	}
+	conf-gnu-toolchain-zlib(){
+		parse-conf <<-'EOF'
+			--with-target-system-zlib 
+			--with-system-zlib 
+		EOF
+	}
+	conf-gnu-toolchain-stdpath(){
+		parse-conf <<-'EOF'
+			--prefix=$_p
+			--with-sysroot=/
+			--with-local-prefix=$_p/sub
+			--with-lib-path=$_p/lib
+			--with-native-system-header-dir=$_p/include
+			LIB_PATH=$_p/lib
+		EOF
+	}
 	conf-gnu-toolchain-multi(){
 		parse-conf <<-'EOF'
-			--with-arch=skylake
+			--with-arch=native
 			--with-arch-32=native
-			--with-arch-64=skylakee
+			--with-arch-64=native
 			--enable-multiarch
 			--enable-multilib
 			--with-abi=m64
 			--with-multilib-list=m32,m64,mx32
 			--enable-checking=release
 			--enable-lto 
+		EOF
+	}
+	conf-gnu-toolchain-x32(){
+		parse-conf <<-'EOF'
+			--prefix=$_px
+			--with-sysroot=/
+			--with-local-prefix=$_p
+			--with-lib-path=$_px/lib:$_pl
+			--with-native-system-header-dir=$_px/include
+
+			LIB_PATH=$_px/lib:$_pl
+			--target=$_a_bx
+			--host=$_a_b
+		EOF
+	}
+	conf-gnu-toolchain-i686(){
+		parse-conf <<-'EOF'
+			--prefix=$_pi
+			--with-sysroot=/
+			--with-local-prefix=$_p
+			--with-lib-path=$_pi/lib:$_pl
+			--with-native-system-header-dir=$_pi/include
+
+			LIB_PATH=$_pi/lib:$_pl
+			--target=$_a_bi
+			--host=$_a_b
 		EOF
 	}
 	conf-gnu-toolchain-manypy(){
@@ -97,6 +145,12 @@
 #			--enable-gnu-unique-object
 		EOF
 	}
+	conf-binutils-i686(){
+		conf-binutils-mine-i686
+	}
+	conf-binutils-x32(){
+		conf-binutils-mine-i686
+	}
 	conf-binutils-mine-static(){
 		conf-gnu-toolchain
 		conf-gnu-toolchain-multi
@@ -109,9 +163,7 @@
 			--enable-install-libbfd
 		EOF
 	}
-	conf-binutils-mine(){
-		conf-gnu-toolchain
-		conf-gnu-toolchain-multi
+	conf-binutils-mine-unarch(){ #architecture independent stuff
 		parse-conf <<-'EOF'
 			--enable-targets=all
 			--enable-gold
@@ -119,6 +171,27 @@
 			--enable-install-libiberty
 			--enable-install-libbfd
 		EOF
+	}
+	conf-binutils-mine(){
+		conf-gnu-toolchain
+		conf-gnu-toolchain-multi
+		conf-gnu-toolchain-zlib
+		conf-binutils-mine-unarch
+		conf-gnu-toolchain-stdpath
+	}
+	conf-binutils-mine-i686(){
+		conf-gnu-toolchain
+		conf-gnu-toolchain-multi
+		conf-gnu-toolchain-i686
+		conf-build-i686
+		conf-binutils-mine-unarch
+	}
+	conf-binutils-mine-x32(){
+		conf-gnu-toolchain
+		conf-gnu-toolchain-multi
+		conf-gnu-toolchain-x32
+		conf-build-x32
+		conf-binutils-mine-unarch
 	}
 	conf-binutils-manypy(){
 		conf-gnu-toolchain-manypy
@@ -136,6 +209,7 @@
 	conf-gcc-mine(){
 		conf-gnu-toolchain
 		conf-gnu-toolchain-multi
+		conf-gnu-toolchain-zlib
 		parse-conf <<-'EOF'
 			--enable-languages=c,c++ 
 			--disable-bootstrap 
@@ -340,6 +414,14 @@
 	}
 	conf-zlib-first(){ conf-zlib ;}
 	conf-zlib(){
+		parse-conf <<-'EOF'
+			--prefix=$_p
+			--{,shared}libdir=$_p/lib
+			--includedir=$_p/include
+			--shared
+		EOF
+	}
+	conf-zlib-i686(){
 		parse-conf <<-'EOF'
 			--prefix=$_p
 			--{,shared}libdir=$_p/lib
