@@ -19,7 +19,7 @@
 	}
 	impl-update(){
 		grep '^[ '$'\t'']*[a-z]\+-impl *(' $_r/scripts/main |\
-			sed 's/^[ \t]*\([a-z]\+\)-impl(.*$/\1(){ fence \&\& \1-impl "$@" ; } /g' > $_r/scripts/impl
+			sed 's/^[ \t]*\([a-z]\+\)-impl *(.*$/\1(){ fence \&\& \1-impl "$@" ; } /g' > $_r/scripts/impl
 	}
 	fence(){
 		bf=""
