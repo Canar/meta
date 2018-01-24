@@ -154,6 +154,7 @@
 	conf-binutils-mine-static(){
 		conf-gnu-toolchain
 		conf-gnu-toolchain-multi
+		conf-gnu-toolchain-stdpath
 		parse-conf <<-'EOF'
 			--disable-shared
 			--enable-targets=all
@@ -168,13 +169,17 @@
 			--enable-targets=all
 			--enable-gold
 			--disable-gdb
+		EOF
+	}
+	conf-binutils-mine-unarch-multi(){ #architecture independent stuff
+		conf-binutils-mine-unarch
+		parse-conf <<-'EOF'
 			--enable-install-libiberty
 			--enable-install-libbfd
 		EOF
 	}
 	conf-binutils-mine(){
 		conf-gnu-toolchain
-		conf-gnu-toolchain-multi
 		conf-gnu-toolchain-zlib
 		conf-binutils-mine-unarch
 		conf-gnu-toolchain-stdpath
@@ -202,14 +207,22 @@
 			--disable-sim
 		EOF
 	}
+	conf-binutils-multi(){
+		conf-gnu-toolchain
+		conf-gnu-toolchain-multi
+		conf-gnu-toolchain-zlib
+		conf-binutils-mine-unarch
+		conf-gnu-toolchain-stdpath
+		conf-binutils-mine
+	}
 	conf-binutils(){
-		conf-binutils-manypy
+		conf-binutils-mine
 	}
 : gcc
 	conf-gcc-mine(){
 		conf-gnu-toolchain
-		conf-gnu-toolchain-multi
 		conf-gnu-toolchain-zlib
+		conf-gnu-toolchain-stdpath
 		parse-conf <<-'EOF'
 			--enable-languages=c,c++ 
 			--disable-bootstrap 
@@ -310,15 +323,31 @@
 		EOF
 	}
 	conf-gcc(){
-		conf-gnu-toolchain
-		conf-gnu-toolchain-multi
+		conf-gcc-mine
 		parse-conf <<-'EOF'
-			--enable-languages=c,c++ 
-			--disable-bootstrap 
-			--disable-vtable-verify 
+			--disable-multilib
 		EOF
 	}
+	conf-gcc-multilib(){
+		conf-gcc-mine
+		conf-gnu-toolchain-multi
+	}
 : glibc
+	conf-glibc-first-x32(){
+		conf-glibc-first
+		parse-conf <<-'EOF'
+			--build=x86_64-pc-linux-gnu
+			--host=x86_64-pc-linux-gnux32
+		EOF
+	}
+	conf-glibc-first-i686(){
+		conf-glibc-first
+		parse-conf <<-'EOF'
+			--build=x86_64-pc-linux-gnu
+			--host=i686-pc-linux-gnu
+		EOF
+		
+	}
 	conf-glibc-first(){
 		parse-conf <<-'EOF'
 			--enable-kernel=4.2.0 

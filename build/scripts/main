@@ -1,21 +1,102 @@
 #!/bin/bash
-# vim: ts=3 sw=3 fdm=indent:
-: utility - impl-update,fence,fix
+# v i m: fdm=indent foldignore= :
+# utility - impl-update,fence,fix {{{1
 	# local ei=0
-	ERR_UNSPEC=$((ei++))	# unspecified error
-	ERR_INST=$((ei++))	# error in install
-	ERR_CONF=$((ei++))	# error in configure process
-	ERR_CONF_NOTFOUND=$((ei++))	# configure script not found
-	ERR_REDO=$((ei++))	# error in redo
-	ERR_ALTER=$((ei++))	# error in alter
-	ERR_PESINT=$((ei++)) # error in patch3elf set interpreter
-	ERR_PESRP=$((ei++))	# error in patch elf set rpath
-	ERR_BUILDALL=$((ei++))	# error in buildall
-	ERR_PREFIX_FULL=$((ei++))	# prefix has content 
-	ERR_XPKG=$((ei++))		# error in xpkg
-
+	# error variables
+		ERR_UNSPEC=$((ei++))	# unspecified error
+		ERR_INST=$((ei++))	# error in install
+		ERR_CONF=$((ei++))	# error in configure process
+		ERR_CONF_NOTFOUND=$((ei++))	# configure script not found
+		ERR_REDO=$((ei++))	# error in redo
+		ERR_ALTER=$((ei++))	# error in alter
+		ERR_PESINT=$((ei++)) # error in patch3elf set interpreter
+		ERR_PESRP=$((ei++))	# error in patch elf set rpath
+		ERR_BUILDALL=$((ei++))	# error in buildall
+		ERR_PREFIX_FULL=$((ei++))	# prefix has content 
+		ERR_XPKG=$((ei++))		# error in xpkg
+		kh="failkill3"
+	ttyproc(){
+		ps axjf | grep pts/ | tail -n +2
+	}
+	lpre(){
+		while read l ; do
+			echo "${@:2} $l" >> "$1"
+			echo "$l"
+		done
+	}
+	failkill(){
+		local r o x t
+		r="1-5" ; o="+3" ; x="cat"
+		#r="7-11" ; o="+1" ; x="head -n -1"
+		t="$(ttyproc)"
+		echo "$t" |
+		grep "$(
+			echo "$t" |
+			grep '[0-9] pts/' |
+			grep 'make\|configure\|rsync' |
+			grep -v grep |
+			lpre $_r/scripts/log/kill.log selected: |
+			cut -c13-30 |
+			sort |
+			uniq |
+			lpre $_r/scripts/log/kill.log selector: |
+			head -1 )" |
+		grep -v grep |
+		grep -v '^[[:space:]]*$' |
+		lpre $_r/scripts/log/kill.log all pts: | 
+		cut -c$r |
+		tail -n "$o" |
+		$x |
+		sort |
+		uniq |
+		sort -R |
+		xargs kill
+		#xargs kill -9
+	}
+	failkill2(){
+		pkill -P $BASHPID -9
+		pkill -P $$ -9
+		#kill -INT $BASHPID $$
+	}
+	kids(){
+		local k ok fk zz
+		fk="$1"
+		k="$fk"
+		ok=""
+		while [[ "$k" != "$ok" ]] ; do
+			ok="$k"
+			zz="$(
+				for z in $ok ; do 
+					cat /proc/$z/task/$z/children 2>/dev/null &&
+					echo "$z"
+				done | 
+				tr ' ' '\n' |
+				sort |
+				uniq | 
+				while read z ; do
+					[ -e /proc/$z ] && echo "$z"
+				done
+			)"
+			k="$(
+				echo "$zz" | while read z ; do
+					[ -e /proc/$z ] && echo "$z"
+				done
+			)"
+		done
+		echo "$k"
+	}
+	failkill3(){
+		echo
+		list="$( kids $$ | grep -v "^$$\$" | tr '\n' ' ' )"
+		kill -9 $list >& /dev/null
+		return
+		while [ -n "$list" ] ; do
+			kill -9 $list >& /dev/null
+			# list="$( kids $topid | grep -v "$topid" )"
+		done
+	}
 	timens(){
-		cat /proc/timer_list  | grep now | cut -d\  -f3
+		grep now /proc/timer_list | cut -d\  -f3
 	}
 	impl-update(){
 		grep '^[ '$'\t'']*[a-z]\+-impl *(' $_r/scripts/main |\
@@ -27,14 +108,28 @@
 		b=""
 		d="${d##$_r/}"
 		b="$d"
-		dd="${d%%-first}"
+		d0="$d"
+		for suf in first i686 x32 ; do
+			dd="${d0%%-$suf}"
+			d0="$dd"
+		done
+		ldlp=""
+		libp=""
+		lv="1"
+		[[ $b =~ -first ]] || unset lv
+		[[ "${b:0:4}" == zlib ]] && unset lv
+		# [[ 
+		if [[ -n "$lv" ]] ; then
+			ldlp="LD_LIBRARY_PATH=$_pl"
+			libp="LIB_PATH=$_pl"
+		fi
 		case "$dd" in
 			libc* | glibc* ) b=glibc ;;
 			binutils* ) b=binutils-gdb ;;
 			gcc* ) b=gcc ;;
 			* ) b="$dd"
 		esac
-	}
+	} #
 	fix(){
 		case "$1" in
 			e* ) f=env ;;
@@ -49,69 +144,107 @@
 	newlog(){
 		date +%s > $_r/scripts/log/latestlogtime
 	}
-	log(){
+	readl(){
+			read -t "$1" l 
+			e=$?
+			# echo 0
+			[ "$e" -eq 1 ] && return 1
+			return 0
+			#test $e -gt 128 && return 1
+	}
+	logloop(){
 		local lf="$_r/scripts/log/$( cat $_r/scripts/log/latestlogtime )"
+		local otim="$( timens )"
+		local dtim=300000000
+		local sectim=1000000000 # 1 second, 9 zeroes
+		local dstim="$(( $dtim / $sectim )).$(( $dtim % $sectim))"
+		local ctim=0
+		local pklines=1
+		local pkval=1
+		local linesum=1
+		local linecount=1
+		local lineavg=1
+		local tupac=1
+		while readl "$dstim" ; do
+			if [ -n "$e" ] ; then
+				case "$e" in
+				0 ) : ;;
+				142 ) 
+					echo -n ' ' 
+					let otim="$otim+$dtim"
+					ctim=0
+				;;
+				* ) echo "[$e]" ;;
+				esac
+				unset e
+			fi	
+			if [ -n "$l" ] ; then
+				echo "$l" >>$lf
+				unset l
+				let ctim="$ctim+1"
+			fi
+			tim="$( timens )"
+			if [ $(( $tim - $otim )) -gt $dtim ] ; then
+				if [ $ctim -ge $pkval ] ; then
+					pklines=$linecount
+					pkval=$ctim
+				fi
+				let otim="$otim+$dtim"
+				let linesum="$linesum+$ctim"
+				let lineavg="$linesum/$linecount"
+				let linecount="$linecount+1"
+				[ "$pkval" -gt 8 ] && let pkval="$pkval-1"
+				[ "$lineavg" -lt 4 ] && let lineavg=4
+				let tupac="( ( ( $pkval * $pklines / $linecount ) - $lineavg ) )"
+				local upac=""
+				if [ $tupac -lt $(( $pkval - $lineavg )) ] ; then
+					let tupac="$pkval - $lineavg"
+					upac="upgraydd"
+				fi
+				echo "logstats:	linesum:$linesum	tlinecount:$linecount	lineavg:$lineavg	pklines:$pklines	pkval:$pkval	tupac:$tupac	$upac" >>"$lf"
+				unset upac
+				ctim=0
+				echo -n .
+			fi
+			lch="$ch"
+			if   [[ $ctim -gt $(( $lineavg + $tupac * 4 / 4 )) ]] ; then
+				ch="#"
+			elif [[ $ctim -gt $(( $lineavg + $tupac * 3 / 4 )) ]] ; then
+				ch="@"
+			elif [[ $ctim -gt $(( $lineavg + $tupac * 2 / 4 )) ]] ; then
+				ch="$"
+			elif [[ $ctim -gt $(( $lineavg + $tupac * 1 / 4 )) ]] ; then
+				ch="%"
+			elif [[ $ctim -gt $(( $lineavg * 4 / 4 )) ]] ; then
+				ch="!"
+			elif [[ $ctim -gt $(( $lineavg * 3 / 4 )) ]] ; then
+				ch="*"
+			elif [[ $ctim -gt $(( $lineavg * 2 / 4 )) ]] ; then
+				ch="+"
+			elif [[ $ctim -gt $(( $lineavg * 1 / 4 )) ]] ; then
+				ch="-"
+			else
+				ch="."
+			fi
+			[ "$lch" != "$ch" ] && echo -ne '\b'"$ch   "'\b\b\b'
+		done
+		echo
+	}
+	logpidrun(){
+		echo $BASHPID $PID $$ >$_r/scripts/log/pid.log.2
+		( set -m ; "$@" )
+	}
+	log(){
+		topid=$$
+		trap failkill3 SIGINT
 		if [ -z "$nolog" ] ; then
-			otim="$( timens )"
-			dtim=300000000
-			sectim=1000000000 # 1 second, 9 zeroes
-			dstim="$(( $dtim / $sectim )).$(( $dtim % $sectim))"
-			ctim=0
-			pklines=1
-			pkval=1
-			linesum=1
-			linecount=1
-			lineavg=1
-			tupac=1
 			echo -n "$1....."
 			#"${@:2}" |& stdbuf -i0 -o0 sed -zu 's/[ 	]\+\\\n[ 	]\+/ /g' | while read -r l ; do
-			"${@:2}" |& while read -t "$dstim" -r l || test $? -gt 128 ; do
-				if [ -n "$l" ] ; then
-					echo "$l" >>$lf
-					let ctim="$ctim+1"
-				fi
-				tim="$( timens )"
-				if [ $(( $tim - $otim )) -gt $dtim ] ; then
-					if [ $ctim -ge $(( $pkval * $pklines / $linecount )) ] ; then
-						pklines=$linecount
-						pkval=$ctim
-					fi
-					let otim="$otim + $dtim"
-					ctim=0
-					let linesum="$linesum+$ctim"
-					let linecount="$linecount+1"
-					let lineavg="$linesum/$linecount"
-					let tupac="( ( ( $pkval * $pklines / $linecount ) - $lineavg ) / 5 )"
-					echo -n .
-				fi
-				if [[ $ctim -gt $(( $lineavg + $tupac * 5 )) ]] ; then
-					ch="#"
-				elif [[ $ctim -gt $(( $lineavg + $tupac * 4 )) ]] ; then
-					ch="@"
-				elif [[ $ctim -gt $(( $lineavg + $tupac * 3 )) ]] ; then
-					ch="$"
-				elif [[ $ctim -gt $(( $lineavg + $tupac * 2 )) ]] ; then
-					ch="%"
-				elif [[ $ctim -gt $(( $lineavg + $tupac )) ]] ; then
-					ch="!"
-				elif [[ $ctim -gt $(( $lineavg )) ]] ; then
-					ch="*"
-				elif [[ $ctim -gt $(( $lineavg * 4 / 5 )) ]] ; then
-					ch="+"
-				elif [[ $ctim -gt $(( $lineavg * 3 / 5 )) ]] ; then
-					ch="-"
-				else
-					ch="."
-				fi
-				echo -ne '\b\b\b'"$ch.."
-				if [ -z "$l" ] ; then
-					echo -n .
-					otim=$tim
-					ctim=0
-				fi
-				unset l
-			done
-			echo
+			#"${@:2}" |& logloop
+
+			local pp
+			{ logpidrun "${@:2}" & echo $! >$_r/scripts/log/pid.log ; } |& logloop
+			pp="$( cat $_r/scripts/log/pid.log )"
 		else
 			echo "CMD: ${@:2}" |& tee -a "$lf"
 			( "${@:2}" ) |& tee -a "$lf"
@@ -122,10 +255,16 @@
 		echo "$@"
 		echo "$@" >>$_r/scripts/log/$t
 	}
-: configuration - ccat,conf,reconf,confhelp
+	enterd(){
+		pushd "$1" >& /dev/null
+	}
+	leaved(){
+		popd >& /dev/null
+	}
+# configuration - ccat,conf,reconf,confhelp {{{1
 	conf-impl(){
 		if declare -fF conf-$d >/dev/null ; then
-			eval $_s/$b/configure "$( conf-$d )"  || return $?
+			eval $_s/$b/configure "$( conf-$d )" "$libp" "$ldlp" || return $?
 		else
 			echo "No configure found."
 			return $ERR_CONF_NOTFOUND
@@ -143,20 +282,15 @@
 	}
 : make - go,inst,kernelh
 	go-impl(){
-		tgtr=all
-#		case "$d" in
-#			gcc-first ) tgtr=all-gcc ;;
-#			gcc* ) tgtr=all-gcc ;;
-#		esac
-
-		make $_m_fl $tgtr "$@"
+		[ "$b" = "zlib" ] && sed -i 's/^\(SFLAGS.*\)$/& -fPIC/' $_r/$d/Makefile
+		make $_m_fl $tgtr "$@" $libp $ldlp
 	}
 	inst-impl(){
 		instvar="DESTDIR"
 		instcmd="install"
 		case "$d" in
 			glibc* | libc* ) instvar="install_root" ;;
-#			gcc* ) instcmd="install-gcc" ;;
+			# gcc* ) instcmd="install-gcc" ;;
 		esac
 		destd="$_r/dest/$d"
 		mkdir "$destd"
@@ -179,15 +313,14 @@
 		if [ ! "$( $_p/bin/validate )" == "valid" ] ; then
 			echo "YAY"
 		fi
-		local dirh="$( readlink -f $_p/../include )"
+		local dirh="$( readlink -f $_p/../include )/"
 		local dirhmark="linux.h"
-		if [ "$(cat $dirh/.mark)" == "$dirhmark" ] ; then
-			rsync -Pav "$dirh" "$_p"
-		else
+		if [ "$(cat $dirh/.mark)" != "$dirhmark" ] ; then
 			git -C $_s/linux checkout current_stable	
 			inst-kernel $_a_bl $dirh
 			echo "$dirhmark" > "$dirh/.mark"
 		fi
+		rsync -Pav "$dirh" "$_p"
 	}
 	inst-kernel(){ # params are: arch path
 		make $_m_fl -C $_s/linux INSTALL_HDR_PATH="$2" ARCH="$1" headers_install
@@ -200,16 +333,19 @@
 	redo-impl(){ 
 		[ -z "$1" ] && return
 		if [ -d "$_r/$1" ] ; then
-			cd $_r &&
+			enterd $_r &&
 			chmod -R u+rw $_r/$d &&
-			rm -r $_r/$1
+			rm -r $_r/$1 &&
+			leaved 
 		fi
 		mkdir $_r/$1 &&
-		cd $_r/$1 &&
+		enterd $_r/$1 &&
 		fence &&
 		conf-impl &&
+		fence &&
 		go-impl &&
-		inst-impl || return $ERR_REDO
+		inst-impl &&
+		leaved || return $ERR_REDO
 	}
 	alter-impl(){
 		redo-impl "$@" &&
@@ -240,7 +376,7 @@
 			return $ERR_PESRP
 		fi
 		TMPDIR=${TMPDIR:-/tmp}
-		find "$ldir" -type f -exec bash -c 'patchelf --set-rpath "'"$dldir"'" "{}" >& '"$TMPDIR/pesrp.tmp"' && echo "{} patched. '"$( cat $TMPDIR/pesrp.tmp | tr '\n' ' ' )"'" ; rm -rf '"'$TMPDIR/pesrp.tmp'" \;
+		find "$ldir" -type f -exec bash -c 'patchelf --set-rpath "'"$dldir"'" "{}" >& '"$TMPDIR/pesrp.tmp"' && echo "{} patched. '"$( cat $TMPDIR/pesrp.tmp | tr '\n' ' ' )"'" ; rm -rf '"'$TMPDIR/pesrp.tmp' >& /dev/null " \;
 	}
 	buildall-postcheck(){
 		mkdir -p $_p/lib &&
@@ -257,18 +393,26 @@
 		return $?
 	}
 	xpkg(){
-		[ -n "$1" ] &&
+		e=0
+		[ -n "$1" ] || return 0
 		mkdir -p $_r/$1 &&
-		cd $_r/$1 &&
+		enterd $_r/$1 &&
 		fence &&
 		log "Building $1" alter-impl "$@" &&
 		shift &&
-		xpkg "$@" || return $ERR_XPKG 
+		leaved &&
+		xpkg "$@" || e=$?
+		if [ $e -gt 0 ] ; then
+			echo "ERROR: xpkg errors out with code $e"
+			return $ERR_XPKG
+		fi
+		return 0
 	}
-	rebuildall-impl (){
+	rebuildall-impl (){ (	
+		cd $_r
 		log "Preparing the prefix" init-pre
 		buildall-postcheck "$@"
-	}
+	) }
 	lastlog () {
 		 less -S "$(find $_r/scripts/log | grep '/[0-9]\+$' | sort -rn | head -1)"
 	}
