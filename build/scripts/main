@@ -109,7 +109,7 @@
 		d="${d##$_r/}"
 		b="$d"
 		d0="$d"
-		for suf in first i686 x32 ; do
+		for suf in first i686 x32 multi ; do
 			dd="${d0%%-$suf}"
 			d0="$dd"
 		done
@@ -118,6 +118,7 @@
 		lv="1"
 		[[ $b =~ -first ]] || unset lv
 		[[ "${b:0:4}" == zlib ]] && unset lv
+		# [[ "${b:0:3}" == gcc ]] && lv=
 		# [[ 
 		if [[ -n "$lv" ]] ; then
 			ldlp="LD_LIBRARY_PATH=$_pl"
@@ -265,6 +266,8 @@
 	conf-impl(){
 		if declare -fF conf-$d >/dev/null ; then
 			eval $_s/$b/configure "$( conf-$d )" "$libp" "$ldlp" || return $?
+		elif declare -fF conf-$dd >/dev/null ; then
+			eval $_s/$b/configure "$( conf-$dd )" "$libp" "$ldlp" || return $?
 		else
 			echo "No configure found."
 			return $ERR_CONF_NOTFOUND
@@ -380,7 +383,10 @@
 	}
 	buildall-postcheck(){
 		mkdir -p $_p/lib &&
-		xpkg binutils-first gmp-first mpfr-first mpc-first isl-first zlib-first gcc-first || return $ERR_BUILDALL_POST
+		xpkg binutils-first gmp-first mpfr-first mpc-first isl-first zlib-first gcc-first glibc-first &&
+		log "Post-glibc patch" &&
+		xpkg gcc || return $ERR_BUILDALL_POST
+		# touch stubs-32 somewhere here
 	}
 	buildall(){
 		if [ -d "$_p" ] ; then
